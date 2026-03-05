@@ -78,9 +78,9 @@ function Search() {
       <h1>자료 검색</h1>
 
       <div className="info-section search-wrapper">
-        <form onSubmit={handleSearch} className="library-search-form" style={{ flexDirection: 'column', gap: '15px' }}>
+        <form onSubmit={handleSearch} className="library-search-form">
 
-          <div style={{ display: 'flex', width: '100%', gap: '10px' }}>
+          <div className="search-row">
             <input 
               type="text" 
               placeholder="도서명, 저자, 청구기호 등을 입력하세요" 
@@ -91,12 +91,11 @@ function Search() {
             <button type="submit" className="search-btn-lg">검색</button>
           </div>
 
-          <div className="filter-group" style={{ display: 'flex', gap: '10px', width: '100%' }}>
+          <div className="filter-group">
             <select 
               value={selectedLang} 
               onChange={(e) => setSelectedLang(e.target.value)}
-              className="search-input-lg" 
-              style={{ flex: 1, padding: '10px', height: 'auto' }}
+              className="search-input-lg"
             >
               <option value="">-- 언어 전체 --</option>
               <option value="Deutsch">독일어</option>
@@ -109,7 +108,6 @@ function Search() {
               value={selectedCategory} 
               onChange={(e) => setSelectedCategory(e.target.value)}
               className="search-input-lg"
-              style={{ flex: 1, padding: '10px', height: 'auto' }}
             >
               <option value="">-- 분야 전체 --</option>
               <option value="Literatur">문학</option>
@@ -122,7 +120,6 @@ function Search() {
               value={selectedStatus} 
               onChange={(e) => setSelectedStatus(e.target.value)}
               className="search-input-lg"
-              style={{ flex: 1, padding: '10px', height: 'auto' }}
             >
               <option value="">-- 상태 전체 --</option>
               <option value="available">대출 가능</option>
