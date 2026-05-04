@@ -98,9 +98,9 @@ function Search() {
               className="search-input-lg"
             >
               <option value="">-- 언어 전체 --</option>
-              <option value="Deutsch">독일어</option>
-              <option value="Korean">한국어</option>
-              <option value="English">영어</option>
+              <option value="DE">독일어</option>
+              <option value="KR">한국어</option>
+              <option value="EN">영어</option>
               <option value="ETC">기타</option>
             </select>
 
@@ -113,6 +113,7 @@ function Search() {
               <option value="Literatur">문학</option>
               <option value="Sprachwissenschaft">언어학</option>
               <option value="Geschichte">역사</option>
+              <option value="Sozialwissenschaften">사회과학</option>
               <option value="Sonstiges">기타</option>
             </select>
 
@@ -122,8 +123,9 @@ function Search() {
               className="search-input-lg"
             >
               <option value="">-- 상태 전체 --</option>
-              <option value="available">대출 가능</option>
-              <option value="loaned">대출 중</option>
+              <option value="AVAILABLE">대출 가능</option>
+              <option value="ON_LOAN">대출 중</option>
+              <option value="LOST">분실</option>
             </select>
           </div>
 
