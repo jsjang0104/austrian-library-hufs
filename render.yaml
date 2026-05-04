@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ohjigo-library-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt && cd backend && python manage.py collectstatic --no-input && python manage.py migrate
+    startCommand: gunicorn --chdir backend config.wsgi:application --bind 0.0.0.0:$PORT
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: config.settings
+      - key: DEBUG
+        value: false
+      - key: SECRET_KEY
+        generateValue: true
