@@ -207,7 +207,7 @@ function Layout() {
             점심시간 12:00~13:00
           </div>
           <div className="element-developer">
-            <strong>홈페이지 개발자 정보</strong><br />독일어('23) woals6318@hufs.ac.kr<br />독일어('24) jsjang0104@naver.com<br />Language&AI융합('24) ericyang@hufs.ac.kr
+            <strong>홈페이지 개발자 정보</strong><br />독일어('24) jsjang0104@naver.com
           </div>
         </div>
       </footer>
