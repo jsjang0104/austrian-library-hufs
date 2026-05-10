@@ -15,6 +15,8 @@ function Search() {
   const [selectedLang, setSelectedLang] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedStatus, setSelectedStatus] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const PAGE_SIZE = 10;
   const STATUS_MAP = {
     'AVAILABLE': '대출 가능', 'available': '대출 가능',
     'ON_LOAN': '대출 중',     'loaned': '대출 중',
@@ -46,6 +48,7 @@ function Search() {
       console.log("검색 성공:", response.data);
       setBooks(response.data);
       setSearched(true);
+      setCurrentPage(1);
 
     } catch (error) {
       console.error("검색 실패:", error);
@@ -137,50 +140,78 @@ function Search() {
         {loading ? (
           <p className="loading-msg">데이터를 불러오는 중입니다...</p>
         ) : (
-          <div className="table-container">
-            <table className="library-table">
-              <thead>
-                <tr>
-                  <th width="15%">청구기호</th>
-                  <th width="30%">제목</th>
-                  <th width="15%">저자</th>
-                  <th width="10%">언어</th>
-                  <th width="10%">분야</th>
-                  <th width="10%">위치</th>
-                  <th width="10%">상태</th>
-                </tr>
-              </thead>
-              <tbody>
-                {books && books.length > 0 ? (
-                  books.map((book) => (
-                    <tr key={book.id || book.book_id}> 
-                      <td>{book.call_number}</td>
-                      <td className="text-left">{book.title}</td>
-                      <td>{book.author || '-'}</td>
-                      <td>{LANG_MAP[book.language] || book.language}</td>
-                      <td>{book.category}</td>
-                      <td>{book.location || '-'}</td>
-                      
-                      <td>
-                        <span className={`status-badge ${
-                          (book.status === 'AVAILABLE' || book.status === 'available') 
-                          ? 'available' : 'borrowed'
-                        }`}>
-                          {STATUS_MAP[book.status] || book.status}
-                        </span>
+          <>
+            <div className="table-container">
+              <table className="library-table">
+                <thead>
+                  <tr>
+                    <th width="15%">청구기호</th>
+                    <th width="30%">제목</th>
+                    <th width="15%">저자</th>
+                    <th width="10%">언어</th>
+                    <th width="10%">분야</th>
+                    <th width="10%">위치</th>
+                    <th width="10%">상태</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {books && books.length > 0 ? (
+                    books.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE).map((book) => (
+                      <tr key={book.id || book.book_id}>
+                        <td>{book.call_number}</td>
+                        <td className="text-left">{book.title}</td>
+                        <td>{book.author || '-'}</td>
+                        <td>{LANG_MAP[book.language] || book.language}</td>
+                        <td>{book.category}</td>
+                        <td>{book.location || '-'}</td>
+                        <td>
+                          <span className={`status-badge ${
+                            (book.status === 'AVAILABLE' || book.status === 'available')
+                            ? 'available' : 'borrowed'
+                          }`}>
+                            {STATUS_MAP[book.status] || book.status}
+                          </span>
+                        </td>
+                      </tr>
+                    ))
+                  ) : (
+                    <tr>
+                      <td colSpan="7" className="no-result">
+                        {searched ? "검색 결과가 없습니다." : "검색어를 입력해 주세요."}
                       </td>
                     </tr>
-                  ))
-                ) : (
-                  <tr>
-                    <td colSpan="7" className="no-result">
-                      {searched ? "검색 결과가 없습니다." : "검색어를 입력해 주세요."}
-                    </td>
-                  </tr>
-                )}
-              </tbody>
-            </table>
-          </div>
+                  )}
+                </tbody>
+              </table>
+            </div>
+            {books.length > PAGE_SIZE && (
+              <div className="pagination">
+                <button
+                  className="page-btn"
+                  onClick={() => setCurrentPage((p) => p - 1)}
+                  disabled={currentPage === 1}
+                >
+                  &lt;
+                </button>
+                {Array.from({ length: Math.ceil(books.length / PAGE_SIZE) }, (_, i) => i + 1).map((page) => (
+                  <button
+                    key={page}
+                    className={`page-btn ${currentPage === page ? 'active' : ''}`}
+                    onClick={() => setCurrentPage(page)}
+                  >
+                    {page}
+                  </button>
+                ))}
+                <button
+                  className="page-btn"
+                  onClick={() => setCurrentPage((p) => p + 1)}
+                  disabled={currentPage === Math.ceil(books.length / PAGE_SIZE)}
+                >
+                  &gt;
+                </button>
+              </div>
+            )}
+          </>
         )}
       </div>
     </main>
