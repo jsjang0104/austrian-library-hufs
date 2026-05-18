@@ -158,3 +158,23 @@ class Notice(models.Model):
 
     def __str__(self):
         return self.title
+
+
+# -----------------------------------------------------------------------------
+# NOTICE IMAGE (공지사항 첨부 이미지)
+# -----------------------------------------------------------------------------
+class NoticeImage(models.Model):
+    notice = models.ForeignKey(
+        Notice, on_delete=models.CASCADE, related_name='images', verbose_name="공지사항"
+    )
+    image = models.ImageField("이미지", upload_to='notice_images/')
+    order = models.PositiveSmallIntegerField("순서", default=0)
+
+    class Meta:
+        db_table = 'NOTICE_IMAGE'
+        verbose_name = '공지 이미지'
+        verbose_name_plural = '공지 이미지 목록'
+        ordering = ['order']
+
+    def __str__(self):
+        return f"{self.notice.title} - 이미지 {self.order}"
