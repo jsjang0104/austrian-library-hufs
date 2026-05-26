@@ -1,22 +1,21 @@
 # Austrian Library HUFS
 
-- 한국외국어대학교 서양어대학 독일어과 부속 오스트리아도서관 디지털화 및 AI 기술 접목 프로젝트입니다.
-- 한국외국어대학교 독일어과 24학번 장지수가 도서관 총괄 책임 직책인 공로봉사장학생으로 근무한 기간 동안 진행되었습니다. (2025-2 ~ 현재)
-- 다음과 같은 수업 프로젝트 및 교내 대회와 연동되었습니다.
-  - 2025-2 HUFS H-UP 진로탐색학점제: full stack development (창조상 수상, 팀 진행, supervised by Prof. Joonhyung Park)
-  - 2025-2 Understanding Machine Learning: book genre classifier — [GitHub](https://github.com/jsjang0104/Book-Classifier) (단독 진행, supervised by Prof. Seungtaek Choi)
-  - 2026-1 Information Retrieval and Recommender System: (단독 진행, supervised by Prof. Seuntaek Choi)
+- A digitalization and AI integration project for the Austrian Library affiliated with the Department of German, Hankuk University of Foreign Studies (HUFS).
+- Conducted by Jisoo Jang (HUFS, Department of German · Division of Language and AI) while serving as the library's student manager (*Gongno Scholarship Student*). (2025-2 ~ present)
+- Tied to the following coursework and on-campus competitions:
+  - 2025-2 HUFS H-UP Career Exploration Credit Program: full stack development (Excellence Award, team project, supervised by Prof. Joonhyung Park)
+  - 2025-2 Understanding Machine Learning: book genre classifier — [GitHub](https://github.com/jsjang0104/Works/tree/main/project/2025-2_book_classifier) (individual, supervised by Prof. Seungtaek Choi)
+  - 2026-1 Information Retrieval and Recommender System: (individual, supervised by Prof. Seungtaek Choi)
 
-
-🌐 **서비스**: [austrian-library-hufs.vercel.app](https://austrian-library-hufs.vercel.app/#/)
-🤖 **도서 분류기**: [Book Genre Classifier](https://huggingface.co/spaces/jsjang0104/Book-Classifier)
+🌐 **Service**: [austrian-library-hufs.vercel.app](https://austrian-library-hufs.vercel.app/#/)
+🤖 **Book Classifier**: [Book Genre Classifier](https://huggingface.co/spaces/jsjang0104/Book-Classifier)
 
 ## Structure
 ```
 ├── backend/        # Django REST API
-├── frontend/       # Vue.js 프론트엔드
+├── frontend/       # Vue.js frontend
 └── docs/
-    ├── data/       # 도서 데이터 및 DB 추가 현황
-    ├── dev/        # 개발 기록
-    └── management/ # 운영 가이드라인 및 보고서
+    ├── data/       # book data and DB update logs
+    ├── dev/        # development records
+    └── management/ # operation guidelines and reports
 ```
