@@ -10,24 +10,8 @@ function About() {
           도서관을 직접 찾아야 도서 목록 열람 · 대출 · 반납이 가능했던 기존 방식을 끝으로,
           2025년 2학기 우리 오스트리아 도서관은 전면 디지털화를 완료하였습니다.<br />
           이제 사용자들은 새로 구축된 데이터베이스 및 홈페이지를 통해 외부에서도 도서 목록을 쉽게 조회하고,
-          대출 및 반납 여부를 확인할 수 있습니다.
-        </p>
-        <p>
-          <strong>Tech Stack</strong><br />
+          대출 및 반납 여부를 확인할 수 있습니다. <br />
           <br />
-          <strong>Development</strong><br />
-          Language: Python, JavaScript<br />
-          Frontend: React, CSS<br />
-          Backend: Django, Django Rest Framework<br />
-          Database: PostgreSQL<br />
-          <br />
-          <strong>Deployment & Infra</strong><br />
-          Frontend Hosting: Vercel<br />
-          Backend Hosting: Render<br />
-          Database Hosting: Neon DB<br />
-          Monitoring: Uptime Robot
-        </p>
-        <p>
           또한 우리 도서관은 이에 그치지 않고 다가오는 인공지능 시대에 발맞춰 AI 기술을 적극 도입하고 있습니다.<br />
           이를 통해 도서관 업무의 효율성을 높이고,
           독일어 문헌 데이터를 이용한 디지털 인문학의 가치를 추구하는 독일어과의 정체성을 공고히 하고 있습니다.<br />
