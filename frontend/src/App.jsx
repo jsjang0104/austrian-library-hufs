@@ -184,7 +184,7 @@ function Layout() {
             <Link to="/board">공지 사항</Link>
             <Link to="/mypage">내 서재</Link>
             <Link to="/info">도서관 안내</Link>
-            <Link to="/about">도서관 소개</Link>
+            <Link to="/about">AI 도서관</Link>
           </nav>
         </div>
       </header>

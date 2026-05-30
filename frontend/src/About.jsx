@@ -1,66 +1,61 @@
-//======================================================================
-//======================================================================
-// 도서관 소개 
-//======================================================================
-//======================================================================
-
 import React from 'react';
 import myImage from './assets/confusion_matrix.png';
 
 function About() {
   return (
     <main className="main-content about-page">
-      <br /><br /><h1>도서관 소개</h1>
-      <div className="about-section">
-        <h2>도서관 소개</h2>
-        <p>한국외국어대학교 서양어대학 독일어과 소속 오스트리아도서관 (Austrian Library, Österreichische Bibliothek)은 1982년 오스트리아 대사관으로부터 직접 독일어 서적 수천 권을 기증받으며 그 역사가 시작되었습니다.
-          현재는 총 5,000여권 규모 서적으로 이루어진, 국내에 몇 안 되는 <strong>독일어권 어문학 전문 도서관</strong>입니다.
-          <br />
-          국내에서 쉬이 접할 수 없는 독일어 서적을 비치해놓음으로서 독일어권 문학,어학에 관한 한국외국어대학교 학생 및 교수님들의 학문 연구 증진에 기여하고 있습니다.
+      <br /><br />
+        <h1>AI 도서관</h1>
+        <p>
+          도서관을 직접 찾아야 도서 목록 열람 · 대출 · 반납이 가능했던 기존 방식을 끝으로,
+          2025년 2학기 우리 오스트리아 도서관은 전면 디지털화를 완료하였습니다.<br />
+          이제 사용자들은 새로 구축된 데이터베이스 및 홈페이지를 통해 외부에서도 도서 목록을 쉽게 조회하고,
+          대출 및 반납 여부를 확인할 수 있습니다.
         </p>
-      </div>
-      <div className="introduce-section">
-        {/*<h2>학과장님</h2>
-        <p>조국현 교수님의 한마디</p>
-        <br />*/}
-        <h2>장은수교수님</h2>
-        <p>제 00대 도서관장 (0000-0000)</p>
-        <p>장은수 교수님의 한마디</p>
-      </div>
-      <br /><h1>기술 접목: 언어학과 AI</h1>
-      <div className="tech-section">
-        <p>2025년 오스트리아 도서관의 디지털화에 쓰인 여러가지 기술들을 소개합니다.</p>
-        <br />
+        <p>
+          <strong>Tech Stack</strong><br />
+          <br />
+          <strong>Development</strong><br />
+          Language: Python, JavaScript<br />
+          Frontend: React, CSS<br />
+          Backend: Django, Django Rest Framework<br />
+          Database: PostgreSQL<br />
+          <br />
+          <strong>Deployment & Infra</strong><br />
+          Frontend Hosting: Vercel<br />
+          Backend Hosting: Render<br />
+          Database Hosting: Neon DB<br />
+          Monitoring: Uptime Robot
+        </p>
+        <p>
+          또한 우리 도서관은 이에 그치지 않고 다가오는 인공지능 시대에 발맞춰 AI 기술을 적극 도입하고 있습니다.<br />
+          이를 통해 도서관 업무의 효율성을 높이고,
+          독일어 문헌 데이터를 이용한 디지털 인문학의 가치를 추구하는 독일어과의 정체성을 공고히 하고 있습니다.<br />
+          현재까지 도입된 AI 기술은 다음과 같습니다.
+        </p>
 
-        <h2>1. 분야 분류기: mBERT fine-tuning을 이용한 subject classifier</h2>
-        <br />
-        <h3>서비스 링크</h3>
-        <a href="https://huggingface.co/spaces/jsjang0104/book-genre-classifier-service">https://huggingface.co/spaces/jsjang0104/book-genre-classifier-service</a>
+      <div className="tech-AI-1">
+        <h2>1. 장르 분류 AI</h2>
           <br />
+        <h3>1.1 도입 배경</h3>
+          <p>
+          도서 목록 구축 과정에서 도서 분야를 사람이 직접 판단하여 수기로 입력한다면 
+          잦은 오류와 긴 소요시간 등의 문제가 야기됩니다. <br />
+          이에 AI 모델을 학습시켜 도서 목록 구축 업무 난이도를 줄이고자 하였습니다. <br />
+          사서가 입력한 도서 제목과 저자를 보고 AI 모델이 자동으로 분야를 예측합니다.
+          </p>
           <br />
-        <h3>도입 배경</h3>
-        <p>기존에는 도서 목록 구축 과정에서 도서 분야를 사람이 직접 판단하여 수기로 입력해야했습니다.
-          해당 업무 방식은 잦은 오류와 긴 소요시간 등의 문제를 야기했고, 이에 문제를 해결하고자 AI 모델을 학습시켜
-          도서를 입력하는 사서들의 업무 난이도를 줄이고자 하였습니다.</p>
+        <h3>1.2 모델 학습</h3>
+        <p>
+          Pre-trained Model: <a href="https://huggingface.co/google-bert/bert-base-multilingual-cased">mBERT</a> fine-tuning.<br />
+          Dataset: <a href="https://huggingface.co/datasets/SBB/ARK-Metadata">Berlin State Library 제공 다국어 도서 공개 데이터셋</a> (training, evaluation, test 8:1:1)<br />
+          Target Task: Multiclass Classification (class: 문학, 어학, 사회과학, 역사)<br />
+          Model Link: <a href="https://huggingface.co/jsjang0104/book-genre-classifier-bert">https://huggingface.co/jsjang0104/book-genre-classifier-bert</a>
           <br />
-        <h3>의의</h3>
-          <p>오스트리아 도서관의 디지털화 과정 중 도서 주제 분류에 AI를 활용시킨 해당 사례는 
-          우리 한국외국어대학교가 보유한 방대한 독일어 문헌 자산과 자연어처리(NLP) 기술(mBERT기반 fine-tuning)을 접목시킨 
-          '디지털 인문학(Digital Humanities)'의 실증적 사례입니다. 
-          외국어 데이터를 단순히 보관하는 것을 넘어,
-          한국외국어대학교의 기존 정체성과 새로운 시대의 흐름인 인공지능 기술의 융합입니다.</p>
-        <br />
-        <h3>모델 학습</h3>
-        <p>Berlin State Library 제공 다국어 도서 공개 데이터셋 28525개를 
-          8:1:1 비율로 나눠 각각 training, evaluation, test로 사용하였습니다.
-          Multiclass classification(class: 문학, 어학, 사회과학, 역사)를 목적으로 Task-specific Fine-tuning을 진행하였고,
-          우리 도서관이 독일어 뿐 아니라 한국어, 영어, 라틴어 등 여러 언어의 도서를 소장하고 있는 점을 고려하여
-          pretrained model로 다국어를 다룰 수 있는 mBERT를 사용하였습니다.
-          추가로 학습 데이터 class의 불균형(역사 33.24%, 문학31.51%, 사회과학26.95%, 어학8.29%) 
-          보완을 위해 어학 class에 가중치(각 클래스의 빈도수에 반비례)를 부여하였습니다.</p>
+        </p>
           <br />
-
-          <p><strong>주요 성능 지표:</strong></p>
+        <h3>1.3 모델 성능</h3>
+          <p><strong>Overall Metrics</strong></p>
           <p>Accuracy(Overall) 0.7291</p>
           <p>F1-Score(Weighted) 0.7284</p>
           <p>F1-Score(Macro) 0.7262</p>
@@ -76,57 +71,53 @@ function About() {
           <br />
 
           <p><strong>Normalized Confusion Matrix:</strong></p>
-          <img src={myImage} alt="Normalized Confusion Matrix" />
-          <p>대각선 값 = Recall</p>
-          <p>대각선이 아닌 값 = 오분류 비율 (Prediced Label / Actual Label)</p>
-          <br />
+          <img src={myImage} alt="Normalized Confusion Matrix" style={{ width: '40%' }} />
+        <h3>1.4 서비스 배포</h3>
+        <strong>서비스 링크</strong> <a href="https://huggingface.co/spaces/jsjang0104/Book-Classifier">https://huggingface.co/spaces/jsjang0104/Book-Classifier</a>
+        <p>
+          실제 서비스에서는 모델이 도서 제목, 저자, 위치를 입력으로 받아 자동으로 도서 분야를 예측한 뒤, 
+          모든 메타 데이터를 바탕으로 고유 청구기호를 생성합니다. <br />
+          이후 사서가 예측된 분야와 청구기호를 검토하여 최종적으로 도서 목록에 입력하는 방식으로 운영됩니다. <br />
+          해당 작업은 수 백권 이상의 도서도 한꺼번에 처리할 수 있으며, Hugging Face가 제공하는 무료 CPU를 이용하여 비용이 발생하지 않습니다.
+        </p> 
+        <br />
+      
+      </div>
 
-          <p>'역사' 부문에서 모델의 오분류 정도가 큰 점을 고려, 분류 작업의 정확도 향상을 위하여 실제 inference에서는 
-          confidence에 따른 오름차순 class 목록이 출력되어 사람이 직접 선택할 수 있는 구조입니다.</p>
+      <div className="tech-AI-2">
+        <h2>2. 의미 기반 검색 AI (진행중)</h2>
           <br />
-          저장된 가중치는 다음 링크에서 다운로드 받을 수 있습니다: 
-          <a href="https://huggingface.co/jsjang0104/book-genre-classifier-bert">https://huggingface.co/jsjang0104/book-genre-classifier-bert</a>
+        <h3>2.1 도입 배경</h3>
+          <p>
+          현재 검색 시스템은 정확한 제목을 알아야만 검색이 가능한 완전 일치 기반으로 동작합니다.<br />
+          예를 들어 "괴테"로 검색 시 "Goethe" 결과가 출력되지 않는 등의 문제가 있으며,
+          "희극"과 같은 구체적인 장르·내용 기반 검색도 불가능합니다.<br />
+          이를 해결하고자 다국어 임베딩 모델 기반의 의미 기반 검색 시스템 도입을 진행 중입니다.
+          </p>
           <br />
-
+        <h3>2.2 시스템 설계</h3>
+          <p>
+          Pretrained-Model: <a href="https://huggingface.co/FacebookAI/xlm-roberta-base">XLM-RoBERTa</a><br />
+          벡터 검색: FAISS <br />
           <br />
-        
-        
-        <br />
-        <br />
-        <h2>2. 청구 기호 생성가: 텍스트 전처리 및 hashlib 라이브러리를 이용한 고유 문자열 생성</h2>
-        <br />
-        <h3>도입 배경</h3>
-        <p>도서 목록 구축 기존 과정에서는 분야와 마찬가지로 청구 기호 또한 사람이 직접 만들어내는 구조로서 긴 소요시간과 더불어 
-          작업 난이도로 인해 긴 청구 기호 생성이 불가능하였습니다. 또한 만들어진 청구기호가 중복되는 경우도 많아 도서를 고유하게 분류하는 용도의 청구기호로서의 의의가 퇴색되었었습니다.
-          해당 문제를 해결하고자 중복없이 도서의 모든 정보를 담아내는 문자열을 생성하는 도구를 개발하여 
-          청구기호의 본질적 의의를 되찾고 도서 입력 업무 시간을 획기적으로 줄이고자 하였습니다.</p>
-        <br />
-        <h3>작동 원리</h3>
-        <p>사용 언어: Python</p>
-        <p>1. input: 도서의 제목,저자,위치,언어가 입력된 csv 파일</p>
-        <p>2. 파일 내 모든 문자열을 전처리 (ä,ü,ö,ß를 영어식 표현 ae, ue, oe, ss로 매핑 및 한자를 한글로 매핑, 공백 제거, 소문자 변환)</p>
-        <p>3. 제목 및 저자에 대하여 hashlib 라이브러리를 이용한 해시 생성 후 16진수를 10진수 변환, 이후 지정된 자릿수에 맞는 나머지 연산</p>
-        <p>4. 딕셔너리를 이용하여 중복 도서에 대한 순서 부여 
-          (Key: 튜플 (위치, 제목, 저자, 분야, 언어), Value: 현재까지 등장한 횟수)</p>
-        <p>5. output: 기존 data 구조에 청구기호 열이 추가된 csv 파일</p>
-        <br />
-        <p>해당 파이썬 파일은 다음 링크에서 다운로드 받을 수 있습니다: 
-        <a href="https://drive.google.com/file/d/1htjFnBmoWcSdOwK-XJWu4HcRhK68ZqGH/view?usp=drive_link">https://drive.google.com/file/d/1htjFnBmoWcSdOwK-XJWu4HcRhK68ZqGH/view?usp=drive_link</a></p>
-        <br />
-        <br />
-        <br /><h1>Tech Stack</h1>
-        <br />
-        <h3>Development</h3>
-        <p>Language: Python, JavaScript</p>
-        <p>Frontend: React, CSS</p>
-        <p>Backend: Django, Django Rest Framework</p>
-        <p>Database: PostgreSQL</p>
-        <br />
-        <h3>Deployment & Infra</h3>
-        <p>Frontend Hosting: Vercel</p>
-        <p>Backend Hosting: Render</p>
-        <p>Database Hosting: Neon DB</p>
-        <p>Monitoring: Uptime Robot</p>
+          <strong>임베딩 사전 계산 (오프라인)</strong><br />
+          첫 구축 단계에 전체 도서(제목 + 저자)를 XLM-RoBERTa로 임베딩 계산 후 FAISS 인덱스로 저장합니다.<br />
+          이후 신규 도서 추가 시 해당 도서 임베딩만 계산하여 인덱스에 추가하여 전체 재계산은 필요하지 않습니다.<br />
+          <br />
+          <strong>검색 (온라인, 실시간)</strong><br />
+          1. 키워드 매칭 (최우선, 기존 방식): 제목/저자 정확 매칭<br />
+          2. 벡터 유사도 검색: 쿼리를 XLM-RoBERTa로 임베딩하여 FAISS로 유사 도서를 검색합니다. 
+          이때 한국어, 독일어, 영어 등의 cross-lingual을 자동으로 지원합니다.<br />
+          3. UI 노출: 키워드 결과를 우선시 하여 중복 제거 후 벡터 결과를 추가하여 최종 반환합니다.<br />
+          <br />
+          </p>
+          <br />
+        <h3>2.3 평가 계획</h3>
+          <p>
+          Metric: Precision@K<br />
+          샘플 쿼리셋을 직접 제작하여 상위 K개 결과의 관련성을 직접 labeling, 이후 기존의 키워드 매칭 시스템과 비교하여 개선 폭 측정 예정.
+          </p>
+          <br />
       </div>
     </main>
   );

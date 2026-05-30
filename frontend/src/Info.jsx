@@ -11,6 +11,14 @@ function Info() {
   return (
     <main className="main-content info-page">
       <br /><br /><h1>도서관 안내</h1>
+      <div className="about-section">
+        <h2>도서관 소개</h2>
+        <p>한국외국어대학교 서양어대학 독일어과 소속 오스트리아도서관 (Austrian Library, Österreichische Bibliothek)은 1982년 오스트리아 대사관으로부터 직접 독일어 서적 수천 권을 기증받으며 그 역사가 시작되었습니다.
+          현재는 총 10,000여권 규모 서적으로 이루어진, 국내에 몇 안 되는 <strong>독일어권 어문학 전문 도서관</strong>입니다.
+          <br />
+          국내에서 쉬이 접할 수 없는 독일어 서적을 비치해놓음으로서 독일어권 문학,어학에 관한 한국외국어대학교 학생 및 교수님들의 학문 연구 증진에 기여하고 있습니다.
+        </p>
+      </div>
       <div className="info-section">
         <h2>이용 시간</h2>
         <p><strong>학기 중:</strong> 09:00 ~ 17:00</p>

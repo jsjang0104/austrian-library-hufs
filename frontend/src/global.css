@@ -845,3 +845,7 @@ a.site-title {
     padding: 20px 0;
   }
 }
+
+.about-page a {
+  color: navy;
+}
