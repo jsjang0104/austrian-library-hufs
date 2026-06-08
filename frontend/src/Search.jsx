@@ -30,21 +30,26 @@ function Search() {
     'ETC': '기타'
   };
 
+  const clean = (params) =>
+    Object.fromEntries(Object.entries(params).filter(([_, v]) => v !== ''));
+
   const fetchBooks = async (searchKeyword) => {
     try {
       setLoading(true);
-      const params = {
-        search: searchKeyword,        
-        language: selectedLang,        
-        category: selectedCategory,    
-        status: selectedStatus        
+      const filters = {
+        language: selectedLang,
+        category: selectedCategory,
+        status: selectedStatus
       };
-      const cleanParams = Object.fromEntries(
-        Object.entries(params).filter(([_, v]) => v !== '')
-      );
 
-      const response = await http.get('/api/books/', { params: cleanParams });
-      
+      // 검색어가 있으면 키워드 매칭 + 의미 기반(다국어) 검색을 함께 수행하는
+      // 하이브리드 검색 엔드포인트를, 없으면(필터만 적용) 기존 목록 엔드포인트를 사용한다.
+      const response = searchKeyword
+        ? await http.get('/api/books/smart_search/', {
+            params: clean({ q: searchKeyword, ...filters })
+          })
+        : await http.get('/api/books/', { params: clean(filters) });
+
       console.log("검색 성공:", response.data);
       setBooks(response.data);
       setSearched(true);
