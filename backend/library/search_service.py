@@ -51,7 +51,7 @@ def embed_texts(texts):
             resp = requests.post(
                 _HF_API_URL,
                 headers=headers,
-                json={"inputs": batch, "options": {"wait_for_model": True}},
+                json={"inputs": batch},
                 timeout=_HF_TIMEOUT,
             )
             if resp.status_code in (429, 503) and attempt < 2:
