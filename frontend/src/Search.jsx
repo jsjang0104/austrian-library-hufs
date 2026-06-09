@@ -36,7 +36,7 @@ function Search() {
   const clean = (params) =>
     Object.fromEntries(Object.entries(params).filter(([_, v]) => v !== ''));
 
-  const fetchBooks = async (searchKeyword) => {
+  const fetchBooks = async (searchKeyword, useAI) => {
     try {
       setLoading(true);
       const filters = {
@@ -45,7 +45,7 @@ function Search() {
         status: selectedStatus
       };
 
-      const response = searchKeyword && aiSearch
+      const response = searchKeyword && useAI
         ? await http.get('/api/books/smart_search/', {
             params: clean({ q: searchKeyword, ...filters })
           })
@@ -53,7 +53,6 @@ function Search() {
             params: clean({ search: searchKeyword, ...filters })
           });
 
-      console.log("검색 성공:", response.data);
       setBooks(response.data);
       setSearched(true);
       setCurrentPage(1);
@@ -66,25 +65,23 @@ function Search() {
   };
 
   useEffect(() => {
-    if (initialQuery) {
-      fetchBooks(initialQuery);
-    }
-  }, []); 
+    if (initialQuery) fetchBooks(initialQuery, initialAI);
+  }, []);
 
   useEffect(() => {
     if (searched || keyword || selectedLang || selectedCategory || selectedStatus) {
-       fetchBooks(keyword);
+      fetchBooks(keyword, aiSearch);
     }
   }, [selectedLang, selectedCategory, selectedStatus]);
 
   useEffect(() => {
-    if (keyword.trim()) fetchBooks(keyword);
+    if (keyword.trim()) fetchBooks(keyword, aiSearch);
   }, [aiSearch]);
 
   const handleSearch = (e) => {
     e.preventDefault();
     setSearchParams({ search: keyword });
-    fetchBooks(keyword);
+    fetchBooks(keyword, aiSearch);
   };
 
   return (
