@@ -5,8 +5,7 @@
   python search_eval.py keyword   # 키워드 검색
   python search_eval.py hybrid    # 하이브리드 검색 (로컬 임베딩 + FAISS)
 
-- 쿼리를 터미널에서 직접 입력
-- labels.py에 ground truth가 있으면 Recall@K 자동 계산
+- labels.py의 전체 쿼리를 자동으로 순회
 - K 값은 아래 TOP_K 상수로 조정
 """
 
@@ -28,7 +27,7 @@ from django.db.models import Q
 from library.models import Book
 
 # --- 상수 ---
-TOP_K = 20
+TOP_K = 30
 MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 FAISS_PATH = os.path.join(BACKEND_DIR, "media", "search_index", "books.faiss")
 
@@ -124,21 +123,12 @@ def main():
         index = faiss.read_index(FAISS_PATH)
         print(f"완료 ({index.ntotal}개 벡터)")
 
-    print(f"\n모드: {mode} | K={TOP_K}")
-    print("쿼리 입력 후 Enter (종료: 빈 줄 또는 Ctrl+C)\n")
+    print(f"\n모드: {mode} | K={TOP_K} | 쿼리 {len(LABELS)}개\n")
 
     recalls = []
     csv_rows = []
 
-    while True:
-        try:
-            query = input("쿼리: ").strip()
-        except (EOFError, KeyboardInterrupt):
-            print()
-            break
-        if not query:
-            break
-
+    for query, label_items in LABELS.items():
         if mode == "keyword":
             results = keyword_search(query, TOP_K)
         else:
@@ -146,7 +136,7 @@ def main():
 
         print_results(results, query, LABELS, mode)
 
-        relevant_ids = [book_id for book_id, _ in LABELS[query]]
+        relevant_ids = [book_id for book_id, _ in label_items]
         result_ids = [b.book_id for b in results]
         r = recall_at_k(result_ids, relevant_ids, TOP_K)
         recalls.append(r)
@@ -154,9 +144,10 @@ def main():
         for b in results:
             csv_rows.append({
                 "query": query,
+                f"recall@{TOP_K}": f"{r:.3f}",
+                "relevant_returned": len(set(result_ids[:TOP_K]) & set(relevant_ids)),
                 "returned_book": f"{b.title} / {b.author or '-'}",
                 "relevance": 1 if b.book_id in set(relevant_ids) else 0,
-                "recall": f"{r:.4f}",
             })
 
     if recalls:
@@ -168,7 +159,7 @@ def main():
             os.path.dirname(__file__), f"results_{mode}.csv"
         )
         with open(out_path, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=["query", "recall", "returned_book", "relevance"])
+            writer = csv.DictWriter(f, fieldnames=["query", "relevant_returned", f"recall@{TOP_K}", "returned_book", "relevance"])
             writer.writeheader()
             writer.writerows(csv_rows)
         print(f"CSV 저장: {out_path}")

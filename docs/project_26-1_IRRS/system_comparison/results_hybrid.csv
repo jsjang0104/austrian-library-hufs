@@ -1,0 +1,948 @@
+query,relevant_returned,recall@30,returned_book,relevance
+토마스 만,12,0.364,A baby just now? / Walter Trobisch,0
+토마스 만,12,0.364,Bahnwärter Thiel / Gerhart Hauptmann,0
+토마스 만,12,0.364,Buddenbrooks / Thomas Mann,1
+토마스 만,12,0.364,Christoph Martin Wieland der Weisheitslehrer / Ludwig Fertig,0
+토마스 만,12,0.364,Das Majorat / E.T.A. Hoffmann,0
+토마스 만,12,0.364,Das große Buch der Indianer / Thomas Jeier,0
+토마스 만,12,0.364,"Der Erlkönig / Herder, Gryphius",0
+토마스 만,12,0.364,Der Erwählte / Felix Krull / Thomas Mann,1
+토마스 만,12,0.364,"Der Sandmann, Das öde Haus / E.T.A. Hoffmann",0
+토마스 만,12,0.364,Der Tod in Venedig / Thomas Mann,1
+토마스 만,12,0.364,Der Zauberberg 2 / Thomas Mann,1
+토마스 만,12,0.364,Die Erzählungen Band 1 / Thomas Mann,1
+토마스 만,12,0.364,Ein Haus aus Erde geboren / Lore Toman,0
+토마스 만,12,0.364,Every Dead Thing / John Connolly,0
+토마스 만,12,0.364,Hanneles Himmelfahrt / Gerhart Hauptmann,0
+토마스 만,12,0.364,Ich stehe nicht mehr zur Verfügung / Olaf Jacobsen,0
+토마스 만,12,0.364,Immer wieder tönt Olifant / Hermann Theurer Samek,0
+토마스 만,12,0.364,Interpretationen Th.Mann Romane und Erzählungen / (Interpretationen),1
+토마스 만,12,0.364,Joseph und seine Brüder 1 / Thomas Mann,1
+토마스 만,12,0.364,Lotte in Weimar / Thomas Mann,1
+토마스 만,12,0.364,Nathan der Weise / Kindermann,0
+토마스 만,12,0.364,Thomas Bernhard: Mein eigentümlicher Nachbar / Johann Maxwald,0
+토마스 만,12,0.364,Thomas Mann / -,1
+토마스 만,12,0.364,Thomas Mann / Helmut Koopmann,1
+토마스 만,12,0.364,Tristan / Thomas Mann,1
+토마스 만,12,0.364,Tristan / Thomas Mann,1
+토마스 만,12,0.364,Und überall ist Bethlehem / Josef Bernegger,0
+토마스 만,12,0.364,Walter Benjamin Gesammelte Schriften Bd. 1. 4 / Walter Benjamin,0
+토마스 만,12,0.364,Walter Benjamin Gesammelte Schriften Bd. 2. 2 / Walter Benjamin,0
+토마스 만,12,0.364,Was wissen wir über Jesus? / Howard Clark Kee,0
+브레히트,4,0.167,브레히트와 현대연극 제 19집 / 한국브레히트학회,0
+브레히트,4,0.167,브레히트와 현대연극 제 34집 / 한국브레히트학회,1
+브레히트,4,0.167,브레히트와 현대연극 제 39집 / 한국브레히트학회,1
+브레히트,4,0.167,브레히트의 연극이론 / 삐에르 브뤼넬/끌로드 삐슈와/앙드레-미셸 루소,1
+브레히트,4,0.167,"청년 브레히트 ""혁명을 꿈꾸다"" / 한국브레히트학회",1
+브레히트,4,0.167,A baby just now? / Walter Trobisch,0
+브레히트,4,0.167,Abenteuer im Wirklichen oder Die Gegenwart unserer Klassiker / Gert Ueding,0
+브레히트,4,0.167,Adalbert Stifter Brigitta / Ulrich Dittman,0
+브레히트,4,0.167,Christoph Martin Wieland der Weisheitslehrer / Ludwig Fertig,0
+브레히트,4,0.167,Der Ackermann aus Böhmen / Johannes von Tepl,0
+브레히트,4,0.167,"Der Erlkönig / Herder, Gryphius",0
+브레히트,4,0.167,Der Schimmelreiter / Theodor Storm,0
+브레히트,4,0.167,Der Wetterhähne des Glücks. Die Totenklage und ihre Erben von Kärnten bis zum Karst / Josef Winkler,0
+브레히트,4,0.167,Deutsch als Fremdsprache / Michaela Hueber,0
+브레히트,4,0.167,Die drei Schmiede ihres Schicksals / Adalbert Stifter,0
+브레히트,4,0.167,Diebe / Dea Loher ,0
+브레히트,4,0.167,Ein Bruderzwist in Habsburg / Franz Grillparzer,0
+브레히트,4,0.167,Emilia Galotti / G.E. Lessing,0
+브레히트,4,0.167,Emilia Galotti / G. E. Lessing,0
+브레히트,4,0.167,Fremdsprachentexte Antigone / Jean Anouilh,0
+브레히트,4,0.167,Helmbrecht / Wernher der Gärtner,0
+브레히트,4,0.167,"L'Arrabbiata, Das Mädchen von Treppi / Paul Heyse",0
+브레히트,4,0.167,Lese- und Bilderbuch der frühen Rheinromantik / Bertil Fuchs,0
+브레히트,4,0.167,Literaturkritik und Literarische Wertung / Peter Gebhardt,0
+브레히트,4,0.167,Momo / Wolfdietrich Rasch,0
+브레히트,4,0.167,Nie mehr zurück in dieses Land / Herausgegeben von Uta Gerhardt und Thomas Karlauf,0
+브레히트,4,0.167,RITT AUF DER WILDSAU MANIFEST FÜR DIE MALEREI / RACHEL LUMSDEN,0
+브레히트,4,0.167,Soziolinguische Schriften I / Adorno,0
+브레히트,4,0.167,Sprechübungen / Irmgard Welthase,0
+브레히트,4,0.167,Spätgotik on Tirol / -,0
+브레히트,4,0.167,Stifter Vorrede zu Bunte Steine; Kalkstein / Adalbert Stifter,0
+브레히트,4,0.167,Sämtliche Werke in zwei Bänden: Band I / Theodor Storm,0
+브레히트,4,0.167,Undine- eine Novelle / Fouqué,0
+브레히트,4,0.167,독일어권 유학인명록 / 한국독일학회,0
+브레히트,4,0.167,회상과 성찰(1d) / 이창복 교수 정년퇴임기념논문 간행위원회 편,0
+괴테,16,0.114,괴테 研究 (괴테 연구) / 한국 괴테 협회,1
+괴테,16,0.114,괴테 사전 / 한국괴테학회,1
+괴테,16,0.114,괴테 시선 2 / 요한 볼프강 폰 괴테,1
+괴테,16,0.114,괴테 시선 2 / 요한 볼프강 폰 괴테,1
+괴테,16,0.114,괴테 시선 3 / 요한 볼프강 폰 괴테,1
+괴테,16,0.114,괴테 시선 Ⅳ - 크세니엔 / 그리멜스하우젠,1
+괴테,16,0.114,괴테와 괴테 文學의 意義 (괴테와 괴테 문학의 의의) / 朴賛機 (박찬기),1
+괴테,16,0.114,괴테와 독일 고전주의 / 박찬기,1
+괴테,16,0.114,괴테와 동양 사상 / 김윤섭,1
+괴테,16,0.114,괴테와 융 『파우스트』의 분석심리학적 이해 / 이부영,1
+괴테,16,0.114,괴테의 여우 라이네케 / 요한 볼프강 폰 괴테,1
+괴테,16,0.114,괴테의 원형 파우스트 & 뷔히너의 보이첵 / 프리드리히 뒤렌마트,1
+괴테,16,0.114,괴테의 파우스트와 그 문학 세계 1 / 강두식,1
+괴테,16,0.114,나의 인생 「시와 진실」 / 요한 볼프강 폰 괴테,0
+괴테,16,0.114,"에커만, 괴테와의 대화 / 지명열",1
+괴테,16,0.114,영화로 읽는 독일 및 독일인들1 / 요한 볼프강 괴테,0
+괴테,16,0.114,잠언과 성찰 / 요한 볼프강 폰 괴테,0
+괴테,16,0.114,젊은 베르테르의 슬픔 / 요한 볼프강 폰 괴테,0
+괴테,16,0.114,젊은 베르테르의 슬픔 / 요한 볼프강 폰 괴테,0
+괴테,16,0.114,"파우스트 / 요한 볼프강 폰 괴테 저, 이인웅 역",1
+괴테,16,0.114,파우스트 研究 (파우스트 연구) / 한국괴테협회,1
+괴테,16,0.114,하이너 뮐러 문학의 이해 / 요한 볼프강 폰 괴테 et.al,0
+괴테,16,0.114,헤르만과 도로테아 / 요한 볼프강 폰 괴테,0
+괴테,16,0.114,1992년도 제1학기 강의시간표 / 한국외국어대학교,0
+괴테,16,0.114,2002년도 제1학기 강의시간표 / 한국외국어대학교,0
+괴테,16,0.114,2004년도 제2학기 강의시간표 / 한국외국어대학교,0
+괴테,16,0.114,2005년도 제2학기 강의시간표 / 한국외국어대학교,0
+괴테,16,0.114,"Der Erlkönig / Herder, Gryphius",0
+괴테,16,0.114,Der Eunuch / Terenz,0
+괴테,16,0.114,Der Schimmelreiter / Theodor Storm,0
+괴테,16,0.114,Diebe / Dea Loher ,0
+괴테,16,0.114,Fremdsprachentexte Antigone / Jean Anouilh,0
+괴테,16,0.114,Grund- und Aufbauwortschatz Englisch / Gernot Häublein und Recs Jenkins,0
+괴테,16,0.114,Grund- und Aufbauwortschatz Latein / Eberhard Hermes,0
+괴테,16,0.114,Menschen aus dem Norden Menschen aus dem Süden / Ahn Do Hyun,0
+괴테,16,0.114,Momo / Wolfdietrich Rasch,0
+괴테,16,0.114,Sprechübungen / Irmgard Welthase,0
+괴테,16,0.114,Stille in einer lauten Welt / Dieter Mittelsten Scheid,0
+괴테,16,0.114,Sämtliche Werke in zwei Bänden: Band I / Theodor Storm,0
+괴테,16,0.114,東園 金興培 博士 古稀紀念論文集 (동원 김흥배 박사 고희기념논문집) / 韓國外國語大學校 (한국외국어대학교),0
+괴테,16,0.114,海泡 李裕榮 敎授 追慕論文集 : 獨語獨文學論叢 / 海泡 李裕榮 敎授 追慕論文集刊行委員會 編,0
+괴테,16,0.114,"獨文活用研究 (독문활용연구) / 金潤涉 (김윤섭), 金光堯 (김광요)",0
+괴테,16,0.114,許亨根敎授 華甲記念論叢 / 許亨根敎授華甲記念論叢刊行委員會,0
+괴테,16,0.114,대학원 요람 / 한국외국어대학교,0
+괴테,16,0.114,독일어권 유학인명록 / 한국독일학회,0
+괴테,16,0.114,장면 구성과 인물 창조를 위한 희곡 읽기 / 김승옥 et al.,0
+괴테,16,0.114,전후 독일문학그룹 / 이인웅,0
+괴테,16,0.114,포스트드라마 비판과 드라마의 귀환 / 한국드라마학회,0
+괴테,16,0.114,한국 현대 연출가 연구 1 / 한국연극학회 편,0
+괴테,16,0.114,한국말(1) / Suk-in Chang,0
+괴테,16,0.114,한국문학통사4 / 조동일,0
+괴테,16,0.114,현대독문학의 이해 / 김광규,0
+괴테,16,0.114,현대독문학의 이해 / 김광규,0
+히틀러,4,0.667,히틀러는 아직도 살아있다 / 황성근,1
+히틀러,4,0.667,1992년도 제1학기 강의시간표 / 한국외국어대학교,0
+히틀러,4,0.667,Adi: Jugend eines Diktators / Gudrun Pausewang,1
+히틀러,4,0.667,Benedikts Kreuzzug / Alan Posener,0
+히틀러,4,0.667,Das Nationalsozialistengesetz mit Verbotsgesetz / Dr. Egon Praunegger,0
+히틀러,4,0.667,Der Koran und die Juden / Johan Bouman,0
+히틀러,4,0.667,Der Steppenwolf / Hermann Hesse,0
+히틀러,4,0.667,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+히틀러,4,0.667,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+히틀러,4,0.667,Diebe / Dea Loher ,0
+히틀러,4,0.667,Faust1 und 2 Wahlverwandtschaften / Goethe,0
+히틀러,4,0.667,Grund- und Aufbauwortschatz Latein / Eberhard Hermes,0
+히틀러,4,0.667,Heilung - Das Wunder in uns / Clemens Kuby,0
+히틀러,4,0.667,Ich was kein Held aber ich hatte Glück / Karl Ziak,0
+히틀러,4,0.667,Ihr werdet erfahren dass ich der Herr bin / Walter Trobisch,0
+히틀러,4,0.667,Menschen aus dem Norden Menschen aus dem Süden / Ahn Do Hyun,0
+히틀러,4,0.667,Zeitung Deutsch / Kwang-Yo Kim / Yoo-Yung Lee,0
+히틀러,4,0.667,Übungsbuch für die Deutsche Sprache Ⅱ / 정경석 et al.,0
+히틀러,4,0.667,"獨文活用研究 (독문활용연구) / 金潤涉 (김윤섭), 金光堯 (김광요)",0
+히틀러,4,0.667,"獨文活用研究 (독문활용연구) / 金潤涉 (김윤섭), 金光堯 (김광요)",0
+히틀러,4,0.667,게르만 어문학 제 12집 / 한국외국어대학교 게르만어문학 연구회,0
+히틀러,4,0.667,나의 투쟁 상 / 아돌프 히트러,1
+히틀러,4,0.667,나의 투쟁 하 / 아돌프 히트러,1
+히틀러,4,0.667,독일 연가곡 / 피종호,0
+히틀러,4,0.667,독일문학개설 / 오한진,0
+히틀러,4,0.667,독일어권 문화 새롭게 읽기 / 김주연 et al.,0
+히틀러,4,0.667,독일어권 유학인명록 / 한국독일학회,0
+히틀러,4,0.667,전후 독일문학그룹 / 이인웅,0
+히틀러,4,0.667,한독 여성문학론 / 김주연 et al.,0
+히틀러,4,0.667,현대 독일문학 비평 / 이인웅,0
+히틀러,4,0.667,현대독문학의 이해 / 김광규,0
+귄터 그라스,0,0.000,1986년도 제1학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,1988년도 제1학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,1992년도 제1학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,1995년도 제1학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,2002년도 제1학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,2004년도 제2학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,2005년도 제2학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,2007년도 제1학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,2010년도 제2학기 강의시간표 / 한국외국어대학교,0
+귄터 그라스,0,0.000,"Der Erlkönig / Herder, Gryphius",0
+귄터 그라스,0,0.000,Diebe / Dea Loher ,0
+귄터 그라스,0,0.000,"Feminismus - Geschichte, Theorie, Praxis / Jutta Menschik",0
+귄터 그라스,0,0.000,Grund- und Aufbauwortschatz Latein / Eberhard Hermes,0
+귄터 그라스,0,0.000,Humboldt-Kolleg: West-Östlicher Dialog in Wissenschaft und Kultur / Humboldt Club Korea,0
+귄터 그라스,0,0.000,Menschen aus dem Norden Menschen aus dem Süden / Ahn Do Hyun,0
+귄터 그라스,0,0.000,Sämtliche Werke in zwei Bänden: Band I / Theodor Storm,0
+귄터 그라스,0,0.000,東園 金興培 博士 古稀紀念論文集 (동원 김흥배 박사 고희기념논문집) / 韓國外國語大學校 (한국외국어대학교),0
+귄터 그라스,0,0.000,海泡 李裕榮 敎授 追慕論文集 : 獨語獨文學論叢 / 海泡 李裕榮 敎授 追慕論文集刊行委員會 編,0
+귄터 그라스,0,0.000,"獨文活用研究 (독문활용연구) / 金潤涉 (김윤섭), 金光堯 (김광요)",0
+귄터 그라스,0,0.000,"獨文活用研究 (독문활용연구) / 金潤涉 (김윤섭), 金光堯 (김광요)",0
+귄터 그라스,0,0.000,許亨根敎授 華甲記念論叢 / 許亨根敎授華甲記念論叢刊行委員會,0
+귄터 그라스,0,0.000,대학원 요람 / 한국외국어대학교,0
+귄터 그라스,0,0.000,동·서·세계: 문학과 문화의 충돌과 창발 / 한국동서비교문학학회·세계문학비교학회,0
+귄터 그라스,0,0.000,전후 독일문학그룹 / 이인웅,0
+귄터 그라스,0,0.000,포스트드라마 비판과 드라마의 귀환 / 한국드라마학회,0
+귄터 그라스,0,0.000,한국 현대 연출가 연구 1 / 한국연극학회 편,0
+귄터 그라스,0,0.000,한국말(1) / Suk-in Chang,0
+귄터 그라스,0,0.000,한독 여성문학론 / 김주연 et al.,0
+귄터 그라스,0,0.000,현대독문학의 이해 / 김광규,0
+귄터 그라스,0,0.000,현대독문학의 이해 / 김광규,0
+베를린 장벽,2,0.667,329일 베를린장벽 붕괴에서 독일통일까지 / 호르스트 텔칙,1
+베를린 장벽,2,0.667,Berlin 1968 / Heinrich Mann,0
+베를린 장벽,2,0.667,Berlin Alexanderplatz / Alfred Döblin,0
+베를린 장벽,2,0.667,Berlin Alexanderplatz / Dietrich Fischer-Dieskau,0
+베를린 장벽,2,0.667,Das Decameron / Heinrich Böll,0
+베를린 장벽,2,0.667,Das Nationalsozialistengesetz mit Verbotsgesetz / Dr. Egon Praunegger,0
+베를린 장벽,2,0.667,Der Fall Deutschland / Piper,0
+베를린 장벽,2,0.667,Der Karlsplatz in Wien / Geschäftsgruppe Stadtplannung,0
+베를린 장벽,2,0.667,Der Untertan. Im Schlaraffenland / Heinrich Mann,0
+베를린 장벽,2,0.667,Der deutsche Schelmen-Roman / Jürgen Jacobs,0
+베를린 장벽,2,0.667,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+베를린 장벽,2,0.667,Deutschland im 19. Jahrhundert / Manfred Görtemaker,0
+베를린 장벽,2,0.667,Deutschland. Ein Märchen / Wolf Biermann,0
+베를린 장벽,2,0.667,Deutschlands Wiederkehr - Eine ungeteilte Nachkriegsgeschichte 1945-1990 / Peter Bender,0
+베를린 장벽,2,0.667,Die Judenbuche / A. von Droste-Hülshoff,0
+베를린 장벽,2,0.667,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+베를린 장벽,2,0.667,Ein Bruderzwist in Habsburg / Franz Grillparzer,0
+베를린 장벽,2,0.667,Ein Land auf dem rechten Weg? / Günter Scheidl,0
+베를린 장벽,2,0.667,Ein Loch in der Mauer / Marion Detjen,1
+베를린 장벽,2,0.667,Frau Jenny Treibel / Theodor Fontane,0
+베를린 장벽,2,0.667,Herrschafts- und Staatsbildung im Raum der heutigen Landkreise Brückenau und Hammelburg Studien zum Historischen Atlas von Bayern-Teil Franken / .,0
+베를린 장벽,2,0.667,"Korea, Germany and the European union / Gerhard Wahlers",0
+베를린 장벽,2,0.667,Prinz Friedrich von Homburg / Heinrich von Kleist,0
+베를린 장벽,2,0.667,Stätten deutscher Kultur-Inseln in ruhloser Zeit / Adolfine Pertlik-Stegerl,0
+베를린 장벽,2,0.667,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+베를린 장벽,2,0.667,Zeichnungen und Entwürfe für Ver Sacrum aus dem Archiv der Wiener Secession / Otmar Rychlik,0
+베를린 장벽,2,0.667,ZustellrechtsanpassungsG Europäisches Übereinkommen / Dr. Klaus Berchtold,0
+베를린 장벽,2,0.667,Zwischen den Fronten - Erlebte Weltgeschichte / Peter Scholl-Latour,0
+베를린 장벽,2,0.667,나의 투쟁 상 / 아돌프 히트러,0
+베를린 장벽,2,0.667,도시로 떠난 독일 역사문화산책 / 손선홍,0
+헤르만 헤세,7,0.056,"꿈이 내 문을 두드릴 때 / 헤르만 헤세 저, 이인웅 역",1
+헤르만 헤세,7,0.056,유리알유희 / 헤르만 헤세,0
+헤르만 헤세,7,0.056,"크눌프 , 데미안 / 헤르만 헤세 저, 이인웅 역",1
+헤르만 헤세,7,0.056,"헤르만 헤세 - 모든 시작은 신비롭다 / 알로이스 프린츠 저, 이한우 역",1
+헤르만 헤세,7,0.056,헤르만 헤세와의 만남 / 황 진,1
+헤르만 헤세,7,0.056,헤르만 헤세와의 만남 / 황 진,1
+헤르만 헤세,7,0.056,헤르만 헤세의 진실 / 민성길,1
+헤르만 헤세,7,0.056,환상동화집 / 헤르만 헤세,1
+헤르만 헤세,7,0.056,1986년도 제1학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,1988년도 제1학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,1992년도 제1학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,1995년도 제1학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,2002년도 제1학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,2004년도 제2학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,2005년도 제2학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,2007년도 제1학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,2010년도 제2학기 강의시간표 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,"Der Erlkönig / Herder, Gryphius",0
+헤르만 헤세,7,0.056,Diebe / Dea Loher ,0
+헤르만 헤세,7,0.056,Grund- und Aufbauwortschatz Latein / Eberhard Hermes,0
+헤르만 헤세,7,0.056,Menschen aus dem Norden Menschen aus dem Süden / Ahn Do Hyun,0
+헤르만 헤세,7,0.056,大壑獨逸語(대학독일어) / 김광요,0
+헤르만 헤세,7,0.056,東園 金興培 博士 古稀紀念論文集 (동원 김흥배 박사 고희기념논문집) / 韓國外國語大學校 (한국외국어대학교),0
+헤르만 헤세,7,0.056,海泡 李裕榮 敎授 追慕論文集 : 獨語獨文學論叢 / 海泡 李裕榮 敎授 追慕論文集刊行委員會 編,0
+헤르만 헤세,7,0.056,"獨文活用研究 (독문활용연구) / 金潤涉 (김윤섭), 金光堯 (김광요)",0
+헤르만 헤세,7,0.056,"獨文活用研究 (독문활용연구) / 金潤涉 (김윤섭), 金光堯 (김광요)",0
+헤르만 헤세,7,0.056,許亨根敎授 華甲記念論叢 / 許亨根敎授華甲記念論叢刊行委員會,0
+헤르만 헤세,7,0.056,대학원 요람 / 한국외국어대학교,0
+헤르만 헤세,7,0.056,동·서·세계: 문학과 문화의 충돌과 창발 / 한국동서비교문학학회·세계문학비교학회,0
+헤르만 헤세,7,0.056,"문학과 신화 / 김병옥, 김영일, 김진국, 최정무",0
+헤르만 헤세,7,0.056,번역과 한국의 근대 / 이영남,0
+헤르만 헤세,7,0.056,전후 독일문학그룹 / 이인웅,0
+헤르만 헤세,7,0.056,포스트드라마 비판과 드라마의 귀환 / 한국드라마학회,0
+헤르만 헤세,7,0.056,한국 현대 연출가 연구 1 / 한국연극학회 편,0
+헤르만 헤세,7,0.056,한국말(1) / Suk-in Chang,0
+헤르만 헤세,7,0.056,한독 여성문학론 / 김주연 et al.,0
+헤르만 헤세,7,0.056,현대독문학의 이해 / 김광규,0
+헤르만 헤세,7,0.056,현대독문학의 이해 / 김광규,0
+독일문화원,0,0.000,2/1998 Schwerpunkt: Deutsch zwischen den Kulturen / Hans-Jürgen Krumm,0
+독일문화원,0,0.000,Althochdeutsches Wörterbuch / Rudolf Schützeichel,0
+독일문화원,0,0.000,DEUTSCHE AKADEMIE FÜR SPRACHE UND DICHTUNG JAHRBUCH 1969 / Deutsche Akademie für Sprache und Dichtung,0
+독일문화원,0,0.000,DEUTSCHE AKADEMIE FÜR SPRACHE UND DICHTUNG JAHRBUCH 1971 / Deutsche Akademie für Sprache und Dichtung,0
+독일문화원,0,0.000,DEUTSCHE AKADEMIE FÜR SPRACHE UND DICHTUNG JAHRBUCH 1980 / Deutsche Akademie für Sprache und Dichtung,0
+독일문화원,0,0.000,Das Decameron / Heinrich Böll,0
+독일문화원,0,0.000,Deutsche Balladen / Winfried Freund,0
+독일문화원,0,0.000,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+독일문화원,0,0.000,Deutsche Kurzgeschichten I 9.-10. Schuljahr / Günter Lange,0
+독일문화원,0,0.000,Deutsche Kurzgeschichten I 9.-10. Schuljahr / Günter Lange,0
+독일문화원,0,0.000,Deutsche Kurzgeschichten II 9.-10. Schuljahr / Günter Lange,0
+독일문화원,0,0.000,Deutschland. Ein Märchen / Wolf Biermann,0
+독일문화원,0,0.000,Echtermeyer: Deutsche Gedichte / Benno von Wiese,0
+독일문화원,0,0.000,Geschichte der deutschen Sprache / Peter von Polenz,0
+독일문화원,0,0.000,Gesetz über Gesellschaften mit beschränkter Haftung idF GmbH Nov 1980 / Fritz Schoenherr,0
+독일문화원,0,0.000,Herrschafts- und Staatsbildung im Raum der heutigen Landkreise Brückenau und Hammelburg Studien zum Historischen Atlas von Bayern-Teil Franken / .,0
+독일문화원,0,0.000,Lexikon deutschsprachiger Schriftsteller / Kurt Böttcher,0
+독일문화원,0,0.000,Modernes Deutsches Drama 2 / F.N.Mennemeier,0
+독일문화원,0,0.000,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일문화원,0,0.000,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일문화원,0,0.000,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일문화원,0,0.000,독일 교양 소설 연구 / 오한진,0
+독일문화원,0,0.000,독일문학개설 / 오한진,0
+독일문화원,0,0.000,독일사회소설론 / 이정길교수 추모위원회,0
+독일문화원,0,0.000,독일어문학 제 41집 16권 2호 2008 / 한국독일어문학회,0
+독일문화원,0,0.000,독일의 현대문학 / -,0
+독일문화원,0,0.000,독일통일과 문학 / 김용민,0
+독일문화원,0,0.000,외국인을 위한 독일어교본 / 독일어교육연구원,0
+독일문화원,0,0.000,통일 독일의 문화와 예술 / Renate Luscher,0
+독일문화원,0,0.000,현대 독일문학 비평 / 한국연극학회 편,0
+파우스트,9,0.191,괴테와 융 『파우스트』의 분석심리학적 이해 / 이부영,1
+파우스트,9,0.191,괴테의 원형 파우스트 & 뷔히너의 보이첵 / 프리드리히 뒤렌마트,1
+파우스트,9,0.191,괴테의 파우스트와 그 문학 세계 1 / 강두식,1
+파우스트,9,0.191,"파우스트 / 요한 볼프강 폰 괴테 저, 이인웅 역",1
+파우스트,9,0.191,파우스트 / 지명렬 역,1
+파우스트,9,0.191,파우스트 研究 (파우스트 연구) / 한국괴테협회,1
+파우스트,9,0.191,파우스트 그는 누구인가? / 이인웅,1
+파우스트,9,0.191,파우스트 하나의 비극 / 최두환,1
+파우스트,9,0.191,파우스트와 빌헬름 마이스터 연구 / 박찬기 외,1
+파우스트,9,0.191,>>Der Krieg Hat uns Geprägt<< 2 / Margarete Dörr,0
+파우스트,9,0.191,Absolutismus / Johannes Künzle,0
+파우스트,9,0.191,Adi: Jugend eines Diktators / Gudrun Pausewang,0
+파우스트,9,0.191,Amphitryon / Heinrich von Kleist,0
+파우스트,9,0.191,Argumente und Parolen Politische Propaganda im 20. Jahrhundert / Wolfgang Günther,0
+파우스트,9,0.191,Das Austernfest / Heinrich Mann,0
+파우스트,9,0.191,Das Engelsgesicht (Die Geschichte eines Mafia-Killers aus Deutschland) / Andreas Ulrich,0
+파우스트,9,0.191,Das Nationalsozialistengesetz mit Verbotsgesetz / Dr. Egon Praunegger,0
+파우스트,9,0.191,Der Ackermann aus Böhmen / Johannes von Tepl,0
+파우스트,9,0.191,Der Hofmeister / Jakob Michael Reinhold Lenz,0
+파우스트,9,0.191,Der Koran und die Juden / Johan Bouman,0
+파우스트,9,0.191,Der Untertan. Im Schlaraffenland / Heinrich Mann,0
+파우스트,9,0.191,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+파우스트,9,0.191,Die Blechtrommel. Danziger Trilogie 2 / Günter Grass,0
+파우스트,9,0.191,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+파우스트,9,0.191,"Die österreichische nationalsozialistische Ästhetik / Ilija Dürhammer, Pia Janke",0
+파우스트,9,0.191,Georgs Sorgen um die Vergangenheit oder im Reich des heiligen Hodensack-Bimbams von Prag / Jan Faktor,0
+파우스트,9,0.191,Ihr kriegt mich nicht klein! / Ulrike Schramm-De Robertis,0
+파우스트,9,0.191,Ihr werdet erfahren dass ich der Herr bin / Walter Trobisch,0
+파우스트,9,0.191,Lefeu oder der Abbruch Roman-Essay / Jean Amery,0
+파우스트,9,0.191,Macht Literatur Krieg _Österreichische Literatur im Nationalsozialismus / Uwe Baur et al.,0
+파우스트,9,0.191,Nie mehr zurück in dieses Land / Herausgegeben von Uta Gerhardt und Thomas Karlauf,0
+파우스트,9,0.191,Nietzsche / RÜDIGER SAFRANSKI,0
+파우스트,9,0.191,RITT AUF DER WILDSAU MANIFEST FÜR DIE MALEREI / RACHEL LUMSDEN,0
+파우스트,9,0.191,Sprengstoff / Richard Bachmann,0
+파우스트,9,0.191,Unterm Rad / Hermann Hesse,0
+파우스트,9,0.191,"Österreichische Literatur-, Kultur-, und Theaterzeitschriften im Umfeld von Expressionismus, Aktivismus und Zionismus / Armin A. Wallas",0
+파우스트,9,0.191,나의 투쟁 상 / 아돌프 히트러,0
+파우스트,9,0.191,나의 투쟁 하 / 아돌프 히트러,0
+파우스트,9,0.191,"프랑스 혁명과 독일 문학 / 안삼환, 임정택",0
+마의 산,0,0.000,1995년도 제1학기 강의시간표 / 한국외국어대학교,0
+마의 산,0,0.000,2002년도 제1학기 강의시간표 / 한국외국어대학교,0
+마의 산,0,0.000,2004년도 제2학기 강의시간표 / 한국외국어대학교,0
+마의 산,0,0.000,Abdias / Adalbert Stifter,0
+마의 산,0,0.000,Abdias / Adalbert Stifter,0
+마의 산,0,0.000,Bellum Gallicum Wortkunde und Kommentar 1. Heft: Buch I - IV / Caesar,0
+마의 산,0,0.000,Brigitta / Adalbert Stifter,0
+마의 산,0,0.000,"Der Erlkönig / Herder, Gryphius",0
+마의 산,0,0.000,Der Hagestolz / Adalbert Stifter,0
+마의 산,0,0.000,Der Himmelsfluss Ganges und seine heiligen Männer / Uwe Dürigen et al.,0
+마의 산,0,0.000,Der Schimmelreiter / Theodor Storm,0
+마의 산,0,0.000,Diebe / Dea Loher ,0
+마의 산,0,0.000,Erlebnis Ötztal / Hannes Gasser,0
+마의 산,0,0.000,FÜR IMMER DIE ALPEN / Benjamin Quaderer,0
+마의 산,0,0.000,Karibu heißt willkommen / Stefanie Zweig,0
+마의 산,0,0.000,LITERATUR UND KRITIK 575-576 / Ana Marwan,0
+마의 산,0,0.000,LITERATUR UND KRITIK 579-580 / Ana Marwan,0
+마의 산,0,0.000,Menschen aus dem Norden Menschen aus dem Süden / Ahn Do Hyun,0
+마의 산,0,0.000,Octavio Paz Sor Juana oder die Fallstricke des Glaubens / Maria Bamberg,0
+마의 산,0,0.000,Serenade in Mexiko / Caesar,0
+마의 산,0,0.000,Sperrfort Rocca Alta / Luis Trenker,0
+마의 산,0,0.000,Sprengstoff / Richard Bachmann,0
+마의 산,0,0.000,Sämtliche Werke in zwei Bänden: Band I / Theodor Storm,0
+마의 산,0,0.000,Tirol Land im Gebirge / A. Sickert,0
+마의 산,0,0.000,Wo die Berge jung sind / Han Suyin,0
+마의 산,0,0.000,海泡 李裕榮 敎授 追慕論文集 : 獨語獨文學論叢 / 海泡 李裕榮 敎授 追慕論文集刊行委員會 編,0
+마의 산,0,0.000,許亨根敎授 華甲記念論叢 / 許亨根敎授華甲記念論叢刊行委員會,0
+마의 산,0,0.000,장은수 교수님 ppt자료2(제목미상) / 장은수,0
+마의 산,0,0.000,티롤 - 알프스의 심장 / 이순애,0
+마의 산,0,0.000,회상과 성찰(1d) / 이창복 교수 정년퇴임기념논문 간행위원회 편,0
+현대 문학,0,0.000,Adalbert Stifiter / Ursula Naumann,0
+현대 문학,0,0.000,Der veruntreute Himmel / Franz Werfel,0
+현대 문학,0,0.000,Die Buchmalerin / Beate Sauer,0
+현대 문학,0,0.000,Die Erzählungen Band 1 / Thomas Mann,0
+현대 문학,0,0.000,Die böse Mutter / Catherine Herriger,0
+현대 문학,0,0.000,Einbildungskraft und Aufklärung / Gabriele Dürbeck,0
+현대 문학,0,0.000,"Einführung in die Literaturwissenschaft / Georg Braungart, Rüdiger Zimmer",0
+현대 문학,0,0.000,Erzählungen und Novellen des 19. Jahrhunderts (Band 1) / Walter Münz,0
+현대 문학,0,0.000,Erzählungen und Novellen des 19. Jahrhunderts (Band 2) / Heinz Rölleke,0
+현대 문학,0,0.000,Formen der Literatur in Einzeldarstellungen / Otto Knörrich,0
+현대 문학,0,0.000,GEDICHTE FALLEN MIR ZU WIE REIFE ÄPFEL / st. Georgs Presse,0
+현대 문학,0,0.000,Gedichte aus den Jahren 1908-1945 / Franz Werfel,0
+현대 문학,0,0.000,Globalisierung und Literatur / Prof. Dr. Monika SCHMITZ-EMANS,0
+현대 문학,0,0.000,Heinrich von Ofterdingen / Novalis,0
+현대 문학,0,0.000,Klassik und Romantik / Walther Killy,0
+현대 문학,0,0.000,LITERATUR UND KRITIK 575-576 / Ana Marwan,0
+현대 문학,0,0.000,LITERATUR UND KRITIK 577-578 / Ana Marwan,0
+현대 문학,0,0.000,LITERATUR UND KRITIK 579-580 / Ana Marwan,0
+현대 문학,0,0.000,Lieder / Oswald von Wolkenstein,0
+현대 문학,0,0.000,Nachkommenschaften / Adalbert Stifter,0
+현대 문학,0,0.000,Romane des 20. Jahrhunderts 1 / (Interpretationen),0
+현대 문학,0,0.000,Schubumkehr / Robert Menasse,0
+현대 문학,0,0.000,Theorie der Novelle / Herbert Krämer,0
+현대 문학,0,0.000,Über das moderne Drama / Günter Heintz,0
+현대 문학,0,0.000,"Über, über dem Dorn. Gedichte aus hundert Jahren / Reiner Kunze",0
+현대 문학,0,0.000,개정판 문학과 예술의 사회사 1 / 아르놀트 하우저,0
+현대 문학,0,0.000,개정판 문학과 예술의 사회사 4 / 아르놀트 하우저,0
+현대 문학,0,0.000,문학과 역사 / 호르스트 슈타인메츠,0
+현대 문학,0,0.000,세계문학과 문화융복합 / 세계문학비교학회,0
+현대 문학,0,0.000,현대문학이론 / 레이먼 셀던,0
+고전 소설,5,0.044,Amphitryon / Heinrich von Kleist,0
+고전 소설,5,0.044,Amphitryon / Heinrich von Kleist,0
+고전 소설,5,0.044,BIBLIOTHEK DER FRÜHEN NEUZEIT GRIMMELSHAUSEN COURASCHE SPRINGINSFELD VOGELNEST I-II RATHSTÜBEL PLUT / Dieter Breuer,0
+고전 소설,5,0.044,Das Amulett / Conrad Ferdinand Meyer,0
+고전 소설,5,0.044,Das Majorat / E.T.A. Hoffmann,0
+고전 소설,5,0.044,Das vergessene Pergament / Philipp Vandenberg,0
+고전 소설,5,0.044,"Der Erlkönig / Herder, Gryphius",0
+고전 소설,5,0.044,Der Mann im Schilf / George Saiko,0
+고전 소설,5,0.044,Der Mantel des Darius / Georg Scherig,0
+고전 소설,5,0.044,Der Schimmelreiter / Theodor Storm,0
+고전 소설,5,0.044,Der Zauberberg 2 / Thomas Mann,1
+고전 소설,5,0.044,Der alte Riesenhuf / Günther Rücker,0
+고전 소설,5,0.044,Die Erzählungen Band 1 / Thomas Mann,1
+고전 소설,5,0.044,Die Judenbuche / A. von Droste-Hülshoff,0
+고전 소설,5,0.044,Die Marquise von O... Das Erdbeben in Chili / Heinrich von Kleist,0
+고전 소설,5,0.044,Die böse Mutter / Catherine Herriger,0
+고전 소설,5,0.044,Einbildungskraft und Aufklärung / Gabriele Dürbeck,0
+고전 소설,5,0.044,Gernot Wolfgruber: Niemandsland Roman / Gernot Wolfgrube,0
+고전 소설,5,0.044,LITERATUR UND KRITIK 579-580 / Ana Marwan,0
+고전 소설,5,0.044,Medea / James J.Clauss und Sarah Iles Johnston,0
+고전 소설,5,0.044,Penthesilea / Heinrich von Kleist,1
+고전 소설,5,0.044,Penthesilea / Heinrich von Kleist,0
+고전 소설,5,0.044,Romane des 19. Jahrhunderts / (Interpretationen),0
+고전 소설,5,0.044,Romane des 20. Jahrhunderts 1 / (Interpretationen),0
+고전 소설,5,0.044,Sprengstoff / Richard Bachmann,0
+고전 소설,5,0.044,Sämtliche Werke in zwei Bänden: Band I / Theodor Storm,1
+고전 소설,5,0.044,Tanz der Worte / Julia Franck,0
+고전 소설,5,0.044,Tristan / Thomas Mann,1
+고전 소설,5,0.044,더 로드 The Road / 코맥 매카시 Cormac MacCarthy,0
+고전 소설,5,0.044,현대문학이론 / 레이먼 셀던,0
+단편 연극,0,0.000,Antike Komödien in zwei Bänden 1.Band / Plautus/Terenz,0
+단편 연극,0,0.000,Das Drama der Gegenwart Analysen zeitgenössischer Bühnenwerke / Wilhelm Heise,0
+단편 연극,0,0.000,Das Spiel der Kurtisanen / Siegfried Obermeier,0
+단편 연극,0,0.000,Das deutsche Drama 1 / Benno von Wiese,0
+단편 연극,0,0.000,Der Böse Geist Lumpazivagabundus / Johann Nestroy,0
+단편 연극,0,0.000,"Der Erlkönig / Herder, Gryphius",0
+단편 연극,0,0.000,"Der Prinz, der Pilot und Antonie de Saint-Exupery (Das Rätsel um den letzten Flug) / Claas Triebel . Lino von Gartzen",0
+단편 연극,0,0.000,Der Schimmelreiter / Theodor Storm,0
+단편 연극,0,0.000,Die Liebeskunst / Ovid,0
+단편 연극,0,0.000,Die böse Mutter / Catherine Herriger,0
+단편 연극,0,0.000,Diebe / Dea Loher ,0
+단편 연극,0,0.000,Emilia Galotti / G.E. Lessing,0
+단편 연극,0,0.000,Fremdsprachentexte Antigone / Jean Anouilh,0
+단편 연극,0,0.000,Kabale und Liebe / G. E. Lessing,0
+단편 연극,0,0.000,Knaurs Schauspielführer / Verner Arpe,0
+단편 연극,0,0.000,Momo / Wolfdietrich Rasch,0
+단편 연극,0,0.000,Publikumsbeschimpfung und andere Sprechstücke / Peter Handke,0
+단편 연극,0,0.000,Sprechübungen / Irmgard Welthase,0
+단편 연극,0,0.000,Stille in einer lauten Welt / Dieter Mittelsten Scheid,0
+단편 연극,0,0.000,Sämtliche Werke in zwei Bänden: Band I / Theodor Storm,0
+단편 연극,0,0.000,Theorie des Dramas / Ulrich Staehle,0
+단편 연극,0,0.000,WESEN UND FORMEN DES KOMISCHEN IM DRAMA / REINHOLD GRIMM und KLAUS L: BERGHAHN,0
+단편 연극,0,0.000,Wiener Werkstätte / Waltraud Neuwirth,0
+단편 연극,0,0.000,Witiko / Adalbert Stifter,0
+단편 연극,0,0.000,Über das moderne Drama / Günter Heintz,0
+단편 연극,0,0.000,"국제퍼포먼스학회(PSI Daegu) 드라마학회 협약서 / 대구문화재단, 한국문화학회",0
+단편 연극,0,0.000,"동시대 연극의 퍼포먼스 드라마투르기 ""이론, 실천 그리고 방법론' / 한국드라마학회",0
+단편 연극,0,0.000,"연극과 과학: 제 4차 산업 혁명 시대의 연극의 생태 / 한국드라마학회, 부경대학교 인문사회과학연구소",0
+단편 연극,0,0.000,퍼포먼스 드라마투르기 / 권철근,0
+단편 연극,0,0.000,한국 현대 연출가 연구 1 / 한국연극학회 편,0
+사랑 소설,4,0.211,Agnes Bernauer / Friedrich Hebbel,0
+사랑 소설,4,0.211,Alles über die Liebe / Manfred Hassebrauck,0
+사랑 소설,4,0.211,Barbara oder die Frömmigkeit / Franz Werfel,0
+사랑 소설,4,0.211,Das Ende von Unschuld / Dieter Richter,0
+사랑 소설,4,0.211,Das Geheimnis ist immer die Liebe / Karoline Mayer et al.,0
+사랑 소설,4,0.211,Das Marmoldbild Das Schöne Dürande / Joseph von Eichendorff,0
+사랑 소설,4,0.211,"Das ist gut, es ist ein Traum / Carlotta von Starke",0
+사랑 소설,4,0.211,Der Mann im Schilf / George Saiko,0
+사랑 소설,4,0.211,Der Schimmelreiter / Theodor Storm,1
+사랑 소설,4,0.211,Der Schimmelreiter / Theodor Storm,0
+사랑 소설,4,0.211,Der Spiegel / Adalbert Stifter,0
+사랑 소설,4,0.211,Der Talisman / Johann Nestroy,0
+사랑 소설,4,0.211,Die Geschichte meines Lebens / James M. Cain,0
+사랑 소설,4,0.211,Geschichte des Agathon / Chr.M.Wieland,0
+사랑 소설,4,0.211,Geschichte vom braven Kasper und dem schönen Annerl / Clemens Brentano,1
+사랑 소설,4,0.211,Grete Minde / Theodor Fontane,0
+사랑 소설,4,0.211,Klassik und Romantik / Walther Killy,0
+사랑 소설,4,0.211,Leben und Taten eines Taugenichts / Joseph von Eichendorff,0
+사랑 소설,4,0.211,Let Love be your Greatest / Delores Friesen,0
+사랑 소설,4,0.211,Lieben / Karin Struck,1
+사랑 소설,4,0.211,"Love, Revolution und wie Kater Haohao nach Hollywood kam / Li Dawei",0
+사랑 소설,4,0.211,Miss Sara Sampson / G.E. Lessing,0
+사랑 소설,4,0.211,Penthesilea / Heinrich von Kleist,0
+사랑 소설,4,0.211,Peregrina / Theodor Fontane,0
+사랑 소설,4,0.211,Prosa faber / Max Frisch,0
+사랑 소설,4,0.211,Reigen Liebelei / Arthur Schnitzler,1
+사랑 소설,4,0.211,Silberlachs / Lim Chul-Woo,0
+사랑 소설,4,0.211,Tanz der Worte / Julia Franck,0
+사랑 소설,4,0.211,Titan / Jean Paul,0
+사랑 소설,4,0.211,Tristan / Thomas Mann,0
+모험 소설,5,0.263,Aus dem Leben eines Taugenichts / Joseph von Eichendorff,0
+모험 소설,5,0.263,Burg Seebenstein / Anton Stalzer,0
+모험 소설,5,0.263,Das Amulett / Conrad Ferdinand Meyer,1
+모험 소설,5,0.263,Der Schimmelreiter / Theodor Storm,0
+모험 소설,5,0.263,Der Schimmelreiter / Theodor Storm,0
+모험 소설,5,0.263,Der Schimmelreiter / Theodor Storm,0
+모험 소설,5,0.263,Der Spiegel / Adalbert Stifter,0
+모험 소설,5,0.263,Der Talisman / Johann Nestroy,0
+모험 소설,5,0.263,Der Zauberberg 2 / Thomas Mann,0
+모험 소설,5,0.263,Die Geschichte meines Lebens / James M. Cain,0
+모험 소설,5,0.263,Die geheimnisvolle Insel / Jules Verne,1
+모험 소설,5,0.263,Die unendliche Geschichte / Michael Ende,0
+모험 소설,5,0.263,Die wilde Geschichte vom Wassertrinker / John Irving,0
+모험 소설,5,0.263,Every Dead Thing / John Connolly,0
+모험 소설,5,0.263,Geschichte des Agathon / Christoph Martin Wieland,0
+모험 소설,5,0.263,Im Schatten des Greif / Reto Luzius Fetz,0
+모험 소설,5,0.263,Leben eines Taugenichts / Joseph von Eichendorff,1
+모험 소설,5,0.263,Leben und Wandel Lazaril von Tormes / -,0
+모험 소설,5,0.263,Medea / James J.Clauss und Sarah Iles Johnston,0
+모험 소설,5,0.263,Mit Freunden unterwegs / Ingrid Trobisch,0
+모험 소설,5,0.263,Momo / Wolfdietrich Rasch,1
+모험 소설,5,0.263,Morbus Kitahara / Christoph Ransmayr,0
+모험 소설,5,0.263,Peregrinus Proteus / Christoph Martin Wieland,0
+모험 소설,5,0.263,Prosa faber / Max Frisch,0
+모험 소설,5,0.263,Reise- und Abenteuergeschichten / Heinrich Pleticha,1
+모험 소설,5,0.263,Rhone Saga / Pierre Imhasly,0
+모험 소설,5,0.263,Und jedem Anfang wohnt ein Zauber inne / Alois Prinz,0
+모험 소설,5,0.263,Vorhof der Wirklichkeit Roman / Hannelore Valencak,0
+모험 소설,5,0.263,vom Winde verweht / Margaret Mitchell,0
+모험 소설,5,0.263,더 로드 The Road / 코맥 매카시 Cormac MacCarthy,0
+전쟁 비극,3,0.375,11.9. - Zehn Jahre danach der Einsturz eines Lügengebäudes / Mathias Bröckers und Christian C. Walther,0
+전쟁 비극,3,0.375,>>Der Krieg Hat uns Geprägt<< 1 / Margarete Dörr,1
+전쟁 비극,3,0.375,>>Der Krieg Hat uns Geprägt<< 2 / Margarete Dörr,1
+전쟁 비극,3,0.375,Bahnwärter Thiel / Gerhart Hauptmann,0
+전쟁 비극,3,0.375,Cella oder die Überwinder / Franz Werfel,0
+전쟁 비극,3,0.375,Dantons Tod / Georg Büchner,0
+전쟁 비극,3,0.375,Das Karpatenschloss Katastrophe im Atlantik / Jules Verne,0
+전쟁 비극,3,0.375,Der Schimmelreiter / Theodor Storm,0
+전쟁 비극,3,0.375,Der entstellte Held / Joachim Bauer ,0
+전쟁 비극,3,0.375,Der gerechte Krieg / Reiner Steinweg,0
+전쟁 비극,3,0.375,Der gerechte Krieg / Bertolt Brecht,0
+전쟁 비극,3,0.375,Die Ahnfrau / Franz Grillparzer,0
+전쟁 비극,3,0.375,Die Erde ist zu schön / Alfred Döblin,0
+전쟁 비극,3,0.375,Die Generation vor dem Großen Krieg / Edward R. Tannenbaum,1
+전쟁 비극,3,0.375,Die Soldaten / Jakob Michael Reinhold Lenz,0
+전쟁 비극,3,0.375,Die Soldaten / J.M.R. Lenz,0
+전쟁 비극,3,0.375,Gernot Wolfgruber: Niemandsland Roman / Gernot Wolfgrube,0
+전쟁 비극,3,0.375,Ich will eine Welt ohne Kriege / Arno Gruen,0
+전쟁 비극,3,0.375,Iphigenie in Aulis / Euripides,0
+전쟁 비극,3,0.375,Lefeu oder der Abbruch Roman-Essay / Jean Amery,0
+전쟁 비극,3,0.375,Penthesilea / Heinrich von Kleist,0
+전쟁 비극,3,0.375,Penthesilea / Heinrich von Kleist,0
+전쟁 비극,3,0.375,Prinz Friedrich von Homburg / Heinrich von Kleist,0
+전쟁 비극,3,0.375,Prinz Friedrich von Homburg / Heinrich von Kleist,0
+전쟁 비극,3,0.375,Sprengstoff / Richard Bachmann,0
+전쟁 비극,3,0.375,Wallenstein / Friedrich Schiller,0
+전쟁 비극,3,0.375,"Wo warst du, Adam? / Heinrich Böll",0
+전쟁 비극,3,0.375,Zur politischen Ikonologie des gewaltsamen Todes / Reinhard Koselleck,0
+전쟁 비극,3,0.375,나의 투쟁 상 / 아돌프 히트러,0
+전쟁 비극,3,0.375,양철북 / 권터 그라스,0
+나치 시대,6,0.500,329일 베를린장벽 붕괴에서 독일통일까지 / 호르스트 텔칙,0
+나치 시대,6,0.500,Adi: Jugend eines Diktators / Gudrun Pausewang,0
+나치 시대,6,0.500,Das Decameron / Heinrich Böll,0
+나치 시대,6,0.500,Das Deutsche Reich und Der Erste Weltkrieg / Imanuel Geiss,0
+나치 시대,6,0.500,Das Engelsgesicht (Die Geschichte eines Mafia-Killers aus Deutschland) / Andreas Ulrich,0
+나치 시대,6,0.500,Das Nationalsozialistengesetz mit Verbotsgesetz / Dr. Egon Praunegger,1
+나치 시대,6,0.500,Der Steppenwolf / Hermann Hesse,0
+나치 시대,6,0.500,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+나치 시대,6,0.500,Deutschlands Wiederkehr - Eine ungeteilte Nachkriegsgeschichte 1945-1990 / Peter Bender,0
+나치 시대,6,0.500,"Die Namen der Nummern - Wie es gelang, die 86 Opfer eines NS-Verbrechens zu identifizieren / Hans-Joachim Lang",1
+나치 시대,6,0.500,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+나치 시대,6,0.500,Die deutsche Exilliteratur 1933-1945 / Manfred Durzak,0
+나치 시대,6,0.500,Die doppelte Staatsgründung - Deutsche Geschichte 1945-1955 / Christoph Kleßmann,0
+나치 시대,6,0.500,Erfundene Wahrheit Deutsche Geschcithen seit 1945 / Marcel Reichranicki,0
+나치 시대,6,0.500,Gebhardt Handbuch der deutschen Geschichte Band 21 / Karl Dietrich Erdmann,0
+나치 시대,6,0.500,Geschichte der deutschen Sprache / Peter von Polenz,0
+나치 시대,6,0.500,Ihr werdet erfahren dass ich der Herr bin / Walter Trobisch,0
+나치 시대,6,0.500,Judentum und Antisemitismus _Studien zur Literatur und Germanistik in Österreich / Anne Betten et al.,0
+나치 시대,6,0.500,Macht Literatur Krieg _Österreichische Literatur im Nationalsozialismus / Uwe Baur et al.,1
+나치 시대,6,0.500,Protokolle 72/1 / Hrsg.v.Otto Breicha,1
+나치 시대,6,0.500,Protokolle 73/2 / Hrsg.v.Otto Breicha,0
+나치 시대,6,0.500,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+나치 시대,6,0.500,Unterm Rad / Hermann Hesse,0
+나치 시대,6,0.500,Von Caligari zu Hitler - Eine psychologische Geschichte des deutschen Films / Siegfried Kracauer,1
+나치 시대,6,0.500,"Wo warst du, Adam? / Heinrich Böll",0
+나치 시대,6,0.500,나의 투쟁 상 / 아돌프 히트러,0
+나치 시대,6,0.500,나의 투쟁 하 / 아돌프 히트러,1
+나치 시대,6,0.500,독일문학개설 / 오한진,0
+나치 시대,6,0.500,헤르만 헤세의 진실 / 민성길,0
+나치 시대,6,0.500,현대 독일시 개관 / 오한진,0
+근대 역사,0,0.000,1984년도 제2학기 강의시간표 / 한국외국어대학교,0
+근대 역사,0,0.000,6/2010 Die Fachhochschulrektorenkonferenz (FRK) 1972 - 1995 / HRK(Hochschulrektorenferenz),0
+근대 역사,0,0.000,BIBLIOTHEK DER GESCHICHTE UND POLITIK DIE FRANZÖSISCHE REVOLUTION / Horst Günther,0
+근대 역사,0,0.000,"DER NEUE PAULY, Enzyklopädie der Antike Ark-Ci 2 / Hubert Cancik et al.",0
+근대 역사,0,0.000,"DER NEUE PAULY, Enzyklopädie der Antike Gru-Iog 5 / Hubert Cancik et al.",0
+근대 역사,0,0.000,"DER NEUE PAULY, Enzyklopädie der Antike Ori-Poi 9 / Hubert Cancik et al.",0
+근대 역사,0,0.000,Das 18. Jahrhundert: Der Bürger erhebt sich / Peter Schleuning,0
+근대 역사,0,0.000,"Das wiener Konzerthaus, Geschichte und Bedeutung 1913-1983 / Friedlich Heller",0
+근대 역사,0,0.000,Der ferne Spiegel / Barbara Wertheim Tuchman,0
+근대 역사,0,0.000,Der große Bildatlas zur Weltgeschichte / Dr. Reinhard Barth,0
+근대 역사,0,0.000,Die 70er Jahre / Edgar Wolfrum,0
+근대 역사,0,0.000,Die 80er Jahre / Edgar Wolfrum,0
+근대 역사,0,0.000,Die Herrscher und Gestalten des Mittelalters / Reinhard Pohanka,0
+근대 역사,0,0.000,Die Römische Republik / Joseph Vogt,0
+근대 역사,0,0.000,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+근대 역사,0,0.000,Florenz und Bagdad - Eine westörtliche Geschichte des Blicks / Hans Belting,0
+근대 역사,0,0.000,Frühlings Erwachen / Frank Wedekind,0
+근대 역사,0,0.000,Geschichte des Agathon / Chr.M.Wieland,0
+근대 역사,0,0.000,Karthago / Werner Huss,0
+근대 역사,0,0.000,LITERATUR UND KRITIK 579-580 / Ana Marwan,0
+근대 역사,0,0.000,Majestät! - Die letzten grossen Monarchien / Guido Knopp,0
+근대 역사,0,0.000,Protokolle 73/2 / Hrsg.v.Otto Breicha,0
+근대 역사,0,0.000,Römische Geschichte / Hermann Bengtson,0
+근대 역사,0,0.000,"The post-pandemic era, welcome to the new humanity / ISBS, SEMIOSIS",0
+근대 역사,0,0.000,Unter der Bedeckung eines Hutes / H. C. Artmann,0
+근대 역사,0,0.000,Weimar / Walter Laqueur,0
+근대 역사,0,0.000,"Wieland Epoche-Werk-Wirkung / Seven-Aage Jorgensen, Herbert Jaumann, John McCarthy, Horst Thome",0
+근대 역사,0,0.000,"Wo warst du, Adam? / Heinrich Böll",0
+근대 역사,0,0.000,러시아 혁명사 / 조영명,0
+근대 역사,0,0.000,서구의 몰락 2 / 오스발트 슈펭글러,0
+2차 세계대전,3,0.750,"""baustelle kultur"" _Diskurslagen in der österreichischen Literatur 1918-1933/38 / Primus-Heinz Kucher et al.",0
+2차 세계대전,3,0.750,>>Der Krieg Hat uns Geprägt<< 1 / Margarete Dörr,0
+2차 세계대전,3,0.750,>>Der Krieg Hat uns Geprägt<< 2 / Margarete Dörr,0
+2차 세계대전,3,0.750,Amerikas Kreuzzüge -Was die Weltmacht treibt / Claus Kleber,0
+2차 세계대전,3,0.750,BIBLIOGRAPHIE ZUR DEUTSCHLANDPOLITIK 1941-1974 / Karl dietrich Bracher et al.,1
+2차 세계대전,3,0.750,Bellum Gallicum Wortkunde und Kommentar 2. Heft: Buch V-VII / Friedrich Dürrenmatt,0
+2차 세계대전,3,0.750,Cella oder die Überwinder / Franz Werfel,0
+2차 세계대전,3,0.750,Das Deutsche Reich und Der Erste Weltkrieg / Imanuel Geiss,0
+2차 세계대전,3,0.750,Daten deutscher Dichtung II / H.A und E.Frenzel,0
+2차 세계대전,3,0.750,De bello Gallico Der Gallische Krieg (Lateinisch/Deutsch) / Gaius Iulius Caesar,0
+2차 세계대전,3,0.750,Der Zweite Weltkrieg / Claudia Vidoni,1
+2차 세계대전,3,0.750,Der gerechte Krieg / Reiner Steinweg,0
+2차 세계대전,3,0.750,Deutschlands Wiederkehr - Eine ungeteilte Nachkriegsgeschichte 1945-1990 / Peter Bender,0
+2차 세계대전,3,0.750,Die Blechtrommel. Danziger Trilogie 2 / Günter Grass,0
+2차 세계대전,3,0.750,Die Generation vor dem Großen Krieg / Edward R. Tannenbaum,0
+2차 세계대전,3,0.750,Die Rampe 2/82 / Herbert Friedll,1
+2차 세계대전,3,0.750,Die Soldaten / Jakob Michael Reinhold Lenz,0
+2차 세계대전,3,0.750,Die Soldaten / J.M.R. Lenz,0
+2차 세계대전,3,0.750,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+2차 세계대전,3,0.750,Grimmelshausen Simplicissimus Simplicissimus / Alfred Kelltat,0
+2차 세계대전,3,0.750,Ich will eine Welt ohne Kriege / Arno Gruen,0
+2차 세계대전,3,0.750,Prinz Friedrich von Homburg / Heinrich von Kleist,0
+2차 세계대전,3,0.750,Prinz Friedrich von Homburg / Heinrich von Kleist,0
+2차 세계대전,3,0.750,Römische Geschichte der Zweite Punische Krieg III / Livius,0
+2차 세계대전,3,0.750,Sämtliche Werke in zwei Bänden: Band II / Theodor Storm,0
+2차 세계대전,3,0.750,Wallenstein / Friedrich Schiller,0
+2차 세계대전,3,0.750,Wallenstein I Wallensteins Lager Die Piccolomini / Friedrich Schiller,0
+2차 세계대전,3,0.750,"Wo warst du, Adam? / Heinrich Böll",0
+2차 세계대전,3,0.750,나의 투쟁 상 / 아돌프 히트러,0
+2차 세계대전,3,0.750,양철북 / 권터 그라스,0
+오스트리아 역사,8,0.381,800 Jahre junges Innsbruck / Walter Myss,0
+오스트리아 역사,8,0.381,Anton Hanak / Wiener Secession,0
+오스트리아 역사,8,0.381,Austria 2005 - Remembrance & Renewal in the heart of Europe / Federal Ministry for Foreign Affairs,0
+오스트리아 역사,8,0.381,Austrian foreign policy yearbook / Federal Ministry for Foreign Affairs,0
+오스트리아 역사,8,0.381,Damals in Wien / Franz Taucher,1
+오스트리아 역사,8,0.381,Das österreichische Deutsch in Gegenwart und Geschichte / Peter Wiesinger,0
+오스트리아 역사,8,0.381,Der Herrenstand in Oberösterreich / Peter Feldbauer,1
+오스트리아 역사,8,0.381,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+오스트리아 역사,8,0.381,Dritter Band Der Nachsommer / Adalbert Stifter,0
+오스트리아 역사,8,0.381,Herrschafts- und Staatsbildung im Raum der heutigen Landkreise Brückenau und Hammelburg Studien zum Historischen Atlas von Bayern-Teil Franken / .,0
+오스트리아 역사,8,0.381,IMAGO AUSTRIAE / Otto Schulmeister et al.,0
+오스트리아 역사,8,0.381,Katalog des Österreichischen Varockmuseums 1 / Elfriede Baum,0
+오스트리아 역사,8,0.381,Komplex Österreich / Wolfgang Müller-Funk,1
+오스트리아 역사,8,0.381,Kulturlandschaft Österreich / Otto Staiminger,0
+오스트리아 역사,8,0.381,Loetz Austria 1900 / Waltraud Neuwirth,0
+오스트리아 역사,8,0.381,Protokolle 73/2 / Hrsg.v.Otto Breicha,0
+오스트리아 역사,8,0.381,Salzburg - Leben in einer Stadt / Arno Gasteiger und Oskar Anrather,0
+오스트리아 역사,8,0.381,Von Bologna nach Quedlinburg / HRK(Hochschulrektorenferenz),0
+오스트리아 역사,8,0.381,Waidwerk im Burgenland / Sepp Wölfer,0
+오스트리아 역사,8,0.381,Wien Wörtlich / Josef Weinheber,0
+오스트리아 역사,8,0.381,Zur ersten EU-Präsidentschaft Österreichs 1998 / Wolfgang Schüssel,1
+오스트리아 역사,8,0.381,Zur ersten EU-Präsidentschaft Österreichs 1998 / Wolfgang Schüssel,1
+오스트리아 역사,8,0.381,ÖSTERREICH / Ernst Hausner,0
+오스트리아 역사,8,0.381,Österreich / Thomas Bernhard,1
+오스트리아 역사,8,0.381,"Österreich in Geschichte und Literatur / Erwin Pröll, Gerald Stourzh, ...etc",0
+오스트리아 역사,8,0.381,Österreichisches Jahrbuch 1972 / Bundespressedienst,0
+오스트리아 역사,8,0.381,Österreichisches Montanwesen / Michael Mitterauer,1
+오스트리아 역사,8,0.381,Österreichs Aristokratie im Vormärz / Hannes Stekl,1
+오스트리아 역사,8,0.381,오스트리아의 역사와 문화 1 / 임종대,0
+오스트리아 역사,8,0.381,오스트리아의 역사와 문화 2 / Lothar Mikos,0
+독일 민법,1,0.500,독일 민법전 / 양창선,1
+독일 민법,1,0.500,DEUTSCHE AKADEMIE FÜR SPRACHE UND DICHTUNG JAHRBUCH 1971 / Deutsche Akademie für Sprache und Dichtung,0
+독일 민법,1,0.500,Das Decameron / Heinrich Böll,0
+독일 민법,1,0.500,Das Nationalsozialistengesetz mit Verbotsgesetz / Dr. Egon Praunegger,0
+독일 민법,1,0.500,Der Fall Deutschland / Piper,0
+독일 민법,1,0.500,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+독일 민법,1,0.500,Deutsche Kurzgeschichten I 9.-10. Schuljahr / Günter Lange,0
+독일 민법,1,0.500,Deutsche und Juden / Wanda Kampmann,0
+독일 민법,1,0.500,Deutschland im 19. Jahrhundert / Manfred Görtemaker,0
+독일 민법,1,0.500,Deutschland. Ein Märchen / Wolf Biermann,0
+독일 민법,1,0.500,Deutschlands Wiederkehr - Eine ungeteilte Nachkriegsgeschichte 1945-1990 / Peter Bender,0
+독일 민법,1,0.500,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+독일 민법,1,0.500,Ein Land auf dem rechten Weg? / Günter Scheidl,0
+독일 민법,1,0.500,Etymologie / Rüdiger Schmitt,0
+독일 민법,1,0.500,Gebhardt Handbuch der deutschen Geschichte Band 21 / Karl Dietrich Erdmann,0
+독일 민법,1,0.500,Geschichte der deutschen Sprache / Peter von Polenz,0
+독일 민법,1,0.500,Gesetz über Gesellschaften mit beschränkter Haftung idF GmbH Nov 1980 / Fritz Schoenherr,0
+독일 민법,1,0.500,Herrschafts- und Staatsbildung im Raum der heutigen Landkreise Brückenau und Hammelburg Studien zum Historischen Atlas von Bayern-Teil Franken / .,0
+독일 민법,1,0.500,Kleines Deutschlandbuch für Ausländer / Rudolf Meldau,0
+독일 민법,1,0.500,Komplex Österreich / Wolfgang Müller-Funk,0
+독일 민법,1,0.500,Protokolle 73/2 / Hrsg.v.Otto Breicha,0
+독일 민법,1,0.500,"Strafprozeßordnung / Foregger, Serini",0
+독일 민법,1,0.500,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 민법,1,0.500,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 민법,1,0.500,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 민법,1,0.500,"Zur Reform der deutschen Rechtschreibung / Christian Meier, Peter Eisenberg",0
+독일 민법,1,0.500,독일 교양 소설 연구 / 오한진,0
+독일 민법,1,0.500,독일 국민에게 고함 / Johann Gottlieb Fichte,0
+독일 민법,1,0.500,독일사회소설론 / 이정길교수 추모위원회,0
+독일 민법,1,0.500,문학이 남긴 유토피아의 흔적 -40년 동독의 문학과 정치- / 요아힘-뤼디거 그로츠,0
+독일 통일,1,0.200,독일 통일 한국 통일 / 손성홍,1
+독일 통일,1,0.200,2/1998 Schwerpunkt: Deutsch zwischen den Kulturen / Hans-Jürgen Krumm,0
+독일 통일,1,0.200,DEUTSCHE AKADEMIE FÜR SPRACHE UND DICHTUNG JAHRBUCH 1971 / Deutsche Akademie für Sprache und Dichtung,0
+독일 통일,1,0.200,Das Decameron / Heinrich Böll,0
+독일 통일,1,0.200,Das Nationalsozialistengesetz mit Verbotsgesetz / Dr. Egon Praunegger,0
+독일 통일,1,0.200,Der Fall Deutschland / Piper,0
+독일 통일,1,0.200,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+독일 통일,1,0.200,Deutsche Kurzgeschichten I 9.-10. Schuljahr / Günter Lange,0
+독일 통일,1,0.200,Deutsche Sprache gegenwart und Neuzeit / Walter Kühn,0
+독일 통일,1,0.200,Deutsche und Juden / Wanda Kampmann,0
+독일 통일,1,0.200,Deutschland im 19. Jahrhundert / Manfred Görtemaker,0
+독일 통일,1,0.200,"Deutschland, Deutschland, über alles... / Bertolt Brecht",0
+독일 통일,1,0.200,Deutschland. Ein Märchen / Wolf Biermann,0
+독일 통일,1,0.200,Deutschlands Wiederkehr - Eine ungeteilte Nachkriegsgeschichte 1945-1990 / Peter Bender,0
+독일 통일,1,0.200,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+독일 통일,1,0.200,Etymologie / Rüdiger Schmitt,0
+독일 통일,1,0.200,Gebhardt Handbuch der deutschen Geschichte Band 21 / Karl Dietrich Erdmann,0
+독일 통일,1,0.200,Germanistik im Europäischen Hochschulraum / HRK(Hochschulrektorenferenz),0
+독일 통일,1,0.200,Geschichte der deutschen Sprache / Peter von Polenz,0
+독일 통일,1,0.200,"Geschichte der deutschen Sprache Teil 2 Althochdeutsch, Mittelhochdeutsch und Frühneuhochdeutsch / Wilhelm Schmidt",0
+독일 통일,1,0.200,Gesetz über Gesellschaften mit beschränkter Haftung idF GmbH Nov 1980 / Fritz Schoenherr,0
+독일 통일,1,0.200,Herrschafts- und Staatsbildung im Raum der heutigen Landkreise Brückenau und Hammelburg Studien zum Historischen Atlas von Bayern-Teil Franken / .,0
+독일 통일,1,0.200,Kleines Deutschlandbuch für Ausländer / Rudolf Meldau,0
+독일 통일,1,0.200,Kleines Deutschlandbuch für Ausländer / Rudolf Meldau,0
+독일 통일,1,0.200,Komplex Österreich / Wolfgang Müller-Funk,0
+독일 통일,1,0.200,Protokolle 73/2 / Hrsg.v.Otto Breicha,0
+독일 통일,1,0.200,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 통일,1,0.200,Wien Wörtlich / Josef Weinheber,0
+독일 통일,1,0.200,독일사회소설론 / 이정길교수 추모위원회,0
+독일 통일,1,0.200,독일어문학 제 41집 16권 2호 2008 / 한국독일어문학회,0
+독일 통일,1,0.200,외국인을 위한 독일어교본 / 독일어교육연구원,0
+현대 독일 정치,2,1.000,Ansätze zu einer pragmatischen Sprachgeschichte / Horst Sitta,0
+현대 독일 정치,2,1.000,BIBLIOGRAPHIE ZUR DEUTSCHLANDPOLITIK 1941-1974 / Karl dietrich Bracher et al.,0
+현대 독일 정치,2,1.000,DEUTSCHE AKADEMIE FÜR SPRACHE UND DICHTUNG JAHRBUCH 1973 / Deutsche Akademie für Sprache und Dichtung,0
+현대 독일 정치,2,1.000,Das Decameron / Heinrich Böll,0
+현대 독일 정치,2,1.000,Das Nationalsozialistengesetz mit Verbotsgesetz / Dr. Egon Praunegger,0
+현대 독일 정치,2,1.000,De re publica Vom Gemeinwesen (Lateinisch/Deutsch) / Karl Büchner,0
+현대 독일 정치,2,1.000,Der Fall Deutschland / Piper,0
+현대 독일 정치,2,1.000,Der Untertan. Im Schlaraffenland / Heinrich Mann,0
+현대 독일 정치,2,1.000,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+현대 독일 정치,2,1.000,Deutsche und Juden / Wanda Kampmann,0
+현대 독일 정치,2,1.000,Deutschland im 19. Jahrhundert / Manfred Görtemaker,0
+현대 독일 정치,2,1.000,Deutschland. Ein Märchen / Wolf Biermann,0
+현대 독일 정치,2,1.000,Deutschlands Wiederkehr - Eine ungeteilte Nachkriegsgeschichte 1945-1990 / Peter Bender,0
+현대 독일 정치,2,1.000,Die Parteien der Bundesrepublik Deutschland / Ossip K. Flechtheim,1
+현대 독일 정치,2,1.000,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+현대 독일 정치,2,1.000,Ein Land auf dem rechten Weg? / Günter Scheidl,0
+현대 독일 정치,2,1.000,Gebhardt Handbuch der deutschen Geschichte Band 21 / Karl Dietrich Erdmann,0
+현대 독일 정치,2,1.000,Gesetz über Gesellschaften mit beschränkter Haftung idF GmbH Nov 1980 / Fritz Schoenherr,0
+현대 독일 정치,2,1.000,Jahrbuch 1997 / Hans-Jürgen Krumm,0
+현대 독일 정치,2,1.000,Kleines Deutschlandbuch für Ausländer / Rudolf Meldau,0
+현대 독일 정치,2,1.000,Komplex Österreich / Wolfgang Müller-Funk,0
+현대 독일 정치,2,1.000,Modernes Deutsches Drama 2 / F.N.Mennemeier,0
+현대 독일 정치,2,1.000,Politische Bildung in der Bundesrepublik / Hans Helmuth Knütter,1
+현대 독일 정치,2,1.000,Protokolle 73/2 / Hrsg.v.Otto Breicha,0
+현대 독일 정치,2,1.000,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+현대 독일 정치,2,1.000,Unterm Rad / Hermann Hesse,0
+현대 독일 정치,2,1.000,"Zur Reform der deutschen Rechtschreibung / Christian Meier, Peter Eisenberg",0
+현대 독일 정치,2,1.000,독일시인론 / 김주연,0
+현대 독일 정치,2,1.000,문학이 남긴 유토피아의 흔적 -40년 동독의 문학과 정치- / 요아힘-뤼디거 그로츠,0
+현대 독일 정치,2,1.000,"프랑스 혁명과 독일 문학 / 안삼환, 임정택",0
+독일 산업,0,0.000,2/1998 Schwerpunkt: Deutsch zwischen den Kulturen / Hans-Jürgen Krumm,0
+독일 산업,0,0.000,Althochdeutsches Wörterbuch / Rudolf Schützeichel,0
+독일 산업,0,0.000,DEUTSCHE AKADEMIE FÜR SPRACHE UND DICHTUNG JAHRBUCH 1971 / Deutsche Akademie für Sprache und Dichtung,0
+독일 산업,0,0.000,Der Fall Deutschland / Piper,0
+독일 산업,0,0.000,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+독일 산업,0,0.000,Deutsche Kurzgeschichten I 9.-10. Schuljahr / Günter Lange,0
+독일 산업,0,0.000,Deutsche Sprichwörter und Redensarten / Wolfgang Mieder,0
+독일 산업,0,0.000,Deutsche für die Mittelstufe1 / Adler et.al,0
+독일 산업,0,0.000,Deutschland. Ein Märchen / Wolf Biermann,0
+독일 산업,0,0.000,Die Deutsche Sprache / Otto Behaghel,0
+독일 산업,0,0.000,Die Partikeln der deutschen Sprache / Herald Weydt,0
+독일 산업,0,0.000,Echtermeyer: Deutsche Gedichte / Benno von Wiese,0
+독일 산업,0,0.000,Etymologie / Rüdiger Schmitt,0
+독일 산업,0,0.000,Funktion und Geschichte deutscher Partikeln / Elke Hentschel,0
+독일 산업,0,0.000,Germanistische Linguistik / bachelor-wissen,0
+독일 산업,0,0.000,Geschichte der deutschen Sprache / Peter von Polenz,0
+독일 산업,0,0.000,Gesetz über Gesellschaften mit beschränkter Haftung idF GmbH Nov 1980 / Fritz Schoenherr,0
+독일 산업,0,0.000,Herrschafts- und Staatsbildung im Raum der heutigen Landkreise Brückenau und Hammelburg Studien zum Historischen Atlas von Bayern-Teil Franken / .,0
+독일 산업,0,0.000,Jahrbuch 1997 / Hans-Jürgen Krumm,0
+독일 산업,0,0.000,Kleines Deutschlandbuch für Ausländer / Rudolf Meldau,0
+독일 산업,0,0.000,Komplex Österreich / Wolfgang Müller-Funk,0
+독일 산업,0,0.000,Quo Vadis Fachhochschule? / HRK(Hochschulrektorenferenz),0
+독일 산업,0,0.000,Stätten deutscher Kultur-Inseln in ruhloser Zeit / Adolfine Pertlik-Stegerl,0
+독일 산업,0,0.000,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 산업,0,0.000,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 산업,0,0.000,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 산업,0,0.000,Thesen zur Planung und Errichtung von Gesamthochschulen / Aloys Henn Verlag Ratingen,0
+독일 산업,0,0.000,Wien Wörtlich / Josef Weinheber,0
+독일 산업,0,0.000,독일사회소설론 / 이정길교수 추모위원회,0
+독일 산업,0,0.000,독일어문학 제 41집 16권 2호 2008 / 한국독일어문학회,0
+독일 국제 관계,1,0.333,2/1998 Schwerpunkt: Deutsch zwischen den Kulturen / Hans-Jürgen Krumm,0
+독일 국제 관계,1,0.333,Arbeitsmittel für den Deutschunterricht an Ausländer 1985 / Karin Wolff,0
+독일 국제 관계,1,0.333,Arbeitsmittel für den Deutschunterricht an Ausländer 1986 / Sigbert Latzel,0
+독일 국제 관계,1,0.333,Austrian foreign policy yearbook / Federal Ministry for Foreign Affairs,0
+독일 국제 관계,1,0.333,Außenpolitischer Bericht / Bundesministerium für auswärtige Angelegenheiten,1
+독일 국제 관계,1,0.333,Das Decameron / Heinrich Böll,0
+독일 국제 관계,1,0.333,Das Nationalsozialistengesetz mit Verbotsgesetz / Dr. Egon Praunegger,0
+독일 국제 관계,1,0.333,Der Fall Deutschland / Piper,0
+독일 국제 관계,1,0.333,"Deutsche Flugschriften, Flugblätter, Gegenwartsalltag, Flugblätter der bürgerlichen Nationalgesichter / Adolf Leins/Franz-Martin Schmölz",0
+독일 국제 관계,1,0.333,Deutsche und Juden / Wanda Kampmann,0
+독일 국제 관계,1,0.333,Deutschland im 19. Jahrhundert / Manfred Görtemaker,0
+독일 국제 관계,1,0.333,Deutschland. Ein Märchen / Wolf Biermann,0
+독일 국제 관계,1,0.333,Deutschlands Wiederkehr - Eine ungeteilte Nachkriegsgeschichte 1945-1990 / Peter Bender,0
+독일 국제 관계,1,0.333,Die Weimarer Republik 1918 1933 / Bracher/Funke/Jacobsen (Hrsg.),0
+독일 국제 관계,1,0.333,Ein Land auf dem rechten Weg? / Günter Scheidl,0
+독일 국제 관계,1,0.333,Etymologie / Rüdiger Schmitt,0
+독일 국제 관계,1,0.333,Germanistik im Europäischen Hochschulraum / HRK(Hochschulrektorenferenz),0
+독일 국제 관계,1,0.333,Geschichte der deutschen Sprache / Peter von Polenz,0
+독일 국제 관계,1,0.333,Gesetz über Gesellschaften mit beschränkter Haftung idF GmbH Nov 1980 / Fritz Schoenherr,0
+독일 국제 관계,1,0.333,Internationalisierungsstrategien der Fachhochschulen / HRK(Hochschulrektorenferenz),0
+독일 국제 관계,1,0.333,Jahrbuch 1997 / Hans-Jürgen Krumm,0
+독일 국제 관계,1,0.333,Kleines Deutschlandbuch für Ausländer / Rudolf Meldau,0
+독일 국제 관계,1,0.333,"Korea, Germany and the European union / Gerhard Wahlers",0
+독일 국제 관계,1,0.333,Protokolle 73/2 / Hrsg.v.Otto Breicha,0
+독일 국제 관계,1,0.333,Quo Vadis Fachhochschule? / HRK(Hochschulrektorenferenz),0
+독일 국제 관계,1,0.333,Studium und Forschung in Deutschland Förderungsmöglichkeiten für ausländische Hochschulangehörige / DAAD,0
+독일 국제 관계,1,0.333,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 국제 관계,1,0.333,Tatsachen über Deutschland / Frankfurter Societaetas-Medien GmbH,0
+독일 국제 관계,1,0.333,독일사회소설론 / 이정길교수 추모위원회,0
+독일 국제 관계,1,0.333,외국인을 위한 독일어교본 / 독일어교육연구원,0
+언어학개론,4,0.364,Einführung in die Linguistik / Karl-Dieter Bünting,1
+언어학개론,4,0.364,Fehlerlinguistik / Dieter Cherubim,0
+언어학개론,4,0.364,Grammatik der modernen deutschen Umgangssprache / Renate Luscher,0
+언어학개론,4,0.364,"Grammatik, Semantik, Textlinguistik / Wilfried Kuerschner / Rüdiger Vogt",0
+언어학개론,4,0.364,Grund- und Aufbauwortschatz Englisch / Gernot Häublein und Recs Jenkins,0
+언어학개론,4,0.364,Komparastik - Jahrbuch der DGAVL 2000/2001 / DGAVL,0
+언어학개론,4,0.364,Lexikon der Schprachwissenschaft / Hadumod Bussmann,0
+언어학개론,4,0.364,Lexikon der Sprachwissenschaft / Hadumod Bußmann,1
+언어학개론,4,0.364,Lexikon der Sprachwissenschaft / Hadumod Bußmann,1
+언어학개론,4,0.364,"Lexikon der Sprachwissenschaft - Zweite, völlig neu bearbeitete Auflage / Hadumod Bußmann",1
+언어학개론,4,0.364,Linguistische Probleme der Textanalyse / Hugo Moser,0
+언어학개론,4,0.364,"Linguistische Propädeutik II. / Karl-Heinz Goettert, Wolfgang Herrlitz",0
+언어학개론,4,0.364,Linguistisches Wörterbuch 2 / Theodor Lewandowski,0
+언어학개론,4,0.364,Neuere Methoden der Semantik / Franz Hundsnurscher,0
+언어학개론,4,0.364,Orientierung zur Textlinguistik / Hartwig Kalverkaemper,0
+언어학개론,4,0.364,Poetik und Linguistik / Rolf Kloepfer,0
+언어학개론,4,0.364,Semantis / Herbert E. Brekle,0
+언어학개론,4,0.364,So kommt der Mensch zur Sprache / Dieter E. Zimmer,0
+언어학개론,4,0.364,"Sprache, Mensch und Welt / Iwar Werlen",0
+언어학개론,4,0.364,Sprachsystem und Sprachgebrauch II / Hugo Moser,0
+언어학개론,4,0.364,Sprechen und Situation / Klaus Bayer,0
+언어학개론,4,0.364,Terminologie zur neueren Linguistik / Werner Abraham,0
+언어학개론,4,0.364,Textstrukturen. Sprache und Textbegriffe / Wolfram Kohrt,0
+언어학개론,4,0.364,"Theorien vom Ursprung der Sprache II / Joachim Gessinger, Wolfert von Rahden",0
+언어학개론,4,0.364,"Variabilität, Polysemie und Unschärfe der Wortbedeutung / Edgar W. Schneider",0
+언어학개론,4,0.364,Wir müssen zusammen schreiben! / Renate Falstauer,0
+언어학개론,4,0.364,Wortfeldforschung / Lothar Schmidt,0
+언어학개론,4,0.364,Übersetzungswissenschaft / Wolfram Wilss,0
+언어학개론,4,0.364,구조주의 통사론 / 클라우스 브링커,0
+언어학개론,4,0.364,언어기호론 / 페터 슈미터 et al.,0
+초급 문법,0,0.000,4/2000 Schwerpunkt: (Kindlicher) Fremdsprachenerwerb / Hans-Jürgen Krumm,0
+초급 문법,0,0.000,ABC der schwachen Verben / Klaere Meil / Margit Arndt,0
+초급 문법,0,0.000,Christoph Martin Wieland der Weisheitslehrer / Ludwig Fertig,0
+초급 문법,0,0.000,Der Entwicklungsroman einer Idee / Heribert Brosthaus,0
+초급 문법,0,0.000,"Der Erlkönig / Herder, Gryphius",0
+초급 문법,0,0.000,Der Satz / Beat Louis Müller,0
+초급 문법,0,0.000,Dictionary of 501 German Verbs / Henry Strutz,0
+초급 문법,0,0.000,Einführung in die Linguistik / Karl-Dieter Bünting,0
+초급 문법,0,0.000,Einführung in die Semiotik / Umberto Eco,0
+초급 문법,0,0.000,Fragen der Strukturellen Syntax und der Kontrastiven Grammatik / Hugo Moser,0
+초급 문법,0,0.000,Gernot Wolfgruber Herrenjahre Roman / Gernot Wolfgrube,0
+초급 문법,0,0.000,Goethe-Parodien / Waltraud Wende,0
+초급 문법,0,0.000,"Grammatik, Semantik, Textlinguistik / Wilfried Kuerschner / Rüdiger Vogt",0
+초급 문법,0,0.000,Großmama packt aus / Irene Dische,0
+초급 문법,0,0.000,Grund- und Aufbauwortschatz Englisch / Gernot Häublein und Recs Jenkins,0
+초급 문법,0,0.000,Linguistische Probleme der Textanalyse / Hugo Moser,0
+초급 문법,0,0.000,Linguistisches Wörterbuch 2 / Theodor Lewandowski,0
+초급 문법,0,0.000,Miss Sara Sampson / G.E. Lessing,0
+초급 문법,0,0.000,Neuere Methoden der Semantik / Franz Hundsnurscher,0
+초급 문법,0,0.000,Prima Lectio. Erste Lateinische Lesestücke / Franz Peter Waiblinger,0
+초급 문법,0,0.000,Provokative Rhetorik? Schlagfertigkeit! / Karsten Bredemeier,0
+초급 문법,0,0.000,Sprechübungen / Irmgard Welthase,0
+초급 문법,0,0.000,Stille in einer lauten Welt / Dieter Mittelsten Scheid,0
+초급 문법,0,0.000,Terminologie zur neueren Linguistik / Werner Abraham,0
+초급 문법,0,0.000,"Variabilität, Polysemie und Unschärfe der Wortbedeutung / Edgar W. Schneider",0
+초급 문법,0,0.000,Wiener Werkstätte / Waltraud Neuwirth,0
+초급 문법,0,0.000,Wir müssen zusammen schreiben! / Renate Falstauer,0
+초급 문법,0,0.000,구조주의 통사론 / 클라우스 브링커,0
+초급 문법,0,0.000,라틴어 문법 / 프레드릭 M.휠록,0
+초급 문법,0,0.000,회상과 성찰(1c) / 이창복 교수 정년퇴임기념논문 간행위원회 편,0
+독일어 사전,3,0.375,14/2010 Schwerpunkt: Mehrsprachigkeit und Sprachförderung Deutsch / Hans-Jürgen Krumm,0
+독일어 사전,3,0.375,2/1998 Schwerpunkt: Deutsch zwischen den Kulturen / Hans-Jürgen Krumm,0
+독일어 사전,3,0.375,ABC der starken Verben / Klaere Meil / Margit Arndt,0
+독일어 사전,3,0.375,Althochdeutsches Wörterbuch / Rudolf Schützeichel,0
+독일어 사전,3,0.375,Das Substantiv / Hugo Moser,0
+독일어 사전,3,0.375,Der Grundwortschatz / Peter Kühn,0
+독일어 사전,3,0.375,"Deutsch als Fremdsprache / Gert Henrici, Uwe Koreik",0
+독일어 사전,3,0.375,Deutsch als Fremdsprache Programm 2007 / Andreas Langenscheidt,0
+독일어 사전,3,0.375,"Deutsch als Fremdsprache Teil 1 / Sigbert Latzel, Wolf Dieter Ortmann",0
+독일어 사전,3,0.375,Deutsch als Fremdsprache1 B / Korbinian Braun et.al,0
+독일어 사전,3,0.375,Deutsche Grammatik kurz / Hans-Werner Große,0
+독일어 사전,3,0.375,Deutsche Satzsemantik / Peter von Polenz,0
+독일어 사전,3,0.375,Die deutsche Literatur in Text und Darstellung Barock / Otto F.Best,0
+독일어 사전,3,0.375,Etymologie / Rüdiger Schmitt,0
+독일어 사전,3,0.375,Etymologisches Wörterbuch der deutschen Sprache / Friedrich Kluge,1
+독일어 사전,3,0.375,Gedanken Glosser Deutscher / Hans Fratscher,0
+독일어 사전,3,0.375,German Dictionary / Oxford,1
+독일어 사전,3,0.375,Germanistische Linguistik / bachelor-wissen,0
+독일어 사전,3,0.375,"Grammatik der deutschen Sprache / Schulz, Griesbach",0
+독일어 사전,3,0.375,Grundwortschatz der deutschen Sprache / Kosaras Istvan,0
+독일어 사전,3,0.375,Kleines Valenzlexikon deutscher Verben / Ulrich Englen / Helmut Schumacher,0
+독일어 사전,3,0.375,Mittelhochdeutsche Grammatik / Paul / Moser / Schroebler,0
+독일어 사전,3,0.375,Texte zum lesen und Nacherzählen / Hans-Joachim Arndt,0
+독일어 사전,3,0.375,Vorfeldforschung / Lothar Schmidt,0
+독일어 사전,3,0.375,Wie Sag ich's auf deutsch? / Gerhard Kaufmann,0
+독일어 사전,3,0.375,Wortbildung der deutschen Gegenwartssprache / Wolfgang Fleischer,0
+독일어 사전,3,0.375,"獨文活用研究 (독문활용연구) / 金潤涉 (김윤섭), 金光堯 (김광요)",0
+독일어 사전,3,0.375,독일사회소설론 / 오한진,0
+독일어 사전,3,0.375,독일어변화 사전 / 청록편집부,1
+독일어 사전,3,0.375,외국인을 위한 독일어교본 / 독일어교육연구원,0
+독일어 인명 사전,0,0.000,2/1998 Schwerpunkt: Deutsch zwischen den Kulturen / Hans-Jürgen Krumm,0
+독일어 인명 사전,0,0.000,A Grammer of contemporary German / Renate Luscher et.al,0
+독일어 인명 사전,0,0.000,Althochdeutsches Wörterbuch / Rudolf Schützeichel,0
+독일어 인명 사전,0,0.000,Der Grundwortschatz / Peter Kühn,0
+독일어 인명 사전,0,0.000,"Deutsch als Fremdsprache / Gert Henrici, Uwe Koreik",0
+독일어 인명 사전,0,0.000,Deutsch als Fremdsprache Programm 2007 / Andreas Langenscheidt,0
+독일어 인명 사전,0,0.000,"Deutsch als Fremdsprache Teil 1 / Sigbert Latzel, Wolf Dieter Ortmann",0
+독일어 인명 사전,0,0.000,Deutsch als Fremdsprache1 B / Korbinian Braun et.al,0
+독일어 인명 사전,0,0.000,Deutsche Grammatik kurz / Hans-Werner Große,0
+독일어 인명 사전,0,0.000,Deutsche Kurzgeschichten 2.-3. Schuljahr / Winfried Ulrich,0
+독일어 인명 사전,0,0.000,Deutsche Kurzgeschichten 5.-6. Schuljahr / Winfried Ulrich,0
+독일어 인명 사전,0,0.000,Deutsche Satzsemantik / Peter von Polenz,0
+독일어 인명 사전,0,0.000,"Deutschland, Deutschland, über alles... / Bertolt Brecht",0
+독일어 인명 사전,0,0.000,Die deutsche Literatur in Text und Darstellung Barock / Otto F.Best,0
+독일어 인명 사전,0,0.000,Die österreichische Literatur ist keineswegs ein bloßer Wurmfortsatz der deutschen / Selcuk Ünlü et al.,0
+독일어 인명 사전,0,0.000,Echtermeyer: Deutsche Gedichte / Benno von Wiese,0
+독일어 인명 사전,0,0.000,Etymologie / Rüdiger Schmitt,0
+독일어 인명 사전,0,0.000,Germanistische Linguistik / bachelor-wissen,0
+독일어 인명 사전,0,0.000,"Grammatik der deutschen Sprache / Schulz, Griesbach",0
+독일어 인명 사전,0,0.000,Grundwortschatz der deutschen Sprache / Kosaras Istvan,0
+독일어 인명 사전,0,0.000,Kleines Valenzlexikon deutscher Verben / Ulrich Englen / Helmut Schumacher,0
+독일어 인명 사전,0,0.000,Lexikon deutschsprachiger Schriftsteller / Kurt Böttcher,0
+독일어 인명 사전,0,0.000,Mittelhochdeutsche Grammatik / Paul / Moser / Schroebler,0
+독일어 인명 사전,0,0.000,Versuch einer germanistischen Ideologiekritik / Bernd Peschken,0
+독일어 인명 사전,0,0.000,Watten / Thomas Bernhard,0
+독일어 인명 사전,0,0.000,Wie Sag ich's auf deutsch? / Gerhard Kaufmann,0
+독일어 인명 사전,0,0.000,Wortbildung der deutschen Gegenwartssprache / Wolfgang Fleischer,0
+독일어 인명 사전,0,0.000,독일 국민에게 고함 / Johann Gottlieb Fichte,0
+독일어 인명 사전,0,0.000,독일사회소설론 / 오한진,0
+독일어 인명 사전,0,0.000,외국인을 위한 독일어교본 / 독일어교육연구원,0
+화용론,0,0.000,Abenteuer im Wirklichen oder Die Gegenwart unserer Klassiker / Gert Ueding,0
+화용론,0,0.000,Abgerannt - Unsere Zukunft nach dem Schulden-Kollaps / Hanno Beck und Aloys Prinz,0
+화용론,0,0.000,Amphitryon / Heinrich von Kleist,0
+화용론,0,0.000,Christoph Martin Wieland der Weisheitslehrer / Ludwig Fertig,0
+화용론,0,0.000,Das Gedächtnis des Körpers / 강두식 et al.,0
+화용론,0,0.000,Der Ackermann aus Böhmen / Johannes von Tepl,0
+화용론,0,0.000,Der Böse Geist Lumpazivagabundus / Johann Nestroy,0
+화용론,0,0.000,"Der Erlkönig / Herder, Gryphius",0
+화용론,0,0.000,Der Fremdling und der Weise aus dem Morgenland / Friedrich Zelle,0
+화용론,0,0.000,Der Fremdling und der Weise aus dem Morgenland / Friedrich Zelle,0
+화용론,0,0.000,Der Sandmann / E. T. A. Hoffmann,0
+화용론,0,0.000,"Der Sandmann, Das öde Haus / E.T.A. Hoffmann",0
+화용론,0,0.000,Der Schimmelreiter / Theodor Storm,0
+화용론,0,0.000,Der Wetterhähne des Glücks. Die Totenklage und ihre Erben von Kärnten bis zum Karst / Josef Winkler,0
+화용론,0,0.000,Der goldne Topf / E.T.A. Hoffmann,0
+화용론,0,0.000,Die drei Schmiede ihres Schicksals / Adalbert Stifter,0
+화용론,0,0.000,Diebe / Dea Loher ,0
+화용론,0,0.000,Georgica Vom Landbau / P. Vergilius Maro,0
+화용론,0,0.000,Helmbrecht / Wernher der Gärtner,0
+화용론,0,0.000,Momo / Wolfdietrich Rasch,0
+화용론,0,0.000,Nachkommenschaften / Adalbert Stifter,0
+화용론,0,0.000,Protokolle 71/1 / Hrsg.v.Otto Breicha,0
+화용론,0,0.000,Reflexion und Desintegration-Zur Identitätsproblematik im Wert Georg Büchners / U-Tag Yang,0
+화용론,0,0.000,Satyricon / Petron,0
+화용론,0,0.000,Spuritual Dryness / Walter Trobisch,0
+화용론,0,0.000,Stifter Vorrede zu Bunte Steine; Kalkstein / Adalbert Stifter,0
+화용론,0,0.000,Sämtliche Werke in zwei Bänden: Band I / Theodor Storm,0
+화용론,0,0.000,Vom Bauchnabel abwärts: Das Gesundheitsbuch für den Mann / A. Reitz,0
+화용론,0,0.000,도스토예프스키 장편소설 연구 -겸허와 오만의 인간학- / 김욱동,0
+화용론,0,0.000,회상과 성찰(1d) / 이창복 교수 정년퇴임기념논문 간행위원회 편,0
