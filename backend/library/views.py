@@ -17,29 +17,32 @@ class BookViewSet(viewsets.ModelViewSet):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
 
+    def _german_variant(self, keyword):
+        return keyword.replace('ae', 'ä').replace('oe', 'ö').replace('ue', 'ü').replace('ss', 'ß')
+
     def _filter_by_keyword(self, queryset, keyword):
-        """
-        제목/저자 등에 대해 키워드를 매칭하되, 독일어 움라우트 변환
-        (ae→ä, oe→ö, ue→ü, ss→ß)도 함께 시도하는 키워드 매칭 쿼리셋
-        """
+        """일반 검색: 원본 필드(제목/저자/청구기호 등) keyword 매칭 + 독일어 움라우트 변환"""
         if not keyword:
             return queryset
-
-        german_keyword = keyword.replace('ae', 'ä')\
-                                .replace('oe', 'ö')\
-                                .replace('ue', 'ü')\
-                                .replace('ss', 'ß')
+        g = self._german_variant(keyword)
         return queryset.filter(
             Q(title__icontains=keyword) |
-            Q(title__icontains=german_keyword) |
-            Q(translated_title__icontains=keyword) |
+            Q(title__icontains=g) |
             Q(author__icontains=keyword) |
-            Q(author__icontains=german_keyword) |
-            Q(translated_author__icontains=keyword) |
-            Q(language__icontains=keyword) |
+            Q(author__icontains=g) |
             Q(call_number__icontains=keyword) |
+            Q(language__icontains=keyword) |
             Q(category__icontains=keyword) |
             Q(location__icontains=keyword)
+        )
+
+    def _filter_by_translated_keyword(self, queryset, keyword):
+        """AI 검색 전용: 번역 제목/저자 keyword 매칭"""
+        if not keyword:
+            return queryset
+        return queryset.filter(
+            Q(translated_title__icontains=keyword) |
+            Q(translated_author__icontains=keyword)
         )
 
     def _apply_filters(self, queryset):
@@ -83,9 +86,17 @@ class BookViewSet(viewsets.ModelViewSet):
 
         base_qs = self._apply_filters(Book.objects.all())
 
-        keyword_books = list(self._filter_by_keyword(base_qs, query))
-        seen_ids = {book.book_id for book in keyword_books}
+        # 1단계: 원본 필드 keyword
+        direct_books = list(self._filter_by_keyword(base_qs, query))
+        seen_ids = {b.book_id for b in direct_books}
 
+        # 2단계: 번역 필드 keyword (1단계 결과 제외)
+        translated_books = list(
+            self._filter_by_translated_keyword(base_qs.exclude(book_id__in=seen_ids), query)
+        )
+        seen_ids.update(b.book_id for b in translated_books)
+
+        # 3단계: 벡터 검색 (1·2단계 결과 제외)
         try:
             vector_ids = [
                 book_id for book_id, _score in search_service.vector_search(query, top_k=30)
@@ -99,7 +110,7 @@ class BookViewSet(viewsets.ModelViewSet):
         vector_book_map = base_qs.in_bulk(vector_ids)
         vector_books = [vector_book_map[bid] for bid in vector_ids if bid in vector_book_map]
 
-        serializer = self.get_serializer(keyword_books + vector_books, many=True)
+        serializer = self.get_serializer(direct_books + translated_books + vector_books, many=True)
         return Response(serializer.data)
 
 class LoanViewSet(viewsets.ModelViewSet):
