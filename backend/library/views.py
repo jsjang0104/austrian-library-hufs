@@ -32,8 +32,10 @@ class BookViewSet(viewsets.ModelViewSet):
         return queryset.filter(
             Q(title__icontains=keyword) |
             Q(title__icontains=german_keyword) |
+            Q(translated_title__icontains=keyword) |
             Q(author__icontains=keyword) |
             Q(author__icontains=german_keyword) |
+            Q(translated_author__icontains=keyword) |
             Q(language__icontains=keyword) |
             Q(call_number__icontains=keyword) |
             Q(category__icontains=keyword) |

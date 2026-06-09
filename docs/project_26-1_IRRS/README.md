@@ -46,5 +46,5 @@ Austrian-Library-HUFS/
     ├── generate_search_text.py             # [기존 도서용] Qwen2.5-32B로 기존 도서 search_text 일괄 생성 → DB 저장
     ├── build_faiss_local.py                # [기존 도서용] 로컬 GPU에서 모델 직접 로드 → FAISS 인덱스 빌드
     ├── embedding_log.csv                   # [보고서 전용 (기존 도서)]: 도서별 입력 텍스트 샘플 (title, author, search_text)
-    └── model_comparison/                   # 검색 시스템 평가
+    └── system_comparison/                  # 검색 시스템 평가
 ```

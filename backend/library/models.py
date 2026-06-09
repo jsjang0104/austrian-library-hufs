@@ -56,6 +56,8 @@ class Book(models.Model):
         "분야", max_length=20, choices=Category.choices, default=Category.SONSTIGES
     )
     search_text = models.TextField("LLM 생성 맥락 텍스트", null=True, blank=True)
+    translated_title = models.TextField("제목 번역", null=True, blank=True)
+    translated_author = models.CharField("저자 번역", max_length=255, null=True, blank=True)
 
     registrar_manager = models.ForeignKey(
         Manager, on_delete=models.SET_NULL, null=True, verbose_name="최초 등록 관리자", related_name="registered_books"

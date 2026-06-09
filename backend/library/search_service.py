@@ -67,9 +67,26 @@ def embed_texts(texts):
     return vectors / norms
 
 
+_CATEGORY_TRANSLATION = {
+    "문학": "Literatur", "어학": "Sprachwissenschaft",
+    "역사": "Geschichte", "사회과학": "Sozialwissenschaften", "기타": "Sonstiges",
+}
+
+
 def book_text(book) -> str:
-    """임베딩 대상 텍스트: 제목 + 저자 + 분야 + LLM 생성 맥락"""
-    parts = [book.title, book.author or "", book.category or "", book.search_text or ""]
+    """
+    임베딩 입력 텍스트:
+    title + title(번역) + author + author(번역) + category + category(번역) + 맥락
+    """
+    parts = [
+        book.title,
+        book.translated_title or "",
+        book.author or "",
+        book.translated_author or "",
+        book.category or "",
+        _CATEGORY_TRANSLATION.get(book.category, ""),
+        book.search_text or "",
+    ]
     return " ".join(p for p in parts if p).strip()
 
 
