@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 EMBEDDING_DIM = 384  # paraphrase-multilingual-MiniLM-L12-v2 출력 차원
 
-_HF_API_URL = f"https://api-inference.huggingface.co/models/{EMBEDDING_MODEL_NAME}"
+_HF_API_URL = f"https://router.huggingface.co/hf-inference/models/{EMBEDDING_MODEL_NAME}/pipeline/feature-extraction"
 _HF_BATCH_SIZE = 32
 _HF_TIMEOUT = 60
 
