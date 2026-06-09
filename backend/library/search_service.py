@@ -67,9 +67,10 @@ def embed_texts(texts):
     return vectors / norms
 
 
-def book_text(title, author):
-    """임베딩 대상 텍스트: 제목 + 저자"""
-    return f"{title} {author}".strip() if author else title
+def book_text(book) -> str:
+    """임베딩 대상 텍스트: 제목 + 저자 + 분야 + LLM 생성 맥락"""
+    parts = [book.title, book.author or "", book.category or "", book.search_text or ""]
+    return " ".join(p for p in parts if p).strip()
 
 
 def _empty_index():
@@ -108,7 +109,7 @@ def add_books(books):
     """
     if not books:
         return
-    texts = [book_text(book.title, book.author) for book in books]
+    texts = [book_text(book) for book in books]
     vectors = embed_texts(texts)
     ids = np.array([book.book_id for book in books], dtype="int64")
     with _lock:

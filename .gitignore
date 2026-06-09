@@ -9,8 +9,11 @@ settings_local.py           # Django 로컬 설정 파일
 db.sqlite3
 backend/dq.sqlite3
 
-# 검색 인덱스 등 DB로부터 재생성 가능한 산출물 (배포 시 build_search_index로 재구축)
-backend/media/
+# 검색 인덱스 등 DB로부터 재생성 가능한 산출물
+backend/media/*
+!backend/media/search_index/
+backend/media/search_index/*
+!backend/media/search_index/books.faiss
 
 ## 2. 로그 및 임시 파일
 #####################
