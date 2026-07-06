@@ -41,7 +41,7 @@ class Book(models.Model):
     )
     
     location_validator = RegexValidator(
-        regex=r'^[A-D]\d-\d+$',
+        regex=r'^[A-D]\d+-\d+$',
         message="도서 위치는 'A~D(숫자)-(숫자)' 형식이어야 합니다. (예: A1-4)"
     )
     location = models.CharField(
