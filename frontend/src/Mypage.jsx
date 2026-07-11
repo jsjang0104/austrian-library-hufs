@@ -88,7 +88,7 @@ function MyPage() {
                     return (
                       <tr key={loan.loan_id || index}>
                         <td>{index + 1}</td>
-                        <td className="text-left" style={{fontWeight: 'bold'}}>
+                        <td className="text-left" style={{fontWeight: 500}}>
                             {bookTitle}
                         </td>
                         <td>{formatDate(loan.loan_date)}</td>
@@ -96,7 +96,7 @@ function MyPage() {
                         
                         <td style={{ 
                           color: isOverdue ? 'red' : 'green', 
-                          fontWeight: 'bold' 
+                          fontWeight: 500
                         }}>
                           {isOverdue ? '연체중' : '정상'}
                         </td>

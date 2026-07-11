@@ -77,7 +77,7 @@ function BoardPage() {
                       fontSize: '1.1rem', 
                       textDecoration: 'none', 
                       color: '#333', 
-                      fontWeight: 'bold' 
+                      fontWeight: 500
                     }}
                   >
                     {notice.title} 
