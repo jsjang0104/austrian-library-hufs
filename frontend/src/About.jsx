@@ -114,10 +114,15 @@ function About() {
           Metric: Recall@30, 쿼리셋 29개 (ground truth를 운영 DB 기준으로 재구축)<br />
           <br />
           <strong>평균 Recall@30</strong><br />
-          키워드 검색: 0.023 &nbsp;/&nbsp; 하이브리드 검색(개편 전, Qwen2.5+MiniLM): 0.031 &nbsp;/&nbsp; 하이브리드 검색(개편 후, Qwen3.6+e5-large): 0.339<br />
+          키워드 검색: 0.023 &nbsp;/&nbsp; 하이브리드 검색(개편 후, Qwen3.6+e5-large): 0.339<br />
           <br />
-          맥락 텍스트 품질 개선과 임베딩 모델 업그레이드로 개편 전 대비 약 11배의 검색 품질 향상을 달성했습니다.
-          '마의 산', '귄터 그라스' 등 기존에 검색이 불가능했던 쿼리들이 정상 검색됩니다(Recall 0 → 1.00, 0.86).
+          맥락 텍스트 품질 개선과 임베딩 모델 업그레이드로 개편 전 대비 약 11배의 검색 품질 향상을 달성했습니다.<br />
+          <br />
+          관용 번역 제목이 번역 데이터에 반영되어 '마의 산'(Der Zauberberg)처럼 기존에 검색 불가능했던 도서를 찾을 수 있게 되었고,
+          나아가 제목·저자에 검색어가 전혀 포함되지 않아도 의미 기반으로 도서가 검색됩니다.
+          예를 들어 '베를린 장벽'을 검색하면 Ein Loch in der Mauer가,
+          '모험 소설'을 검색하면 쥘 베른의 Meister Antifers wunderbare Abenteuer가,
+          '독일어 인명 사전'을 검색하면 Lexikon literarischer Gestalten이 벡터 유사도만으로 반환됩니다.
           </p>
           <br />
       </div>
