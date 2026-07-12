@@ -107,7 +107,7 @@ function Search() {
               type="button"
               className={`ai-search-btn${aiSearch ? ' active' : ''}`}
               onClick={handleAISearch}
-              title="AI 검색 모드: 의미 기반 하이브리드 검색을 사용합니다"
+              title="AI 검색 모드: 의미 기반 하이브리드 검색을 사용합니다 (몇 초 정도 걸릴 수 있어요)"
             >
               ✦ AI 검색
             </button>
@@ -157,7 +157,7 @@ function Search() {
       <div className="info-section">
         <h2>검색 결과</h2>
         {loading ? (
-          <p className="loading-msg">데이터를 불러오는 중입니다...</p>
+          <p className="loading-msg">{aiSearch ? 'AI가 의미가 비슷한 도서를 찾고 있어요... (몇 초 걸릴 수 있어요)' : '데이터를 불러오는 중입니다...'}</p>
         ) : (
           <>
             <div className="table-container">
