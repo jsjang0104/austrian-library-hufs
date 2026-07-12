@@ -204,20 +204,23 @@ function Layout() {
       <footer className="footer">
         <div className="footer-content">
           <address className="element">
-            <strong>주소</strong><br />
+            <strong>Adresse | 주소</strong><br />
             02450 서울특별시 동대문구 이문로 107 한국외국어대학교 서울캠퍼스 본관 301호<br />
-            서양어대학 독일어과 오스트리아도서관<br /><br />
-            <strong>TEL.</strong> 02-2173-2283<br />
-            <strong>Email.</strong> deutsch@hufs.ac.kr
+            서양어대학 독일어과 오스트리아도서관<br />
+            Österreichische Bibliothek, Institut für Germanistik<br />
+            Hankuk University of Foreign Studies, Hauptgebäude Raum 301, Imun-ro 107, Dongdaemun-gu, 02450 Seoul<br /><br />
+            <strong>Tel.</strong> 02-2173-2283<br />
+            <strong>E-Mail.</strong> deutsch@hufs.ac.kr
           </address>
           <div className="element operating-hours">
-            <strong>운영 시간</strong><br />
-            학기 중 09:00~17:00<br />
-            방학 중 10:00~15:00<br />
-            점심시간 12:00~13:00
+            <strong>Öffnungszeiten | 운영 시간</strong><br />
+            학기 중 (Vorlesungszeit) 09:00~17:00<br />
+            방학 중 (Semesterferien) 10:00~15:00<br />
+            점심시간 (Mittagspause) 12:00~13:00
           </div>
           <div className="element-developer">
-            <strong>홈페이지 개발 및 도서관 운영 총괄</strong><br />Jisoo Jang (독일어 24') <a href="mailto:jsjang07028@gmail.com">jsjang07028@gmail.com</a>
+            <strong>Webentwicklung & Bibliotheksleitung | 홈페이지 개발 및 도서관 운영 총괄</strong><br />
+            장지수 Jisoo Jang (Germanistik '24) <a href="mailto:jsjang07028@gmail.com">jsjang07028@gmail.com</a>
           </div>
         </div>
       </footer>
