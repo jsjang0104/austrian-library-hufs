@@ -1,0 +1,780 @@
+﻿call_number,title,author,status,language,location,category
+c12-1_27616_17179_L_kr_1,바흐 (Johann Sebastian Bach),마르틴 게크,AVAILABLE,KR,C12-1,문학
+c12-1_98365_66130_G_kr_1,Jeff Koons 제프 쿤스,라이날트 괴츠 (Rainald Götz),AVAILABLE,KR,C12-1,역사
+c12-1_85401_97563_L_kr_1,파우스트 2,요한 볼프강 폰 괴테,AVAILABLE,KR,C12-1,문학
+c12-1_33924_97563_L_kr_1,이피게니에 스텔라,요한 볼프강 폰 괴테,AVAILABLE,KR,C12-1,문학
+c12-1_26673_97563_SZ_kr_1,빌헬름 마이스터의 수업시대 2,요한 볼프강 폰 괴테,AVAILABLE,KR,C12-1,사회과학
+c12-1_43697_89883_L_kr_1,빌헬름 마이스터의 편력시대 1,괴테 (Johann Wolfgang von Goethe),AVAILABLE,KR,C12-1,문학
+c12-1_49415_89883_L_kr_1,빌헬름 마이스터의 편력시대 2,괴테 (Johann Wolfgang von Goethe),AVAILABLE,KR,C12-1,문학
+c12-1_35590_97563_L_kr_1,"진실, 지혜 그리고 괴테",요한 볼프강 폰 괴테,AVAILABLE,KR,C12-1,문학
+c12-1_84960_60484_L_kr_1,괴테,J. W. V 괴테 / 金柱演 譯註(김주연 역주),AVAILABLE,KR,C12-1,문학
+c12-1_19164_84960_L_kr_1,젊은 베르테르의 슬픔 (DIE LEIDEN DES JUNGEN WERTHERS),괴테,AVAILABLE,KR,C12-1,문학
+c12-1_37653_84960_L_kr_1,젊은 베르테르의 슬픔 - 헤르만과 도로테아,괴테,AVAILABLE,KR,C12-1,문학
+c12-1_13397_97563_L_kr_1,서동 시집 (GOETHE WEST-ÖSTLICHER DIVAN),요한 볼프강 폰 괴테,AVAILABLE,KR,C12-1,문학
+c12-1_26445_97563_L_kr_1,서동 시집,요한 볼프강 폰 괴테,AVAILABLE,KR,C12-1,문학
+c12-1_71512_84960_L_kr_1,"서동 시집 (西東 詩集, West-östlicher Divan)",괴테,AVAILABLE,KR,C12-1,문학
+c12-1_94466_48652_L_kr_1,살아남은 자의 슬픔,브레히트,AVAILABLE,KR,C12-1,문학
+c12-1_47936_84960_L_kr_1,예술론 Schriften zur Kunst,괴테,AVAILABLE,KR,C12-1,문학
+c12-1_42165_84960_L_kr_1,프로메테우스(외),괴테,AVAILABLE,KR,C12-1,문학
+c12-1_01368_53057_L_kr_1,양철북 1 Die Blechtrommel,귄터 그라스,AVAILABLE,KR,C12-1,문학
+c12-1_25780_53057_L_kr_1,양철북 2 Die Blechtrommel,귄터 그라스,AVAILABLE,KR,C12-1,문학
+c12-1_27058_91339_G_kr_1,Mein Jahrhundert 나의 세기 1,귄터 그라스 Günter Grass,AVAILABLE,KR,C12-1,역사
+c12-1_99239_91339_G_kr_1,Mein Jahrhundert 나의 세기 2,귄터 그라스 Günter Grass,AVAILABLE,KR,C12-1,역사
+c12-1_12285_53057_L_kr_1,무당개구리 울음 -談說(담설)-,귄터 그라스,AVAILABLE,KR,C12-1,문학
+c12-1_90859_53057_G_kr_1,텔크테에서의 만남 Das Treffen in Telgte,귄터 그라스,AVAILABLE,KR,C12-1,역사
+c12-1_30113_64837_L_kr_1,Medea 메데이아,프란츠 그릴파르처 Franz Grillparzer,AVAILABLE,KR,C12-1,문학
+c12-2_96804_31713_L_kr_1,독일어판 완전 번역 그림 동화 1,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_68482_31713_L_kr_1,독일어판 완전 번역 그림 동화 2,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_82810_31713_L_kr_1,독일어판 완전 번역 그림 동화 3,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_25095_31713_L_kr_1,독일어판 완전 번역 그림 동화 4,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_24248_31713_L_kr_1,독일어판 완전 번역 그림 동화 5,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_60399_31713_L_kr_1,독일어판 완전 번역 그림 동화 6,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_17196_31713_L_kr_1,독일어판 완전 번역 그림 동화 7,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_61502_31713_L_kr_1,독일어판 완전 번역 그림 동화 8,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_21797_31713_L_kr_1,독일어판 완전 번역 그림 동화 9,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_39086_31713_L_kr_1,독일어판 완전 번역 그림 동화 10,그림 형제,AVAILABLE,KR,C12-2,문학
+c12-2_65911_86587_L_kr_1,탈리스만 (마스코트),요한 네포묵 네스트로이,AVAILABLE,KR,C12-2,문학
+c12-2_66741_06051_L_kr_1,늦어도 11월에는 Spätestens im November,한스 에리히 노삭,AVAILABLE,KR,C12-2,문학
+c12-2_91307_84199_L_kr_1,니벨룽겐의 노래 • 상 독일의 영웅서사시,허창운,AVAILABLE,KR,C12-2,문학
+c12-2_44106_84199_L_kr_1,니벨룽겐의 노래 • 하 독일의 영웅서사시,허창운,AVAILABLE,KR,C12-2,문학
+c12-2_62334_63243_L_kr_1,아무에게도 말하고 싶지않은 사랑,E. M. 레마르크,AVAILABLE,KR,C12-2,문학
+c12-2_44342_45718_L_kr_1,Nathan der Weise 현자 나탄,고트홀트 레싱 Gotthold E. Lessing,AVAILABLE,KR,C12-2,문학
+c12-2_91892_23120_SP_kr_1,Der Große Katechismus 대교리문답,마르틴 루터,AVAILABLE,KR,C12-2,어학
+c12-2_77606_98080_L_kr_1,고원의 사랑 옥중기 Luise Rinser Gefängnistagebuch,루이제 린저,AVAILABLE,KR,C12-2,문학
+c12-2_81344_29031_L_kr_1,"첫 시집들, 초기 시들, 백의의 후작부인, 기수 크리스토프 릴케의 사랑과 죽음의 노래, 기도시집",Rainer Maria RILKE,AVAILABLE,KR,C12-2,문학
+c12-2_53882_29031_L_kr_1,"형상시집, 신시집, 진혼곡, 마리아의 생애, 두이노의 비가, 오르페우스에게 바치는 소네트",Rainer Maria RILKE,AVAILABLE,KR,C12-2,문학
+c12-2_89747_29031_L_kr_1,헌시 • 시작노트,Rainer Maria RILKE,AVAILABLE,KR,C12-2,문학
+c12-2_34326_29031_L_kr_1,초기 시와 서정적 희곡 삶과 노래 치커리 • 그대의 축제를 위하여,Rainer Maria RILKE,AVAILABLE,KR,C12-2,문학
+c12-2_60036_29031_L_kr_1,시인이 직접 발표한 시와 유고,Rainer Maria RILKE,AVAILABLE,KR,C12-2,문학
+c12-2_39006_29031_L_kr_1,"단편소설 삶의 저편으로, 두 편의 프라하 이야기, 마지막 사람들, 사랑하는 신 이야기",Rainer Maria RILKE,AVAILABLE,KR,C12-2,문학
+c12-2_81021_29031_L_kr_1,"산문집(1893~1902) 황금빛 상자, 사도, 무덤 파는 사람 외",Rainer Maria RILKE,AVAILABLE,KR,C12-2,문학
+c12-3_05592_29031_L_kr_1,보르프스베데 · 로댕론,Rainer Maria RILKE,AVAILABLE,KR,C12-3,문학
+c12-3_31879_29031_L_kr_1,"예술론(1893~1905) 현대 서정시, 사물의 멜로디, 예술에 대하여 외",Rainer Maria RILKE,AVAILABLE,KR,C12-3,문학
+c12-3_88661_29031_L_kr_1,말테의 수기,Rainer Maria RILKE,AVAILABLE,KR,C12-3,문학
+c12-3_70519_29031_L_kr_1,"예술론(1906~1926) 시인에 대하여, 체험, 근원적 음향 외",Rainer Maria RILKE,AVAILABLE,KR,C12-3,문학
+c12-3_84744_61329_L_kr_1,서양 중세·르네상스 철학 강의,에른스트 블로흐,AVAILABLE,KR,C12-3,문학
+c12-3_56697_06665_SZ_kr_1,선택된 인간 DER ERWÄHLTE,토마스 만,AVAILABLE,KR,C12-3,사회과학
+c12-3_20960_06665_L_kr_1,부덴브로크 가의 사람들 1 Buddenbrooks. Verfall einer Familie,토마스 만,AVAILABLE,KR,C12-3,문학
+c12-3_16827_06665_L_kr_1,부덴브로크 가의 사람들 2 Buddenbrooks. Verfall einer Familie,토마스 만,AVAILABLE,KR,C12-3,문학
+c12-3_32549_06665_L_kr_1,토니오 크뢰거 트리스탄 Tonio Kröger / Tristan,토마스 만,AVAILABLE,KR,C12-3,문학
+c12-3_36333_06665_L_kr_1,마의 산 상 Der Zauberberg,토마스 만,AVAILABLE,KR,C12-3,문학
+c12-3_78083_06665_L_kr_1,마의 산 하 Der Zauberberg,토마스 만,AVAILABLE,KR,C12-3,문학
+c12-3_82626_47500_L_kr_1,푸른 천사,하인리히 만,AVAILABLE,KR,C12-3,문학
+c12-3_25960_75402_L_kr_1,獨逸人(독일인)의 사랑,M · 뮐러,AVAILABLE,KR,C12-3,문학
+c12-3_89621_15380_G_kr_1,숨그네,헤르타 뮐러,AVAILABLE,KR,C12-3,역사
+c12-3_48426_68837_SP_kr_1,Linguistik der Lüge 거짓말의 언어학,하랄트 바인리히,AVAILABLE,KR,C12-3,어학
+c12-3_48426_68837_SP_kr_2,Linguistik der Lüge 거짓말의 언어학,하랄트 바인리히,AVAILABLE,KR,C12-3,어학
+c12-3_48426_68837_SP_kr_3,Linguistik der Lüge 거짓말의 언어학,하랄트 바인리히,AVAILABLE,KR,C12-3,어학
+c12-3_73521_39109_L_kr_1,보리스를 위한 파티,토마스 베른하르트,AVAILABLE,KR,C12-3,문학
+c12-3_53635_39109_G_kr_1,옛 거장들,토마스 베른하르트,AVAILABLE,KR,C12-3,역사
+c12-3_97887_57710_L_kr_1,아에네이스 Aeneis,베르길리우스,AVAILABLE,KR,C12-3,문학
+c12-3_22586_39109_L_kr_1,모자,토마스 베른하르트,AVAILABLE,KR,C12-3,문학
+c12-3_92875_39698_L_kr_1,코카시아의 백묵원 Der kaukasische Kreidekreis,베르톨트 브레히트,AVAILABLE,KR,C12-3,문학
+c12-3_48921_39109_L_kr_1,원인,토마스 베른하르트,AVAILABLE,KR,C12-3,문학
+c12-3_42350_99573_L_kr_1,The Uses of Enchantment 옛이야기의 매력 1,브루노 베텔하임,AVAILABLE,KR,C12-3,문학
+c12-3_91260_99573_L_kr_1,The Uses of Enchantment 옛이야기의 매력 2,브루노 베텔하임,AVAILABLE,KR,C12-3,문학
+c12-3_64448_92585_L_kr_1,"베토벤, 불멸의 편지",루드비히 판 베토벤,AVAILABLE,KR,C12-3,문학
+c12-3_18509_80297_G_kr_1,지구 반대편을 향한 달 이야기 Der erdabgewandte Seite der Geschichte,니콜라스 보른,AVAILABLE,KR,C12-3,역사
+c12-3_96953_42058_G_de_1,"Wo warst du, Adam?",Heirich Böll,AVAILABLE,DE,C12-3,역사
+c12-3_95526_45551_L_kr_1,"아담, 너는 어디에 있었느냐",하인리히 뵐,AVAILABLE,KR,C12-3,문학
+c12-3_26227_42058_L_kr_1,유언,Heirich Böll,AVAILABLE,KR,C12-3,문학
+c12-3_26227_42058_L_kr_2,유언,Heirich Böll,AVAILABLE,KR,C12-3,문학
+c12-3_73526_45551_L_kr_1,카타리나 블룸의 잃어버린 명예 Der verlorene Ehre der Katharina Blum,하인리히 뵐,AVAILABLE,KR,C12-3,문학
+c12-3_12028_45551_L_kr_1,그리고 아무말도 하지 않았다,하인리히 뵐,AVAILABLE,KR,C12-3,문학
+c12-3_99314_45551_L_kr_1,Der Zug war pünktlich 열차는 정확했다,하인리히 뵐,AVAILABLE,KR,C12-3,문학
+c12-3_53971_47163_L_kr_1,브레히트의 연인,한스 붕에,AVAILABLE,KR,C12-3,문학
+c12-3_42886_93721_L_kr_1,Dantons Tod 당통의 죽음,Georg Büchner,AVAILABLE,KR,C12-3,문학
+c12-3_40047_91185_L_kr_1,平和(평화)의 哲學(철학),빌리 브란트,AVAILABLE,KR,C12-3,문학
+c12-3_40047_91185_L_kr_2,平和(평화)의 哲學(철학),빌리 브란트,AVAILABLE,KR,C12-3,문학
+c12-4_16937_39698_G_kr_1,Der Aufstieg des Arturo Ui 아르투로 우이의 출세,베르톨트 브레히트,AVAILABLE,KR,C12-4,역사
+c12-4_64216_45718_L_kr_1,Emilia Galotti 에밀리아 갈로티,고트홀트 레싱 Gotthold E. Lessing,AVAILABLE,KR,C12-4,문학
+c12-4_69250_02121_L_kr_1,브레히트의 연극 세계,한국브레히트학회,AVAILABLE,KR,C12-4,문학
+c12-4_69805_67084_L_kr_1,"브레히트 희곡선집1 서푼짜리 오페라, 동의자와 거부자, 예외와 관습",임한순,AVAILABLE,KR,C12-4,문학
+c12-4_91869_67084_L_kr_1,"브레히트 희곡선집2 갈릴래이의 생애, 사천의 선인",임한순,AVAILABLE,KR,C12-4,문학
+c12-4_81023_02121_L_kr_1,브레히트 선집 2 희곡,한국브레히트학회,AVAILABLE,KR,C12-4,문학
+c12-4_95768_02121_L_kr_1,브레히트 선집 3 희곡,한국브레히트학회,AVAILABLE,KR,C12-4,문학
+c12-4_62918_02121_L_kr_1,브레히트 선집 4 영화,한국브레히트학회,AVAILABLE,KR,C12-4,문학
+c12-4_12116_02121_L_kr_1,브레히트 선집 5 시,한국브레히트학회,AVAILABLE,KR,C12-4,문학
+c12-4_68008_02121_L_kr_1,브레히트 선집 6 시,한국브레히트학회,AVAILABLE,KR,C12-4,문학
+c12-4_82262_91522_G_kr_1,마하고니 시의 번영과 몰락,베어톨트 브레히트,AVAILABLE,KR,C12-4,역사
+c12-4_26997_45594_L_kr_1,정상의 개들,우르스 비드머,AVAILABLE,KR,C12-4,문학
+c12-4_95666_91630_L_kr_1,여자들은 기다림과 씨름한다,페터 빅셀,AVAILABLE,KR,C12-4,문학
+c12-4_98535_85149_L_kr_1,존넨알레,토마스 부루시히 (Thomas Brussig),AVAILABLE,KR,C12-4,문학
+c12-4_75161_92866_L_kr_1,우리 같은 영웅들,Thomas Brussig,AVAILABLE,KR,C12-4,문학
+c12-4_76401_26569_L_kr_1,세비야의 건달들,세르반테스,AVAILABLE,KR,C12-4,문학
+c12-4_02460_86179_L_kr_1,메시나의 신부 Die Braut von Messina,프리드리히 쉴러,AVAILABLE,KR,C12-4,문학
+c12-4_82819_94963_L_kr_1,삶을 위학 죽음의 미학,이창복,AVAILABLE,KR,C12-4,문학
+c12-4_47518_94684_G_kr_1,생도 퇴를레스의 혼란,로베르트 무질,AVAILABLE,KR,C12-4,역사
+c12-4_04867_86179_L_kr_1,간계와 사랑 • 빌헬름 텔 Kabale und Liebe • Wilhelm Tell,프리드리히 쉴러,AVAILABLE,KR,C12-4,문학
+c12-4_13957_70168_L_kr_1,신비의 혀 페르시나 소네트,샴세딘 모함마드 허페즈 쉬러지,AVAILABLE,KR,C12-4,문학
+c12-4_10105_22176_L_kr_1,짝짓기,페터 슈나이더,AVAILABLE,KR,C12-4,문학
+c12-4_04626_55318_L_kr_1,죽은 자는 말이 없다,아르투어 슈니츨러,AVAILABLE,KR,C12-4,문학
+c12-4_95523_55318_L_kr_1,마지막 도박 Spiel im Morgengrauen,아르투어 슈니츨러,AVAILABLE,KR,C12-4,문학
+c12-4_53126_55318_L_kr_1,사랑의 묘약,아르투어 슈니츨러,AVAILABLE,KR,C12-4,문학
+c12-4_59273_37063_L_kr_1,카사노바,아르뛰르 슈니츨러,AVAILABLE,KR,C12-4,문학
+c12-4_10292_55318_L_kr_1,Reigen 윤무,아르투어 슈니츨러,AVAILABLE,KR,C12-4,문학
+c12-4_64048_06291_L_kr_1,빌헬름 텔 WILHELM TELL,F. 쉴러,AVAILABLE,KR,C12-4,문학
+c12-4_63280_51748_L_kr_1,귀향,베른하르트 슐링크,AVAILABLE,KR,C12-4,문학
+c12-4_09923_75493_G_kr_1,오이디푸스王(왕),소포클레스,AVAILABLE,KR,C12-4,역사
+c12-5_57736_83392_SZ_kr_1,시민쉽펠,칼 슈테른하임,AVAILABLE,KR,C12-5,사회과학
+c12-5_99709_34798_L_kr_1,인간이해 Menschenkenntnis,알프레드 아들러,AVAILABLE,KR,C12-5,문학
+c12-5_73353_21497_L_kr_1,아침부터 자정까지 Von morgens bis mitternachts,게오르크 카이저,AVAILABLE,KR,C12-5,문학
+c12-5_63218_19402_L_kr_1,향수: 어느 살인자의 이야기 Das Parfum,파트리크 쥐스킨트,AVAILABLE,KR,C12-5,문학
+c12-5_63218_19402_L_kr_2,향수: 어느 살인자의 이야기 Das Parfum,파트리크 쥐스킨트,AVAILABLE,KR,C12-5,문학
+c12-5_45617_34427_L_kr_1,끝없는 이야기,미하엘 엔데,AVAILABLE,KR,C12-5,문학
+c12-5_60218_47736_L_kr_1,추(醜)와 문학,김충남,AVAILABLE,KR,C12-5,문학
+c12-5_93921_19402_L_kr_1,좀머 씨 이야기,파트리크 쥐스킨트,AVAILABLE,KR,C12-5,문학
+c12-5_72972_17166_L_kr_1,로시니 혹은 누가 누구와 잤는가 하는 잔인한 문제,헬무트 디틀 · 파트리크 쥐스킨트,AVAILABLE,KR,C12-5,문학
+c12-5_30749_95721_L_kr_1,장미와불의꿈 Träume von Rosen und Feuer,어이빈드 욘손 Eyvind Johnson,AVAILABLE,KR,C12-5,문학
+c12-5_87116_94963_G_kr_1,"어제보다 늙은, 내일보다 젊은: 우리 삶을 의미 있게 하는 것들에 대하여",이창복,AVAILABLE,KR,C12-5,역사
+c12-5_75624_65606_L_kr_1,Great German Short Stories 독일 단편 걸작선,E.T.A. Hoffmann / R.M.Rilke / T.Mann / H.Hesse / F.Kafka,AVAILABLE,KR,C12-5,문학
+c12-5_84940_25981_L_kr_1,죽음의 푸가,파울 첼란,AVAILABLE,KR,C12-5,문학
+c12-5_66270_12982_G_kr_1,인간 발자크,슈테판 츠바이크,AVAILABLE,KR,C12-5,역사
+c12-5_79848_12982_G_kr_1,광기와 우연의 역사: 인류 역사를 바꾼 운명의 순간들,슈테판 츠바이크,AVAILABLE,KR,C12-5,역사
+c12-5_34578_12982_L_kr_1,연민: 사랑할 때 버려야 할 지독한 감정,슈테판 츠바이크,AVAILABLE,KR,C12-5,문학
+c12-5_19343_12982_L_kr_1,슈테판 츠바이크의 에라스무스 평전: 종교의 광기에 맞서 싸운 인문주의자,슈테판 츠바이크,AVAILABLE,KR,C12-5,문학
+c12-5_87861_12982_L_kr_1,슈테판 츠바이크의 메리 스튜어트,슈테판 츠바이크,AVAILABLE,KR,C12-5,문학
+c12-5_57102_21497_L_kr_1,메두사의 뗏목 Das Floß der Medusa,게오르크 카이저,AVAILABLE,KR,C12-5,문학
+c12-5_36662_42763_L_kr_1,탁월한 지혜(智慧): 비범한 인물들과의 대화,F. 카프라,AVAILABLE,KR,C12-5,문학
+c12-5_99415_25930_SZ_kr_1,심판(審判),프란츠 카프라,AVAILABLE,KR,C12-5,사회과학
+c12-5_99415_25930_SZ_kr_2,심판(審判),프란츠 카프라,AVAILABLE,KR,C12-5,사회과학
+c12-5_99415_25930_SZ_kr_3,심판(審判),프란츠 카프라,AVAILABLE,KR,C12-5,사회과학
+c12-5_99415_25930_SZ_kr_4,심판(審判),프란츠 카프라,AVAILABLE,KR,C12-5,사회과학
+c12-5_30184_62286_L_kr_1,오드라덱이 들려주는 이야기,프란츠 카프카,AVAILABLE,KR,C12-5,문학
+c12-5_37054_62286_L_kr_1,카프카 전집5 성,프란츠 카프카,AVAILABLE,KR,C12-5,문학
+c12-5_51029_62286_SZ_kr_1,젊은 산책가의 노트,프란츠 카프카,AVAILABLE,KR,C12-5,사회과학
+c12-5_11744_62286_L_kr_1,카프카의 편지: 밀레나에게 Briefe an Milena,프란츠 카프카,AVAILABLE,KR,C12-5,문학
+c12-5_38159_23400_L_kr_1,블루프린트 Blueprint,샤를로테 케르너,AVAILABLE,KR,C12-5,문학
+c12-5_88920_59754_L_kr_1,옷이 날개外,곳트프리드 켈러,AVAILABLE,KR,C12-5,문학
+c12-5_24321_62286_SZ_kr_1,소송,프란츠 카프카,AVAILABLE,KR,C12-5,사회과학
+c12-5_92422_75977_L_kr_1,武士들(무사들),쥴리아 크리스테바,AVAILABLE,KR,C12-5,문학
+c12-6_68049_35425_G_kr_1,초록의 하인리히 1,고트프리트 켈러,AVAILABLE,KR,C12-6,역사
+c12-6_74447_35425_G_kr_1,초록의 하인리히 2,고트프리트 켈러,AVAILABLE,KR,C12-6,역사
+c12-6_88359_67784_L_kr_1,망가진 시대 에리히 케스트너의 삶과 문학,클라우스 코르돈,AVAILABLE,KR,C12-6,문학
+c12-6_61191_39772_L_kr_1,소설의 곡예사,헬무트 코프만,AVAILABLE,KR,C12-6,문학
+c12-6_61191_39772_L_kr_2,소설의 곡예사,헬무트 코프만,AVAILABLE,KR,C12-6,문학
+c12-6_69490_65286_G_kr_1,슈타지 문서의 비밀,후베르투스 크나베,AVAILABLE,KR,C12-6,역사
+c12-6_74905_37913_L_kr_1,시 Gedichte,라이너 쿤체,AVAILABLE,KR,C12-6,문학
+c12-6_58146_72465_L_kr_1,예술을 사랑하는 어느 수도사의 심정 토로 Hezensergiecungen eines kunstliebenden Klosterbruders,"빌헬름 바켄로더, 루트비히 티크",AVAILABLE,KR,C12-6,문학
+c12-6_37248_72465_L_kr_1,예술을 사랑하는 어느 수도사의 심정 토로 Hezensergießungen eines kunstliebenden Klosterbruders,"빌헬름 바켄로더, 루트비히 티크",AVAILABLE,KR,C12-6,문학
+c12-6_97524_72465_L_kr_1,예술에 관한 판타지 Phantasien über die Kunst,"빌헬름 바켄로더, 루트비히 티크",AVAILABLE,KR,C12-6,문학
+c12-6_97524_72465_L_kr_2,예술에 관한 판타지 Phantasien über die Kunst,"빌헬름 바켄로더, 루트비히 티크",AVAILABLE,KR,C12-6,문학
+c12-6_43866_96680_L_kr_1,뜨거운 여름 Heißer Sommer,우베 팀,AVAILABLE,KR,C12-6,문학
+c12-6_54795_89909_L_kr_1,에피 브리스트 EFFI BRIEST,테오도르 폰타네,AVAILABLE,KR,C12-6,문학
+c12-6_21829_75962_SZ_kr_1,정신분석강의,지그문트 프로이트,AVAILABLE,KR,C12-6,사회과학
+c12-6_78891_09369_L_kr_1,피상성 예찬 매체 현상학을 위하여,빌렘 플루서,AVAILABLE,KR,C12-6,문학
+c12-6_88254_67625_L_kr_1,페널티킥 앞에 선 골키퍼의 불안,페터 한트케,AVAILABLE,KR,C12-6,문학
+c12-6_36691_67625_L_kr_1,소망 없는 불행,페터 한트케,AVAILABLE,KR,C12-6,문학
+c12-6_42237_47657_L_kr_1,너는 한송이 꽃과 같으니,H. 하이네(Heinrich Heine),AVAILABLE,KR,C12-6,문학
+c12-6_49025_15170_L_kr_1,회상록 Memorien,하인리히 하이네,AVAILABLE,KR,C12-6,문학
+c12-6_35115_64700_SZ_kr_1,환상동화집 Die Märchen,헤르만 헤세,AVAILABLE,KR,C12-6,사회과학
+c12-6_31549_23797_L_kr_1,헤르만 헤세와 동양의 지혜 '진정한 나'를 찾으려는 사람들을 위하여 HERMANN HESSE UND DIE ÖSTLICHE WEISHEIT,李仁雄 (이인웅),AVAILABLE,KR,C12-6,문학
+c12-6_31549_23797_L_kr_2,헤르만 헤세와 동양의 지혜 '진정한 나'를 찾으려는 사람들을 위하여 HERMANN HESSE UND DIE ÖSTLICHE WEISHEIT,李仁雄 (이인웅),AVAILABLE,KR,C12-6,문학
+c12-6_31549_23797_L_kr_3,헤르만 헤세와 동양의 지혜 '진정한 나'를 찾으려는 사람들을 위하여 HERMANN HESSE UND DIE ÖSTLICHE WEISHEIT,李仁雄 (이인웅),AVAILABLE,KR,C12-6,문학
+c12-6_70710_64700_L_kr_1,페터 카멘친트 · 게르트루트 Peter Camenzind·Gertrud,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_16104_63655_L_kr_1,유리알 유희 Das Glasperlenspel,헤르만 헤세 Hermann Hesse,AVAILABLE,KR,C12-6,문학
+c12-6_80634_64700_L_kr_1,동방순례 Die Morgenlandfahrt,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_80634_64700_L_kr_2,동방순례 Die Morgenlandfahrt,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_87930_64700_L_kr_1,크눌프 · 데미안,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_54727_64700_L_kr_1,기다린다는 건 쓸쓸한 소망 하나를 가슴에···,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_10219_64700_L_kr_1,내 삶과 문학의 오솔길,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_13211_64700_L_kr_1,꿈꾸며 방황하며 (젊은 날의 肖像(초상)),헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_50658_64700_L_kr_1,괴로움의 위안을 꿈꾸는 너희들이여,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_14664_63655_G_kr_1,지와 사랑 NARZISS UND GOLDMUND,헤르만 헤세 Hermann Hesse,AVAILABLE,KR,C12-6,역사
+c12-6_87464_64700_L_kr_1,나의 아픔이 너에게 위안이 된다면,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_84758_00295_L_kr_1,헷세의 名詩(명시),Hermann Hesse,AVAILABLE,KR,C12-6,문학
+c12-6_11197_64700_L_kr_1,행복,헤르만 헤세,AVAILABLE,KR,C12-6,문학
+c12-6_04080_05414_L_kr_1,브람빌라공주 야콥 칼로를 따른 카프리치오 Prinzessin Brambilla Ein Capriccio nach Jakob Callot,E.T.A. Hoffmann,AVAILABLE,KR,C12-6,문학
+c12-6_72802_26353_L_kr_1,영화이야기꾼 카를 호프만,게르트 호프만,AVAILABLE,KR,C12-6,문학
+c12-6_22032_76047_L_kr_1,히페리온의 노래 횔덜린의 자유와 사랑의 시,J.Ch.F 횔덜린,AVAILABLE,KR,C12-6,문학
+c12-6_28129_23639_G_kr_1,로자 룩셈부르크 Rosa Luxemburg,헬무트 히르슈,AVAILABLE,KR,C12-6,역사
+c13-1_45118_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 1,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_85049_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 2,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_51622_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 3,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_58440_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 4,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_87992_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 5,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_82573_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 6,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_99959_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 7,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_52589_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 8,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_92488_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 9,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_58499_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 10,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_58499_10639_L_de_2,Große kommentierte Berliner und Frankfurter Ausgabe Stücke 10,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_47553_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Gedichte 1,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_65758_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Gedichte 2,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_15560_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Gedichte 3,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_07128_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Gedichte 4,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_30831_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Gedichte 5,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_29181_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Prosa 1,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_20202_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Prosa 2,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_11917_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Prosa 3,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_02927_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Prosa 4,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-1_64528_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Prosa 5,Bertolt Brecht,AVAILABLE,DE,C13-1,문학
+c13-2_53478_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Journale 1,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_46640_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Journale 2,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_29392_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Briefe 1,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_36045_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Briefe 2,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_08567_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Briefe 3,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_76085_10639_SP_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Registerband,Bertolt Brecht,AVAILABLE,DE,C13-2,어학
+c13-2_03979_10639_SZ_de_1,Der Kinnhaken und andere Box- und Sportgeschichten Herausgegeben von Günter Berg suhrkamp,Bertolt Brecht,AVAILABLE,DE,C13-2,사회과학
+c13-2_78579_39857_L_de_1,Versuche über Brecht,Walter Benjamin,AVAILABLE,DE,C13-2,문학
+c13-2_42252_28007_L_de_1,Coining Poetry Brechts ≫Guter Mensch von Sezuan≪,D.Stephan Bock,AVAILABLE,DE,C13-2,문학
+c13-2_57948_90989_SP_de_1,Ansätze zu einer dialektischen Ästhetik in den dreißiger Jahren,"Walter Benjamin, Bertolt Brecht",AVAILABLE,DE,C13-2,어학
+c13-2_93087_10639_L_de_1,Brecht Werke 3 Gedichte 1,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_01232_10639_L_de_1,Brecht Werke 4 Gedichte 2,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_88235_10639_L_de_1,Brecht Werke 6 Schriften,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_84742_10639_L_en_1,Broadway - the hard way,Bertolt Brecht,AVAILABLE,EN,C13-2,문학
+c13-2_70095_10639_L_de_1,Der Schnaps ist in die Toiletten geflossen,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_43605_10639_L_de_1,Der Untergang des Egoisten,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_67299_10639_SZ_de_1,Die Geschäfte des Herrn Julius Caesar,Bertolt Brecht,AVAILABLE,DE,C13-2,사회과학
+c13-2_25280_10639_G_de_1,Furcht und Elend des Dritten Reiches,Bertolt Brecht,AVAILABLE,DE,C13-2,역사
+c13-2_37775_10639_L_de_1,Herr Puntila und sein Knecht Matti,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_16914_10639_G_de_1,HUNDERT GEDICHTE 1918 - 1950,Bertolt Brecht,AVAILABLE,DE,C13-2,역사
+c13-2_81425_10639_G_de_1,Ich bin aus den schwarzen Wäldern,Bertolt Brecht,AVAILABLE,DE,C13-2,역사
+c13-2_69267_10639_L_de_1,Oldenbourg Interpretationen mit Unterrichtschilfen,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-3_63787_58616_L_de_1,Die materialistisch-dialektische Fundierung des epischen Theaters Brechts als eins zweidimensionalen theatralischen Kommunikationssystems,Seong-Kyun Oh,AVAILABLE,DE,C13-3,문학
+c13-3_36698_10639_L_de_1,Der gute Mensch von sezuan,Bertolt Brecht,AVAILABLE,DE,C13-3,문학
+c13-3_86819_10639_G_de_1,Der kaukasische kreidekreis,Bertolt Brecht,AVAILABLE,DE,C13-3,역사
+c13-3_02705_80752_L_de_1,"Wer immer es ist, ""den ihr hier sucht, ich bin es nicht""",Susanne Winnacker,AVAILABLE,DE,C13-3,문학
+c13-3_86578_10639_G_de_1,Furcht und Elend des 3. Reiches,Bertolt Brecht,AVAILABLE,DE,C13-3,역사
+c13-3_59708_10639_L_de_1,Leben des Galilei,Bertolt Brecht,AVAILABLE,DE,C13-3,문학
+c13-3_75019_10639_L_de_1,Mutter Courage und ihre Kinder,Bertolt Brecht,AVAILABLE,DE,C13-3,문학
+c13-3_33547_10639_L_de_1,Reisen im Exil,Bertolt Brecht,AVAILABLE,DE,C13-3,문학
+c13-3_72232_10639_L_de_1,Theaterarbeit 1947 - 1956 Chur - Zürich - Berlin Edition Suhrkamp Leipzig SV,Bertolt Brecht,AVAILABLE,DE,C13-3,문학
+c13-3_55188_10639_G_de_1,Unterm dänischen Strohdach Skandinavien 1933 - 1941 Edition Suhrkamp Leipzig SV,Bertolt Brecht,AVAILABLE,DE,C13-3,역사
+c13-3_77284_39698_L_kr_1,코카서스의 백묵원,베르톨트 브레히트,AVAILABLE,KR,C13-3,문학
+c13-3_59708_10639_L_de_2,Leben des Galilei,Bertolt Brecht,AVAILABLE,DE,C13-3,문학
+c13-3_70504_10639_L_de_1,Kalender Geschichten,Bertolt Brecht,AVAILABLE,DE,C13-3,문학
+c13-3_75019_10639_L_de_2,Mutter Courage und ihre Kinder,Bertolt Brecht,AVAILABLE,DE,C13-3,문학
+c13-3_83971_56393_L_de_1,Ein akzeptabler Mann? Brecht und die Frauen,Sabine Kebir,AVAILABLE,DE,C13-3,문학
+c13-3_32955_27091_L_de_1,Eine vergleichende Untersuchung zu Brechts Theatertheorien im 'Messingkauf' und im 'Kleinen Organon für das Theater',Hyung-Ki Kim,AVAILABLE,DE,C13-3,문학
+c13-3_74833_18543_L_de_1,Poetik der Distanz,Albrecht Kloepfer,AVAILABLE,DE,C13-3,문학
+c13-3_53732_09387_L_de_1,Brecht-Journal,Jan Knopf,AVAILABLE,DE,C13-3,문학
+c13-3_53826_09750_G_de_1,Tradition und Konfrontation,Jeong-Jun Lee,AVAILABLE,DE,C13-3,역사
+c13-3_39030_09387_L_de_1,Brecht-Journal 2,Jan Knopf,AVAILABLE,DE,C13-3,문학
+c13-3_22627_09387_L_de_1,Bertolt Brechts Buckower Elegien,Jan Knopf,AVAILABLE,DE,C13-3,문학
+c13-3_61414_92018_L_de_1,Das Leben des Bertolt Brecht oder der Umgang mit den Welträtseln,Werner Mittenzwei,AVAILABLE,DE,C13-3,문학
+c13-3_61414_92018_L_de_2,Das Leben des Bertolt Brecht oder der Umgang mit den Welträtseln,Werner Mittenzwei,AVAILABLE,DE,C13-3,문학
+c13-3_78694_53345_L_kr_1,BRECHTS LAI-TU Erinnerungen und Notate von Ruth Berlau 루트 베를라우 회고록 브레히트의 연인,루트 베를라우,AVAILABLE,KR,C13-3,문학
+c13-4_89874_18991_L_kr_1,괴테와 괴테文學(문학)의 意義(의의),朴贊機(박찬기),AVAILABLE,KR,C13-4,문학
+c13-4_63071_97563_L_kr_1,괴-테 詩集(시집),요한 볼프강 폰 괴테,AVAILABLE,KR,C13-4,문학
+c13-4_68458_21024_L_kr_1,괴테 硏究(연구),한국 괴테 협회,AVAILABLE,KR,C13-4,문학
+c13-4_56675_98703_L_kr_1,"괴테, 불멸의 사랑",이상기,AVAILABLE,KR,C13-4,문학
+c13-4_58462_89364_G_kr_1,파우스트 그는 누구인가?,이인웅,AVAILABLE,KR,C13-4,역사
+c13-4_66123_68882_L_kr_1,파우스트와 빌헬름 마이스터 연구,박찬기,AVAILABLE,KR,C13-4,문학
+c13-4_23301_43381_L_kr_1,파우스트 硏究(연구),한국괴테협회,AVAILABLE,KR,C13-4,문학
+c13-4_35343_50464_SP_kr_1,니이체全集(전집),프리드리히 니체,AVAILABLE,KR,C13-4,어학
+c13-4_52181_50464_L_kr_1,니이체全集(전집) Ⅲ,프리드리히 니체,AVAILABLE,KR,C13-4,문학
+c13-4_05338_50464_SP_kr_1,니이체全集(전집) 2,프리드리히 니체,AVAILABLE,KR,C13-4,어학
+c13-4_16522_50464_SP_kr_1,니이체全集(전집) 5,프리드리히 니체,AVAILABLE,KR,C13-4,어학
+c13-4_80715_50464_G_kr_1,니체 최후의 고백,프리드리히 니체,AVAILABLE,KR,C13-4,역사
+c13-4_38827_99563_L_kr_1,되브린(Alfred Döblin) 생애와 작품,Klaus Schröter,AVAILABLE,KR,C13-4,문학
+c13-4_18733_51730_L_kr_1,릴케,金柱演(김주연),AVAILABLE,KR,C13-4,문학
+c13-4_18733_51730_L_kr_2,릴케,金柱演(김주연),AVAILABLE,KR,C13-4,문학
+c13-4_23134_06265_L_kr_1,라이너 마리아 릴케의 「말테의 수기」 연구,김창준,AVAILABLE,KR,C13-4,문학
+c13-4_12365_30296_L_kr_1,릴케의 두이노의 悲歌硏究(비가연구),金光珍(김광진),AVAILABLE,KR,C13-4,문학
+c13-4_94485_33227_SZ_kr_1,귄터 그라스의 「양철북」 독일 소시민사회의 해부,조영준,AVAILABLE,KR,C13-4,사회과학
+c13-4_95275_21984_L_kr_1,갓산 카나파니의 삶과 문학,송경숙,AVAILABLE,KR,C13-4,문학
+c13-4_37165_03150_L_kr_1,묄렌도르프 (P.G. von Möllendorff),Walter Leifer,AVAILABLE,KR,C13-4,문학
+c13-4_08924_04999_L_kr_1,"로버트 무질 생애, 작품, 문학론",김래현,AVAILABLE,KR,C13-4,문학
+c13-4_94684_17071_G_kr_1,로베르트 무질,최성욱,AVAILABLE,KR,C13-4,역사
+c13-5_13029_32586_L_kr_1,독일의 현대 작가 토마스 베른하르트 연구 - 베른하르트의 산문 작품에 나타난 예술가의 죽음에 대한 끝없는 도전,홍성옥,AVAILABLE,KR,c13-5,문학
+c13-5_51396_00129_L_kr_1,作家論叢書(작가론총서) 2 토마스 만,宋車準(송차준),AVAILABLE,KR,c13-5,문학
+c13-5_53290_14466_L_kr_1,토마스 만 硏究(연구),崔淳鳳(최순봉),AVAILABLE,KR,c13-5,문학
+c13-5_43984_82034_SP_kr_1,아이헨도르프 硏究(연구),鄭鎭郁(정진욱),AVAILABLE,KR,c13-5,어학
+c13-5_16991_59301_L_kr_1,프란츠 카프카 硏究(연구) - 作品(작품)의 構造(구조)와 意味(의미)를 中心(중심)으로,金容翊(김용익),AVAILABLE,KR,c13-5,문학
+c13-5_98050_67137_L_kr_1,作家論叢書(작가론총서) 9 카프카,金光圭(김광규),AVAILABLE,KR,c13-5,문학
+c13-5_80459_40842_L_kr_1,칸트·판단력 비판 / Kant·Kritik der Urteilskraft. Belin und Libau 1790.,공병혜,AVAILABLE,KR,c13-5,문학
+c13-5_35907_80869_L_kr_1,테오도르 폰타네 硏究(연구),金永珠(김영주),AVAILABLE,KR,c13-5,문학
+c13-5_15340_71763_SZ_kr_1,일방통행로 사유이미지 / Einbahnstraße Denkbilder,발터 벤야민 Walter Benjamin,AVAILABLE,KR,c13-5,사회과학
+c13-5_13805_54898_G_kr_1,발터 벤야민 - 그의 생애와 시대,베르너 풀트,AVAILABLE,KR,c13-5,역사
+c13-5_36657_60358_L_kr_1,꿈과 깨어나기,고지현,AVAILABLE,KR,c13-5,문학
+c13-5_11920_71516_L_kr_1,하인리히 뵐 삶과 문학,사순옥,AVAILABLE,KR,c13-5,문학
+c13-5_56886_79433_SP_kr_1,하인리히 뵐의 문학 세계,정인모,AVAILABLE,KR,c13-5,어학
+c13-5_44632_63633_L_kr_1,하우프트만의 초기작품 연구,정영교,AVAILABLE,KR,c13-5,문학
+c13-5_28965_16135_L_kr_1,브레히트 硏究(연구) - 브레히트의 연극 이론과 작품분석,李源洋(이원양),AVAILABLE,KR,c13-5,문학
+c13-5_00475_99767_L_kr_1,하이네 硏究 (연구),吳漢鎭(오한진),AVAILABLE,KR,c13-5,문학
+c13-5_77187_69129_L_kr_1,하이네의 사랑과 문학 - 하이네가 사랑한 여인,레온하르트 R.W.Leonhardt,AVAILABLE,KR,c13-5,문학
+c13-5_44274_30861_L_kr_1,作家論叢書(작가론총서) 3 헤르만 헤세,李仁雄(이인웅),AVAILABLE,KR,c13-5,문학
+c13-5_60850_83486_L_kr_1,호르바트의 새로운 민중극 연구,문광일,AVAILABLE,KR,c13-5,문학
+c13-5_47031_90043_L_kr_1,횔덜린 硏究 (연구),黃允錫(황윤석),AVAILABLE,KR,c13-5,문학
+c13-5_80425_82542_G_kr_1,히틀러 최후의 14일,요아힘 페스트,AVAILABLE,KR,c13-5,역사
+c13-5_52138_08325_G_kr_1,히틀러 평전 I,요아힘 C. 페스트,AVAILABLE,KR,c13-5,역사
+c13-5_29252_08325_G_kr_1,히틀러 평전 II,요아힘 C. 페스트,AVAILABLE,KR,c13-5,역사
+c13-5_69673_39860_L_kr_1,볼프강 보르헤르트의 삶과 문학,조창섭,AVAILABLE,KR,c13-5,문학
+c13-5_16184_99492_L_kr_1,백마의 기수 / Der Schimmelreiter,테오도어 슈토름 Theodor Storm,AVAILABLE,KR,c13-5,문학
+c13-5_60142_99670_SP_kr_1,번역이론 입문 / Übersetzungstheorien -번역학 꿰뚫기,라데군디스 슈톨체,AVAILABLE,KR,c13-5,어학
+c13-5_88118_55221_L_kr_1,미메시스 - The representation of reality in western literature,에리히 아우어바흐,AVAILABLE,KR,c13-5,문학
+c13-6_05107_52098_L_kr_1,궁핍한 시대에 시인은 무엇을 위하여 사는가 - 주제에 따라서 읽는 횔덜린 시선,프리드리히 횔덜린,AVAILABLE,KR,c13-6,문학
+c13-6_07241_04500_L_kr_1,지상에 척도는 있는가 - 횔덜린의 후기문학,장영태,AVAILABLE,KR,c13-6,문학
+c13-6_45021_21183_SP_kr_1,문화사로 본 현대 독일 사상 한강에서 라인강까지 [한독관계사],최종고,AVAILABLE,KR,c13-6,어학
+c13-6_48027_93867_L_kr_1,이성과 감성의 평행선,안성찬,AVAILABLE,KR,c13-6,문학
+c13-6_90558_50330_L_kr_1,고대 그리스 로마 시대부터 20세기까지 서양의 웃음이론 웃음의 미학,류종영,AVAILABLE,KR,c13-6,문학
+c13-6_70372_69996_SZ_kr_1,인지적 기초와 실제적 응용 커뮤니케이션,한스스트로너,AVAILABLE,KR,c13-6,사회과학
+c13-6_89725_87582_L_kr_1,만남과 소통의 미학,정초왕,AVAILABLE,KR,c13-6,문학
+c13-6_95547_50330_L_kr_1,위트로 읽는 위트 문예학으로서 위트 분석,류종영,AVAILABLE,KR,c13-6,문학
+c13-6_09829_71105_SP_kr_1,변학수 문학평론집 잘못보기,변학수,AVAILABLE,KR,c13-6,어학
+c13-6_15438_93818_SP_kr_1,키케로의 수사학 교본 화술의 법칙,키케로,AVAILABLE,KR,c13-6,어학
+c13-6_09810_93818_SP_kr_1,키케로의 수사학 교본 화술과 논증,키케로,AVAILABLE,KR,c13-6,어학
+c13-6_79812_57619_L_kr_1,자유와 웃의 공연예술 카바레,정민영,AVAILABLE,KR,c13-6,문학
+c13-6_08614_83956_SP_kr_1,世界文化(세계문화)의 交流(교류)와 受容(수용),전북대학교 인문학연구소,AVAILABLE,KR,c13-6,어학
+c13-6_44603_67158_SP_kr_1,문자언어학,크리스타 뒤르샤이트,AVAILABLE,KR,c13-6,어학
+c13-6_68975_34020_L_kr_1,아동 · 청소년 문학의 서,한스 하이노 에버스,AVAILABLE,KR,c13-6,문학
+c13-6_22093_58454_G_de_1,LITERATUR UND KRITIK,"Schalom Ben-Chorin, M.Y. Ben - Gavriêl, Netti Boleslav, Werner Bukofzer, Werner Kraft, David Neumann, Alice Schwarz, Shin Shalom, Margalit Singer und Manfred Sturmann",AVAILABLE,DE,c13-6,역사
+c13-6_08594_74019_L_kr_1,정신의 삶 사유와 의지,한나 아펜트,AVAILABLE,KR,c13-6,문학
+c13-5_29466_02880_SP_kr_1,독어학개론 Germanistische Sprachwissenschaft,페터 에른스트,AVAILABLE,KR,c13-5,어학
+c13-5_80738_90159_L_kr_1,모모,미햐엘 엔데,AVAILABLE,KR,c13-5,문학
+c13-5_06197_19960_L_kr_1,내쫓긴 아이들 Die Ausgesperrten,엘프리데 옐리네크,AVAILABLE,KR,c13-5,문학
+c13-5_91478_19960_L_kr_1,탐욕 Gier,엘프리데 옐리네크,AVAILABLE,KR,c13-5,문학
+c13-5_89708_19960_L_kr_1,욕망 Lust,엘프리데 옐리네크,AVAILABLE,KR,c13-5,문학
+c13-5_57895_19960_L_kr_1,연인들,엘프리데 옐리네크,AVAILABLE,KR,c13-5,문학
+c13-5_72820_37913_G_kr_1,나와 마주하는 시간,라이너 쿤체,AVAILABLE,KR,c13-5,역사
+c13-5_87013_71232_L_kr_1,변화 Die Wandlung,에른스트 톨러 Ernst Toller,AVAILABLE,KR,c13-5,문학
+c13-5_84471_79611_SZ_kr_1,정신현상학의 이념 Die Idee der Phänomenologie des Geistes,강순전,AVAILABLE,KR,c13-5,사회과학
+c13-2_44613_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Schriften 1,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_55894_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Schriften 2,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_55894_10639_L_de_2,Große kommentierte Berliner und Frankfurter Ausgabe Schriften 2,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_36563_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Schriften 3,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_77499_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Schriften 4,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c13-2_43678_10639_L_de_1,Große kommentierte Berliner und Frankfurter Ausgabe Schriften 5,Bertolt Brecht,AVAILABLE,DE,C13-2,문학
+c12-1_39569_02121_L_kr_1,브레히트와 현대연극 - 제11집 / 2003,한국브레히트학회,AVAILABLE,KR,C12-1,문학
+c12-1_62922_89712_L_de_1,Bertolt Brecht und das moderne Theater - Band 5/ 1998,"Jan Knopf, Klaus-Detlef Müller, Seong-Kyun Oh, Dong-Zun Song, Won-Yang Rhie, Eun-Soo Jang, Hyung-Ki Kim, Seung-Jin Lee",AVAILABLE,DE,C12-1,문학
+c12-1_99612_57241_L_de_1,Bertolt Brecht und das moderne Theater - Band 1/ 1995,Koreanische Brecht-Gesellschaft,AVAILABLE,DE,C12-1,문학
+c12-1_62922_89712_L_de_2,Bertolt Brecht und das moderne Theater - Band 5/ 1998,"Jan Knopf, Klaus-Detlef Müller, Seong-Kyun Oh, Dong-Zun Song, Won-Yang Rhie, Eun-Soo Jang, Hyung-Ki Kim, Seung-Jin Lee",AVAILABLE,DE,C12-1,문학
+c12-1_71753_45994_SP_kr_1,텍스트언어학 9,한국텍스트언어학회,AVAILABLE,KR,C12-1,어학
+c12-1_91635_04550_SP_kr_1,텍스트언어학 4,텍스트언어학회 편,AVAILABLE,KR,C12-1,어학
+c12-1_55100_38530_SP_de_1,Deutsch für Studenten - Text- und Übungsbuch,Heinrich Stalb,AVAILABLE,DE,C12-1,어학
+c12-1_29056_55434_SP_de_1,einführung in die rhetorische textanalyse,Heinrich F. Plett,AVAILABLE,DE,C12-1,어학
+c12-1_75732_51034_SP_de_1,Montague-Grammatik - Eine Einführung mit Anwendungen auf das Deutsche,Max Niemeyer Verlag,AVAILABLE,DE,C12-1,어학
+c12-2_85854_97563_L_de_1,Goethe Werke - Vermischt Schriften Sechster Band,요한 볼프강 폰 괴테,AVAILABLE,DE,C12-2,문학
+c12-2_53707_97563_L_de_1,Goethe Werke - Faust I und Ⅱ Wahlverwandtschaften Dritter Band,요한 볼프강 폰 괴테,AVAILABLE,DE,C12-2,문학
+c12-2_95972_97563_L_de_1,Goethe Werke - Dichtung und Wahrheit Fünfter Band,요한 볼프강 폰 괴테,AVAILABLE,DE,C12-2,문학
+c12-2_54565_97563_L_de_1,Goethe Werke - Dramen · Novellen Zweiter Band,요한 볼프강 폰 괴테,AVAILABLE,DE,C12-2,문학
+c12-2_78946_97563_L_de_1,Goethe Werke - Gedichte · Versepen Erster Band,요한 볼프강 폰 괴테,AVAILABLE,DE,C12-2,문학
+c12-2_16283_53647_L_de_1,Ausgewählte Werke - Band 5,"Marx, Engels",AVAILABLE,DE,C12-2,문학
+c12-2_93645_53647_L_de_1,Ausgewählte Werke - Band 2,"Marx, Engels",AVAILABLE,DE,C12-2,문학
+c15-3_23753_39405_L_de_1,Dürrenmatt Gespräch mit Heinz Ludwig Arnold - Friedrich Dürrenmatt erzählt über seine Jugend von seiner Malerei kritisiert die Situation des Theaters,Friedrich Dürrenmatt,AVAILABLE,DE,C15-3,문학
+c15-3_77247_39405_L_de_1,Dürrenmatt Gesammelte Hörspiele,Friedrich Dürrenmatt,AVAILABLE,DE,C15-3,문학
+c15-3_27884_39405_L_de_1,Friedrich Dürrenmatt Komödien I,Friedrich Dürrenmatt,AVAILABLE,DE,C15-3,문학
+c15-3_16057_39405_L_de_1,Dürrenmatt Komödien II und Frühe Stücke,Friedrich Dürrenmatt,AVAILABLE,DE,C15-3,문학
+c15-3_94035_39405_L_de_1,Friedrich Dürrenmatt Komödien III,Friedrich Dürrenmatt,AVAILABLE,DE,C15-3,문학
+c15-4_95761_79489_L_de_1,DIE LEIDEN DES JUNGEN WERTHER NOVELLE,J. W. Goethe,AVAILABLE,DE,C15-4,문학
+c15-4_95979_97563_L_kr_1,젊은 베르테르의 슬픔,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-4,문학
+c15-4_95979_97563_L_kr_2,젊은 베르테르의 슬픔,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-4,문학
+c15-4_72617_43379_L_de_1,Max Frisch Tagebuch 1966-1971,Max Frisch,AVAILABLE,DE,C15-4,문학
+c15-4_30437_34760_L_de_1,Über Max Frisch Ⅱ,Walter Schmitz,AVAILABLE,DE,C15-4,문학
+c15-4_64418_43338_L_de_1,Der Arzl Gion,Hans Carossa,AVAILABLE,DE,C15-4,문학
+c15-4_92965_43826_L_de_1,IPHIGENIE AUF TAURIS TORQUATO TASSO,Johann Wolfgan Goethe,AVAILABLE,DE,C15-4,문학
+c15-4_92965_43826_L_de_2,IPHIGENIE AUF TAURIS TORQUATO TASSO,Johann Wolfgan Goethe,AVAILABLE,DE,C15-4,문학
+c15-4_66855_08465_L_de_1,Hermann Lenz Verlassene Zimmer,Hermann Lenz,AVAILABLE,DE,C15-4,문학
+c15-4_21600_26050_L_de_1,Die dramatische Einheit von Goethes >Faust<,Wolfgang Streicher,AVAILABLE,DE,C15-4,문학
+c15-4_95371_52575_L_de_1,Die deutsche Exilliteratur 1933-1945,Manfred Durzak,AVAILABLE,DE,C15-4,문학
+c15-4_73532_14511_L_de_1,Deusche Literatur in der Bundesrepublik seit 1965 - Untersuchungen und Berichte,"Paul Michael Lützeler, Egon Schwarz",AVAILABLE,DE,C15-4,문학
+c15-4_89549_25018_L_de_1,Die deutsche Literatur im Dritten Reich - Themen · Traditionen · Wirkungen,"Horst Denkler, Karl Prüm",AVAILABLE,DE,C15-4,문학
+c15-4_94018_64938_L_de_1,Gegenwartsliteratur und Drittes Reich - Deutsche Autoren in der Auseinandersetzung mit der Vergangenheit,Hans Wagener,AVAILABLE,DE,C15-4,문학
+c15-4_37388_52575_L_de_1,Dürrenmatt Frisch Weiss - Deutsches Drame der Gegenwart zwischen Kritik und Utopie,Manfred Durzak,AVAILABLE,DE,C15-4,문학
+c15-4_45184_50338_L_de_1,Die deutsche Literatur in der Weimarer Republik,Wolfgang Rothe,AVAILABLE,DE,C15-4,문학
+c15-4_75032_52575_L_de_1,Deutsche gegenwartsliteratur - Ausgangspositionen und aktuelle Entwicklungen,Manfred Durzak,AVAILABLE,DE,C15-4,문학
+c15-4_44690_64938_L_de_1,Zeitkritische Romane des 20. Jahrhunderts - Die Gesellschaft in der Kritik der deutschen Literatur,Hans Wagener,AVAILABLE,DE,C15-4,문학
+c15-4_92475_41614_L_de_1,Kinder- und Jugend- literatur - Zur Typologie Funktion einer literarischen Gattung,Gerhard Haas,AVAILABLE,DE,C15-4,문학
+c15-4_20574_52575_L_de_1,Die deutsche Literatur der Gegenwart - Aspekte und Tendenzen,Manfred Durzak,AVAILABLE,DE,C15-4,문학
+c15-4_41184_30695_L_de_1,GESCHICHTE DER DEUTSCHEN LITERATUR - Die deutsche Literatur Zwischen Französischer Revolution und Restauration,Gerhard Schulz,AVAILABLE,DE,C15-4,문학
+c15-4_75512_84685_L_de_1,GESCHICHTE DER DEUTSCHEN LITERATUR - Vom späten Mittelalter bis zum Barock,Hans Ruprich,AVAILABLE,DE,C15-4,문학
+c15-4_05089_74611_L_de_1,DER DEUTSCHE ROMAN - Vom Barock bis zur späten Romantik,Benno von Wiese,AVAILABLE,DE,C15-4,문학
+c15-4_79850_74611_L_de_1,DER DEUTSCHE ROMAN - Vom Realismus bis zur Gegenwart,Benno von Wiese,AVAILABLE,DE,C15-4,문학
+c15-1_65583_97563_L_kr_1,파우스트1,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-1,문학
+c15-1_73826_97563_L_kr_1,헤르만과 도로테아 Hermann und Dorothea,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-1,문학
+c15-1_95979_97563_L_kr_3,젊은 베르테르의 슬픔,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-1,문학
+c15-1_61009_97563_L_kr_1,파우스트 1,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-1,문학
+c15-1_85401_97563_L_kr_2,파우스트 2,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-1,문학
+c15-1_02817_97563_L_kr_1,파우스트 Faust,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-1,문학
+c15-1_58462_97563_G_kr_1,파우스트 그는 누구인가?,요한 볼프강 폰 괴테,AVAILABLE,KR,C15-1,역사
+c15-1_04984_65312_L_kr_1,현대 독일문학 비평,李仁雄(이인웅),AVAILABLE,KR,C15-1,문학
+c15-1_95541_64700_L_kr_1,헤르만 헤세의 인도여행,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c15-1_33758_64700_L_kr_1,헤르만헤세 작품선1 수레바퀴 아래서 데미안,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c15-1_31195_64700_L_kr_1,헤르만헤세 작품선2 싯다르타 인도의 이력서 동방순례,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c15-1_34236_70381_SP_kr_1,통역학 개론 Interpretation,정혜연,AVAILABLE,KR,C15-1,어학
+c15-1_31549_23797_L_kr_4,헤르만 헤세와 동양의 지혜 '진정한 나'를 찾으려는 사람들을 위하여 HERMANN HESSE UND DIE ÖSTLICHE WEISHEIT,李仁雄 (이인웅),AVAILABLE,KR,C15-1,문학
+c15-1_80634_64700_L_kr_3,동방순례 Die Morgenlandfahrt,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c15-1_04625_64700_L_kr_1,동방순례,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c15-1_04625_64700_L_kr_2,동방순례,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c15-1_82217_64700_L_kr_1,꿈이 내 문을 두드릴 때,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c15-1_82217_64700_L_kr_2,꿈이 내 문을 두드릴 때,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c15-1_87930_64700_L_kr_2,크눌프 · 데미안,헤르만 헤세,AVAILABLE,KR,C15-1,문학
+c16-1_94257_15537_L_de_1,Schriften zur Philosophie und Kunst,Schiller,AVAILABLE,DE,C16-1,문학
+c16-1_73712_28265_L_de_1,Also sprach Zarathustra,Nietzsche,AVAILABLE,DE,C16-1,문학
+c16-1_56138_60144_L_de_1,"Aus dem Leben eines Taugenichts, und Gedichte",Joseph von Eichendorff,AVAILABLE,DE,C16-1,문학
+c16-1_39649_88642_L_de_1,Gedichte Hyperion,Friedrich Hölderlin,AVAILABLE,DE,C16-1,문학
+c16-1_63491_50731_L_de_1,"Maria Magdalena, Agnes Bernauer",Friedrich Hebbel,AVAILABLE,DE,C16-1,문학
+c16-1_21042_70989_L_de_1,Eine Sache wie die Liebe,Hans Bender,AVAILABLE,DE,C16-1,문학
+c16-1_20628_51993_L_de_1,"Gedichte, Die Judenbuche",Annette von Droste-Hülshoff,AVAILABLE,DE,C16-1,문학
+c16-1_12834_72487_L_de_1,"Immensee, und andere Novellen",Theodor Storm,AVAILABLE,DE,C16-1,문학
+c16-1_68310_30181_L_de_1,"Aus meinem Leben Dichtung und Wahrheit, III. Und IV. Teil",Goethe,AVAILABLE,DE,C16-1,문학
+c16-1_85047_30181_L_de_1,"Faust, Erster und zweiter Teil",Goethe,AVAILABLE,DE,C16-1,문학
+c16-1_38390_30181_L_de_1,"Aus meinem Leben Dichtung und Wahrheit, I. Und II. Teil",Goethe,AVAILABLE,DE,C16-1,문학
+c16-1_22179_36640_G_de_1,Die verlorene Ehre der Katharina Blum,Heinrich Böll,AVAILABLE,DE,C16-1,역사
+c16-1_22179_36640_G_de_2,Die verlorene Ehre der Katharina Blum,Heinrich Böll,AVAILABLE,DE,C16-1,역사
+c16-1_07060_93456_L_de_1,Simultan Erzählungen,Ingeborg Bachman,AVAILABLE,DE,C16-1,문학
+c16-1_21062_43475_L_de_1,Ich und meine Schwester Klara,Dimiter Inkiow,AVAILABLE,DE,C16-1,문학
+c16-1_81101_26687_L_de_1,"Zorn, Zeit und Ewigkeit Erzählungen",Werner Bergengruen,AVAILABLE,DE,C16-1,문학
+c16-1_94610_33284_L_de_1,Phantastische Nacht,Stefan Zweig,AVAILABLE,DE,C16-1,문학
+c16-1_84896_04916_L_de_1,Die Langerudkinder,Marie Hamsun,AVAILABLE,DE,C16-1,문학
+c16-1_60564_87631_L_de_1,Vorsicht Spione!,Sesyle Joslin,AVAILABLE,DE,C16-1,문학
+c16-1_70793_28426_L_de_1,Das Pferdemädchen,Alfred Wellm,AVAILABLE,DE,C16-1,문학
+c16-1_78083_79800_SZ_de_1,Das Stuttgarter Hutzelmännlein,Eduard Mörike,AVAILABLE,DE,C16-1,사회과학
+c16-1_77692_91573_L_de_1,"Die große Halunkenpostile, Songs Balladen Moritaten",Frity Graßhoff,AVAILABLE,DE,C16-1,문학
+c16-1_13581_36640_L_de_1,Gruppenbild mit Dame Roman,Heinrich Böll,AVAILABLE,DE,C16-1,문학
+c16-1_72687_36640_L_de_1,Der Zug war pünktlich,Heinrich Böll,AVAILABLE,DE,C16-1,문학
+c16-1_43008_11729_L_de_1,Der heimliche Teilhaber,Joseph Conrad,AVAILABLE,DE,C16-1,문학
+c16-1_02790_00295_SZ_de_1,Märchen,Hermann Hesse,AVAILABLE,DE,C16-1,사회과학
+c16-1_20897_74611_L_de_1,"Deutschland erzählt, von Johann Wolfgang von Goethe bis Ludwig Tieck",Benno von Wiese,AVAILABLE,DE,C16-1,문학
+c16-1_04076_74611_L_de_1,"Deutschland erzählt, von Georg Büchner bis Gerhart Hauptmann",Benno von Wiese,AVAILABLE,DE,C16-1,문학
+c16-3_61182_08333_L_en_1,THE TERROR OF ART - Kafka and Modern Literature,Martin Greenberg,AVAILABLE,EN,C16-3,문학
+c16-3_00802_35910_G_de_1,Max Frisch - GERMANY,ULRICH WEISSTEIN,AVAILABLE,DE,C16-3,역사
+c16-3_02583_37177_L_de_1,Lied der Jahre - Gedichte,Rudolf Hagelstange,AVAILABLE,DE,C16-3,문학
+c16-3_80533_66773_G_de_1,Briefe an einen jungen Deutschen,Heinrich Kronstein,AVAILABLE,DE,C16-3,역사
+c16-3_54276_85469_G_de_1,Adolf Hitler,HELMUT HEIBER,AVAILABLE,DE,C16-3,역사
+c16-3_67173_68347_SP_kr_1,독일문학과 세계문학 1 - Germanistik und Weltliteratur,오한진,AVAILABLE,KR,C16-3,어학
+c16-3_99615_68347_SP_kr_1,독일문학과 세계문학 2 - Germanistik und Weltliteratur,오한진,AVAILABLE,KR,C16-3,어학
+c16-3_36167_68347_SP_kr_1,독일문학과 세계문학 3 - Germanistik und Weltliteratur,오한진,AVAILABLE,KR,C16-3,어학
+c16-3_26727_99767_L_kr_1,아픔의 시인 하인리히 하이네,吳漢鎭(오한진),AVAILABLE,KR,C16-3,문학
+c16-3_39440_99767_L_kr_1,獨逸社會小說論 (독일사회소설론),吳漢鎭(오한진),AVAILABLE,KR,C16-3,문학
+c16-3_00475_99767_L_kr_2,하이네 硏究 (연구),吳漢鎭(오한진),AVAILABLE,KR,C16-3,문학
+c16-3_07973_37835_L_kr_1,獨逸文學史 (독일문학사) - DEUTSCHE LITERATUR GESCHICHTE in Grundzügen,Bruno Boesch,AVAILABLE,KR,C16-3,문학
+c16-3_68853_18991_L_kr_1,獨逸古典主義의 文學史的 研究,朴贊機(박찬기),AVAILABLE,KR,C16-3,문학
+c16-3_09663_70329_SP_kr_1,韓獨文學比較研究 I (한독문학비교연구 I) - 1920 年代 까지 獨逸文學의 影響을 中心으로 (1920년대까지 독일문학의 영향을 중심으로),"李裕榮(이유영), 金澤東(김택동), 李在銑(이재선)",AVAILABLE,KR,C16-3,어학
+c16-3_16003_25136_L_kr_1,獨逸文藝學槪論 (독일문예학개론) - 原理 와 方法論 (원리와 방법론),李裕榮(이유영),AVAILABLE,KR,C16-3,문학
+c16-3_87267_56786_L_kr_1,獨逸浪漫主義研究 (독보적 낭만주의 연구),池明烈(지명렬),AVAILABLE,KR,C16-3,문학
+c15-6_39112_33284_L_de_1,Sternstunden der Menschheit,Stefan Zweig,AVAILABLE,DE,C15-6,문학
+c15-6_64013_59021_L_de_1,Variationen über einen Lieblingsdichter,Helmut Bode,AVAILABLE,DE,C15-6,문학
+c15-6_60724_95308_L_de_1,Wir heißen euch hoffen,Johannes Mario Simmel,AVAILABLE,DE,C15-6,문학
+c15-6_74999_33284_L_de_1,Baummeister der Welt,Stefan Zweig,AVAILABLE,DE,C15-6,문학
+c15-6_61206_33284_L_de_1,Meisternovellen,Stefan Zweig,AVAILABLE,DE,C15-6,문학
+c15-6_94585_51744_L_de_1,Meister Erzählungen,Arthur Schnitzler,AVAILABLE,DE,C15-6,문학
+c15-6_18805_90444_G_de_1,Die Weimarer Republik 1918-1933,"Bracher, Funke, Jacobsen",AVAILABLE,DE,C15-6,역사
+c15-6_75104_31664_G_de_1,Deutschland im 19. Jahrhundert,Manfred Görtemaker,AVAILABLE,DE,C15-6,역사
+c15-6_19794_14574_L_kr_1,미늘의 끝,안정효,AVAILABLE,KR,C15-6,문학
+c15-6_43269_41903_SP_kr_1,한국문학통사 4,조동일,AVAILABLE,KR,C15-6,어학
+c16-4_48080_74121_L_de_1,Gitarrenbuch der Liedermacher,Peter Bursch,AVAILABLE,DE,C16-4,문학
+c16-4_83627_21697_SZ_de_1,Fit fürs Zertifikat Deutsch - Tipps und Übungen,"Sabine Dinsel, Monika Reimann",AVAILABLE,DE,C16-4,사회과학
+c16-4_83627_21697_SZ_de_2,Fit fürs Zertifikat Deutsch - Tipps und Übungen,"Sabine Dinsel, Monika Reimann",AVAILABLE,DE,C16-4,사회과학
+c16-4_13088_20673_SZ_de_1,Fit für den TestDaF - Tipps und Übungen,Jörg Roche,AVAILABLE,DE,C16-4,사회과학
+c16-4_13088_20673_SZ_de_2,Fit für den TestDaF - Tipps und Übungen,Jörg Roche,AVAILABLE,DE,C16-4,사회과학
+c16-4_30185_96098_SZ_de_1,Fit fürs Goethe-Zertifikat A1 - Start Deutsch 1,"Johannes Gerbes, Frauke van der Werff",AVAILABLE,DE,C16-4,사회과학
+c16-4_30185_96098_SZ_de_2,Fit fürs Goethe-Zertifikat A1 - Start Deutsch 1,"Johannes Gerbes, Frauke van der Werff",AVAILABLE,DE,C16-4,사회과학
+c16-4_84646_96098_SZ_de_1,Fit fürs Zertifikat B1 - Deutschprüfung für Jugendliche,"Johannes Gerbes, Frauke van der Werff",AVAILABLE,DE,C16-4,사회과학
+c16-4_84646_96098_SZ_de_2,Fit fürs Zertifikat B1 - Deutschprüfung für Jugendliche,"Johannes Gerbes, Frauke van der Werff",AVAILABLE,DE,C16-4,사회과학
+c16-4_47528_46973_SZ_de_1,Fit fürs Goethe-Zertifikat B2 - Deutschprüfung für Erwachsene,"Heide Stiebeler, Frauke van der Werff",AVAILABLE,DE,C16-4,사회과학
+c16-4_47528_46973_SZ_de_2,Fit fürs Goethe-Zertifikat B2 - Deutschprüfung für Erwachsene,"Heide Stiebeler, Frauke van der Werff",AVAILABLE,DE,C16-4,사회과학
+c16-1_99837_26909_L_de_1,MODERNE ERZÄHLER 3,"Hans Bender, Werner Bergengruen, Heinrich Böll, Wolfgang Borchert, Friedrich Dürrenmatt, Paul Ernst, Gerd Gaiser, Franz Kafka, Wilhelm Schäfer",AVAILABLE,DE,C16-1,문학
+c16-1_47882_31951_L_de_1,MODERNE ERZÄHLER 5,"Gerd Gaiser, Friedrich Georg Jünger, Horst Lange, Ernst Wiechert",AVAILABLE,DE,C16-1,문학
+c16-1_62948_92491_L_de_1,MODERNE ERZÄHLER 7,"Hans Franck, Gottfried Kölwel, Josef Leitgeb, Emil Strauß",AVAILABLE,DE,C16-1,문학
+c16-1_55309_55763_L_de_1,MODERNE ERZÄHLER 9,"Gerd Gaiser, Siegfried Lenz, Wolfdietrich Schnurre, Günter Spang",AVAILABLE,DE,C16-1,문학
+c16-1_29596_29884_L_de_1,MODERNE ERZÄHLER 12,"Wilhelm Lehmann, August Winnig, Hans Leip, Otto Brües, Wilhelm Dieß, Richard Gäng, Walter Meckuer",AVAILABLE,DE,C16-1,문학
+c16-1_39951_50234_L_de_1,MODERNE ERZÄHLER 13,"Alfred Berndt, Hans Georg Brenner, Bertolt Brecht, Siegfried Lenz, Wolfdietrich Schnurre, Heimito von Doderer",AVAILABLE,DE,C16-1,문학
+c16-1_25413_21139_L_de_1,MODERNE ERZÄHLER 14,"Werner Bergengruen, Heinrich Böll, Wolfgang Borchert, Bert Brecht, Kurt Kusenberg, Wolfgang Hildesheimer, Wilhelm Schäfer, Kurt Kluge, Thomas Mann",AVAILABLE,DE,C16-1,문학
+c16-1_06969_27867_L_de_1,MODERNE ERZÄHLER 17,"Hans Bender, Werner Bergengruen, Georg Britting, Gerd Gaiser, Luise Rinser, Thomas Mann, Wilhelm Schäfer, Theodor Weißenborn",AVAILABLE,DE,C16-1,문학
+c16-1_86947_61830_L_de_1,Thomas Mann - 1875/1975,"Beatrix Bludau, Eckhard Heftrich, Helmut Koopmann",AVAILABLE,DE,C16-1,문학
+c16-1_69345_17077_L_de_1,COLLOQUIA GERMANICA - Internationale Zeitschrift für germanische Sprach- und Literaturwissenschaft,"Paul Stapf, von Bernd Kratz",AVAILABLE,DE,C16-1,문학
+c16-1_93198_25408_L_de_1,Fischer Athenäum Taschenbücher - Literaturwisenschaft - Deutsche Romantheorien - Band 2,Reinhold Grimm,AVAILABLE,DE,C16-1,문학
+c16-1_65326_25408_L_de_1,Fischer Athenäum Taschenbücher - Literaturwisenschaft - Deutsche Romantheorien - Band 1,Reinhold Grimm,AVAILABLE,DE,C16-1,문학
+c16-1_70829_85281_L_de_1,Der deutsche Expressionismus - Formen und Gestalten,"Van den Hoeck, Ruprecht",AVAILABLE,DE,C16-1,문학
+c16-1_52323_73899_L_de_1,Der Nussbaum gegenüber vom Laden in dem du dein Brot kaufst. - Roman,Peter Kurzeck,AVAILABLE,DE,C16-1,문학
+c16-1_89599_37666_L_de_1,Das Gespensterbuch - mit einem Vorwort von Gustav Meyrink,"August Apel, Friedrich Laun",AVAILABLE,DE,C16-1,문학
+c16-1_55866_98258_G_de_1,Mörike,Hans Egon Holthusen,AVAILABLE,DE,C16-1,역사
+c16-1_30181_42808_L_en_1,Goethe,Peter Boerner,AVAILABLE,EN,C16-1,문학
+c16-1_90612_99563_L_de_1,Thomas Mann,Klaus Schröter,AVAILABLE,DE,C16-1,문학
+c16-1_60781_30695_L_de_1,Novalis,Gerhard Schulz,AVAILABLE,DE,C16-1,문학
+c16-1_30188_47728_L_de_1,Eichendorff,Paul Stöcklein,AVAILABLE,DE,C16-1,문학
+c16-1_50515_28845_L_de_1,Brecht,Marianne Kesting,AVAILABLE,DE,C16-1,문학
+c16-1_55389_05025_L_de_1,Stifter,Urban Roedl,AVAILABLE,DE,C16-1,문학
+c16-1_23797_30477_L_de_1,Heine,Ludwig Marcuse,AVAILABLE,DE,C16-1,문학
+c16-1_96437_52575_G_de_1,Broch,Manfred Durzak,AVAILABLE,DE,C16-1,역사
+c16-1_00295_00357_L_de_1,Hermann Hesse,Bernhard Zeller,AVAILABLE,DE,C16-1,문학
+c16-1_24596_98258_G_de_1,Rilke,Hans Egon Holthusen,AVAILABLE,DE,C16-1,역사
+c16-1_95399_90612_L_de_1,Lotte in Weimar,Thomas Mann,AVAILABLE,DE,C16-1,문학
+c16-1_95702_50520_L_de_1,ALS VATERS BART NOCH ROT WAR,Wolfdietrich Schnurre,AVAILABLE,DE,C16-1,문학
+c16-1_60250_14807_L_de_1,Materialien zu Bertolt Brechts Schweyk im zweiten Weltkrieg,Herbert Knust,AVAILABLE,DE,C16-1,문학
+c16-2_13322_83516_G_de_1,KAFKA - Die Jahre der Entscheidungen 1910-1915,Reiner Stach,AVAILABLE,DE,C16-2,역사
+c16-2_87234_83516_L_de_1,KAFKA - Die Jahre der Erkenntnis 1916-1924,Reiner Stach,AVAILABLE,DE,C16-2,문학
+c16-2_65799_83516_G_de_1,KAFKA - Die frühen Jahre 1883-1910,Reiner Stach,AVAILABLE,DE,C16-2,역사
+c16-2_83167_83516_L_de_1,"Kafka von Tag zu Tag - Dokumentation aller Briefe, Tagebücher und Ereignisse",Reiner Stach,AVAILABLE,DE,C16-2,문학
+c16-2_44985_84801_L_de_1,Heinrich von Kleist Ausgewählte Dramen,Heinrich von Kleist,AVAILABLE,DE,C16-2,문학
+c16-2_04702_54131_L_de_1,POETIK IN STICHWORTEN,Ivo Braak,AVAILABLE,DE,C16-2,문학
+c16-2_39020_12684_L_en_1,CONTRARIES - Studies in German Literature,Michael Hamburger,AVAILABLE,EN,C16-2,문학
+c16-2_70848_74611_L_de_1,Deutsche Dichter der Moderne,Benno von Wiese,AVAILABLE,DE,C16-2,문학
+c16-2_01877_00643_G_de_1,INTERPRETATIONEN 1 - DEUTSCHE LYRIK VON WECKHERLIN BIS BENN,Jost Schillemeit,AVAILABLE,DE,C16-2,역사
+c16-2_83568_00643_L_de_1,INTERPRETATIONEN 4 - DEUTSCHE ERZÄHLUNGEN VON WIELAND BIS KAFKA,Jost Schillemeit,AVAILABLE,DE,C16-2,문학
+c16-2_19338_30162_L_de_1,ÜBER DEN TAG HINAUS - KRITISCHE BETRACHTUNGEN,Julius Bab,AVAILABLE,DE,C16-2,문학
+c16-2_41447_33324_L_en_1,AN EXEMPLARY LIFE,Siegfried Lenz,AVAILABLE,EN,C16-2,문학
+c16-2_17957_12020_G_de_1,Große Gespräche - AUS GEISTESGESCHICHTE UND WELTPOLITIK,Louis Biancolli,AVAILABLE,DE,C16-2,역사
+c16-2_11450_95067_G_de_1,Deutsche Kulturgeschichte der letzten hundert Jahre,"Ernst Johann, Jörg Junker",AVAILABLE,DE,C16-2,역사
+c16-2_54239_95481_L_de_1,Daten deutscher Dichtung - Chronologischer Abriß der deutschen Literaturgeschichte Band I Von den Anfängen bis zur Romantik,H. A. und E. Frenzel,AVAILABLE,DE,C16-2,문학
+c16-2_14673_95481_L_de_1,Daten deutscher Dichtung - Chronologischer Abriß der deutschen Literaturgeschichte Band II Vom Biedermeier bis zur Gegenwart,H. A. und E. Frenzel,AVAILABLE,DE,C16-2,문학
+c16-2_23625_20458_L_de_1,Geschichte der deutschen Dichtung,FRICKE / KLOTZ,AVAILABLE,DE,C16-2,문학
+c16-2_69790_72038_L_de_1,Deutsche Literaturgeschichte,Fritz Martini,AVAILABLE,DE,C16-2,문학
+c16-2_92235_15537_L_de_1,Jugenddramen - Die Räuber · Kabale und Liebe · Don Carlos,SCHILLER,AVAILABLE,DE,C16-2,문학
+c16-2_33546_76347_L_de_1,PEN,Erdmann,AVAILABLE,DE,C16-2,문학
+c16-2_69360_99916_L_de_1,Gottfried Keller: life and works,J. M. LINDSAY,AVAILABLE,DE,C16-2,문학
+c16-2_96117_47934_L_kr_1,完譯(완역) 나의 鬪爭(투쟁) / Mein Kampf,아돌푸 히틀러,AVAILABLE,KR,C16-2,문학
+c16-4_60568_32790_G_de_1,Tatsachen über Deutschland,Societätsverlag,AVAILABLE,DE,C16-4,역사
+c17-1_99135_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 79.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_65798_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 79.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_10493_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 79.Band 3./4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_34276_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 80.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_00869_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 80.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_68860_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 80.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_26773_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 80.Band 4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_15055_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 81.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_64409_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 81.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_40546_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 81.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_27771_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 81.Band 4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_99958_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 82.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_22823_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 82.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_56042_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 75.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_93156_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 75.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_96935_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 75.Band 4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_71676_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 76.Band 1./2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_81280_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 76.Band 3./4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_21489_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 77.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_73435_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 77.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_96362_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 77.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_53506_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 77.Band 4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_08938_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 78.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_39154_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 78.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_31694_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 78.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_07804_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 78.Band 4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_70342_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 65.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_43390_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 65.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_65711_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 65.Band 4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_08140_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 66.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_45958_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 66.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_80791_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 67. BAND 3/4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_37607_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 67. BAND 2. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_61557_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 67. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_42033_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 66. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_70517_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 66. BAND 3. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_92233_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 68. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_62819_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 68. BAND 2. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_25635_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 68. BAND 3. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_50547_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 68. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_58214_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 69. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_93254_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 69. BAND 2. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_44836_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 70. BAND 3. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_43007_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 73. BAND 2. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_82561_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 73. BAND 3. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-2_00475_55774_L_kr_1,하이네 硏究 (연구),吳漢鏞 (오한용),AVAILABLE,KR,C17-2,문학
+c17-2_59188_65500_L_de_1,PROPYLÄEN ≫Was ist das für ein Narr?≪,Thomas Bernhard,AVAILABLE,DE,C17-2,문학
+c17-2_54032_50222_L_de_1,Die deutschen Romantiker - 125 Lebensläufe Ein Personenlexikon,Klaus Günzel,AVAILABLE,DE,C17-2,문학
+c17-2_51309_18111_L_de_1,Liebe als Passiom - zur Codierung von Intimität,Niklas Luhmann,AVAILABLE,DE,C17-2,문학
+c17-2_54067_78381_SZ_de_1,Solidarität -  Von den Grundlagen dauerhaften Friedens,Léon Bourgeois,AVAILABLE,DE,C17-2,사회과학
+c17-2_19729_18111_SZ_de_1,Die Kontrolle von Intransparenz - Herausgegeben und mit einem Nachwort von Dirk Baecker,Niklas Luhmann,AVAILABLE,DE,C17-2,사회과학
+c17-2_85349_64908_SZ_de_1,Theorie und Praxis - Sozialphilosophische Studien,Jürgen Habermas,AVAILABLE,DE,C17-2,사회과학
+c17-2_11072_64908_SZ_de_1,Die Zukunft der menschlichen Natur Auf dem Weg zu einer liberalen Eugenik?,Jürgen Habermas,AVAILABLE,DE,C17-2,사회과학
+c17-2_84916_19956_L_de_1,Die nackte Wahrheit,Hans Blumenberg,AVAILABLE,DE,C17-2,문학
+c17-2_90560_98445_L_de_1,Enzyklopädie der Philosophischen Wissenschaften Ⅰ,G. W. F. Hegel,AVAILABLE,DE,C17-2,문학
+c17-2_11286_18111_SZ_de_1,Soziale Systeme - Grundriß einer allgemeinen Theorie,Niklas Luhmann,AVAILABLE,DE,C17-2,사회과학
+c17-2_50203_64908_L_de_1,Erkenntnis und Interesse - Mit einem neuen Nachwort,Jürgen Habermas,AVAILABLE,DE,C17-2,문학
+c17-2_58013_58394_L_de_1,Lexikon Theologie - Hundert Grundbegriffe,"Alf Christophersen, Stefan Jordan",AVAILABLE,DE,C17-2,문학
+c17-2_08221_39857_SP_de_1,Über Sprache überhaupt und über die Sprache des Menschen,Walter Benjamin,AVAILABLE,DE,C17-2,어학
+c17-2_90938_03303_SZ_de_1,Grundbegriffe der Philosophie,"Stefan Jordan, Christian Nimtz",AVAILABLE,DE,C17-2,사회과학
+c17-2_74799_51744_L_de_1,Casanovas Heimfahrt,Arthur Schnitzler,AVAILABLE,DE,C17-2,문학
+c17-2_06327_90168_L_de_1,Grundbegriffe der Geschichtswissenschaft,Stefan Jordan,AVAILABLE,DE,C17-2,문학
+c17-2_04196_07234_L_de_1,Grundbegriffe der Kunstwissenschaft,"Stefan Jordan, Jürgen Müller",AVAILABLE,DE,C17-2,문학
+c17-2_48576_98445_SZ_de_1,Phänomenologie des Geistes,G. W. F. Hegel,AVAILABLE,DE,C17-2,사회과학
+c17-2_40254_93721_L_de_1,Woyzeck - Studienausgabe,Georg Büchner,AVAILABLE,DE,C17-2,문학
+c17-2_22687_45987_L_de_1,Antike Mythen in der Kunst - 100 Meisterwerke,Lars Olof Larsson,AVAILABLE,DE,C17-2,문학
+c17-2_05178_55385_G_de_1,Reisen in die Neue Welt - Die Erahrung Nordamerikas in deutschen Reise- und Answandererberichten des 19. Jahrhunderts,Peter J. Brenner,AVAILABLE,DE,C17-2,역사
+c17-2_08137_53647_SZ_de_1,Karl Marx Friedrich Engels,"Marx, Engels",AVAILABLE,DE,C17-2,사회과학
+c17-2_82059_02152_L_de_1,Gesamtausgebe - Ⅲ. Abteilung: Unveröffentlichte Abhandlungen Vorträge - Gedachtes,Martin Heidegger,AVAILABLE,DE,C17-2,문학
+c17-2_02082_93854_L_de_1,ZEIT DER ZAUBERER - Das große Jahrzehnt der Philosophie 1919 - 1929,WOLFRAM EILENBERGER,AVAILABLE,DE,C17-2,문학
+c17-2_95732_42076_G_de_1,Der Mensch - Seine Natur und seine Stellung in der Welt,Arnold Gehlen,AVAILABLE,DE,C17-2,역사
+c17-2_04511_93102_SZ_de_1,Was ist Gewalt? - Philosophische Untersuchung zu einem umstrittenen Begriff,Dietrich Schotte,AVAILABLE,DE,C17-2,사회과학
+c17-2_43721_02152_L_de_1,Der Ursprung des Kunstwerkes,Martin Heidegger,AVAILABLE,DE,C17-2,문학
+c17-2_56527_64908_SZ_de_1,Theorie des kommunikativen Handelns Erster Band edition suhrkamp SV,Jürgen Habermas,AVAILABLE,DE,C17-2,사회과학
+c17-2_67671_64908_SZ_de_1,Theorie des kommunikativen Handelns Zweiter Band edition suhrkamp SV,Jürgen Habermas,AVAILABLE,DE,C17-2,사회과학
+c17-2_67643_08027_G_de_1,Ad Carl Schmitt Gegenstrebige Fügung,Jacob Taubes,AVAILABLE,DE,C17-2,역사
+c16-6_00677_72918_SZ_de_1,Vorlesungen zur Einführung in die Psychoanalyse Und Neue Folge,Sigmund Freud,AVAILABLE,DE,C16-6,사회과학
+c16-6_38793_72918_L_de_1,Die Traumdeutung,Sigmund Freud,AVAILABLE,DE,C16-6,문학
+c16-6_40087_72918_SZ_de_1,Psychologische Schriften,Sigmund Freud,AVAILABLE,DE,C16-6,사회과학
+c16-6_54312_72918_SZ_de_1,Psychologie des Unbewußten,Sigmund Freud,AVAILABLE,DE,C16-6,사회과학
+c16-6_63580_72918_L_de_1,Hysterie und Angst,Sigmund Freud,AVAILABLE,DE,C16-6,문학
+c16-6_42436_72918_L_de_1,Sexualleben,Sigmund Freud,AVAILABLE,DE,C16-6,문학
+c16-6_62788_72918_L_de_1,"Zwang, Paranoia und Perversion",Sigmund Freud,AVAILABLE,DE,C16-6,문학
+c16-6_35754_72918_L_de_1,Zwei Kinderneurosen,Sigmund Freud,AVAILABLE,DE,C16-6,문학
+c16-6_88215_72918_SZ_de_1,Fragen der Gesellschaft Ursprünge der Religion,Sigmund Freud,AVAILABLE,DE,C16-6,사회과학
+c16-6_90390_72918_L_de_1,Bildende Kunst und Literatur,Sigmund Freud,AVAILABLE,DE,C16-6,문학
+c16-6_17448_72918_SZ_de_1,Schriften zur Behandlungstechnik,Sigmund Freud,AVAILABLE,DE,C16-6,사회과학
+c17-1_58178_83949_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 86.Band 3.Heft,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_14888_83949_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 86.Band 4.Heft,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_50618_83949_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 87.Band 1.Heft,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_33443_83949_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 87.Band 2/3.Heft,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_58510_83949_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 87.Band 4.Heft,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_94173_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 82.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_70370_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 82.Band 4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_77815_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 83.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_50442_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 83.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_12173_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 83.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_83446_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 83.Band 4.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_24289_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 84.Band 1.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_43116_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 84.Band 2.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_33533_43528_L_de_1,Euphorion - Zeitschrift für Literaturgeschichte 84.Band 3.Heft,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-3_08687_92802_G_de_1,EIN GEFÜHL VON FREIEREM LEBEN - DEUTSCHE DICHTER IN ITALIEN,"GUNTER E. GRIMM, URSULA BREZMAZER, WALTER ERHART",AVAILABLE,DE,C17-3,역사
+c17-3_70632_34366_L_kr_1,"드라마연구 2015_제46호 (통합 제24권) - 특집: 현대 드라마의 새로운 서사 전략, 일반 논문","남지수, 이성곤, 최영주, 김중효, 김향, 양세라, 허필숙",AVAILABLE,KR,C17-3,문학
+c17-3_63599_06723_L_kr_1,"드라마연구 2015_제47호 (통합 제25권) - 특집논문: 위기, 에도, 희망의 드라마, 일반논문","권양현, 김승옥, 이상란, 강춘애, 이경미, 이선형, 전정옥",AVAILABLE,KR,C17-3,문학
+c17-3_60631_85603_L_kr_1,"드라마연구 2016_제48호 (통합 제26권) - 특별기고, 일반논문","귄터 헥, 김성희, 김숙현, 김정섭, 김주현, 김향, 박유희, 송선호, 이상란, 이진아, 주현식, 허필숙",AVAILABLE,KR,C17-3,문학
+c17-3_54666_28205_L_kr_1,"드라마연구 2016_제49호 (통합 제27권) - 특집: 경계 없는 예술, 일반 논문","조엘 앤더슨, 리우 양, 임인자, 김병길, 박우성, 이신영, 이인순, 주현식",AVAILABLE,KR,C17-3,문학
+c17-3_55481_40399_L_kr_1,드라마연구 2016_제50호 (통합 제28권),"김방옥, 이재민, 이진아, 임보람, 정효숙, 최배은",AVAILABLE,KR,C17-3,문학
+c17-3_37187_91645_L_de_1,KONRAD ADENAUER STIFTUNG - Vergleichende Studien zum Naturalismus in Deutschland und in Korea,Kyu-Hwa Chung,AVAILABLE,DE,C17-3,문학
+c17-3_52235_66111_SZ_de_1,Europäische Hochschulschriften - Don Sylvio und Anselmus - Untersuchung zur Gestaltung des Wunderbaren bei C.M. Wieland und E.T.A. Hoffmann,Jeong-Taeg Lim,AVAILABLE,DE,C17-3,사회과학
+c17-3_13981_50243_L_de_1,Europäische Hochschulschriften - Reflexion und Desintegration - Zur Identitätskrise der Protagonisten im Werk Georg Büchners,U-Tag Yang,AVAILABLE,DE,C17-3,문학
+c17-3_52366_60140_SP_de_1,Studium Sprachwissenschaft Beiheft 17 - Analyse und Kritik koreanischer Schulbücher für den Deutschunterricht - Ein Beitrag zur Lehrwerkforschung,Hyung-Uk Shin,AVAILABLE,DE,C17-3,어학
+c17-3_18616_60172_L_de_1,ZEIT UND TEXT Bd. 1 LIT - Experimente der Selbstdarstellung - Dramaturgien des jungen Goethe (1765-1786),Woo Young Lim,AVAILABLE,DE,C17-3,문학
+c17-3_70334_27005_L_de_1,Der Diskurs der Moderne in Thomas Manns Roman 'Doktor Faustus' - Untersuchung zum Verhältnis von Künstlerbiographie und deutscher Katastrophe - Dissertation zur Erlangung des philosophischen Doktorgrades am Fachbereich Historisch-Philologische Wissenschaften der Georg-August-Universität zu Göttingen,"Tschang-Zun Kim aus Seoul, Korea",AVAILABLE,DE,C17-3,문학
+c17-3_74976_60902_L_de_1,"Franz Kafka - Darstellung und Funktion des Raumes in ,Der Prozeß´ und ,Das Schloß´",Jeong-Suk Kim,AVAILABLE,DE,C17-3,문학
+c17-3_13867_83704_SP_de_1,Unifikationsbasierte Maschinelle Übersetzung mit Koreanisch als Quellsprache,Sung-Kwon Choi,AVAILABLE,DE,C17-3,어학
+c17-3_71598_09115_L_de_1,Bertolt Brecht und die chinesische Philosophie,Yun-Yeop Song,AVAILABLE,DE,C17-3,문학
+c17-3_87801_61002_L_de_1,Die kleinen Formen des frühen Lessing - eine Untersuchung ihres Strukturzusammenhangs - Philosophische Dissertation angenommen von der Neuphilologischen Fakultät der Universität Tübingen am 8. Juli 1991,Mi-Hyun An,AVAILABLE,DE,C17-3,문학
+c17-3_64716_60519_L_de_1,Rilkes Poetik des ´neuen´ Sehens in den Aufzeichungen des Malte Laurids Brigge und in den Neuen Gedichten,In-Ok Paek,AVAILABLE,DE,C17-3,문학
+c17-3_38928_76312_SP_de_1,"Valenz und Wortbildung - Dargestellt am Beispiel der verbalen Präfixbildung mit be-. ent-, er-, miß-, ver-, zer-",Gyung-Uk Kim,AVAILABLE,DE,C17-3,어학
+c17-3_56635_47566_SP_de_1,Europäische Hochschulschriften - Interaktion und Zweitsprachenerwerb - Eine empirische Untersuchung von Verständigungsproblemen am Beispiel der NMS-MS-Kommunikation aus der Perspektive des Spracherwerbs,Ok-seon Kim,AVAILABLE,DE,C17-3,어학
+c17-3_38626_89998_L_de_1,"Johann Peter Hebels Kalendergeschichten - Eine Studie über Heimat und Geschichte, Religion und Sittlichkeit im ,,Herausfreund´´ - Inaugural-Dissertation zur Erlangung des Doktorgrades der Philosophischen Fakultät der Universität zu Köln","Tschang Bok Rhie aus Kongzu, Korea",AVAILABLE,DE,C17-3,문학
+c17-3_41413_64608_SZ_de_1,DIE GRENZEN DER GRAMMATIK - Inaugural-Dissertation zur Erlangung der Doktorwürde der Philosophischen Fakultät der Rheinischen Friedrich-Wilhelms-Universität zu Bonn,CHONG IN HOANG aus YONGIN (Korea),AVAILABLE,DE,C17-3,사회과학
+c17-3_06792_86384_L_de_1,Europäische Hochschulschriften - Probleme der Literaturgechichtsschreibung,Young-Kyun Ra,AVAILABLE,DE,C17-3,문학
+c17-3_11281_71995_L_de_1,Untersuchungen zum CHINA-BILD der MUSLIME in der frühislamischen Literatur - Inaugural-Dissertation zur Erlangung des Grades eines Doktors der Philosophie in der Abteilung für Philisophie der Ruhr-Universität Bochum,"Jong-Wee Kim aus Kyung-Su, Korea",AVAILABLE,DE,C17-3,문학
+c17-3_83220_63349_L_de_1,"Europäische Hochschulschriften - Dichtung als ,,Heimkehr´´ - Manifestationsformen des Weiblichen in der Lyrik Paul Celans",Yeo-Mae Je,AVAILABLE,DE,C17-3,문학
+c17-3_13316_80376_G_de_1,"Volkstümlichkeit und Realismus - Untersuchungen zu Geschichte, Motiven und Typologien der Erzähgattung Dorfgeschichte",Du Gyu Kim,AVAILABLE,DE,C17-3,역사
+c17-3_36364_90767_SP_de_1,Romanistik 64 - ROMANIA ORIENTALIS - Zur Entstehung des Rumänischen,Mun-Suh Lee,AVAILABLE,DE,C17-3,어학
+c17-3_52401_01045_L_de_1,DIE ENTWICKLUNGSGESCHICHTE DES DEUTSCHSPRACHIGEN BILDERBUCHES IM 20. JAHRHUNDERT - Eine Untersuchung der Konstitution der Welt im Bilderbuch und der Versuch ihrer kunst- und sozialgeshichtlichen Einordnung - Dissertation zur Erlangung des Doktorgrades der Philosphischen Fakultät der Georg-August-Universität zu Göttingen,Ulrich Hann aus Lauterbach in Hessen,AVAILABLE,DE,C17-3,문학
+c17-3_72203_03313_L_de_1,WECHSELwirkungen 13 - Von aussen betrachtet - Österreich und die österreichischen Literatur im Spiegel der Auslandesrezeption,"Anthony Bushell, Dagmar Košťálová",AVAILABLE,DE,C17-3,문학
+c17-3_95819_24213_L_de_1,"WANDERER IN ABSURDISTAN - NOVALIS, NIETSCHE, BECKETT, BERNHARD UND DER GANZE REST - EINE UNTERSUCHUNG ZUR ERSCHEINUNG DES ABSURDEN IN PROSA",NORBERT W. SCHLINKERT,AVAILABLE,DE,C17-3,문학
+c17-3_14231_29736_G_de_1,"Fragen an die deutsche Geschichte - Ideen, Kräfte, Entscheidungen - Von 1800 bis zur Gegenwart - English Edition",Deutscher Bundestag,AVAILABLE,DE,C17-3,역사
+c17-3_98257_29736_G_de_1,"Fragen an die deutsche Geschichte - Ideen, Kräfte, Entscheidungen - Von 1800 bis zur Gegenwart",Deutscher Bundestag,AVAILABLE,DE,C17-3,역사
+c17-3_23672_15289_L_de_1,"WOLFGANG BAUER MEDIOGRAPHIE 1961-2011 - Bibliographie, Szenographie, Audiographie, Filmographie",Thomas Antonic,AVAILABLE,DE,C17-3,문학
+c17-3_17290_29957_L_de_1,Biographie Hanser - SCHILLER oder Die Erdingung des Deutschen Idealismus,RÜDIGER SAFRANSKI,AVAILABLE,DE,C17-3,문학
+c17-3_74178_68936_SZ_kr_1,독일 통일 한국 통일 - 독일 통일에서 찾는 한반도 통일의 길,손선홍,AVAILABLE,KR,C17-3,사회과학
+c17-3_69240_95779_SZ_de_1,Willy Brandt - Über den Tag hinaus,Willy Brandt,AVAILABLE,DE,C17-3,사회과학
+c17-3_10834_78961_L_kr_1,장면 구성과 인물 창조를 위한 희곡 읽기 - 한국드라마학회 편,한국드라마학회,AVAILABLE,KR,C17-3,문학
+c17-3_08089_96200_L_kr_1,독일 연극사 - 근세부터 현대까지 / Deutsche Theatergeschichte - Von den Anfängen bis zur Gegenwart,이원양,AVAILABLE,KR,C17-3,문학
+c17-1_76260_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 73. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_78289_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 74. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_78898_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 74. BAND 2. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_85301_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 74. BAND 3. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_36650_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 74. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_35689_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 75. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_73246_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 69. BAND 3. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_95381_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 69. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_00062_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 70. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_19753_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 70. BAND 2. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_53311_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 73. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_68693_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 72. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_65158_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 72. BAND 2./3. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_07879_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 72. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_77942_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 71. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_59915_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 71. BAND 3. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_39130_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 71. BAND 2. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_50514_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 71. BAND 1. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_79877_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 70. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_85430_43528_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 84. BAND 4. HEFT,"RAINER GRUENTER, ARTHUR HENKEL",AVAILABLE,DE,C17-1,문학
+c17-1_77523_83949_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 85. BAND 1. HEFT,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_54888_83949_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 85. BAND 2. HEFT,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_25856_83949_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 85. BAND 3./4. HEFT,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_16289_83949_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 86. BAND 1. HEFT,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_94224_83949_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 86. BAND 2. HEFT,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-1_47338_83949_L_de_1,EUPHORION - ZEITSCHRIFT FÜR LITERATURGESCHICHTE 86. BAND 3. HEFT,RAINER GRUENTER,AVAILABLE,DE,C17-1,문학
+c17-4_04389_07455_SP_de_1,Musik und Kunst - im Unterricht Deutsch als Fremdsprache,"Rainer E. Wicke, Karin Rottman",AVAILABLE,DE,C17-4,어학
+c17-4_09754_60489_SP_de_1,Deutsch lernen mit Rythmus - Der Sprechrthythmus als Basis einer intergrierten Pheonetik im Unterricht Deutsch als Fremdsprache,Andreas Fischer,AVAILABLE,DE,C17-4,어학
+c17-4_53296_58541_L_de_1,Balladen verstehen - Balladen vortragen,Wolfgang Brauer,AVAILABLE,DE,C17-4,문학
+c17-4_24765_48581_L_de_1,Eine Literaturgeschichte: ÖSTERREICH SEIT 1650,"Klaus Zeyringer, Helmut Gollner",AVAILABLE,DE,C17-4,문학
+c17-4_50997_92926_L_de_1,Goethe: Kunstwerk des Lebens,Rüdinger Safranski,AVAILABLE,DE,C17-4,문학
+c17-4_88035_24394_L_en_1,Music and Song,Tim Murphey,AVAILABLE,EN,C17-4,문학
+c17-4_41447_23568_L_de_1,Das Reclam Buch der Musik,Arnold Werner - Jensen,AVAILABLE,DE,C17-4,문학
+c17-4_04301_07737_L_de_1,Komponistenlexikon für junge Leute - 153 Porträts von der Renaissance bis zur Gegenwart,Ulrich Rühle,AVAILABLE,DE,C17-4,문학
+c17-4_55378_23147_SP_de_1,Sprache und Musik - Perspektiven einer beziehung,Albrecht Riethmüller,AVAILABLE,DE,C17-4,어학
+c17-4_77950_23841_G_de_1,"Alles, was draußen ist",Saskia Hennig Von Lange,AVAILABLE,DE,C17-4,역사
+c17-4_09242_10527_L_de_1,"Herrn Yetts Betrachtungen, oder Brosamen, die erfallen liess, aufgelesen von seinen zuhören",Hans Magnus Enzensberger,AVAILABLE,DE,C17-4,문학
+c17-4_50004_16638_L_de_1,Das Ungeheuer,Terézia Mora,AVAILABLE,DE,C17-4,문학
+c17-4_81723_54044_L_de_1,Jahrbuch Der Lyrik 2013,"Christoph Buchwald, Jan Wagner",AVAILABLE,DE,C17-4,문학
+c17-4_48345_40994_L_de_1,Unter der Hand,Dagmar Leupold,AVAILABLE,DE,C17-4,문학
+c17-4_41889_36507_L_de_1,Heimliche Helden,Ulrike Draesner,AVAILABLE,DE,C17-4,문학
+c17-4_69068_93282_L_de_1,Vogelweide,Uwe Timm,AVAILABLE,DE,C17-4,문학
+c17-4_73159_69378_L_en_1,F,Daniel Kehlmann,AVAILABLE,EN,C17-4,문학
+c17-4_98069_31981_L_de_1,Das größere Wunder,Thomas Glavinic,AVAILABLE,DE,C17-4,문학
+c17-4_37880_11445_L_de_1,"Das Erste, was ich sah",Karl-Markus Gauß,AVAILABLE,DE,C17-4,문학
+c17-4_54417_81555_L_de_1,Quasikristalle,Eva Menasse,AVAILABLE,DE,C17-4,문학
+c17-4_34629_24327_L_de_1,Strom,Hannah Dübgen,AVAILABLE,DE,C17-4,문학
+c17-4_80995_94780_G_de_1,Die Linke Hand des Papstes,Friedrich Christian Delius,AVAILABLE,DE,C17-4,역사
+c17-4_63196_62798_L_de_1,Frühling der Barbaren,Jonas Lüscher,AVAILABLE,DE,C17-4,문학
+c17-4_90231_65809_L_de_1,Im Stem,Clemens Meyer,AVAILABLE,DE,C17-4,문학
+c17-4_12908_21027_L_de_1,Musik und Bildende Kunst in Deutschunterricht - Band 21,Wolfgang Wangerin,AVAILABLE,DE,C17-4,문학
+c17-6_63411_09654_L_de_1,Gregorius,Hartmann von Aue,AVAILABLE,DE,C17-6,문학
+c17-6_10733_26418_SP_de_1,Walter Benjamins Theorie der Sprachmagie,Winfried Menninghaus,AVAILABLE,DE,C17-6,어학
+c17-6_88054_22556_L_de_1,Deutsche Prosa Erzählungen seit 1945 - sonderreihe dtv,Horst Bingel,AVAILABLE,DE,C17-6,문학
+c17-6_74573_28063_SZ_de_1,Politik der Gefühle - Ein Essay über Österreich,Josef Haslinger,AVAILABLE,DE,C17-6,사회과학
+c17-6_95916_81274_L_de_1,Das sprachliche Kunstwerk - Eine Einführung in die Literaturwissenschaft,Wolfgang Kayser,AVAILABLE,DE,C17-6,문학
+c17-6_81151_98132_L_de_1,Die Fastnachtsbeichte,Carl Zuckmayer,AVAILABLE,DE,C17-6,문학
+c17-6_75032_52575_L_de_2,Deutsche Gegenwartsliteratur - Ausgangspositionen und aktuelle Entwicklungen,Manfred Durzak,AVAILABLE,DE,C17-6,문학
+c17-6_83527_46990_L_de_1,Geschichte der deutschen Literatur vom 18. Jahrhundert bis zur Gegenwart,Viktor Žmegač,AVAILABLE,DE,C17-6,문학
+c17-6_81309_23967_L_de_1,deutsche Literatur das 19. und 20. Jahrhundert,Walter Urbanek,AVAILABLE,DE,C17-6,문학
+c17-6_08455_70588_SP_kr_1,외국문학연구 제25호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_19128_70588_SP_kr_1,외국문학연구 제26호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_51987_70588_SP_kr_1,외국문학연구 제27호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_87346_70588_SP_kr_1,외국문학연구 제28호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_08288_70588_SP_kr_1,외국문학연구 제29호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_78676_70588_SP_kr_1,외국문학연구 제31호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_01141_70588_SP_kr_1,외국문학연구 제32호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_33747_70588_SP_kr_1,외국문학연구 제33호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_30816_70588_SP_kr_1,외국문학연구 제34호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_89586_70588_SP_kr_1,외국문학연구 제35호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_30805_70588_SP_kr_1,외국문학연구 제36호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_32783_70588_SP_kr_1,외국문학연구 제38호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_32783_70588_SP_kr_2,외국문학연구 제38호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,어학
+c17-6_39702_70588_L_kr_1,외국문학연구 Foreign Literature Studies 제 40호,한국외국어대학교 외국학종합연구센터 외국문학연구소,AVAILABLE,KR,C17-6,문학
+c17-7_47187_20103_L_de_1,TEXT+KRITIK,Friedlich Gott Klopstock,AVAILABLE,DE,C17-7,문학
+c17-7_47187_36958_L_de_1,TEXT+KRITIK,Friedlich DurrenmattⅡ,AVAILABLE,DE,C17-7,문학
+c17-7_47187_32745_L_de_1,TEXT+KRITIK,Peter Handke,AVAILABLE,DE,C17-7,문학
+c17-7_47187_87382_L_de_1,TEXT+KRITIK,Gunter Grass,AVAILABLE,DE,C17-7,문학
+c17-7_70677_22111_L_en_1,Deustche Metrik,"Otto Paul, Ingeborg Glier",AVAILABLE,EN,C17-7,문학
+c17-7_61299_12496_L_de_1,Die deutsche Novelle zwischen Klassik und Romantik,Josef Kunz,AVAILABLE,DE,C17-7,문학
+c17-7_24834_40589_L_de_1,Interpretationen von 66 Balladen Moritaten Chansons,Edgar Neis,AVAILABLE,DE,C17-7,문학
+c17-7_00528_90296_L_de_1,Die Wand Roman,Marlen Haushofer,AVAILABLE,DE,C17-7,문학
+c17-7_27430_00643_L_de_1,Interpretationen1 Deustche Lyrik von Weckherlin bis Berlin,Jost Schillemeit,AVAILABLE,DE,C17-7,문학
+c17-7_85017_34992_SP_de_1,Die schriftlich Form germanitischer Arbeiten,Georg Bangen,AVAILABLE,DE,C17-7,어학
+c17-7_25521_03733_L_de_1,Goethe erzählt sein Leben,"Hans Egon Gerlach, Otto Hermann",AVAILABLE,DE,C17-7,문학
+c17-7_94236_74611_L_en_1,Novelle,Benno von Wiese,AVAILABLE,EN,C17-7,문학
+c17-7_57151_72523_L_de_1,Wege der deutschen Literatur,"Glaser, Lehmann, Lubos",AVAILABLE,DE,C17-7,문학
+c17-7_01613_44577_L_de_1,Das moderne Drama,Marget Dietrich,AVAILABLE,DE,C17-7,문학
+c17-7_69790_72038_L_de_2,Deutsche Literaturgeschichte,Fritz Martini,AVAILABLE,DE,C17-7,문학
+c17-7_43934_45507_L_de_1,"Wie unfair, David! Satiren",Ephraim Kishon,AVAILABLE,DE,C17-7,문학
+c8-6_88299_79462_G_de_1,dtt-Atlas zur Weltgeschichte - Karten und chronologischer Abriss - Band 1 - Von den Anfängen bis zur Französischen Revolution,"Hermann Kinder, Werner Hilgemann",AVAILABLE,DE,C8-6,역사
+c8-6_18727_79462_G_de_1,dtt-Atlas zur Weltgeschichte - Karten und chronologischer Abriss - Band 2 - Von der Französischen Revolution bis zur Gegenwart,"Hermann Kinder, Werner Hilgemann",AVAILABLE,DE,C8-6,역사
+c8-6_52218_64995_G_de_1,HIRTS STICHWORTBÜCHER - GESCHICHTE ÖSTERREICHS IN STICHWORTEN - I - Von der Urzeit bis 1282,"Erich Scheithauer, Herbert Schmeiszer, Grete Woratschek",AVAILABLE,DE,C8-6,역사
+c8-6_61193_64995_G_de_1,HIRTS STICHWORTBÜCHER - GESCHICHTE ÖSTERREICHS IN STICHWORTEN - II - Von 1282 bis zum Westfälischen Frieden,"Erich Scheithauer, Herbert Schmeiszer, Grete Woratschek",AVAILABLE,DE,C8-6,역사
+c8-6_76378_64995_G_de_1,HIRTS STICHWORTBÜCHER - GESCHICHTE ÖSTERREICHS IN STICHWORTEN - III - Von 1648 bis zum Wiener Kongreß,"Erich Scheithauer, Herbert Schmeiszer, Grete Woratschek",AVAILABLE,DE,C8-6,역사
+c8-6_94216_64995_G_de_1,HIRTS STICHWORTBÜCHER - GESCHICHTE ÖSTERREICHS IN STICHWORTEN - IV - Von 1815 bis 1918,"Erich Scheithauer, Herbert Schmeiszer, Grete Woratschek",AVAILABLE,DE,C8-6,역사
+c8-6_15624_25793_G_de_1,HEFTE ZUM ZEITGESCHEHEN - Die Entstehung und Entwicklung der Weimarer Republik bis zu Eberts Tod,"G. PRÜFER, W. TORMIN",AVAILABLE,DE,C8-6,역사
+c8-6_10923_37104_G_de_1,HEFTE ZUM ZEITGESCHEHEN - Die Auflösung der Weimarer Republik,ANDREAS HILLGRUBER,AVAILABLE,DE,C8-6,역사
+c8-6_35923_16985_G_de_1,ATLAS ZUR ALLGEMEINEN UND ÖSTERREICHISCHEN GESCHICHTE,Wilhelm Schier,AVAILABLE,DE,C8-6,역사
+c8-6_65233_28363_G_de_1,AUFBRUCH UND UNTERGANG - ÖSTERREICHISCHE KULTUR ZWISCHEN 1918 UND 1938,FRANZ KADRNOSKA,AVAILABLE,DE,C8-6,역사
+c8-6_05699_04992_G_de_1,AUF DEM WEG ZUR MACHT - ZUR GESCHICHTE DER NS-BEWEGUNG IN HEIDELBERG 1920-1934 - DOKUMENTE UND ANALZSEN,"Christian Peters, Arno Weckbecker",AVAILABLE,DE,C8-6,역사
+c8-6_38504_41941_SP_de_1,Aufgaben-Handbuch - Deutsch als Fremdsprache - Abriss einer Aufgaben- und Übungstypologie,"Häussermann, Piepho",AVAILABLE,DE,C8-6,어학
+c8-6_73976_91355_SZ_de_1,Vorlesungen zur marxistisch-leninistischen ÄSTHETIK,Moissej Kagan,AVAILABLE,DE,C8-6,사회과학
+c8-6_05457_42906_L_de_1,Deutsche Geschichte - Ereignisse und Probleme - Winfried Baumgart - Bücherverzeichnis zur deutschen Geschichten - Hilfsmittel·Handbücher·Quellen,Walther Hubatsch,AVAILABLE,DE,C8-6,문학
+c8-6_17508_34794_L_de_1,BEGRIFFSBESTIMMUNG DES LITERARISCHEN REALISMUS,Richard Brinkmann,AVAILABLE,DE,C8-6,문학
+c8-6_48193_20204_L_de_1,DAS DRITTE REICH IN DOKUMENTEN,Walter Anger,AVAILABLE,DE,C8-6,문학
+c8-6_96072_18695_G_de_1,das ist kärnten - Geschichte·Kultur·Landschaft,Trude Polley,AVAILABLE,DE,C8-6,역사
+c8-6_16288_21673_L_de_1,Neue deutsche Kurzgeschichten,Pratz-Thiel,AVAILABLE,DE,C8-6,문학
+c17-5_58153_13435_SP_de_1,Dialektische Philosophie der Neuzeit 1 - Von Kant bis Hegel,Wolfgang Röd,AVAILABLE,DE,C17-5,어학
+c17-5_76192_13435_SZ_de_1,Dialektische Philosophie der Neuzeit 2 - Von Marx bis zur Gegenwart,Wolfgang Röd,AVAILABLE,DE,C17-5,사회과학
+c17-5_77530_16302_SZ_de_1,Verstehen und Gestalten B8 - Sprachbuch für Gymnasien,"Dieter Mayer, Gerhard Schoebe",AVAILABLE,DE,C17-5,사회과학
+c17-5_00677_16302_SZ_de_1,Verstehen und Gestalten B6 - Sprachbuch für Gymnasien,"Dieter Mayer, Gerhard Schoebe",AVAILABLE,DE,C17-5,사회과학
+c17-5_62625_13559_G_de_1,Die Anfänge des griechischen Nationalstaates 1833-1843,Irmgard Wilharm,AVAILABLE,DE,C17-5,역사
+c17-5_62625_13559_G_de_2,Die Anfänge des griechischen Nationalstaates 1833-1843,Irmgard Wilharm,AVAILABLE,DE,C17-5,역사
+c17-5_62625_13559_G_de_3,Die Anfänge des griechischen Nationalstaates 1833-1843,Irmgard Wilharm,AVAILABLE,DE,C17-5,역사
+c17-5_95823_92954_SZ_de_1,Die irische Nationalbewegung zwischen Parlament und Revolution,Peter Alter,AVAILABLE,DE,C17-5,사회과학
+c17-5_95823_92954_SZ_de_2,Die irische Nationalbewegung zwischen Parlament und Revolution,Peter Alter,AVAILABLE,DE,C17-5,사회과학
+c17-5_39487_64394_G_de_1,Österreich Die Zweite Republik 1,"Erika Weinzierl, Kurt Skalnik",AVAILABLE,DE,C17-5,역사
+c17-5_43508_64394_G_de_1,Österreich Die Zweite Republik 2,"Erika Weinzierl, Kurt Skalnik",AVAILABLE,DE,C17-5,역사
+c17-5_78793_64394_G_de_1,Österreich 1918-1938 - Geschichte der Ersten Republik 1,"Erika Weinzierl, Kurt Skalnik",AVAILABLE,DE,C17-5,역사
+c17-5_55275_64394_G_de_1,Österreich 1918-1938 - Geschichte der Ersten Republik 2,"Erika Weinzierl, Kurt Skalnik",AVAILABLE,DE,C17-5,역사
+c17-5_84676_19888_G_de_1,Geschichte Österreichs Band I Urzeit - Von etwa 80000 bis 15 v. Chr. Geb.,Richard Pittioni,AVAILABLE,DE,C17-5,역사
+c17-5_84676_19888_G_de_2,Geschichte Österreichs Band I Urzeit - Von etwa 80000 bis 15 v. Chr. Geb.,Richard Pittioni,AVAILABLE,DE,C17-5,역사
