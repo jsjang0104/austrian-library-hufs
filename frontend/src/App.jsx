@@ -220,7 +220,7 @@ function Layout() {
           </div>
           <div className="element-developer">
             <strong>Webentwicklung & Bibliotheksleitung | 홈페이지 개발 및 도서관 운영 총괄</strong><br />
-            장지수 Jisoo Jang (Germanistik '24) <a href="mailto:jsjang07028@gmail.com">jsjang07028@gmail.com</a>
+            Jisoo Jang <a href="mailto:jsjang07028@gmail.com">jsjang07028@gmail.com</a>
           </div>
         </div>
       </footer>

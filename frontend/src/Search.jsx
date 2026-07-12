@@ -157,7 +157,7 @@ function Search() {
       <div className="info-section">
         <h2>검색 결과</h2>
         {loading ? (
-          <p className="loading-msg">{aiSearch ? 'AI가 의미가 비슷한 도서를 찾고 있어요... (몇 초 걸릴 수 있어요)' : '데이터를 불러오는 중입니다...'}</p>
+          <p className="loading-msg">{aiSearch ? 'AI가 도서를 찾고 있어요' : '데이터를 불러오는 중입니다...'}</p>
         ) : (
           <>
             <div className="table-container">

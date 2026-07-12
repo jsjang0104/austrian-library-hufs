@@ -474,6 +474,9 @@ a.site-title {
 
 .footer-content a {
   color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
   transition: text-decoration 0.2s ease-in-out;
 }
 
