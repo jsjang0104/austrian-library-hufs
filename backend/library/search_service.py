@@ -78,8 +78,8 @@ def embed_texts(texts, kind="passage"):
 
 
 _CATEGORY_TRANSLATION = {
-    "문학": "Literatur", "어학": "Sprachwissenschaft",
-    "역사": "Geschichte", "사회과학": "Sozialwissenschaften", "기타": "Sonstiges",
+    "Literatur": "문학", "Sprachwissenschaft": "어학",
+    "Geschichte": "역사", "Sozialwissenschaften": "사회과학", "Sonstiges": "기타",
 }
 
 

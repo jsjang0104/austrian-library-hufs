@@ -34,6 +34,14 @@ function Search() {
     'ETC': '기타'
   };
 
+  const CATEGORY_MAP = {
+    'Literatur': '문학',
+    'Sprachwissenschaft': '어학',
+    'Geschichte': '역사',
+    'Sozialwissenschaften': '사회과학',
+    'Sonstiges': '기타'
+  };
+
   const clean = (params) =>
     Object.fromEntries(Object.entries(params).filter(([_, v]) => v !== ''));
 
@@ -167,11 +175,11 @@ function Search() {
               className="search-input-lg"
             >
               <option value="">-- 분야 전체 --</option>
-              <option value="문학">문학</option>
-              <option value="어학">어학</option>
-              <option value="역사">역사</option>
-              <option value="사회과학">사회과학</option>
-              <option value="기타">기타</option>
+              <option value="Literatur">문학</option>
+              <option value="Sprachwissenschaft">어학</option>
+              <option value="Geschichte">역사</option>
+              <option value="Sozialwissenschaften">사회과학</option>
+              <option value="Sonstiges">기타</option>
             </select>
 
             <select 
@@ -224,7 +232,7 @@ function Search() {
                             <td className="text-left">{book.title}</td>
                             <td>{book.author || '-'}</td>
                             <td>{LANG_MAP[book.language] || book.language}</td>
-                            <td>{book.category}</td>
+                            <td>{CATEGORY_MAP[book.category] || book.category}</td>
                             <td>{book.location || '-'}</td>
                             <td>
                               <span className={`status-badge ${
