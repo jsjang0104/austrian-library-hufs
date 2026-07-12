@@ -572,6 +572,45 @@ a.site-title {
   color: #c62828;
 }
 
+/* 도서 행 클릭/펼침 */
+.library-table tbody tr.book-row {
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.library-table tbody tr.book-row:hover {
+  background-color: #f0eae4;
+}
+
+.book-detail-cell {
+  text-align: left;
+  white-space: pre-line;
+  padding: 20px 24px;
+  background-color: #faf8f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.book-detail-caption {
+  display: block;
+  font-size: 12px;
+  color: #8e7150;
+  margin-bottom: 8px;
+}
+
+.book-detail-translation {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.book-detail-text {
+  color: #333;
+}
+
+.book-detail-empty {
+  color: #888;
+}
+
 
 /* ========================================= */
 /* 반응형 - 태블릿 (1024px 이하) */
@@ -925,4 +964,30 @@ a.site-title {
 
 .about-page a {
   color: navy;
+}
+
+/* ========================================= */
+/* 도서 상세 패널 - 모바일 카드뷰 보정        */
+/* ========================================= */
+@media (max-width: 768px) {
+  .library-table tr.book-detail-row {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+    margin-bottom: 12px;
+  }
+
+  .library-table td.book-detail-cell::before {
+    content: none;
+  }
+
+  .library-table td.book-detail-cell {
+    display: block;
+    text-align: left !important;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    padding: 16px !important;
+    background-color: #faf8f5;
+  }
 }

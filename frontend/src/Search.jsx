@@ -19,6 +19,7 @@ function Search() {
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedStatus, setSelectedStatus] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
+  const [expandedBookId, setExpandedBookId] = useState(null);
   const PAGE_SIZE = 10;
   const STATUS_MAP = {
     'AVAILABLE': '대출 가능', 'available': '대출 가능',
@@ -56,6 +57,7 @@ function Search() {
       setBooks(response.data);
       setSearched(true);
       setCurrentPage(1);
+      setExpandedBookId(null);
 
     } catch (error) {
       console.error("검색 실패:", error);
@@ -84,6 +86,39 @@ function Search() {
   const handleAISearch = () => {
     setAiSearch(true);
     if (keyword.trim()) fetchBooks(keyword, true);
+  };
+
+  const goToPage = (page) => {
+    setExpandedBookId(null);
+    setCurrentPage(page);
+  };
+
+  const toggleRow = (bookId) => {
+    setExpandedBookId((prev) => (prev === bookId ? null : bookId));
+  };
+
+  const renderBookDetail = (book) => {
+    const hasTranslation = Boolean(book.translated_title || book.translated_author);
+    const hasSearchText = Boolean(book.search_text);
+
+    if (!hasTranslation && !hasSearchText) {
+      return <p className="book-detail-empty">등록된 추가 정보가 없습니다.</p>;
+    }
+
+    const translationParts = [
+      book.translated_title && `제목 번역: ${book.translated_title}`,
+      book.translated_author && `저자 번역: ${book.translated_author}`
+    ].filter(Boolean);
+
+    return (
+      <>
+        <span className="book-detail-caption">✦ AI 생성 정보입니다</span>
+        {translationParts.length > 0 && (
+          <p className="book-detail-translation">{translationParts.join(' · ')}</p>
+        )}
+        {hasSearchText && <p className="book-detail-text">{book.search_text}</p>}
+      </>
+    );
   };
 
   return (
@@ -175,24 +210,41 @@ function Search() {
                 </thead>
                 <tbody>
                   {books && books.length > 0 ? (
-                    books.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE).map((book) => (
-                      <tr key={book.id || book.book_id}>
-                        <td>{book.call_number}</td>
-                        <td className="text-left">{book.title}</td>
-                        <td>{book.author || '-'}</td>
-                        <td>{LANG_MAP[book.language] || book.language}</td>
-                        <td>{book.category}</td>
-                        <td>{book.location || '-'}</td>
-                        <td>
-                          <span className={`status-badge ${
-                            (book.status === 'AVAILABLE' || book.status === 'available')
-                            ? 'available' : 'borrowed'
-                          }`}>
-                            {STATUS_MAP[book.status] || book.status}
-                          </span>
-                        </td>
-                      </tr>
-                    ))
+                    books.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE).map((book) => {
+                      const bookId = book.id || book.book_id;
+                      const isExpanded = expandedBookId === bookId;
+                      return (
+                        <React.Fragment key={bookId}>
+                          <tr
+                            className="book-row"
+                            onClick={() => toggleRow(bookId)}
+                            aria-expanded={isExpanded}
+                          >
+                            <td>{book.call_number}</td>
+                            <td className="text-left">{book.title}</td>
+                            <td>{book.author || '-'}</td>
+                            <td>{LANG_MAP[book.language] || book.language}</td>
+                            <td>{book.category}</td>
+                            <td>{book.location || '-'}</td>
+                            <td>
+                              <span className={`status-badge ${
+                                (book.status === 'AVAILABLE' || book.status === 'available')
+                                ? 'available' : 'borrowed'
+                              }`}>
+                                {STATUS_MAP[book.status] || book.status}
+                              </span>
+                            </td>
+                          </tr>
+                          {isExpanded && (
+                            <tr className="book-detail-row">
+                              <td colSpan="7" className="book-detail-cell">
+                                {renderBookDetail(book)}
+                              </td>
+                            </tr>
+                          )}
+                        </React.Fragment>
+                      );
+                    })
                   ) : (
                     <tr>
                       <td colSpan="7" className="no-result">
@@ -221,7 +273,7 @@ function Search() {
                 <div className="pagination">
                   <button
                     className="page-btn"
-                    onClick={() => setCurrentPage((p) => p - 1)}
+                    onClick={() => goToPage(currentPage - 1)}
                     disabled={currentPage === 1}
                   >
                     &lt;
@@ -233,7 +285,7 @@ function Search() {
                       <button
                         key={page}
                         className={`page-btn ${currentPage === page ? 'active' : ''}`}
-                        onClick={() => setCurrentPage(page)}
+                        onClick={() => goToPage(page)}
                       >
                         {page}
                       </button>
@@ -241,7 +293,7 @@ function Search() {
                   )}
                   <button
                     className="page-btn"
-                    onClick={() => setCurrentPage((p) => p + 1)}
+                    onClick={() => goToPage(currentPage + 1)}
                     disabled={currentPage === totalPages}
                   >
                     &gt;
