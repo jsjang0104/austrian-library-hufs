@@ -217,7 +217,7 @@ function Layout() {
             점심시간 12:00~13:00
           </div>
           <div className="element-developer">
-            <strong>홈페이지 개발 및 도서관 운영 총괄</strong><br /><a href="https://www.linkedin.com/in/jsjang0104/" target="_blank" rel="noreferrer">독일어('24)</a> jsjang0104@naver.com
+            <strong>홈페이지 개발 및 도서관 운영 총괄</strong><br />Jisoo Jang (독일어 24') <a href="mailto:jsjang07028@gmail.com">jsjang07028@gmail.com</a>
           </div>
         </div>
       </footer>

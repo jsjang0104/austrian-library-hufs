@@ -1,9 +1,12 @@
 # 1. 환경 변수 및 비밀 정보 (Secrets)
 ####################################
-.env                        # 모든 .env 파일 (루트 포함)
+# 모든 .env 파일 (루트 포함)
+.env
 backend/.env
-*.local                     # .env.local 등 로컬 전용 설정 파일
-settings_local.py           # Django 로컬 설정 파일
+# .env.local 등 로컬 전용 설정 파일
+*.local
+# Django 로컬 설정 파일
+settings_local.py
 
 # 데이터베이스 파일
 db.sqlite3
@@ -22,13 +25,17 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 lerna-debug.log*
-backend/logs/               # Django 백엔드 로그 폴더
+# Django 백엔드 로그 폴더
+backend/logs/
 
 ## 3. 의존성 및 빌드 결과물 (Node.js/Vite)
 ##########################
-node_modules/               # 루트 node_modules
-dist/                       # 루트 dist 폴더 (Vite 빌드 결과물)
-dist-ssr/                   # SSR(Server-Side Rendering) 빌드 결과물
+# 루트 node_modules
+node_modules/
+# 루트 dist 폴더 (Vite 빌드 결과물)
+dist/
+# SSR(Server-Side Rendering) 빌드 결과물
+dist-ssr/
 
 # 프론트엔드 폴더 내의 의존성 및 빌드 결과물
 frontend/node_modules/
@@ -50,8 +57,10 @@ backend/__pycache__/
 ## 5. IDE 및 OS 파일
 ####################
 # IDE/에디터 설정 폴더
-.idea/                      # JetBrains (PyCharm 등)
-.vscode/                    # VS Code 설정
+# JetBrains (PyCharm 등)
+.idea/
+# VS Code 설정
+.vscode/
 !.vscode/extensions.json    # 확장 프로그램 추천 파일만 예외적으로 추적
 
 # OS/기타 파일

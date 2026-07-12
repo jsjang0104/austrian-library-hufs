@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.db.models import Q
 from django.utils.html import format_html
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
@@ -13,12 +14,40 @@ class BookResource(resources.ModelResource):
         )
         import_id_fields = ('call_number',)
 
+class SearchTextFilter(admin.SimpleListFilter):
+    title = "맥락 텍스트 유무"
+    parameter_name = 'has_search_text'
+
+    def lookups(self, request, model_admin):
+        return (
+            ('yes', '있음'),
+            ('no', '없음'),
+        )
+
+    def queryset(self, request, queryset):
+        if self.value() == 'yes':
+            return queryset.exclude(Q(search_text__isnull=True) | Q(search_text__exact=''))
+        if self.value() == 'no':
+            return queryset.filter(Q(search_text__isnull=True) | Q(search_text__exact=''))
+        return queryset
+
 @admin.register(Book)
-class BookAdmin(ImportExportModelAdmin): 
-    resource_class = BookResource 
-    list_display = ('book_id', 'call_number', 'title', 'author', 'status', 'location')
+class BookAdmin(ImportExportModelAdmin):
+    resource_class = BookResource
+    list_display = ('book_id', 'call_number', 'title', 'author', 'status', 'location', 'search_text_preview')
     search_fields = ('title', 'author', 'call_number')
-    list_filter = ('status', 'language', 'category')
+    list_filter = ('status', 'language', 'category', SearchTextFilter)
+
+    def search_text_preview(self, obj):
+        if not obj.search_text:
+            return "—"
+        text = obj.search_text.strip()
+        if not text:
+            return "—"
+        if len(text) > 40:
+            return text[:40] + "..."
+        return text
+    search_text_preview.short_description = "맥락 텍스트"
 
 @admin.register(Loan)
 class LoanAdmin(admin.ModelAdmin):

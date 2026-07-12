@@ -446,7 +446,7 @@ a.site-title {
   padding: 20px;
   /* 좌우 여백 */
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   flex-wrap: wrap;
   /* 작은 화면에서 요소들이 줄바꿈되도록 */
   gap: 20px;
@@ -470,6 +470,15 @@ a.site-title {
   line-height: 1.5;
   font-style: normal;
   /* address 태그의 기본 기울임꼴 제거 */
+}
+
+.footer-content a {
+  color: inherit;
+  transition: text-decoration 0.2s ease-in-out;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
 }
 
 .main-banner-image {

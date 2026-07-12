@@ -1,3 +1,10 @@
+//======================================================================
+//======================================================================
+// AI 도서관
+//======================================================================
+//======================================================================
+
+
 import React from 'react';
 import myImage from './assets/confusion_matrix.png';
 
@@ -81,17 +88,16 @@ function About() {
           <br />
         <h3>2.2 시스템 설계</h3>
           <p>
-          Pretrained-Model: <a href="https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2">paraphrase-multilingual-MiniLM-L12-v2</a><br />
+          Pretrained-Model: <a href="https://huggingface.co/intfloat/multilingual-e5-large">intfloat/multilingual-e5-large</a><br />
           벡터 검색: FAISS<br />
           <br />
           <strong>임베딩 입력 텍스트 구성</strong><br />
-          단순 제목·저자 정보만으로는 의미 검색 품질이 낮아, 각 도서에 대해 <a href="https://huggingface.co/Qwen/Qwen2.5-14B-Instruct">LLM</a>이 생성한
-          독일어 맥락 요약문과 한국어 번역을 함께 임베딩 입력으로 사용합니다.<br />
+          단순 제목·저자 정보만으로는 의미 검색 품질이 낮아, 각 도서에 대해 <a href="https://huggingface.co/Qwen/Qwen3.6-27B-FP8">LLM</a>이 생성한
+          독일어 맥락 요약문과 한국어 번역을 함께 임베딩 입력으로 사용합니다. 생성 품질 관리를 위해 JSON 구조화 출력과 언어 오염 자동 검증을 적용했습니다.<br />
           <br />
           <strong>임베딩 사전 계산 (오프라인)</strong><br />
-          기존 도서 4,322권: 로컬 GPU에서 모델을 직접 로드하여 일괄 임베딩 후 FAISS 인덱스(books.faiss) 구축하였습니다.<br />
-          신규 도서 등록 시: Gemini API로 맥락 요약·번역을 자동 생성하고, HuggingFace Inference API로
-          임베딩을 계산하여 기존 인덱스에 실시간 추가합니다.<br />
+          기존 도서 4,328권: 로컬 GPU에서 모델을 직접 로드하여 일괄 임베딩 후 FAISS 인덱스(books.faiss) 구축하였습니다.<br />
+          신규 도서 등록 시: 사서가 관리자 페이지에서 맥락 텍스트와 번역을 직접 입력하며, 저장 시 HuggingFace Inference API로 임베딩이 계산되어 기존 인덱스에 자동 반영됩니다.<br />
           <br />
           <strong>하이브리드 검색 (온라인, 실시간)</strong><br />
           1. 키워드 매칭 (최우선): 제목·번역 제목·저자·번역 저자·청구기호 등 전 필드를 대상으로 부분 일치 검색을 수행합니다.<br />
@@ -105,16 +111,13 @@ function About() {
           <br />
         <h3>2.3 평가 결과</h3>
           <p>
-          Metric: Recall@30<br />
-          Cross-Lingual 쿼리 10개·내용/주제 쿼리 20개 (총 30개)의 쿼리셋과 관련 도서 레이블을 직접 구축하여
-          키워드 검색과 하이브리드 검색을 비교 평가하였습니다.<br />
+          Metric: Recall@30, 쿼리셋 29개 (ground truth를 운영 DB 기준으로 재구축)<br />
           <br />
-          <strong>평균 Recall@30 (30개 쿼리 기준)</strong><br />
-          키워드 검색: 0.047 &nbsp;→&nbsp; 하이브리드 검색: 0.330 &nbsp;(+602%)<br />
+          <strong>평균 Recall@30</strong><br />
+          키워드 검색: 0.023 &nbsp;/&nbsp; 하이브리드 검색(개편 전, Qwen2.5+MiniLM): 0.031 &nbsp;/&nbsp; 하이브리드 검색(개편 후, Qwen3.6+e5-large): 0.339<br />
           <br />
-          키워드 검색은 30개 쿼리 중 7개에서만 유효한 결과를 반환한 반면,
-          하이브리드 검색은 28개 쿼리에서 관련 도서를 반환하였습니다.
-          특히 내용/주제 쿼리(평균 Recall 0.363)에서 키워드 검색(0.035) 대비 약 10배의 성능 향상을 확인하였습니다.
+          맥락 텍스트 품질 개선과 임베딩 모델 업그레이드로 개편 전 대비 약 11배의 검색 품질 향상을 달성했습니다.
+          '마의 산', '귄터 그라스' 등 기존에 검색이 불가능했던 쿼리들이 정상 검색됩니다(Recall 0 → 1.00, 0.86).
           </p>
           <br />
       </div>

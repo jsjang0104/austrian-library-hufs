@@ -1,7 +1,7 @@
 """
 도서 제목/저자 기반 의미 유사도 검색 서비스.
 
-HF Inference API(paraphrase-multilingual-MiniLM-L12-v2)로 임베딩을 계산하고
+HF Inference API(intfloat/multilingual-e5-large)로 임베딩을 계산하고
 FAISS 인덱스에 저장해 유사도 검색을 수행한다.
 모델은 Render 서버 메모리에 로드되지 않는다.
 """
@@ -16,8 +16,13 @@ from django.conf import settings
 
 logger = logging.getLogger(__name__)
 
-EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-EMBEDDING_DIM = 384  # paraphrase-multilingual-MiniLM-L12-v2 출력 차원
+EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large"
+EMBEDDING_DIM = 1024  # multilingual-e5-large 출력 차원
+
+# 나중에 모델을 교체할 때(예: BGE-M3) EMBEDDING_MODEL_NAME/EMBEDDING_DIM과
+# 이 플래그만 같이 바꾸면 되도록 분리해둔 것. e5 계열은 쿼리/문서에
+# 서로 다른 prefix("query: "/"passage: ")가 필요하다.
+_USE_E5_PREFIX = True
 
 _HF_BATCH_SIZE = 32
 
@@ -28,13 +33,18 @@ _lock = threading.RLock()
 _index = None
 
 
-def embed_texts(texts):
+def embed_texts(texts, kind="passage"):
     """
     HF InferenceClient으로 텍스트 배치를 L2 정규화된 임베딩 행렬(float32)로 변환한다.
+    e5 계열 모델은 비대칭 prefix가 필요해 kind("query"/"passage")에 맞춰 붙인다.
     429/503 응답에는 지수 백오프로 최대 3회 재시도한다.
     실패 시 예외를 발생시킨다.
     """
     from huggingface_hub import InferenceClient
+
+    if _USE_E5_PREFIX:
+        prefix = "query: " if kind == "query" else "passage: "
+        texts = [prefix + t for t in texts]
 
     token = getattr(settings, "HF_API_TOKEN", None) or os.environ.get("HF_API_TOKEN")
     client = InferenceClient(provider="hf-inference", api_key=token)
@@ -101,6 +111,12 @@ def get_index():
             if _index is None:
                 if os.path.exists(INDEX_PATH):
                     _index = faiss.read_index(INDEX_PATH)
+                    if _index.d != EMBEDDING_DIM:
+                        logger.warning(
+                            "인덱스 차원(%d)이 현재 임베딩 모델 차원(%d)과 달라 빈 인덱스로 교체합니다.",
+                            _index.d, EMBEDDING_DIM,
+                        )
+                        _index = _empty_index()
                 else:
                     _index = _empty_index()
     return _index
@@ -127,7 +143,7 @@ def add_books(books):
     if not books:
         return
     texts = [book_text(book) for book in books]
-    vectors = embed_texts(texts)
+    vectors = embed_texts(texts, kind="passage")
     ids = np.array([book.book_id for book in books], dtype="int64")
     with _lock:
         get_index().add_with_ids(vectors, ids)
@@ -139,12 +155,18 @@ def add_book(book):
     save_index()
 
 
+def remove_book(book_id):
+    """인덱스에서 해당 도서의 벡터를 제거한다. 저장은 호출자가 처리한다."""
+    with _lock:
+        get_index().remove_ids(np.array([book_id], dtype="int64"))
+
+
 def vector_search(query, top_k=20):
     """쿼리와 유사한 도서 top_k를 (book_id, 유사도 점수) 리스트로 반환한다."""
     index = get_index()
     if index.ntotal == 0:
         return []
-    query_vector = embed_texts([query])
+    query_vector = embed_texts([query], kind="query")
     scores, ids = index.search(query_vector, top_k)
     return [
         (int(book_id), float(score))
