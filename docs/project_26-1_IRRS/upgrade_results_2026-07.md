@@ -65,6 +65,22 @@
 | 화용론 | 0.00 | **0.50** | |
 | 독일문화원 | 0.00 | 0.00 | GT 2권, 여전히 실패 (한계) |
 
+### 3.3 순수 의미 검색(벡터 단독) 검증 사례
+
+smart_search의 1단계(원본 필드 keyword)와 2단계(번역 필드 keyword)가 모두 0건이고,
+3단계 벡터 검색에서만 반환된 사례 — cosine similarity가 단독으로 기여한 증거:
+
+| 쿼리 | 1/2단계 | 벡터 검색 결과 (top) | 비고 |
+|---|---|---|---|
+| 베를린 장벽 | 0건 / 0건 | Ein Loch in der Mauer | 한국어 쿼리 → 독일어 원서 (Mauer 의미 매칭) |
+| 모험 소설 | 0건 / 0건 | Meister Antifers wunderbare Abenteuer, Die Propellerinsel | 장르 개념 매칭 (쥘 베른) |
+| 독일어 인명 사전 | 0건 / 0건 | Lexikon literarischer Gestalten | 이전 보고서 Figure 1의 실제 민원 사례 |
+| 전쟁 비극 | 0건 / 0건 | Der kaukasische Kreidekreis, Antigone | 주제+장르 결합 매칭 |
+| 사랑 소설 | 0건 / 0건 | Die Wahlverwandtschaften, Die Liebesschaukel | |
+
+참고: '마의 산'·'귄터 그라스'류의 개선은 벡터가 아니라 **번역 필드 품질 개선**(관용 제목이
+translated_title에 저장되어 2단계 keyword에서 매칭)의 효과로 분류하는 것이 정확함.
+
 ## 4. 한계 및 향후 과제
 
 1. **관용 번역 제목**: Qwen3.6도 한국 출판계 관용 제목을 안정적으로 회상하지 못함
