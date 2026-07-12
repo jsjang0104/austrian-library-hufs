@@ -26,7 +26,7 @@ function About() {
         </p>
 
       <div className="tech-AI-1">
-        <h2>1. 장르 분류 AI</h2>
+        <h2>1. 장르 분류 AI (Genre Classification)</h2>
           <br />
         <h3>1.1 도입 배경</h3>
           <p>
@@ -76,7 +76,7 @@ function About() {
       </div>
 
       <div className="tech-AI-2">
-        <h2>2. 의미 기반 검색 AI</h2>
+        <h2>2. 의미 기반 검색 AI (Semantic Search)</h2>
           <br />
         <h3>2.1 도입 배경</h3>
           <p>
