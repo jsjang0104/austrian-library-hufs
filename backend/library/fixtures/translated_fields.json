@@ -27547,9 +27547,9 @@
   },
   {
     "book_id": 11502,
-    "translated_title": null,
-    "translated_author": null,
-    "search_text": null
+    "translated_title": "니체 전집",
+    "translated_author": "프리드리히 니체",
+    "search_text": "Diese Ausgabe umfasst Friedrich Nietzsches Werke und dient der Forschung im Bereich Sprachwissenschaft und Philosophie. Sie bietet einen Überblick über seine wichtigsten Texte. 이 판본은 프리드리히 니체의 저술을 망라하며, 언어학 및 철학 분야의 연구에 활용된다. 그의 주요 저작들을 한데 모은 총서이다."
   },
   {
     "book_id": 11503,
@@ -28699,9 +28699,9 @@
   },
   {
     "book_id": 11694,
-    "translated_title": null,
-    "translated_author": null,
-    "search_text": null
+    "translated_title": "고ethe 인증서 B2 준비 - 성인용 독일어 시험",
+    "translated_author": "하이다 슈티벨러, 프라우케 판 더 버프",
+    "search_text": "Dieses Buch ist ein Lehrbuch für Erwachsene, die sich auf die Deutschprüfung Goethe-Zertifikat B2 vorbereiten wollen. Es gehört zur Kategorie der Sprachlernmaterialien. 이 책은 고ethe 인증서 B2 독어 시험에 대비하는 성인 학습자를 위한 교재입니다. 언어 학습 자료 카테고리에 속합니다."
   },
   {
     "book_id": 11695,
@@ -30294,102 +30294,6 @@
     "search_text": "Eine akademische Zeitschrift zur Erforschung der ausländischen Literatur. Hergestellt vom Forschungsnetzwerk der Hankuk University of Foreign Studies, Band 40. 외국 문학을 연구하는 학술지입니다. 한국어대학교 외국학 종합연구 센터 외국 문학 연구소에서 발간했으며, 제 40 호입니다."
   },
   {
-    "book_id": 11960,
-    "translated_title": "TEXT+KRITIK",
-    "translated_author": "프리드리히 고트 클롭스톡",
-    "search_text": "Eine Sammlung literarischer Texte und Kritiken von Friedrich Gottlieb Klopstock, einem bedeutenden Dichter der Aufklärung und des Sturm und Drang. 고전 시대의 중요한 시인이자 문학 평론가인 프리드리히 고트 클롭스톡의 문학적 텍스트와 비평을 모은 컬렉션입니다."
-  },
-  {
-    "book_id": 11961,
-    "translated_title": "텍스트와 비판",
-    "translated_author": "프리드리히 두렌마트Ⅱ",
-    "search_text": "Dieser Band der Reihe Text+Kritik enthält literarische Werke und theoretische Texte, die die moderne Literaturanalyse reflektieren und den kulturhistorischen Kontext von Durrenmatts Werk beleuchten. 이 '텍스트와 비판' 시리즈의 권은 문학 작품과 이론 텍스트를 수록하여 현대 문학 비평을 반영하며, 두렌마트 작품의 문화사적 배경을 조명합니다."
-  },
-  {
-    "book_id": 11962,
-    "translated_title": "텍스트와 비판",
-    "translated_author": "페터 한트케",
-    "search_text": "Peter Handkes Literaturzeitschrift TEXT+KRITIK erscheint als Zeitschrift für Literatur und Kritik. Sie enthält Essays, Rezensionen und theoretische Texte zur zeitgenössischen Literatur. 페터 한트케의 문예지 <텍스트와 비판>은 문학과 비평을 다루는 저널로, 현대 문학을 위한 에세이, 서평 및 이론적 논문을 싣고 있습니다."
-  },
-  {
-    "book_id": 11963,
-    "translated_title": "텍스트와 비판",
-    "translated_author": "귄터 그라스",
-    "search_text": "Eine Sammlung literarischer Essays und Kritiken des deutschen Autors Gunter Grass zur Literatur und Kultur. 독일 작가 귄터 그라스의 문학과 문화에 대한 문학적 에세이 및 비평의 컬렉션입니다."
-  },
-  {
-    "book_id": 11964,
-    "translated_title": "독일 시학",
-    "translated_author": "오토 파울, 잉게보르크 글리어",
-    "search_text": "Dieses Werk behandelt die deutsche Metrik und bietet eine Einführung in die Struktur und den Rhythmus deutscher Verse. 이 책은 독일 시학을 다루며, 독일 운문의 구조와 운율에 대한 입문을 제공한다."
-  },
-  {
-    "book_id": 11965,
-    "translated_title": "고전주의와 낭만주의 사이의 독일 소설",
-    "translated_author": "요제프 쿤츠",
-    "search_text": "Dieses Werk untersucht die Entwicklung der deutschen Novelle im Übergang von der Klassik zur Romantik. 이 책은 고전주의에서 낭만주의로 넘어가는 시기의 독일 소설의 발전을 다룬다."
-  },
-  {
-    "book_id": 11966,
-    "translated_title": "66개의 발라드, 모리타텐, 샹송 해석",
-    "translated_author": "에드가르 나이스",
-    "search_text": "Dieses Buch bietet Interpretationen von 66 Balladen, Moritaten und Chansons. Edgar Neis analysiert die literarischen und kulturellen Aspekte dieser deutschsprachigen Gesangstraditionen. 이 책은 66편의 발라드, 모리타텐, 샹송에 대한 해석을 제공합니다. 에드가르 나이스는 이러한 독일어 노래 전통의 문학적, 문화적 측면을 분석합니다."
-  },
-  {
-    "book_id": 11967,
-    "translated_title": "벽 소설",
-    "translated_author": "마를렌 하우쇼퍼",
-    "search_text": "Dieser Roman von Marlen Haushofer behandelt wahrscheinlich ein literarisches Thema mit Bezug zur Natur oder Isolation, angesichts des Titels 'Die Wand'. 마를렌 하우쇼퍼의 이 소설은 '벽'이라는 제목으로 보아 자연이나 고립과 관련된 문학적 주제를 다루고 있을 가능성이 높습니다."
-  },
-  {
-    "book_id": 11968,
-    "translated_title": "독일 시 해석 1: 벡허를린부터 베를린까지",
-    "translated_author": "요스트 실러마이트",
-    "search_text": "Diese Sammlung präsentiert Interpretationen deutscher Lyrik vom Barock bis zur Moderne, beleuchtet von Jost Schillemeit als literaturwissenschaftliche Analyse. 이 책은 요스트 실러마이트의 문학 분석과 함께 바로크 시대부터 현대까지의 독일 시 해석을 제시하는 문학 연구 자료입니다."
-  },
-  {
-    "book_id": 11969,
-    "translated_title": "",
-    "translated_author": "",
-    "search_text": " "
-  },
-  {
-    "book_id": 11970,
-    "translated_title": "고ethe가 자신의 삶을 이야기하다",
-    "translated_author": "한스 에곤 게를라히, 오토 헤르만",
-    "search_text": "Dieses Buch aus der Kategorie Literatur erzählt wahrscheinlich von Johann Wolfgang von Goethe und dessen Leben, möglicherweise mit Beiträgen von Hans Egon Gerlach und Otto Hermann. 문학 카테고리에 속한 이 책은 요한 볼프강 폰 괴테와 그의 인생, 아마도 한스 에곤 게를라히와 오토 헤르만의 기여를 다룰 가능성이 높습니다."
-  },
-  {
-    "book_id": 11971,
-    "translated_title": "소설",
-    "translated_author": "베노 폰 비제",
-    "search_text": "Ein literarischer Text von Benno von Wiese mit dem Titel Novelle, der sich mit der Gattung der Kurzprosa oder Erzählung befasst. 베노 폰 비제가 쓴 《소설》이라는 제목의 문학 작품으로, 단편 소설이나 서사 형식에 관한 장르를 다룹니다."
-  },
-  {
-    "book_id": 11972,
-    "translated_title": "독일 문학의 길",
-    "translated_author": "글라제르, 레만, 루보스",
-    "search_text": "Ein Buch zur deutschen Literaturgeschichte, das verschiedene Epochen und literarische Strömungen untersucht, verfasst von Glaser, Lehmann und Lubos. 글라제르, 레만, 루보스가 저술한 이 책은 독일 문학사의 다양한 시대와 문학적 흐름을 다룬다."
-  },
-  {
-    "book_id": 11973,
-    "translated_title": "현대 극",
-    "translated_author": "마르겟 디트리히",
-    "search_text": "Ein literaturwissenschaftliches Werk von Marget Dietrich, das sich mit dem modernen Drama beschäftigt und Einblicke in die theatergeschichtliche Entwicklung bietet. 마르겟 디트리히의 문학 이론서로, 현대 희곡에 대한 탐구와 연극사적 발전에 대한 통찰을 제공합니다."
-  },
-  {
-    "book_id": 11974,
-    "translated_title": "독일 문학사",
-    "translated_author": "프리츠 마르티니",
-    "search_text": "Dieses Werk von Fritz Martini bietet einen Überblick über die Entwicklung der deutschen Literatur. Es ist ein wichtiges Nachschlagewerk für das Fach Deutsch und Literaturwissenschaft. 프리츠 마르티니의 이 저작은 독일 문학의 발달 과정을 개관한다. 독일어 및 문예학 전공자를 위한 중요한 참고서적이다."
-  },
-  {
-    "book_id": 11975,
-    "translated_title": "데이비드는 정말 불공평해! 풍자문",
-    "translated_author": "에프라임 키숀",
-    "search_text": "Ephraim Kishon satirisiert in diesem Buch Alltagsabsurditäten mit schlagfertiger Ironie. Die Sammlung gehört zum klassischen Genre der jüdisch-israelischen Satire des 20. Jahrhunderts. 에프라임 키숀은 이 책에서 날카로운 아이러니로 일상적인 어처구니없음을 풍자한다. 이 문집은 20세기 유대-이스라엘 풍자문학의 전형적인 장류에 속한다."
-  },
-  {
     "book_id": 11976,
     "translated_title": "세계사 안내도 - 지도와 연대기적 개요 - 제1권 - 원시시대부터 프랑스 혁명까지",
     "translated_author": "헤르만 킨더, 빌너 힐게만",
@@ -30498,93 +30402,957 @@
     "search_text": "Dieses Buch enthält eine Anthologie neuer deutscher Kurzgeschichten. Es bietet Einblicke in die zeitgenössische deutsche Erzähltradition und literarische Themen. 이 책은 현대 독일 단편소설의 선집을 수록하고 있습니다. 현대 독일의 서사 전통과 문학적 주제에 대한 통찰을 제공합니다."
   },
   {
-    "book_id": 11994,
-    "translated_title": "근대 변증법 철학 1 - 칸트에서 헤겔까지",
-    "translated_author": "볼프강 뢰트",
-    "search_text": "Wolfgang Röd untersucht in diesem philosophischen Fachbuch den dialektischen Denkweg von Kant bis Hegel und ordnet diesen in die Sprachwissenschaft ein. 볼프강 뢰트는 이 철학 전문서에서 칸트에서 헤겔까지의 변증법적 사유 경로를 탐구하며 이를 언어학 분야에 위치시킵니다."
+    "book_id": 12009,
+    "translated_title": "Dr. Johann Fausts Geschichte",
+    "translated_author": "임우영",
+    "search_text": "Ein literarisches Werk von Lim Woo-young aus dem Bereich Geschichte, das sich mit der Figur Dr. Johann Faust und ihrem kulturellen Hintergrund auseinandersetzt. 임우영의 역사이야기 '요한 파우스트 박사이야기'는 요한 파우스트 박사라는 인물과 그 배경을 다루고 있습니다."
   },
   {
-    "book_id": 11995,
-    "translated_title": "현대 변증법 철학 2 - 마르크스부터 현재까지",
-    "translated_author": "볼프강 뢴",
-    "search_text": "Dieses Werk ist ein philosophisches Fachbuch zur modernen Dialektik, das die Entwicklung von Marx bis zur Gegenwart in den Sozialwissenschaften behandelt. 이 책은 마르크스부터 현재까지의 현대 변증법 철학 발전을 다루는 사회과학 분야의 철학 전문 서적입니다."
+    "book_id": 12010,
+    "translated_title": "Die Alchemie des Reichtums",
+    "translated_author": "Hans Christoph Winser",
+    "search_text": "Ein fiktionaler Text von Hans Christoph Winser, der sich mit dem Thema Reichtum auseinandersetzt. 한스 크리스토프 빈스가 부의 주제를 다룬 허구적 텍스트입니다."
   },
   {
-    "book_id": 11996,
-    "translated_title": "이해하고 Gestaltung: 고등학교를 위한 언어 교과서 B8",
-    "translated_author": "다이어 마이어, 게르하르트 쇼베",
-    "search_text": "Dieses Sprachbuch für Gymnasien, Teil B8, behandelt vermutlich die Sprachkompetenz und bietet Materialien für den Deutschunterricht in der Sekundarstufe II. 이 고등학교용 언어 교재 B8 권은 아마도 언어 능력을 다루며, 제2교육단계 2학년 독일어 수업용 자료를 제공할 것이다."
+    "book_id": 12011,
+    "translated_title": "카프카",
+    "translated_author": "김광규",
+    "search_text": "Dieses Werk von Kim Gwang-gyu behandelt wahrscheinlich das Leben oder das literarische Vermächtnis von Franz Kafka in einem kulturellen und historischen Kontext. 김광규의 이 저서는 프란츠 카프카의 삶이나 문학적 유산을 문화적·역사적 맥락에서 다룰 가능성이 높습니다."
   },
   {
-    "book_id": 11997,
-    "translated_title": "이해하고 디자인하다 B6 - 문법 교재",
-    "translated_author": "다이어 마이어, 게르하르트 쇼베",
-    "search_text": "Dieses Sprachbuch für Gymnasien behandelt Sprachverständnis und Gestaltung im Rahmen der gymnasialen Bildung. 이 고등학교 언어 교재는 중등 교육 과정 내 언어 이해와 구도를 다룹니다."
+    "book_id": 12012,
+    "translated_title": "초심자와 고급자를 위한 브레히트",
+    "translated_author": "한스 마이어",
+    "search_text": "Dieses Buch von Hans Mayer behandelt das Werk Bertolt Brechts für ein breites Publikum und bietet eine literaturwissenschaftliche Einführung. 한스 마이어의 이 책은 광범위한 독자를 위해 베르톨트 브레히트의 작품을 다루며 문학사적인 입문서로서 유용합니다."
   },
   {
-    "book_id": 11998,
-    "translated_title": "그리스 민족 국가의 시작 1833-1843",
-    "translated_author": "이름가르트 빌하르트",
-    "search_text": "Dieses Werk beleuchtet die historische Entstehungsphase des griechischen Nationalstaates zwischen 1833 und 1843 und stellt sich als historischer Fachbeitrag dar. 이 저서는 1833년부터 1843년까지의 그리스 민족 국가 형성의 역사적 초기 단계를 조망하며, 역사학 전문 기여물로서 위치합니다."
+    "book_id": 12013,
+    "translated_title": "Abenteuerreise: Echte Reise ist Sightseeing, sondern Erfahrung",
+    "translated_author": "Sinbal-keun Travel Agency",
+    "search_text": "Ein Ratgeber des südkoreanischen Reiseblogs 'Sinbal-keun Travel Agency' über abenteuerliche Reisen, der Sightseeing mit authentischen Erlebnissen kontrastiert. 남한 여행 블로그 '신발끈여행사'의 모험 여행 가이드로, 시가팅보다 진정한 경험에 초점을 맞춘 책이다."
   },
   {
-    "book_id": 11999,
-    "translated_title": "그리스 국가의 기원 1833-1843",
-    "translated_author": "이름하르트 빌하름",
-    "search_text": "Dieses Werk behandelt die Frühgeschichte des griechischen Nationalstaates im Zeitraum von 1833 bis 1843 aus historischer Perspektive. 이 책은 1833년부터 1843년까지의 그리스 국가 초기 역사를 역사적 관점에서 다룹니다."
+    "book_id": 12014,
+    "translated_title": "문학 및 비평 1976년 2월 101",
+    "translated_author": "오스트리아 월간지",
+    "search_text": "Dieses Buch ist ein Heft der österreichischen Monatsschrift 'Literatur und Kritik' aus Februar 1976, Ausgabe 101. Es gehört zur Kategorie Geschichte und enthält Literatur- und Kulturkritik. 이 책은 1976년 2월호 (제101호) 오스트리아 월간지 '문학 및 비평'입니다. 역사 카테고리에 속하며 문학과 문화 비평을 포함합니다."
   },
   {
-    "book_id": 12000,
-    "translated_title": "그리스 국가의 시작 1833-1843",
-    "translated_author": "아미르감 빌하르무",
-    "search_text": "Dieses Werk aus dem Bereich der Geschichte untersucht die Entstehung des griechischen Nationalstaates zwischen 1833 und 1843. Es bietet einen historischen Überblick über die politische Entwicklung Griechenlands in dieser frühen Neuzeit. 역사 분야의 이 책은 1833년부터 1843년까지의 그리스 국가 형성 과정을 다룹니다. 이 시대의 그리스 정치적 발전에 대한 역사적 개관을 제공합니다."
+    "book_id": 12015,
+    "translated_title": "문학 및 비평 1976년 2월호 제105권",
+    "translated_author": "오스트리아 월간지",
+    "search_text": "Literatur und Kritik Februar 1976 105 오스트리아 문학 월간지 'Literatur und Kritik' 1976년 2월호 제105권으로, 문학과 비평 분야에 관한 학술 내용을 담고 있는 역사적 문헌 자료입니다."
   },
   {
-    "book_id": 12001,
-    "translated_title": "의회와 혁명 사이에서: 아일랜드 민족 운동",
-    "translated_author": "페터 알터",
-    "search_text": "Die wissenschaftliche Studie analysiert die irische Nationalbewegung im Spannungsfeld zwischen parlamentarischem Reformweg und revolutionärer Gewalt. 이 학술 연구는 의회적 개혁과 혁명적 폭력의 긴장 관계 속에서 아일랜드 민족 운동을 분석합니다."
+    "book_id": 12016,
+    "translated_title": "역사와 문학 속의 오스트리아: 지리 포함 47권 2003년 제4호",
+    "translated_author": "외글",
+    "search_text": "Dieses Periodikumheft befasst sich mit der Geschichte, Literatur und Geographie Österreichs und erscheint im Rahmen der Jahrgang 47 der Zeitschrift im Jahr 2003. 이 학술지 제호는 오스트리아의 역사, 문학 및 지리를 다루며, 2003년 제47권 시리즈의 일부로 발행되었습니다."
   },
   {
-    "book_id": 12002,
-    "translated_title": "의회와 혁명 사이의 아일랜드 민족주의 운동",
-    "translated_author": "페터 알터",
-    "search_text": "Dieses Werk der Sozialwissenschaften untersucht die irische Nationalbewegung im Spannungsfeld zwischen parlamentarischer Arbeit und revolutionären Ansätzen in der historischen Entwicklung Irlands. 이 사회과학 저서는 아일랜드의 역사적 발전 과정에서 의회 활동과 혁명적 접근 사이의 긴장 관계 속의 아일랜드 민족주의 운동을 탐구합니다."
+    "book_id": 12017,
+    "translated_title": "역사와 문학 속의 오스트리아, 지리학 포함: 제47권 2003년 제5호",
+    "translated_author": "외글",
+    "search_text": "Diese Zeitschriftenausgabe aus dem Jahr 2003 behandelt österreichische Geschichte und Literatur sowie Geographie, herausgegeben von ÖGL. 이 2003년 발행의 잡지 호는 오스트리아의 역사, 문학과 지리학을 다루며 외글이 편집했습니다."
   },
   {
-    "book_id": 12003,
-    "translated_title": "오스트리아 제2공화국 1",
-    "translated_author": "에리카 와인치을, 쿠르트 스칼니크",
-    "search_text": "Eine historisch-kulturelle Übersicht über die Erste Republik Österreich nach 1945. Ein Standardwerk für Geschichtsinteressierte und Studierende. 1945 년 이후 제 2 공화국 오스트리아에 대한 역사 문화적 개요. 역사에 관심 있는 사람들과 학생들을 위한 표준 작품입니다."
+    "book_id": 12018,
+    "translated_title": "오스트리아의 역사와 문학 및 지리 제47권 2003년 제6호",
+    "translated_author": "외글",
+    "search_text": "Dieses Heft der Fachzeitschrift behandelt österreichische Geschichte, Literatur und Geographie aus dem Jahr 2003 und wendet sich an akademische Leser. 이 전문 잡지 호는 2003년 오스트리아의 역사, 문학 및 지리를 다루며 학술 독자를 대상으로 합니다."
   },
   {
-    "book_id": 12004,
-    "translated_title": "오스트리아 제2공화국 2",
-    "translated_author": "에리카 바이츠을, 쿠르트 스칼니크",
-    "search_text": "Eine historische Untersuchung über Österreichs Zweite Republik, die politische Entwicklungen und gesellschaftliche Veränderungen im Nachkriegsösterreich analysiert, verfasst von renommierten Historikern. 이 책은 전후 오스트리아의 정치적 발전과 사회적 변화를 분석하는 제2공화국 시기의 역사적 연구로, 저명한 역사학자들이 집필했습니다."
+    "book_id": 12019,
+    "translated_title": "오스트리아의 역사와 문학, 지리 포함 47권 2004년 제1호",
+    "translated_author": "외글",
+    "search_text": "Ein Jahrband der Zeitschrift 'Österreich in Geschichte und Literatur' aus dem Jahr 2004, das historische, literarische und geographische Artikel über Österreich zusammenfasst. 2004년 발간된 연간지 '오스트리아의 역사와 문학'의 한 권으로, 오스트리아의 역사, 문학, 지리에 관한 논문들을 모은 자료입니다."
   },
   {
-    "book_id": 12005,
-    "translated_title": "오스트리아 1918-1938 - 제1공화국 역사 1",
-    "translated_author": "에리카 바인치를, 쿠르트 슐칼닉",
-    "search_text": "Dieses Buch behandelt die Geschichte der Ersten Republik Österreich in den Jahren 1918 bis 1938 und ist Teil einer historischen Analyse. 이 책은 1918년부터 1938년까지의 오스트리아 제1공화국 역사를 다루며 역사적 분석의 일부입니다."
+    "book_id": 12020,
+    "translated_title": "Literatur und Wahrheit",
+    "translated_author": "Herausgeberkomitee",
+    "search_text": "Dieses Buch behandelt die Beziehung zwischen Literatur und Wahrheit. Es wird von einem Herausgeberkomitee verfasst und fällt in den Bereich der Sprachwissenschaft. 이 책은 문학과 진실의 관계를 다룹니다. 간행위원회가 집필했으며, 언어학 분야에 속합니다."
   },
   {
-    "book_id": 12006,
-    "translated_title": "오스트리아 1918-1938 - 제1공화국의 역사 2",
-    "translated_author": "에리카 빈치를, 쿠르트 슐랄니크",
-    "search_text": "Dieses Werk behandelt die Geschichte der Österreichischen Ersten Republik von 1918 bis 1938 als historischer Überblick und Analyse. 이 저서는 1918년부터 1938년까지 오스트리아 제1공화국의 역사를 역사적 개요와 분석으로 다룬다."
+    "book_id": 12021,
+    "translated_title": "Literaturgedanken, Januar 1974-Ausgabe",
+    "translated_author": "Cheongeumsa",
+    "search_text": "Dieses Heft der Zeitschrift Literaturgedanken aus dem Januar 1974 bietet literaturwissenschaftliche Aufsätze und kritische Texte, herausgegeben von Cheongeumsa. 1974년 1월호 문학사상은 청음사에서 발간한 문예지로서, 문학평론 및 관련 학술 논문을 담고 있습니다."
   },
   {
-    "book_id": 12007,
+    "book_id": 12022,
+    "translated_title": "너의 삶을 손에 잡아라 - 우리 시대의 이야기꾼 4",
+    "translated_author": "파울 알버데스 외",
+    "search_text": "Eine literarische Sammlung, die Erzähler der aktuellen Zeit thematisiert und zur Selbstbestimmung anregt. 현재 시대의 서사를 다룬 문학 집합으로, 자아실현을 독려하는 내용을 담고 있습니다."
+  },
+  {
+    "book_id": 12023,
+    "translated_title": "알트하일베르크의 역사",
+    "translated_author": "오토 P. 시너",
+    "search_text": "Otto P. Shinnerer schildert die Geschichte von Alt-Heidelberg im Genre der Stadtgeschichte. Das Werk beleuchtet kulturelle und historische Entwicklungen der Region. 오토 P. 시너의 《알트하일베르크의 역사》는 도시사 장르로 알트하일베르크의 역사를 다룹니다. 이 책은 해당 지역의 문화적, 역사적 발전을 조명합니다."
+  },
+  {
+    "book_id": 12024,
+    "translated_title": "현대 독일 시",
+    "translated_author": "빌리 페제",
+    "search_text": "Dieses Werk von Willi Fehse behandelt deutsche Lyrik der Gegenwart. Es ist als literarische Sammlung oder Studie aus dem Bereich Literatur eingeordnet. 빌리 페제의 이 작품은 현대 독일 시를 다루며, 문학 장르의 문학 작품 또는 연구서로 분류됩니다."
+  },
+  {
+    "book_id": 12025,
+    "translated_title": "독일시: 중세에서 20세기까지",
+    "translated_author": "에드거 헤데레",
+    "search_text": "Dieses Werk ist eine literarische Anthologie, die deutsche Gedichte vom Mittelalter bis ins 20. Jahrhundert umfasst und so die Entwicklung der deutschen Lyrik dokumentiert. 이 책은 중세부터 20세기까지의 독일시를 수록한 문학 선집으로, 독일 시의 발전을 문서화한다."
+  },
+  {
+    "book_id": 12026,
+    "translated_title": "질문과 대답으로 본 독일 문학사 1권",
+    "translated_author": "하르만 아문",
+    "search_text": "Dieses Werk stellt die deutsche Literaturgeschichte als Fragenkatalog dar und behandelt literarische Epochen, Werke und ihre kulturelle Bedeutung für Studierende und Interessierte. 이 저서는 독일 문학사를 질의응답 형식으로 제시하며, 문학적 시기, 주요 작품 및 그들의 문화적 의미를 학생들과 관심 있는 독자를 위해 다룹니다."
+  },
+  {
+    "book_id": 12027,
+    "translated_title": "질문과 답변으로 보는 독일 문학사 제2권",
+    "translated_author": "헤르만 아몬",
+    "search_text": "Dieser Band von Hermann Ammon stellt die deutsche Literaturgeschichte im Frage-Antwort-Format dar und dient als informatives Nachschlagewerk für Leser und Studierende. 헤르만 아몬의 이 책은 독일 문학사를 질문과 답변 형식으로 제시하며, 독자와 학습자를 위한 정보성 참고 자료로 활용됩니다."
+  },
+  {
+    "book_id": 12028,
+    "translated_title": "리히텐슈타인 숨은 그림 찾기 책",
+    "translated_author": "베아트리체 브룬하르트-리슈 외",
+    "search_text": "Dieses Buch ist ein Wimmelbuch über das Fürstentum Liechtenstein, das für Kinder gestaltet ist und verschiedene Szenen und Alltagssituationen des Landes zeigt. 이 책은 리히텐슈타인 공국을 배경으로 한 어린이를 위한 숨은 그림 찾기 책으로, 해당국의 다양한 장면과 일상적인 상황을 담고 있습니다."
+  },
+  {
+    "book_id": 12029,
+    "translated_title": "성경 - 루터 번역",
+    "translated_author": "마르틴 루터",
+    "search_text": "Diese Ausgabe der Bibel basiert auf Martin Luthers historischer Übersetzung ins Deutsche. Sie enthält die Bücher des Alten und Neuen Testaments für religiöse und literarische Studienzwecke. 이 성경 판본은 마르틴 루터의 역사적인 독일어 번역을 바탕으로 합니다. 종교적 및 문학적 연구 목적으로 구약과 신약의 책들을 담고 있습니다."
+  },
+  {
+    "book_id": 12030,
     "translated_title": "",
     "translated_author": "",
     "search_text": " "
   },
   {
-    "book_id": 12008,
-    "translated_title": "오스트리아의 역사 1권 선사시대 - 약 기원전 80,000년부터 기원전 15년까지",
-    "translated_author": "리하르트 피티오니",
-    "search_text": "Dieses Buch ist der erste Band einer Geschichte Österreichs und behandelt die Urzeit von etwa 80000 bis 15 v. Chr. Der Autor Richard Pittioni liefert eine detaillierte Übersicht über die frühen historischen Entwicklungen. 이 책은 오스트리아 역사 시리즈의 첫 번째 권으로, 약 기원전 80,000년부터 기원전 15년까지의 선사시대를 다룹니다. 리하르트 피티오니가 초기 역사적 발전 과정에 대한 상세한 개관을 제시합니다."
+    "book_id": 12031,
+    "translated_title": "레클름의 레이드 가이드",
+    "translated_author": "악셀 바우니 외",
+    "search_text": "Dieser Reiseführer behandelt wahrscheinlich die Stadt Reims oder ein Thema der Reihe und bietet historische Informationen für Besucher. 이 여행지는 아마도 르망시 혹은 관련 주제에 관한 내용일 것이며, 방문객들을 위해 역사적 정보를 제공할 것입니다."
+  },
+  {
+    "book_id": 12032,
+    "translated_title": "역사 기초 과정 및 심화 과정 - 참고 문헌",
+    "translated_author": "지그프리트 쉬엘레",
+    "search_text": "Dieses Werk bietet bibliografische Hinweise zu Grund- und Leistungskursen in Geschichte, erstellt von Siegfried Schiele. 이 책은 지그프리트 쉬엘레가 작성한 역사의 기초 및 심화 과정에 대한 참고 문헌을 제공하는 자료입니다."
+  },
+  {
+    "book_id": 12033,
+    "translated_title": "1949-1963/66 연방 공화국 독일: 아데나우어 시대",
+    "translated_author": "라인하르트 네베",
+    "search_text": "Reinhard Neebes Werk analysiert die Bundesrepublik Deutschland während der Ära Adenauer (1949-1966) im Kontext der Sozialwissenschaften. 라인하르트 네베의 저작은 사회과학의 맥락에서 1949년부터 1966년까지의 아데나우어 시대를 겪은 연방 공화국 독일(서독)을 분석합니다."
+  },
+  {
+    "book_id": 12034,
+    "translated_title": "1938년 Anschluss",
+    "translated_author": "루돌프 neck 외",
+    "search_text": "Historische Veröffentlichung über den österreichischen Anschluss 1938, herausgegeben von der Theodor-Körner-Stiftungsfonds-Kommission mit Beiträgen von Rudolf Neck. 루돌프 neck 등이 기여한 테오도르 커너 기금 위원회 발간물로, 1938년 오스트리아 병합에 관한 역사적 기록이다."
+  },
+  {
+    "book_id": 12035,
+    "translated_title": "바데 메쿰-독일어 교육 및 연구 시설 연구의 장소 제1권",
+    "translated_author": "요제프 라베 박사",
+    "search_text": "Ein Handbuch über deutsche Forschungs- und Lehrstätten, das sich an Gelehrte im Bereich der Sozialwissenschaften richtet und den ersten Band einer Serie darstellt. 사회과학 연구자를 위한 독일의 연구 및 교육 기관에 대한 안내서로, 연작 시리즈의 제1권에 해당합니다."
+  },
+  {
+    "book_id": 12036,
+    "translated_title": "바이데 메쿰 - 독일의 교육 및 연구 시설: 연구의 장소 2권",
+    "translated_author": "요제프 라베 박사",
+    "search_text": "Dieses Werk von Dr. Josef Raabe zählt zur zweiten Reihe der Forschungsorte in Deutschland. Es widmet sich den deutschen Lehr- und Forschungseinrichtungen innerhalb der Sozialwissenschaften. 요제프 라베 박사의 이 저술은 독일의 연구 장소 두 번째 시리즈에 속합니다. 이 책은 사회과학의 틀 내에서 독일의 교육 및 연구 시설에 대해 다룹니다."
+  },
+  {
+    "book_id": 12037,
+    "translated_title": "독일이 들려주는 이야기: 아서 슈니츔러에서 우베 요한슨까지",
+    "translated_author": "베노 폰 비제",
+    "search_text": "Benno von Wiese analysiert die deutsche Literatur vom 19. bis 20. Jahrhundert, mit Fokus auf Autoren wie Arthur Schnitzler und Uwe Johnson. 베노 폰 비제는 아서 슈니츔러와 우베 요한슨을 중심으로 19세기에서 20세기까지의 독일 문학사를 분석한다."
+  },
+  {
+    "book_id": 12038,
+    "translated_title": "독일에 관한 사실",
+    "translated_author": "소시에타츠 페를라그",
+    "search_text": "Ein Sachbuch über Deutschland, veröffentlicht vom Societätsverlag. Es bietet wahrscheinlich historische und kulturelle Fakten zum Land. 소시에타츠 페를라그에서 출판한 독일에 관한 사실과 관련된 참고서입니다. 이 책은 독일의 역사와 문화에 대한 다양한 정보를 제공할 것으로 보입니다."
+  },
+  {
+    "book_id": 12039,
+    "translated_title": "독일어권 문학 입문",
+    "translated_author": "헤르베르트 포흘라트코, 카를 코바인들, 요제프 폰그라츠",
+    "search_text": "Dieses Handbuch führt in die deutsche Literatur vom Mittelalter bis heute ein. Besonders berücksichtigt wird dabei der österreichische Schrifttum. 이 교재는 중세부터 현대까지 독일어권 문학을 소개하는 입문서입니다. 특히 오스트리아 문학 작품에 대한 고려가 강조되어 있습니다."
+  },
+  {
+    "book_id": 12040,
+    "translated_title": null,
+    "translated_author": null,
+    "search_text": null
+  },
+  {
+    "book_id": 12041,
+    "translated_title": "독일어권 문학 입문: 기원에서 현대까지 제3부 - 오스트리아 문헌 특별 고찰",
+    "translated_author": "헤르베르트 포클라트코, 카를 코바인들, 요제프 풍라츠",
+    "search_text": "Dieses Werk ist ein akademischer Band zur Literaturgeschichte des deutschen Sprachraums mit Fokus auf österreichische Schrifttums. Es dient als Lehr- und Nachschlagewerk in der Sprachwissenschaft. 이 책은 오스트리아 문헌에 특별한 중점을 둔 독일어권 문학사학 학술 저서로, 언어학 분야의 교재 및 참고서로 사용된다."
+  },
+  {
+    "book_id": 12042,
+    "translated_title": "독일 언어 및 시 아카데미 - 연감 2011",
+    "translated_author": "월슈타인",
+    "search_text": "Das Jahrbuch der Deutschen Akademie für Sprache und Dichtung aus dem Jahr 2011 dokumentiert die wissenschaftlichen und kulturellen Aktivitäten der Institution in den Sozialwissenschaften. 2011년 독일 언어 및 시 아카데미 연감은 이 기관의 사회과학 분야 학술 및 문화 활동을 기록한 자료입니다."
+  },
+  {
+    "book_id": 12043,
+    "translated_title": "레온하르트 - 어린 시절의 연대기",
+    "translated_author": "프리트스 알렉산더 카우프만",
+    "search_text": "Ein literarisches Werk von Fritz Alexander Kauffmann, das vermutlich eine kindheitliche Chronik des Protagonisten Leonhard in historischem oder kulturellem Kontext beschreibt. 프리츠 알렉산더 카우프만(Fritz Alexander Kauffmann)의 문학 작품으로, 주인공 레온하르드의 어린 시절 연대기를 역사적 또는 문화적 맥락에서 서술할 가능성이 높습니다."
+  },
+  {
+    "book_id": 12044,
+    "translated_title": "2016/2017 연감 - 독일 언어와 시학회",
+    "translated_author": "독일 언어와 시학회",
+    "search_text": "Dieses Jahrbuch der Deutschen Akademie für Sprache und Dichtung aus den Jahren 2016/2017 dokumentiert Aktivitäten und Ergebnisse der wissenschaftlichen Literatur- und Sprachforschung im deutschen Kulturraum. 이 연감은 2016/2017년 독일 언어와 시학회의 활동과 학술적 성과를 기록하며, 독일 문화권 내 문학 및 언어 연구의 현황을 다룹니다."
+  },
+  {
+    "book_id": 12045,
+    "translated_title": "2017년 수상작 - 독일 어학과 문학 아카데미",
+    "translated_author": "독일 어학과 문학 아카데미",
+    "search_text": "Ein Verzeichnis der Preisträger des Jahres 2017 der Deutschen Akademie für Sprache und Dichtung. Das Werk dient als Nachschlagewerk für Literaturpreise und kulturelle Auszeichnungen. 독일 어학과 문학 아카데미의 2017년 수상자 목록을 담은 책입니다. 이 자료는 문학상 및 문화적 수상 기록을 확인하는 데 유용한 참고서입니다."
+  },
+  {
+    "book_id": 12046,
+    "translated_title": "독일어 역사",
+    "translated_author": "발터 데 그루이트어",
+    "search_text": "Dieses Werk aus dem Bereich der Sprachwissenschaft bietet einen Überblick über die Entwicklung der deutschen Sprache und ist für Studierende der Germanistik sowie Sprachhistoriker von Interesse. 언어학 분야의 이 책은 독일어의 발전 과정을 개요하며, 독일어학과 전공 학생 및 언어사 연구자에게 유용한 참고 자료입니다."
+  },
+  {
+    "book_id": 12047,
+    "translated_title": "독일 문학의 길들 - 역사적 서술",
+    "translated_author": "글레저, 레만, 루보스",
+    "search_text": "Dieses Werk bietet eine historische Darstellung der deutschen Literatur und gilt als Fachbuch für Literaturwissenschaft. 이 책은 독일 문학의 역사를 서술한 전문서로, 문학 연구에 유용한 자료가 될 것입니다."
+  },
+  {
+    "book_id": 12048,
+    "translated_title": "후고 마이를 위한 시집 - Facsimile Edition, Volume 1 Facsimile",
+    "translated_author": "엘세 라스커-슈러",
+    "search_text": "Eine Faksimile-Edition von Gedichten von Else Lasker-Schüler für Hugo May. 엘세 라스커-슈러의 후고 마이를 위한 시를 담은 파시밀리판 시집입니다."
+  },
+  {
+    "book_id": 12049,
+    "translated_title": "후고 마이를 위한 시집 - 판본 복제판, 제2권 본문 및 주석",
+    "translated_author": "엘세 라sker-슐러",
+    "search_text": "Diese Faksimile-Edition enthält den zweiten Band der Texte und Kommentare zu Else Lasker-Schülers Gedichtbuch für Hugo May. 이 판본 복제판은 엘세 라sker-슐러의 후고 마이를 위한 시집에 대한 두 번째 권의 본문과 주석을 포함합니다."
+  },
+  {
+    "book_id": 12050,
+    "translated_title": "작품 - 마이클 렌츠의 에세이를 담음",
+    "translated_author": "제시 투어",
+    "search_text": "Dieses literarische Werk von Jesse Thoor ist mit einem Essay von Michael Lentz versehen und gehört in den Bereich der zeitgenössischen Literatur. Der genaue Inhalt bleibt unbewusst. 제시 투어의 이 문학 작품은 마이클 렌츠의 에세이를 포함하며 현대 문학 분야에 속합니다. 정확한 내용은 알려지지 않았습니다."
+  },
+  {
+    "book_id": 12051,
+    "translated_title": "collected works",
+    "translated_author": "raainer maria rike",
+    "search_text": "This book is the collected works of rainer maria rike, a famous poet. It includes his poetry and prose, reflecting his modernist style and themes of love and mortality. 이 책은 유명한 시인 라이너 마리아 릴케의 전작집입니다. 현대주의적 스타일과 사랑, 죽음의 주제를 반영한 그의 시와 산문이 수록되어 있습니다."
+  },
+  {
+    "book_id": 12052,
+    "translated_title": "바로크의 음악세계",
+    "translated_author": "베른하르트 모르바흐",
+    "search_text": "Ein Buch über die Musik des Barock, verfasst von Bernhard Morbach. Es bietet einen literarischen Einblick in die kulturellen und historischen Aspekte dieser Epoche. 베른하르트 모르바흐가 쓴 바로크 시대 음악에 관한 책입니다. 이 책은 문학적인 관점에서 바로크 시대의 문화적, 역사적 측면을 살펴봅니다."
+  },
+  {
+    "book_id": 12053,
+    "translated_title": "바로크 음악 기초 지식 - 제1권: 고전 및 후기 바로크 시대의 기악 음악에 대하여",
+    "translated_author": "카를 카이저",
+    "search_text": "Dieses Fachbuch erläutert grundlegendes Wissen zur Instrumentalmusik der Hoch- und Spätbarockzeit und richtet sich an Musikstudenten und Historiker. 이 전공 서적은 고전 및 후기 바로크 시대 기악 음악에 대한 기초 지식을 설명하며, 음악학과 역사학을 전공하는 학생들을 위한 자료입니다."
+  },
+  {
+    "book_id": 12054,
+    "translated_title": "바로크 음악 기초 지식 - 제2권 : 바로크 오페라. 접근의 측면",
+    "translated_author": "미하엘 슈나이더",
+    "search_text": "Michael Schneider analysiert in diesem Fachband die barocke Oper als Teil der Barockmusik, mit Fokus auf Aspekte der Annäherung. 마이클 슈나이트는 이 전문 밴드에서 바로크 음악의 일부인 바로크 오페라를 분석하고, 접근의 측면에 중점을 둡니다."
+  },
+  {
+    "book_id": 12055,
+    "translated_title": "바흐 - 하늘의 성을 위한 음악",
+    "translated_author": "존 일리옣 가르디너",
+    "search_text": "Dieses Werk von John Eliot Gardiner erforscht J.S. Bachs musikalisches Erbe und seinen Einfluss auf die Kulturgeschichte. Es richtet sich an Musikinteressierte und Historiker. 존 일리옣 가르디너의 이 저서는 J.S. 바흐의 음악적 유산과 문화사적 영향을 탐구한다. 음악 애호가와 역사학자를 위한 작품이다."
+  },
+  {
+    "book_id": 12056,
+    "translated_title": "",
+    "translated_author": "",
+    "search_text": " "
+  },
+  {
+    "book_id": 12057,
+    "translated_title": "17세기 및 18세기의 음악",
+    "translated_author": "브리거 페테르센",
+    "search_text": "Dieses Buch behandelt die Musik des 17. und 18. Jahrhunderts. Es bietet eine Übersicht über die historische Entwicklung und kulturellen Zusammenhänge dieser musikalischen Epoche. 이 책은 17세기 및 18세기의 음악을 다룹니다. 이 음악 시대의 역사적 발전과 문화적 배경에 대한 개요를 제공합니다."
+  },
+  {
+    "book_id": 12058,
+    "translated_title": "",
+    "translated_author": "",
+    "search_text": " "
+  },
+  {
+    "book_id": 12059,
+    "translated_title": "테스트다프 자격증 준비 - 팁과 연습",
+    "translated_author": "쵹 로체",
+    "search_text": "Dieses Buch bietet Tipps und Übungen für die Vorbereitung auf den TestDaF. Es ist ein Lehrbuch im Bereich Sprachprüfung für deutsche Lerner. 이 책은 테스트다프 시험 준비를 위한 팁과 연습 문제를 제공합니다. 독일어 학습자를 위한 언어 시험 교재입니다."
+  },
+  {
+    "book_id": 12060,
+    "translated_title": "Start Deutsch 1 인증 시험 준비를 위한 학습 자료",
+    "translated_author": "요한네스 거베스, 프라우케 판 더 베르프",
+    "search_text": "Dieses Lehrbuch bereitet Prüflinge systematisch auf die Start Deutsch 1-Prüfung (Niveau A1) vor und bietet gezielte Übungen zum Sprachtraining. 이 교재는 Start Deutsch 1(수준 A1) 시험을 체계적으로 준비할 수 있도록 하며, 언어 학습을 위한 집중적인 연습 문제를 제공합니다."
+  },
+  {
+    "book_id": 12061,
+    "translated_title": "A1 Start Deutsch 1 자격증 준비",
+    "translated_author": "요하네스 게르베스, 프라우케 판 더 वर्פ",
+    "search_text": "Dieses Lehrbuch bereitet Lernende mit Übungen und Strategien gezielt auf das Sprachniveau A1 (Start Deutsch 1) des Goethe-Instituts vor. 이 교재는 연습과 전략을 통해 학습자가 괴테 연구소 A1 (Start Deutsch 1) 언어 수준 시험에 성공적으로 대비할 수 있도록 지원합니다."
+  },
+  {
+    "book_id": 12062,
+    "translated_title": "성인용 독일어 시험 B2 자격증 준비",
+    "translated_author": "하이에 슈티벨러, 프라우케 판 더 वर्프",
+    "search_text": "Dieses Lehrbuch bereitet Erwachsene auf die Deutschprüfung auf dem Niveau B2 vor. Es enthält Übungen, Strategien und Musterprüfungen zur Zertifizierung. 이 교재는 성인들이 독일어 시험 B2 수준을 준비할 수 있도록 도와줍니다. 인증을 위한 연습 문제, 전략 및 모의 시험을 포함합니다."
+  },
+  {
+    "book_id": 12063,
+    "translated_title": "성인용 B2 독일어 시험 준비",
+    "translated_author": "하이에 슈티벨러, 파울케 반더버프",
+    "search_text": "Dieses Buch ist ein Lehrwerk für Erwachsene, das auf die B2-Deutschprüfung vorbereitet. Es beinhaltet Übungen zur Sprache und Kultur, passend für die Kategorie Sozialwissenschaften. 이 책은 성인들을 위한 B2 독일어 시험 준비 교재입니다. 언어와 문화에 대한 연습 문제를 포함하고 있으며, 사회과학 카테고리와 일치합니다."
+  },
+  {
+    "book_id": 12064,
+    "translated_title": "작품 : 제1권 - 바이마르 공화국 1931-1933",
+    "translated_author": "아미가르트 쿤",
+    "search_text": "Dieser Band fasst das literarische Schaffen der Autorin im Zeitraum der späten Weimarer Republik (1931-1933) zusammen und bietet Einblicke in die literarische Geschichte dieser turbulenten Epoche. 이 권은 작가의 늦은 바이마르 공화국 시기(1931-1933) 문학적 작품을 정리하고, 격동적인 시기의 문학적 역사에 대한 통찰을 제공합니다."
+  },
+  {
+    "book_id": 12065,
+    "translated_title": "작품 : 제2권 - 나치 독일과 유배지 1933-1940",
+    "translated_author": "ירמגרד קעון",
+    "search_text": "Dieser Band umfasst Irmgard Keuns literarisches Schaffen zwischen 1933 und 1940, thematisiert NS-Deutschland und die Exilliteratur dieser historischen Periode. 이 권은 1933년부터 1940년까지의 이름그드 쿤의 문학 활동을 담고 있으며, 나치 독일과 망명 생활이라는 역사적 시기의 문학을 다룹니다."
+  },
+  {
+    "book_id": 12066,
+    "translated_title": "작품: 제3권 - 전후 시대와 연방 공화국 1946-1962",
+    "translated_author": "어머르하트 퀴른",
+    "search_text": "Diese Publikation sammelt Texte von Irmgard Keun aus der Nachkriegszeit und frühen Bundesrepublik. Sie bietet Einblicke in die deutsche Literatur und Gesellschaft von 1946 bis 1962. 이 책은 전후 시대와 초기 연방 공화국 시기에 쓴 어머르하트 퀴른의 작품들을 모은 것입니다. 1946년부터 1962년까지의 독일 문학 및 사회에 대한 통찰을 제공합니다."
+  },
+  {
+    "book_id": 12067,
+    "translated_title": "속성이 없는 남자 1",
+    "translated_author": "로버트 무질",
+    "search_text": "Dieser Roman von Robert Musil gehört zur modernen Literatur und untersucht die Identität und Gesellschaft im Wien um 1900. Der erste Band setzt neue Maßstäbe in der Erzählkunst. 로버트 무질의 소설 『속성이 없는 남자』는 1900년대 비엔나의 정체성과 사회를 탐구하는 현대 문학의 걸작입니다. 첫 권은 서사 예술에 새로운 기준을 제시합니다."
+  },
+  {
+    "book_id": 12068,
+    "translated_title": "속성 없는 남자 2",
+    "translated_author": "로베르트 무질",
+    "search_text": "Der zweite Band des berühmten Romans von Robert Musil, der das Österreich-Ungarn am Vorabend des Ersten Weltkriegs literarisch porträtiert und zu den wichtigsten Werken der modernen Literatur zählt. 로베르트 무질의 저명 소설 두 번째 권으로, 제1차 세계대전 직전의 오스트리아-헝가리를 문학적으로 묘사하며 현대 문학의 중요한 작품으로 꼽힙니다."
+  },
+  {
+    "book_id": 12069,
+    "translated_title": "특성을 잃은 사람 3",
+    "translated_author": "로베르트 무질",
+    "search_text": "Der dritte Band von Robert Musels Romanzyklus, der das Wien um 1900 als Spiegel der modernen Krisen des Geistes und der Gesellschaft darstellt. Ein Monument der europäischen Literatur. 로베르트 무질의 소설 연작 3권으로, 1900년경 빈을 정신과 사회의 현대적 위기 거울로 보여줍니다. 유럽 문학의 기념비적 작품입니다."
+  },
+  {
+    "book_id": 12070,
+    "translated_title": "성격이 없는 남자 4",
+    "translated_author": "로버트 무질",
+    "search_text": "Robert Musils Roman der vierte Band der unvollendeten Epoche des Mann ohne Eigenschaften 로버트 무질의 미완성 소설 시리즈의 네 번째 권"
+  },
+  {
+    "book_id": 12071,
+    "translated_title": "특성이 없는 남자 5",
+    "translated_author": "로베르트 무질",
+    "search_text": "Robert Musils berühmter Romanzyklus in einem Band, der die Gesellschaft am Vorabend des Ersten Weltkriegs in Wien porträtiert. Ein Schlüsselwerk der modernen Literatur und der Wiener Moderne. 로베르트 무질(Robert Musil)의 유명 소설 시리즈가 한 권에 담겨, 제1차 세계대전 직전 빈의 사회상을 그립니다. 현대 문학 및 빈 모던의 핵심 작품입니다."
+  },
+  {
+    "book_id": 12072,
+    "translated_title": "성품 없는 남자 6",
+    "translated_author": "로버트 무질",
+    "search_text": "Sechster Band des monumentalen Romans von Robert Musil, der die Gesellschaft des k.u.k. Österreichs am Vorabend des Ersten Weltkriegs literarisch reflektiert. 로버트 무질의 기념비적 소설 6권으로, 제1차 세계대전 직전의 오스트리아 제국 사회를 문학적으로 성찰한다."
+  },
+  {
+    "book_id": 12073,
+    "translated_title": "서적 1",
+    "translated_author": "로버트 무질",
+    "search_text": "Robert Musils 'Bücher 1' ist ein Sammelwerk aus dem Bereich der Literatur, das wahrscheinlich essayistische Texte oder literaturwissenschaftliche Reflexionen des modernen Autors enthält. 로버트 무질의 '서적 1'은 문학 분야의 총서로, 현대 작가인 무질의 에세이나 문학 비평적 성찰을 담고 있을 것으로 보인다."
+  },
+  {
+    "book_id": 12074,
+    "translated_title": "책들 2",
+    "translated_author": "로버트 무질",
+    "search_text": "Robert Musils literarische Sammlung 'Bücher 2' enthält Essays oder literarische Texte aus seiner Schaffensperiode. Das Werk gehört zur modernen europäischen Literatur und thematisiert künstlerische und philosophische Reflexionen. 로버트 무질의 문학 모음집 '책들 2'는 그의 창작 시기 에세이나 문학 텍스트를 담고 있습니다. 이 작품은 현대 유럽 문학에 속하며 예술적·철학적 성찰을 주제로 다룹니다."
+  },
+  {
+    "book_id": 12075,
+    "translated_title": "신문 및 잡지 1898-1921",
+    "translated_author": "로베르트 무질",
+    "search_text": "Diese Sammlung enthält Aufsätze, Rezensionen und Notizen von Robert Musil, die zwischen 1898 und 1921 in verschiedenen Zeitungen und Zeitschriften veröffentlicht wurden. 이 책은 로베르트 무질(Robert Musil)이 1898년부터 1921년까지 다양한 신문과 잡지에 발표한 에세이, 서평 및 단상을 모은 수집본입니다."
+  },
+  {
+    "book_id": 12076,
+    "translated_title": "신문과 잡지에서 1922-1924",
+    "translated_author": "로베르트 무질",
+    "search_text": "Diese Sammlung enthält journalistische Texte Robert Musils aus den Jahren 1922 bis 1924. Die Beiträge behandeln aktuelle gesellschaftliche und kulturelle Themen der Zwischenkriegszeit. 이 책은 로베르트 무질이 1922년부터 1924년까지 기고한 언론 관련 텍스트 모음집입니다. 각 글은 전쟁간 사회 및 문화적 현안에 대한 그의 통찰력을 담고 있습니다."
+  },
+  {
+    "book_id": 12077,
+    "translated_title": "1925-1938 연보와 잡지에 실린 글",
+    "translated_author": "로베르트 무질",
+    "search_text": "Dieser Band enthält eine Sammlung von Aufsätzen und Rezensionen von Robert Musil, die zwischen 1925 und 1938 in Zeitungen und Zeitschriften veröffentlicht wurden. Er bietet Einblicke in seine sozialwissenschaftlichen und kulturellen Reflexionen dieser Epoche. 이 책은 로베르트 무질이 1925년부터 1938년까지 신문과 잡지에 발표한 논평과 서평을 모은 것입니다. 이 시대의 사회적·문화적 성찰을 반영한 그의 글들을 담고 있습니다."
+  },
+  {
+    "book_id": 12078,
+    "translated_title": "미카엘 한eke의 카메라: 이미지의 윤리",
+    "translated_author": "캐서린 휠리",
+    "search_text": "Ein Buch über die filmische Ästhetik und Ethik von Michael Haneke, analysiert von Catherine Wheatley. Fokussiert auf seine Kamerawirkung und visuelle Darstellungsweisen. 미카엘 하네케의 영화 미학과 윤리를 분석한 책. 캐서린 휠리가 그의 카메라 시각과 이미지 표현 방식을 다룹니다."
+  },
+  {
+    "book_id": 12079,
+    "translated_title": "",
+    "translated_author": "",
+    "search_text": " "
+  },
+  {
+    "book_id": 12080,
+    "translated_title": "눈빛 게임: 전기 1931-1937",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Canettis Autobiografie, die seine Jugendjahre und frühen literarischen Entwicklungsphase in Europa vor dem Zweiten Weltkrieg aus persönlicher Perspektive darstellt. 엘리아스 카네티의 자서전으로, 2차 세계대전 전 유럽에서의 그의 청소년기와 초기 문학 활동에 대한 개인적 기록을 담고 있습니다."
+  },
+  {
+    "book_id": 12081,
+    "translated_title": "빛의 속임수 - 소설",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Ein Roman von Elias Canetti, der als modernes Literaturwerk im deutschen Sprachraum bekannt ist und zu den Werken der Weltliteratur gezählt wird. 엘리아스 카네티의 소설로, 독일어권 현대 문학 작품으로 알려져 있으며 세계 문학의 한 부분으로 간주됩니다."
+  },
+  {
+    "book_id": 12082,
+    "translated_title": "극들 - 결혼식, 허영의 희극, 기간제 계약자들",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Elia Canetti의 주요 극작품들을 모은 이 책에는 'Hochzeit', 'Die Befristeten' 및 'Komödie der Eitelkeit'가 포함되어 있으며, 작가 특유의 사회적 비판과 존재론적 주제를 탐구한다. 이 컬렉션은 카네티의 문학 세계를 이해하는 데 중요한 자료다. 엘리아스 카네티의 주요 희곡들을 모은 이 책에는 <결혼식>, <기간제 계약자들>, <허영의 희극>이 수록되어 있으며, 작가 특유의 사회적 비판과 존재론적 주제를 탐구합니다. 이 컬렉션은 카네티의 문학 세계를 이해하는 데 중요한 자료입니다."
+  },
+  {
+    "book_id": 12083,
+    "translated_title": "귀에 프락켈을 단 채 - 회고록 1921-1931",
+    "translated_author": "에리아스 카네티",
+    "search_text": "Dieses autobiografische Werk von Elias Canetti behandelt die Lebensphase des Autors zwischen 1921 und 1931 und gehört zur Kategorie der deutschen Literatur. 에리아스 카네티의 이 자서전적 작품은 1921년부터 1931년까지의 작가의 생애를 다루며 독일 문학의 일환으로 분류됩니다."
+  },
+  {
+    "book_id": 12084,
+    "translated_title": "파리의 나비들",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Ein literarisches Werk von Elias Canetti, das in die Kategorie Literatur fällt und vermutlich Aufzeichnungen oder Essays enthält. 엘리아스 카네티의 문학 작품으로, 문학 카테고리에 속하며 기록물이나 에세이를 포함할 가능성이 높은 작품입니다."
+  },
+  {
+    "book_id": 12085,
+    "translated_title": "시계의 숨겨진 심장: 1973-1985 수기",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Das Buch enthält die Tagebuchaufzeichnungen und Essays des Literaturnobelpreisträgers Elias Canetti aus den Jahren 1973 bis 1985, die Einblicke in seine späteren Gedanken und Reflexionen bieten. 이 책은 문학 노벨상 수상자 엘리아스 카네티가 1973년부터 1985년까지 작성한 일기와 에세이를 모아, 그의 후기 사상과 성찰을 엿볼 수 있게 한다."
+  },
+  {
+    "book_id": 12086,
+    "translated_title": "구원받은 혀",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Die autobiographische Erzählung eines jüdischen Autors beschreibt die prägende Jugendzeit in Wien und den Balkan. 유대인 작가의 자전적 서사는 빈과 발칸 지역에서 보낸 영향력 있는 청소년기를 서술합니다."
+  },
+  {
+    "book_id": 12087,
+    "translated_title": "어떤 단어의 양심 - 에세이",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Eine Essay-Sammlung des Nobelpreisträgers Elias Canetti, die sich mit Sprachreflexion und der Rolle von Wörtern in der Kultur auseinandersetzt. 노벨상 수상자 엘리아스 카네티의 에세이집으로, 언어 성찰과 문화 속 단어의 역할에 관해 다룹니다."
+  },
+  {
+    "book_id": 12088,
+    "translated_title": "질량과 권력",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Ein sozialwissenschaftliches Werk von Elias Canetti über die Dynamik zwischen Massen und Macht, das politische und psychologische Aspekte menschlicher Gruppen analysiert. 엘리아스 카네티의 사회과학 저서로, 대중과 권력의 상호작용을 정치적·심리적 관점에서 분석하는 작품입니다."
+  },
+  {
+    "book_id": 12089,
+    "translated_title": "햄프스테드의 보충 기록 - 기록들",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Diese Notizen von Elias Canetti bieten persönliche Aufzeichnungen und Nachträge aus seiner Zeit in Hampstead als literarisch-historische Dokumente. 엘리아스 카네티의 이 기록은 햄프스테드 체류 당시의 개인적인 기록과 보충 내용을 문학사적 문서로 제공합니다."
+  },
+  {
+    "book_id": 12090,
+    "translated_title": "귓속 증인: 오십 명의 성격들",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Dieses Werk von Elias Canetti zählt zur modernen Literatur und beschäftigt sich vermutlich mit charakterstudien und gesellschaftlichen Beobachtungen des 20. Jahrhunderts. 엘리아스 카네티의 이 작품은 현대 문학에 속하며, 아마도 20세기의 성격 연구와 사회적 관찰을 다룰 것으로 보입니다."
+  },
+  {
+    "book_id": 12091,
+    "translated_title": "인간의 지방 - 1942-1972 수기",
+    "translated_author": "엘리아스 카네티",
+    "search_text": "Diese Aufzeichnungen von Elias Canetti, einem Nobelpreisträger für Literatur, dokumentieren Gedanken und Eindrücke über drei Jahrzehnte. Sie bieten Einblicke in seine Sicht auf die menschliche Gesellschaft und das Individuum im 20. Jahrhundert. 노벨 문학상 수상자 엘리아스 카네티의 이 수기는 30년 간 그의 생각과 인상을 기록한 것입니다. 이 책은 20세기 인간 사회와 개인에 대한 그의 통찰력을 제공합니다."
+  },
+  {
+    "book_id": 12092,
+    "translated_title": "마라케시에서의 목소리 - 여행 기록",
+    "translated_author": "에리아스 카네티",
+    "search_text": "Eine Sammlung von Reiseaufzeichnungen von Elias Canetti, die den kulturellen und historischen Reichtum Marokkos einfängt. 에리아스 카네티의 여행 기록으로, 모로코의 문화적, 역사적 풍경을 담고 있다."
+  },
+  {
+    "book_id": 12093,
+    "translated_title": "워트마스컨: 엘리아스 카네트트의 삶과 작품에 대한 텍스트",
+    "translated_author": "옌트레운 훔베어",
+    "search_text": "Dieses Werk von Ortrun Huber enthält Texte über Leben und Schaffen von Elias Canetti. Es handelt sich um eine literaturwissenschaftliche Untersuchung und Biographie in der Kategorie Literatur. 옌트레운 훔베어가 쓴 이 책은 엘리아스 카네트트의 삶과 작품에 관한 글들을 포함하고 있습니다. 문학 연구 및 전기 속의 문학 책입니다."
+  },
+  {
+    "book_id": 12094,
+    "translated_title": "플라톤의 위대한 대화",
+    "translated_author": "더블유.에이치.디. 라우스",
+    "search_text": "Eine Sammlung von Platon-Dialogen, übersetzt von W.H.D. Rouse. Dieses Werk gehört zur philosophischen Literatur und bietet Einblicke in die antike griechische Denktradition. 더블유.에이치.디. 라우스가 번역한 플라톤의 대화집. 이 책은 철학 문학에 속하며 고대 그리스 사상 전통에 대한 통찰을 제공한다."
+  },
+  {
+    "book_id": 12095,
+    "translated_title": "기본법",
+    "translated_author": "연방 시민교육중앙회",
+    "search_text": "Diese Publikation der Bundeszentrale für politische Bildung behandelt das deutsche Grundgesetz als Grundlage des Rechtssystems in einer sozialwissenschaftlichen Perspektive. 이 연방 시민교육중앙회 간행물은 사회과학적 관점에서 독일 법체계의 기초인 기본법을 다룹니다."
+  },
+  {
+    "book_id": 12096,
+    "translated_title": "근대철학의 기본문제 - 근대철학 2",
+    "translated_author": "요제프 스펙",
+    "search_text": "Dieses philosophische Werk von Josef Speck behandelt die Grundprobleme der großen Denker der Neuzeit. Es bietet eine systematische Einführung in zentrale Themen der modernen Philosophie. 요제프 스펙의 이 철학 저서는 근대 사상의 주요 문제들을 다룹니다. 이 책은 현대 철학의 중심 주제를 체계적으로 소개합니다."
+  },
+  {
+    "book_id": 12097,
+    "translated_title": "독일 사학 연구 기초",
+    "translated_author": "발터 스텔러",
+    "search_text": "Ein Fachbuch von Walter Steller, das sich mit den Grundlagen der historischen Forschung in Deutschland beschäftigt. Es richtet sich an Leser, die an deutschen Geschichte und Wissenschaft interessiert sind. 발터 스텔러의 전문서적 '독일 사학 연구 기초'는 독일의 역사 연구 기초를 다룹니다. 독일 역사와 과학에 관심 있는 독자를 위한 책입니다."
+  },
+  {
+    "book_id": 12098,
+    "translated_title": "1945-1957년 독일의 운명",
+    "translated_author": "후버투스 프린츠 츠 로엔슈타인, 볼크마르 폰 쯔일스도르프",
+    "search_text": "Dieses Geschichtsbuch behandelt die politische und gesellschaftliche Entwicklung in Deutschland zwischen 1945 und 1957. Die Autoren analysieren die Nachkriegszeit und den Aufbau der beiden deutschen Staaten. 이 역사책은 1945년부터 1957년까지 독일의 정치 및 사회적 발전을 다룹니다. 저자들은 전후 시기와 두 독일 국가의 건설 과정을 분석합니다."
+  },
+  {
+    "book_id": 12099,
+    "translated_title": "크라운의 영광과 부담: 역사 이야기",
+    "translated_author": "게오르크 슈라이버",
+    "search_text": "Eine Sammlung historischer Geschichten, die sich mit dem Glanz und der Last der Krone auseinandersetzt und literarisch verarbeitet wird. 왕관의 영광과 부담을 역사적 배경으로 문학적 형상화한 역사 이야기 모음집입니다."
+  },
+  {
+    "book_id": 12100,
+    "translated_title": "오스트리아에서 히틀러의 패배 1933-1934",
+    "translated_author": "고트프리트-카를 킨더만",
+    "search_text": "Dieses Werk behandelt die historischen Ereignisse in Österreich 1933 bis 1934 und analysiert die gescheiterten Versuche Hitlers, die Macht zu übernehmen. Ein Beitrag zur modernen Geschichte. 이 책은 1933년부터 1934년까지 오스트리아에서 일어난 역사적 사건을 다루며, 히틀러의 권력 장악 시도가 실패한 원인을 분석합니다. 근현대사 연구의 중요한 자료입니다."
+  },
+  {
+    "book_id": 12101,
+    "translated_title": "독일 망명 문학 1933-1950 (2권)",
+    "translated_author": "한스-알버트 발터",
+    "search_text": "Dieses Buch analysiert die deutsche Exilliteratur zwischen 1933 und 1950. Es bietet Einblicke in die literarischen Werke und Autoren dieser historischen Periode. 이 책은 1933년부터 1950년까지의 독일 망명 문학을 분석합니다. 이 역사적 시기의 문학적 작품과 작가들에 대한 통찰력을 제공합니다."
+  },
+  {
+    "book_id": 12102,
+    "translated_title": "주요 현대 철학 경향 1",
+    "translated_author": "볼프강 슈teg뮐러",
+    "search_text": "Ein philosophisches Standardwerk von Wolfgang Stegmüller, das die Hauptströmungen der modernen und gegenwärtigen Philosophie analysiert und einordnet. 볼프강 슈teg뮐러의 철학 교양서로, 현대 및 오늘날의 주요 철학 경향들을 분석하고 정리한 내용을 담고 있습니다."
+  },
+  {
+    "book_id": 12103,
+    "translated_title": "1945년 이후 독일어권 현대 문학 신 핸드북",
+    "translated_author": "디츠-뤼디거 모저",
+    "search_text": "Dieses Handbuch bietet eine umfassende Übersicht über die deutschsprachige Gegenwartsliteratur seit 1945 und dient als wichtiger Nachschlagewerk für Literaturwissenschaft und kulturhistorische Forschung. 이 핸드북은 1945년 이후 독일어권 현대 문학에 대한 포괄적인 개관을 제공하며 문학 연구 및 문화사 조사에 중요한 참고 자료로 활용된다."
+  },
+  {
+    "book_id": 12104,
+    "translated_title": "지시",
+    "translated_author": "H.M. 엔첸스베르거, V. 아이스만",
+    "search_text": "Ein literarisches Werk von H.M. Enzensberger und V. Eismann, das den Titel 'Der Auftrag' trägt. Inhaltliche Details liegen nicht vor, daher bleibt eine spezifische Handlung oder Thematik offen. H.M. 엔첸스베르거와 V. 아이스만이 쓴 문학 작품으로, 제목은 'Der Auftrag'입니다. 구체적인 내용이나 주제는 제공된 정보에 따라 알 수 없습니다."
+  },
+  {
+    "book_id": 12105,
+    "translated_title": "니벨룽겐의 노래",
+    "translated_author": "작자 미상",
+    "search_text": "Ein anonymes deutsches Heldenepos des Mittelalters über die Nibelungensage, das in der Tradition der germanischen Mythologie und des Rittertums steht. 제르만 신화와 기사 전통에 뿌리를 둔, 니벨룽겐 신화를 주제로 한 중세 독일의 익명 영웅 서사시입니다."
+  },
+  {
+    "book_id": 12106,
+    "translated_title": "Kultur und Explosion",
+    "translated_author": "Jurij Lotman",
+    "search_text": "Ein theoretischer Text zur semiotischen Kulturtheorie von Jurij Lotman, der den Begriff der 'Explosion' als Moment der systemischen Erneuerung untersucht. 유리 로트만의 기호학적 문화이론서로, '폭발'을 체제적 혁신의 순간으로 규명하는 이론적 텍스트입니다."
+  },
+  {
+    "book_id": 12107,
+    "translated_title": "오스트리아의 독일어",
+    "translated_author": "페터 비징거",
+    "search_text": "Ein wissenschaftliches Werk über die Sprache und Varietäten des Österreichischen Deutsch, verfasst von dem Sprachforscher Peter Wiesinger. 언어학자 페터 비징거가 쓴 오스트리아 독일어의 언어와 변이에 관한 학술서이다."
+  },
+  {
+    "book_id": 12108,
+    "translated_title": "인게보르크 바흐만 상: 시장, 쇼, 이벤트",
+    "translated_author": "도리스 모저",
+    "search_text": "Dieser Band untersucht den Ingeborg-Bachmann-Preis als literarische Plattform und gesellschaftliches Ereignis. Er beleuchtet die Wechselwirkung von Literaturmarkt, Medieninszenierung und kultureller Reputation. 이 책은 인게보르크 바흐만 상을 문학 플랫폼이자 사회적 이벤트로 분석합니다. 문학 시장, 미디어 연출, 그리고 문화적 명성의 상호작용을 조명합니다."
+  },
+  {
+    "book_id": 12109,
+    "translated_title": "독일 문학의 자료",
+    "translated_author": "허버트 A. 프렌첼, 엘리자베스 프렌첼",
+    "search_text": "Dieses Buch ist ein Nachschlagewerk für die deutsche Literatur, das von Herbert A. und Elisabeth Frenzel verfasst wurde. Es bietet wahrscheinlich umfassende Daten, Chronologien oder Informationen zu Werken und Autoren des deutschen Sprachraums. 이 책은 허버트 A. 프렌첼과 엘리자베스 프렌첼이 집필한 독일 문학 관련 참고서입니다. 아마도 독일어권 작가와 작품에 대한 포괄적인 데이터, 연대기 또는 정보를 제공할 것입니다."
+  },
+  {
+    "book_id": 12110,
+    "translated_title": "국제 정치 - 대서양판",
+    "translated_author": "카를 카이저, 한스-페터 슈바르츠, 로버트 쿠퍼, 앤서니 폴론스키, 디트리히 폰 키틀, 하인리히 아우구스트 빈클러",
+    "search_text": "Dieses Buch behandelt Themen der internationalen Politik mit Fokus auf transatlantische Beziehungen, verfasst von namhaften Autoren aus Europa und Nordamerika im Bereich der Sozialwissenschaften. 이 책은 유럽과 북미의 저명한 저자들이 쓴 사회과학 분야의 국제 정치와 대서양 관계를 다룹니다."
+  },
+  {
+    "book_id": 12111,
+    "translated_title": "Forschung zu fremden Kulturen Nr. 2 - Schwerpunkt: Vergleichende Studien zwischen koreanischer und europäischer Literatur",
+    "translated_author": "Forschungszentrum für Koreanische Literatur und Fremdsprachen, Koreanische Universität für Fremdsprachen",
+    "search_text": "Dieses akademische Sammelwerk präsentiert vergleichende Studien zur koreanischen und europäischen Literatur. Es erscheint als zweite Ausgabe der Forschungsschriften des Koreanischen Zentrums für Fremdsprachen. 이 학술 논문집은 한국 문학과 유럽 문학의 비교 연구를 다룹니다. 한국외국어대학교 외국학종합연구센터의 연구 논문 제2호로 출간되었습니다."
+  },
+  {
+    "book_id": 12112,
+    "translated_title": "Forschung zur fremden Kultur, Heft 3 - Spezialthema: Feminismus in der Literatur Ost und West",
+    "translated_author": "Korea University of Foreign Studies, Forschungszentrum für Fremde Sprachen und Kulturen, Forschungsinstitut für Fremde Literatur",
+    "search_text": "Dieses akademische Sammelwerk präsentiert Artikel zum Feminismus in der ostasiatischen und westlichen Literatur, herausgegeben vom Forschungsinstitut für Fremde Literatur der Korea University of Foreign Studies. 이 학술 논문 집은 한국외국어대학교 외국문학연구소가 편집한 동서양 문학에 나타난 페미니즘에 관한 논문들을 담고 있습니다."
+  },
+  {
+    "book_id": 12113,
+    "translated_title": "Wie dominiert Deutschland Europa? - Brexit und die Neuordnung der EU-Macht",
+    "translated_author": "Paul Reber",
+    "search_text": "Dieses Buch analysiert die geopolitische Rolle Deutschlands und die Neuordnung der EU-Gewaltverhältnisse nach dem Brexit aus sozialwissenschaftlicher Perspektive. 이 책은 브렉시트 이후의 EU 권력 재편과 독일의 지정학적 역할에 대해 사회과학적 관점에서 분석합니다."
+  },
+  {
+    "book_id": 12114,
+    "translated_title": "의사의 소설",
+    "translated_author": "노아 고든",
+    "search_text": "Roman der Medicus ist ein historischer Roman über den jungen Willoughby, der im 12. Jahrhundert Medizin lernen will und nach Persien reist. 의사의 소설은 의학을 배우기 위해 12세기에 페르시아로 떠나는 젊은 윌로비 이야기를 그린 역사 소설입니다."
+  },
+  {
+    "book_id": 12115,
+    "translated_title": "3구역의 독일 문학",
+    "translated_author": "호르스트 덴클러, 칼 뤼름",
+    "search_text": "Dieses Werk behandelt die deutsche Literatur im sogenannten Dritten Bereich der deutschen Nachkriegsgeschichte und bietet einen Überblick über deren Entwicklung und Bedeutung. 이 책은 전후 독일사 상의 소위 제3구역에서 독일 문학의 발전과 의의를 다룬 개요서입니다."
+  },
+  {
+    "book_id": 12116,
+    "translated_title": "베를린의 위협",
+    "translated_author": "한스 슈필러",
+    "search_text": "Dieses historische Werk von Hans Spieler beleuchtet die politische und militärische Gefahr, die Berlin in einer krisenhaften Epoche des 20. Jahrhunderts drohte, und analysiert die damaligen strategischen Entscheidungen. 한스 슈필러가 집필한 이 역사 서적은 20세기 위기의 한 시기 베를린에 닥친 정치적, 군사적 위협과 당시의 전략적 의사결정을 조명하고 분석합니다."
+  },
+  {
+    "book_id": 12117,
+    "translated_title": "독일사",
+    "translated_author": "빌헬름 트로에",
+    "search_text": "Wilhelm Treue ist ein bekannter Historiker. Dieses Buch behandelt die Geschichte Deutschlands und bietet einen Überblick über wichtige historische Ereignisse und Entwicklungen. Wilhelm Treue는 저명한 역사학자입니다. 이 책은 독일의 역사를 다루며 주요 역사적 사건과 발전에 대한 개요를 제공합니다."
+  },
+  {
+    "book_id": 12118,
+    "translated_title": "한국대학교 학생을 위한 독일어 문법",
+    "translated_author": "한국대학교",
+    "search_text": "Dieses Lehrbuch der Deutschen Sprachwissenschaft richtet sich an Studierende der Konkuk-Universität und behandelt grundlegende grammatikalische Konzepte des Deutschen. 이 책은 고려대학교 학생들을 위한 독일어 문법 교재로, 독일어의 기초 문법 개념을 다룹니다."
+  },
+  {
+    "book_id": 12119,
+    "translated_title": "1943-1963년 베를린 관련 문서들",
+    "translated_author": "볼프강 하이다마이어",
+    "search_text": "Dieses Werk sammelt historische Dokumente zur Geschichte Berlins zwischen 1943 und 1963. Es bietet Einblicke in die politische und soziale Entwicklung der Stadt in der Nachkriegszeit. 이 책은 1943년부터 1963년까지의 베를린 역사와 관련된 문서들을 집대성한 역사서입니다. 전후 시대의 정치적, 사회적 변화에 대한 귀중한 자료를 제공합니다."
+  },
+  {
+    "book_id": 12120,
+    "translated_title": "모두를 위한 하나의 세계",
+    "translated_author": "크리스티안 W. 트롤",
+    "search_text": "Dieses Buch von Christian W. Troll behandelt die Geschichte und könnte sich mit globalen Zusammenhängen befassen. Der Inhalt ist aufgrund der verfügbaren Daten nicht vollständig bekannt. 크리스티안 W. 트롤이 쓴 이 책은 역사를 다루며 세계적 연관성을 다룰 가능성이 있습니다. 현재 자료로는 내용을 완전히 알 수 없습니다."
+  },
+  {
+    "book_id": 12121,
+    "translated_title": "표현주의",
+    "translated_author": "비에타, 셈퍼",
+    "search_text": "Dieses Buch behandelt den Expressionismus als literarische und künstlerische Bewegung. Es bietet eine Einführung in die wichtigsten Vertreter und Werke dieser Epoche. 이 책은 문학과 미술 운동으로서의 표현주의를 다룹니다. 이 시대의 주요 대표 작가와 작품에 대한 소개를 제공합니다."
+  },
+  {
+    "book_id": 12122,
+    "translated_title": "제국으로부터 오스트리아까지",
+    "translated_author": "요헨 융",
+    "search_text": "Jochen Jung beleuchtet in diesem historischen Überblick die Entwicklung vom Habsburgerreich zur modernen Republik Österreich. Das Werk eignet sich als einführendes Handbuch zur Geschichte der österreichischen Nation. 요헨 융은 이 역사적 개요에서 합스부르크 제국에서 현대 오스트리아 공화국으로의 발전을 조명한다. 이 책은 오스트리아 국가사 입문용 교재로 적합하다."
+  },
+  {
+    "book_id": 12123,
+    "translated_title": "독일 고전주의 시대",
+    "translated_author": "리하르트 벤츠",
+    "search_text": "Ein Buch über die deutsche Literaturgeschichte, das sich mit der Epoche der Deutschen Klassik befasst. 독일 문학사를 다루며 독일 고전주의 시대를 주제로 하는 책입니다."
+  },
+  {
+    "book_id": 12124,
+    "translated_title": "독일사의 시대들",
+    "translated_author": "요하네스 할러",
+    "search_text": "Johannes Hallers Werk behandelt die Epochen der deutschen Geschichte und bietet einen Überblick über die historische Entwicklung Deutschlands als wissenschaftliches Sachbuch. 요하네스 할러의 저서 『독일사의 시대들』은 독일 역사의 시대별 변천 과정을 다루는 학술적 서적입니다."
+  },
+  {
+    "book_id": 12125,
+    "translated_title": "독일민주공화국",
+    "translated_author": "에버하르트 슈나이더",
+    "search_text": "Dieses Geschichtsbuch von Eberhard Schneider behandelt die Entwicklung und politische Struktur der Deutschen Demokratischen Republik. 에버하르트 슈나이저의 이 역사 책은 동독의 발전과 정치적 구조를 다룹니다."
+  },
+  {
+    "book_id": 12126,
+    "translated_title": "빌헬름 라베의 정신적 발전",
+    "translated_author": "게르트 마이어",
+    "search_text": "Eine akademische Monographie zur literarischen und geistigen Entwicklung des deutschen Schriftstellers Wilhelm Raabe aus der Kategorie Literatur. 문학 장르에 속하는 빌헬름 라베의 정신적 발전에 관한 학술 논문으로, 독일 작가의 문학적 성장 과정을 다룹니다."
+  },
+  {
+    "book_id": 12127,
+    "translated_title": "즉흥적인 민주주의",
+    "translated_author": "T. 에셴부르크",
+    "search_text": "Soziologische Analyse des demokratischen Wandels und institutioneller Prozesse im modernen deutschen und europäischen Kontext durch den Wissenschaftler Th. Eschenburg. T. 에셴부르크가 현대 독일 및 유럽의 맥락에서 민주주의의 변화와 제도적 과정에 대한 사회학적 분석을 제시한 저작입니다."
+  },
+  {
+    "book_id": 12128,
+    "translated_title": "1870년 이후 유럽의 역사",
+    "translated_author": "H. A. 클레멘트",
+    "search_text": "Dieses Buch bietet eine Übersicht über die europäische Geschichte seit 1870. Es behandelt politische, wirtschaftliche und gesellschaftliche Entwicklungen im modernen Europa. 이 책은 1870년 이후 유럽의 역사를 개괄하며, 현대 유럽의 정치·경제·사회적 변천을 다룹니다."
+  },
+  {
+    "book_id": 12129,
+    "translated_title": "",
+    "translated_author": "",
+    "search_text": " "
+  },
+  {
+    "book_id": 12130,
+    "translated_title": "합스부르크 제국 및 오스트리아 역사 개요",
+    "translated_author": "에른스트 요제프 괴를리히",
+    "search_text": "Dieses Werk von Ernst Joseph Görlich bietet einen historischen Überblick über die Habsburger-Monarchie und Österreich im Genre der Geschichtswissenschaft. 에른스트 요제프 괴를리히의 이 저술은 합스부르크 제국과 오스트리아의 역사적 개요를 제시하는 역사학 분야의 책입니다."
+  },
+  {
+    "book_id": 12131,
+    "translated_title": "철학의 역사",
+    "translated_author": "쿠르트 프리들라인",
+    "search_text": "Dieses Werk von Curt Friedlein behandelt die Geschichte der Philosophie. Es richtet sich an Leser mit Interesse an geisteswissenschaftlichen Grundlagen und philosophischen Entwicklungen. 쿠르트 프리들라인의 이 저서는 철학의 역사를 다룹니다. 인문학적 기초와 철학적 발전에 관심 있는 독자들을 위한 내용입니다."
+  },
+  {
+    "book_id": 12132,
+    "translated_title": "철학사",
+    "translated_author": "쿠르트 프리들라인",
+    "search_text": "Ein historischer Überblick über die Philosophie von Curt Friedlein, klassifiziert unter den Sozialwissenschaften, der philosophische Entwicklungen und Denker behandelt. 사회과학 분류에 속하는 쿠르트 프리들라인의 철학사로, 철학적 발전과 사상가들을 다룬 역사적 개관을 제시합니다."
+  },
+  {
+    "book_id": 12133,
+    "translated_title": "오스트리아 공화국 역사",
+    "translated_author": "하인리히 베네딕트",
+    "search_text": "Dieses Werk bietet einen Überblick über die Geschichte der Republik Österreich. Es richtet sich an Leserinnen und Leser, die sich für die politische und gesellschaftliche Entwicklung des Landes interessieren. 이 책은 오스트리아 공화국의 역사에 대한 개요를 제공합니다. 이 책은 오스트리아의 정치 및 사회 발전에 관심 있는 독자를 위한 자료입니다."
+  },
+  {
+    "book_id": 12134,
+    "translated_title": "역사와 이데올로기",
+    "translated_author": "라이너르트 퀴녜르",
+    "search_text": "Dieses Werk von Reinhard Kühnl untersucht das komplexe Verhältnis von Geschichte und Ideologie und analysiert deren wechselseitige Beeinflussung im wissenschaftlichen und politischen Kontext. 라이너르트 퀴녜르의 이 저서는 역사와 이데올로기의 복잡한 관계를 탐구하며, 학문적 및 정치적 맥락에서 상호 영향을 분석합니다."
+  },
+  {
+    "book_id": 12135,
+    "translated_title": "시민적 사학철학의 시작 / 헤겔과 형이상학의 문제 / 몽테뉴와 회의주의의 기능",
+    "translated_author": "막스 호르크하임어",
+    "search_text": "Dieser philosophische Sammelband von Max Horkheimer behandelt Themen wie Geschichtsphilosophie, Hegel und Skepsis. Er ist ein Werk der theoretischen Literatur zum Denken des 20. Jahrhunderts. 막스 호르크하임어의 철학 논문집으로, 사학철학, 헤겔, 회의주의 등 이론적 주제를 다룹니다. 20세기 사유를 조명하는 사색적 문학 작품입니다."
+  },
+  {
+    "book_id": 12136,
+    "translated_title": "19세기 말과 20세기 초 소설에서 어머니의 형태와 역할",
+    "translated_author": "요한네스 토프",
+    "search_text": "Diese literaturwissenschaftliche Abhandlung untersucht die Darstellung und Funktion der Mutterfigur in Romanen des späten 19. und frühen 20. Jahrhunderts. 이 문학 연구 논문은 19세기 말과 20세기 초 소설에서 어머니의 형태와 역할을 분석합니다."
+  },
+  {
+    "book_id": 12137,
+    "translated_title": "텍스트+비평",
+    "translated_author": "프리드리히 괴트 클롭슈톡",
+    "search_text": "Ein Sammelband der Literaturzeitschrift TEXT+KRITIK mit Arbeiten von oder über Friedrich Gottlob Klopstock, einflussreich für die deutsche Literatur- und Geistesgeschichte. 독일 문학 및 정신사 연구에 중요한 텍스트+비평 문학지의 선집으로 프리드리히 고클롭슈톡의 작품이나 그를 다룬 논문을 포함합니다."
+  },
+  {
+    "book_id": 12138,
+    "translated_title": "텍스트+비평",
+    "translated_author": "프리드리히 뒤렌마트Ⅱ",
+    "search_text": "Der Band enthält literaturwissenschaftliche Texte und Kritiken des Autors Friedrich Dürrenmatt. Er zählt zur Kategorie Literatur. 이 권에는 작가 프리드리히 뒤렌마트의 문학적 텍스트와 비평이 실려 있다. 이는 문학 카테고리에 속한다."
+  },
+  {
+    "book_id": 12139,
+    "translated_title": "TEXT+KRITIK",
+    "translated_author": "페터 핸케",
+    "search_text": "TEXT+KRITIK ist eine renommierte Zeitschrift, in der Peter Handke wichtige literarische Essays und theoretische Texte veröffentlicht hat, die die zeitgenössische deutsche Literatur und Poetik prägen. TEXT+KRITIK은 페터 핸케가 독일 현대 문학과 시론에 지대한 영향을 미친 중요한 문학 에세이와 이론 텍스트를 실었던 권위 있는 잡지입니다."
+  },
+  {
+    "book_id": 12140,
+    "translated_title": "텍스트와 비평",
+    "translated_author": "군터 그라스",
+    "search_text": "Ein literarischer Band mit Essays und Kritiken von Gunter Grass zur deutschen Literatur und Kultur des 20. Jahrhunderts. 군터 그라스의 20세기 독일 문학과 문화를 다루는 에세이 및 비평 문학집."
+  },
+  {
+    "book_id": 12141,
+    "translated_title": "독일어 운율론",
+    "translated_author": "오토 파울, 잉거보르크 글리에르",
+    "search_text": "Ein akademisches Werk zur deutschen Metrik von Otto Paul und Ingeborg Glier. Es behandelt rhythmische Strukturen und Verse des Deutschen innerhalb der Literaturwissenschaft. 오토 파울과 잉거보르크 글리에어가 집필한 독일어 운율론에 관한 학술서다. 문학적 맥락에서 독일어의 리듬 구조와 운율 체계를 다룬다."
+  },
+  {
+    "book_id": 12142,
+    "translated_title": "고전주의와 낭만주의 사이의 독일 단편소설",
+    "translated_author": "요제프 쿤틀",
+    "search_text": "Ein wissenschaftlicher Katalogeintrag zur deutschen Novelle zwischen Klassik und Romantik, der von Josef Kunz verfasst wurde und sich mit literaturhistorischen Aspekten dieses Zeitraums befasst. 요제프 쿤틀이 집필한 고전주의와 낭만주의 사이 독일 단편소설의 문학사적 측면을 다루는 학술 서적입니다."
+  },
+  {
+    "book_id": 12143,
+    "translated_title": "66곡의 발라드, 모리타텐, 샹송 해석",
+    "translated_author": "에드가 니스",
+    "search_text": "Dieses Werk analysiert 66 Balladen, Moritaten und Chansons. Edgar Neis bietet Interpretationen dieser literarischen und musikalischen Formen. 이 책은 66곡의 발라드, 모리타텐, 샹송을 분석합니다. 에드가 니스는 이러한 문학과 음악 형식에 대한 해석을 제공합니다."
+  },
+  {
+    "book_id": 12144,
+    "translated_title": "벽",
+    "translated_author": "마를렌 하우쇼퍼",
+    "search_text": "Ein Roman von Marlen Haushofer, der wahrscheinlich ein literarisches Werk darstellt. Details zur Handlung oder zum historischen Hintergrund sind nicht verfügbar. 마를렌 하우쇼퍼의 소설로, 문학적 작품을 다룰 것으로 보입니다. 줄거리나 역사적 배경에 대한 세부 정보는 사용할 수 없습니다."
+  },
+  {
+    "book_id": 12145,
+    "translated_title": "interpretationen1 독일 서정시 웨크헤를린에서 베를린까지",
+    "translated_author": "호스트 실레메이트",
+    "search_text": "Ein literaturwissenschaftliches Sammelwerk mit Interpretationen deutscher Lyrik von Andreas Gryphius bis Ingeborg Bachmann, herausgegeben von Jost Schillemeit. 호스트 실레메이트가 편집한 문학 연구서로, 독일 서정시에 대한 해석을 담고 있으며, 이는 도서관에서 문학 분석이나 독일 시 연구로 검색할 수 있는 주제입니다."
+  },
+  {
+    "book_id": 12146,
+    "translated_title": "",
+    "translated_author": "",
+    "search_text": " "
+  },
+  {
+    "book_id": 12147,
+    "translated_title": "",
+    "translated_author": "",
+    "search_text": "Diese literatur 이 책은 독일어권 문학의 주요 인물 중 한 명인 괴테의 생애를 다룬 문학적 저술로 추정되며, 그의 삶과 문학 활동에 대한 통찰을 제공한다. 독어문학에 관심 있는 독자들이 참고할 수 있는 작품입니다."
+  },
+  {
+    "book_id": 12148,
+    "translated_title": "쇼베르트",
+    "translated_author": "벤노 폰 지에",
+    "search_text": "Benno von Wiese bietet hier seine Analyse der Novelle, fokussiert auf Struktur, Themen und ästhetische Prinzipien innerhalb der literarischen Tradition. 벤노 폰 지에가 노벨의 구조, 주제 및 미학적 원리에 대한 분석을 제시하며, 문학적 전통 내의 관련성을 다룹니다."
+  },
+  {
+    "book_id": 12149,
+    "translated_title": "독일 문학의 길",
+    "translated_author": "글라저, 레만, 루보스",
+    "search_text": "Dieses Werk von Glaser, Lehmann und Lubos behandelt wahrscheinlich deutschsprachige Literaturgeschichte oder -wissenschaft. Es richtet sich an Interessierte der Literaturwissenschaft. 글라저, 레만, 루보스의 이 저서는 아마도 독일어 문학사나 문학학을 다루고 있을 것입니다. 문학교육이나 연구 관심자들에게 적합한 도서입니다."
+  },
+  {
+    "book_id": 12150,
+    "translated_title": "모던 연극",
+    "translated_author": "마르거트 디트리히",
+    "search_text": "Dieses Buch bietet eine Untersuchung des modernen Dramas im literarischen Kontext und beleuchtet dessen stilistische und thematische Entwicklungen. 이 책은 문학 맥락에서 현대 연극을 연구하고 그 스타일과 주제적 발전을 조명합니다."
+  },
+  {
+    "book_id": 12151,
+    "translated_title": "독일 문학사",
+    "translated_author": "프리트츠 마르티니",
+    "search_text": "Dieses Werk von Fritz Martini bietet einen Überblick über die deutsche Literaturgeschichte. Es richtet sich an Leser, die sich für die Entwicklung deutscher Schriftsteller und literarische Epochen interessieren. 프리트츠 마르티니의 이 책은 독일 문학사를 개관한다. 독일 작가들의 발전과 문학적 시대 변화에 관심 있는 독자를 위해 마련되었다."
+  },
+  {
+    "book_id": 12152,
+    "translated_title": "에프라임 키숀의 희화적 문학",
+    "translated_author": "에프라임 키숀",
+    "search_text": "Eine Sammlung satirischer Geschichten von Ephraim Kishon, die gesellschaftliche Verhältnisse mit scharfem Humor kritisieren. 에프라임 키숀의 날카로운 유머로 사회적 문제를 풍자하는 에세이 및 단편 소설 컬렉션입니다."
+  },
+  {
+    "book_id": 12153,
+    "translated_title": "현대 변증법 철학 1 - 칸트에서 헤겔까지",
+    "translated_author": "볼프강 로트",
+    "search_text": "Dieses Werk behandelt die dialektische Philosophie der Neuzeit, beginnend bei Kant bis zu Hegel, im Bereich der Sprachwissenschaft. 이 책은 언어과학 분야에서 칸트에서 헤겔까지의 현대 변증법 철학을 다룹니다."
+  },
+  {
+    "book_id": 12154,
+    "translated_title": "현대 변증법 철학 2 - 마르크스부터 현대까지",
+    "translated_author": "볼프강 뢴",
+    "search_text": "Dieses Fachbuch behandelt den Fortgang der dialektischen Philosophie von Marx bis zur Gegenwart und richtet sich an Studierende der Sozialwissenschaften und Philosophie. 이 전문 서적은 마르크스부터 현대까지 이어지는 변증법 철학의 흐름을 다루며, 사회과학 및 철학 전공 학생들을 위한 교재로 적합합니다."
+  },
+  {
+    "book_id": 12155,
+    "translated_title": "이해하고 디자인하기 B8 - 실과 교재를 위한 언어 서적",
+    "translated_author": "디터 마이어, 게하르트 쇼베",
+    "search_text": "Dieses Sprachbuch für Gymnasien, Teil B8, wurde von Dieter Mayer und Gerhard Schoebe verfasst. Es dient als Lehrmaterial im Bereich der Sprachbildung und Sozialwissenschaften. 디터 마이어와 게하르트 쇼베가 저술한 이 실과 교재를 위한 언어 서적의 B8권은 언어 교육 및 사회과학 분야의 교육 자료로 사용됩니다."
+  },
+  {
+    "book_id": 12156,
+    "translated_title": "",
+    "translated_author": "",
+    "search_text": " "
+  },
+  {
+    "book_id": 12157,
+    "translated_title": "그리스 민족주의의 시작 1833-1843",
+    "translated_author": "이름하르드 빌하름",
+    "search_text": "Dieses Werk von Irmgard Wilharm behandelt die Frühgeschichte des griechischen Nationalstaates zwischen 1833 und 1843. Es ist ein Geschichts- und Politikbuch zur Staatsgründung und frühen Entwicklung Griechenlands. 이르마르트 빌하르트의 이 책은 1833년부터 1843년까지의 그리스 민족주의 초기 역사를 다룹니다. 그리스 건국 및 초기 발전 과정에 대한 역사·정치 서적입니다."
+  },
+  {
+    "book_id": 12158,
+    "translated_title": "그리스 국가의 초기 1833-1843",
+    "translated_author": "어머가르트 빌하름",
+    "search_text": "Dieses Geschichtsbuch von Irmgard Wilharm analysiert die Gründungsphase des griechischen Staates zwischen 1833 und 1843. 이르마르그 빌하름의 이 역사 서적은 1833년부터 1843년 사이 그리스 국가의 건국 초기 단계를 분석합니다."
+  },
+  {
+    "book_id": 12159,
+    "translated_title": "그리스 국민국가 기원 1833-1843",
+    "translated_author": "어미하르트 빌하름",
+    "search_text": "Dieses Werk untersucht die Entstehung des modernen griechischen Staates im Zeitraum 1833 bis 1843 und gehört zur Geschichtswissenschaft. 이 저서는 1833년에서 1843년 사이 현대 그리스 국가의 형성을 고찰한 역사학 저술입니다."
+  },
+  {
+    "book_id": 12160,
+    "translated_title": "의회와 혁명 사이의 아일랜드 민족운동",
+    "translated_author": "페터 알터",
+    "search_text": "Peter Alters Werk untersucht die irische Nationalbewegung zwischen parlamentarischer und revolutionärer Auseinandersetzung. Es behandelt politische Geschichte im historischen Kontext. 페터 알터의 이 저술은 의회와 혁명 간의 아일랜드 민족운동을 조사합니다. 이 책은 역사적 맥락에서 정치사를 다룹니다."
+  },
+  {
+    "book_id": 12161,
+    "translated_title": "의회와 혁명 사이에서: 아일랜드 민족운동의 역사",
+    "translated_author": "페터 알터",
+    "search_text": "Dieses Werk der Sozialwissenschaften untersucht die Entwicklung der irischen Nationalbewegung. Es analysiert die politischen Spannungen zwischen parlamentarischem Widerstand und revolutionärer Gewalt im historischen Kontext Irlands. 이 사회과학 서적은 아일랜드 민족운동의 변천 과정을 탐구한다. 역사적 맥락에서 아일랜드의 의회적 저항과 혁명적 폭력 사이의 정치적 긴장 관계를 분석한다."
+  },
+  {
+    "book_id": 12162,
+    "translated_title": "오스트리아 제2공화국 1",
+    "translated_author": "에리카 빈처를, 쿠르트 스칼닉",
+    "search_text": "Dieses Werk aus der Kategorie Geschichte behandelt die Zeit der Zweiten Republik in Österreich. Die Autoren Erika Weinzierl und Kurt Skalnik beleuchten hier vermutlich den ersten Abschnitt der österreichischen Nachkriegsgeschichte. 역사 카테고리에 속한 이 책은 오스트리아 제2공화국 시대를 다룹니다. 저자 에리카 빈처를과 쿠르트 스칼닉은 오스트리아 전후사의 첫 번째 단계를 조명한 것으로 보입니다."
+  },
+  {
+    "book_id": 12163,
+    "translated_title": "오스트리아 제2공화국 2",
+    "translated_author": "에리카 바인처를, 쿠르트 슐칼닉",
+    "search_text": "Dieses Buch von Erika Weinzierl und Kurt Skalnik behandelt die Geschichte der Zweiten Republik Österreich. Es ist Teil einer historischen Serie zur Nachkriegszeit. 에리카 바인처를과 쿠르트 슐칼닉의 이 책은 오스트리아 제2공화국 시대의 역사를 다룹니다. 본서는 전후 시대를 주제로 하는 연작 역사서의 한 권입니다."
+  },
+  {
+    "book_id": 12164,
+    "translated_title": "",
+    "translated_author": "",
+    "search_text": " "
+  },
+  {
+    "book_id": 12165,
+    "translated_title": "1918-1938년 오스트리아 - 제1공화국 역사 2",
+    "translated_author": "에리카 바인처를, 쿠르트 스칼닉",
+    "search_text": "Dieses Werk behandelt die politische und gesellschaftliche Entwicklung der Ersten Österreichischen Republik (1918-1938) als historischer Fachband. 이 전문 서적은 제1공화국 시대인 1918년부터 1938년까지 오스트리아의 정치 및 사회적 발전을 다룬 역사 연구서입니다."
+  },
+  {
+    "book_id": 12166,
+    "translated_title": "오스트리아 역사 제1권: 원시시대 - 기원전 약 80,000년 ~ 기원전 15년",
+    "translated_author": "리하르트 피토니",
+    "search_text": "Dieses Buch ist ein Geschichtslehrbuch, das die frühe Geschichte Österreichs von der Altsteinzeit bis zur römischen Eroberung behandelt. Es eignet sich für Studenten und Interessierte der Archäologie und Urgeschichte. 이 책은 고대 신석기 시대부터 로마 정복 시기까지 오스트리아의 초기 역사를 다루는 역사 교재로, 고고학과 원사 시대 연구에 관심 있는 학생과 독자에게 적합합니다."
+  },
+  {
+    "book_id": 12167,
+    "translated_title": "오스트리아 역사 1권 선사시대 - 서기 전 15년까지",
+    "translated_author": "리하르트 피토니",
+    "search_text": "Dieser Band behandelt die Frühgeschichte Österreichs von der Urgeschichte bis etwa 15 v. Chr. Das Werk von Richard Pittioni eignet sich für Studierende der Alten Geschichte und Archäologie. 이 권은 오스트리아 선사시대부터 기원전 15년경까지의 초기 역사를 다룹니다. 리하르트 피토니의 이 작품은 고고학 및 고대사를 공부하는 학생들에게 적합합니다."
   }
 ]
