@@ -108,18 +108,24 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication', 
     ),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
-    # 로그인 무차별 대입 방어. login 스코프는 CustomTokenObtainPairView 에 건다.
-    "DEFAULT_THROTTLE_CLASSES": [
-        "rest_framework.throttling.AnonRateThrottle",
-        "rest_framework.throttling.UserRateThrottle",
-    ],
+    # 전역 스로틀은 걸지 않는다. 아래 레이트는 로그인/가입 뷰에 ScopedRateThrottle
+    # 로만 적용된다. 전역으로 걸면 모든 요청이 캐시(=DB) 쓰기를 유발한다.
     # 캠퍼스 공용 IP 에서 여러 명이 동시에 쓰는 상황을 감안해 넉넉하게 잡았다.
     "DEFAULT_THROTTLE_RATES": {
-        "anon": "120/min",
-        "user": "300/min",
         "login": "15/min",
         "register": "20/hour",
     },
+}
+
+# 스로틀 카운터 저장소. 기본값인 LocMemCache 는 프로세스마다 따로 세므로
+# gunicorn 워커가 여러 개인 운영 환경에서는 레이트 리밋이 사실상 무력화된다.
+# 별도 인프라 없이 워커 간 공유가 되도록 DB 캐시를 쓴다.
+# (테이블 생성: python manage.py createcachetable — render.yaml 빌드에 포함)
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.db.DatabaseCache",
+        "LOCATION": "django_cache",
+    }
 }
 
 # 비밀번호 정책. 미설정 상태라 "1" 같은 비밀번호도 가입이 통과하고 있었다.
