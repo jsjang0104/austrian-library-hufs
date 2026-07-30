@@ -117,17 +117,6 @@ REST_FRAMEWORK = {
     },
 }
 
-# 스로틀 카운터 저장소. 기본값인 LocMemCache 는 프로세스마다 따로 세므로
-# gunicorn 워커가 여러 개인 운영 환경에서는 레이트 리밋이 사실상 무력화된다.
-# 별도 인프라 없이 워커 간 공유가 되도록 DB 캐시를 쓴다.
-# (테이블 생성: python manage.py createcachetable — render.yaml 빌드에 포함)
-CACHES = {
-    "default": {
-        "BACKEND": "django.core.cache.backends.db.DatabaseCache",
-        "LOCATION": "django_cache",
-    }
-}
-
 # 비밀번호 정책. 미설정 상태라 "1" 같은 비밀번호도 가입이 통과하고 있었다.
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
