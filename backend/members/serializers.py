@@ -1,3 +1,4 @@
+from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
 from .models import Member
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
@@ -25,7 +26,9 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         return data
 
 class UserCreateSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True)
+    # AUTH_PASSWORD_VALIDATORS 는 set_password() 가 호출하지 않으므로
+    # 시리얼라이저에서 명시적으로 걸어야 실제로 적용된다.
+    password = serializers.CharField(write_only=True, validators=[validate_password])
 
     class Meta:
         model = Member

@@ -15,6 +15,20 @@ http.interceptors.request.use((config) => {
   return config;
 });
 
+// 로그인/토큰 갱신 요청 자체의 401 은 "세션 만료"가 아니라 "자격 증명 오류"다.
+// 이 요청까지 아래 재발급·리다이렉트 로직을 태우면, 비밀번호를 틀렸을 뿐인데
+// 로그인 페이지로 강제 이동해버린다.
+const AUTH_ENDPOINTS = ['/api/token/', '/api/token/refresh/'];
+const isAuthRequest = (config) =>
+  AUTH_ENDPOINTS.some((path) => config?.url?.includes(path));
+
+// HashRouter 를 쓰므로 라우트는 /#/login 이다. '/login' 으로 보내면 호스팅에
+// 해당 경로의 파일이 없어 404 가 뜬다.
+const redirectToLogin = () => {
+  localStorage.clear();
+  window.location.href = '/#/login';
+};
+
 let isRefreshing = false;
 let failedQueue = [];
 
@@ -31,12 +45,15 @@ http.interceptors.response.use(
   async (error) => {
     const originalRequest = error.config;
 
-    if (error.response?.status === 401 && !originalRequest._retry) {
+    if (
+      error.response?.status === 401 &&
+      !originalRequest._retry &&
+      !isAuthRequest(originalRequest)
+    ) {
       const refreshToken = localStorage.getItem('refreshToken');
 
       if (!refreshToken) {
-        localStorage.clear();
-        window.location.href = '/login';
+        redirectToLogin();
         return Promise.reject(error);
       }
 
@@ -64,8 +81,7 @@ http.interceptors.response.use(
         return http(originalRequest);
       } catch (refreshError) {
         processQueue(refreshError, null);
-        localStorage.clear();
-        window.location.href = '/login';
+        redirectToLogin();
         return Promise.reject(refreshError);
       } finally {
         isRefreshing = false;

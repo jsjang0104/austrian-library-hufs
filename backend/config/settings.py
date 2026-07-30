@@ -55,7 +55,16 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True 
+# 전체 허용(*) 대신 배포 도메인과 로컬 개발 서버만 허용한다.
+# Vercel 프리뷰 배포는 임의 서브도메인을 쓰므로 정규식으로 함께 허용.
+CORS_ALLOWED_ORIGINS = [
+    "https://austrian-library-hufs.vercel.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://.*\.vercel\.app$",
+]
 ROOT_URLCONF = "config.urls"
 TEMPLATES = [
     {
@@ -99,7 +108,28 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication', 
     ),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    # 로그인 무차별 대입 방어. login 스코프는 CustomTokenObtainPairView 에 건다.
+    "DEFAULT_THROTTLE_CLASSES": [
+        "rest_framework.throttling.AnonRateThrottle",
+        "rest_framework.throttling.UserRateThrottle",
+    ],
+    # 캠퍼스 공용 IP 에서 여러 명이 동시에 쓰는 상황을 감안해 넉넉하게 잡았다.
+    "DEFAULT_THROTTLE_RATES": {
+        "anon": "120/min",
+        "user": "300/min",
+        "login": "15/min",
+        "register": "20/hour",
+    },
 }
+
+# 비밀번호 정책. 미설정 상태라 "1" 같은 비밀번호도 가입이 통과하고 있었다.
+AUTH_PASSWORD_VALIDATORS = [
+    {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
+    {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
+     "OPTIONS": {"min_length": 8}},
+    {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
+    {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
+]
 
 SIMPLE_JWT = {
     'TOKEN_OBTAIN_SERIALIZER': 'members.serializers.CustomTokenObtainPairSerializer',
@@ -114,6 +144,18 @@ SIMPLE_JWT = {
     'SIGNING_KEY': SECRET_KEY,
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
+
+# 운영(HTTPS) 환경 보안 헤더. Render 가 TLS 를 종료하고 X-Forwarded-Proto 를 넘긴다.
+if not DEBUG:
+    SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+    SECURE_SSL_REDIRECT = True
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+    SECURE_HSTS_SECONDS = 31536000
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True
+    SECURE_REFERRER_POLICY = "same-origin"
+    X_FRAME_OPTIONS = "DENY"
 
 AUTH_USER_MODEL = 'members.Member'
 LANGUAGE_CODE = "ko-kr" 

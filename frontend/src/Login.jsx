@@ -31,6 +31,8 @@ function Login() {
       console.error('로그인 실패:', error.response ? error.response.data : error.message);
       if (error.response && (error.response.status === 401 || error.response.status === 400)) {
         alert('학번 또는 비밀번호가 일치하지 않습니다.');
+      } else if (error.response && error.response.status === 429) {
+        alert('로그인 시도가 너무 잦습니다. 잠시 후 다시 시도해주세요.');
       } else {
         alert('로그인 중 오류가 발생했습니다.');
       }
