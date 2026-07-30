@@ -5,8 +5,13 @@ from datetime import timedelta
 import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = config("SECRET_KEY", default="django-insecure-fallback-key-123")
 DEBUG = config("DEBUG", default=True, cast=bool)
+# 운영 환경에서는 SECRET_KEY 미설정 시 폴백하지 않고 즉시 실패시킨다.
+# (JWT SIGNING_KEY 로도 쓰이므로 공개된 값으로 폴백되면 토큰 위조가 가능)
+if DEBUG:
+    SECRET_KEY = config("SECRET_KEY", default="django-insecure-fallback-key-123")
+else:
+    SECRET_KEY = config("SECRET_KEY")
 # ---------------------------------------------------
 if not DEBUG:
     ALLOWED_HOSTS = [
