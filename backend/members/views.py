@@ -3,12 +3,15 @@ from .models import Member
 from .serializers import MemberSerializer, UserCreateSerializer, CustomTokenObtainPairSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
 from drf_spectacular.utils import extend_schema
+from common.permissions import CreateOnlyOrStaff
 
 
 class MemberViewSet(viewsets.ModelViewSet):
     queryset = Member.objects.all()
-    serializer_class = MemberSerializer 
+    serializer_class = MemberSerializer
     lookup_field = 'sid'
+    # 가입(POST)만 공개. 회원 목록/상세는 스태프 전용.
+    permission_classes = [CreateOnlyOrStaff]
 
     def get_serializer_class(self):
         if self.action == 'create':

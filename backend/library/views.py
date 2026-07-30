@@ -2,12 +2,13 @@ from django.db import transaction, models
 from django.utils import timezone
 from datetime import timedelta
 from django.db.models import Q
-from rest_framework import viewsets, status
+from rest_framework import viewsets, status, permissions
 from rest_framework import filters
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from .models import Book, Loan, Notice, Member
 from .serializers import BookSerializer, LoanSerializer, NoticeSerializer
+from common.permissions import ReadOnlyOrStaff
 
 
 class BookViewSet(viewsets.ModelViewSet):
@@ -16,6 +17,7 @@ class BookViewSet(viewsets.ModelViewSet):
     """
     queryset = Book.objects.all()
     serializer_class = BookSerializer
+    permission_classes = [ReadOnlyOrStaff]
 
     def _german_variant(self, keyword):
         return keyword.replace('ae', 'ä').replace('oe', 'ö').replace('ue', 'ü').replace('ss', 'ß')
@@ -120,6 +122,7 @@ class LoanViewSet(viewsets.ModelViewSet):
     """
     queryset = Loan.objects.all()
     serializer_class = LoanSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
         user = self.request.user
@@ -190,6 +193,7 @@ class NoticeViewSet(viewsets.ModelViewSet):
     """
     queryset = Notice.objects.all()
     serializer_class = NoticeSerializer
+    permission_classes = [ReadOnlyOrStaff]
 
     def retrieve(self, request, *args, **kwargs):
         instance = self.get_object()
