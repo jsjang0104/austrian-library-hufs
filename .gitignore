@@ -3,8 +3,11 @@
 # 모든 .env 파일 (루트 포함)
 .env
 backend/.env
-frontend/.env
-# .env.local 등 로컬 전용 설정 파일
+# 예외: frontend/.env 는 VITE_ 값만 담는다. VITE_ 변수는 빌드 시 JS 번들에
+# 그대로 박혀 브라우저에서 누구나 볼 수 있는 공개 값이라 커밋해도 무방하고,
+# Vercel 빌드가 이 파일을 읽으므로 추적해야 한다. 비밀 값은 절대 넣지 말 것.
+!frontend/.env
+# .env.local 등 로컬 전용 설정 파일 (비밀 값은 여기에)
 *.local
 # Django 로컬 설정 파일
 settings_local.py
