@@ -42,10 +42,10 @@ class BookModelTest(TestCase):
         self.assertEqual(str(self.book), expected_str)
 
     def test_update_modi_date(self):
-        """Test the update_modi_date method."""
+        """Book.save()가 기존 도서의 modification_date를 갱신하는지 확인한다."""
         self.assertIsNone(self.book.modification_date)
         self.book.title = "Updated Test Book Title"
-        self.book.update_modi_date()
+        self.book.save()
 
         updated_book = Book.objects.get(pk=self.book.pk)
 
@@ -79,14 +79,14 @@ class LoanModelTest(TestCase):
         )
 
     def test_loan_creation(self):
-        self.asserIsInstance(self.loan, Loan)
+        self.assertIsInstance(self.loan, Loan)
         self.assertEqual(self.loan.member, self.member)
         self.assertEqual(self.loan.book, self.book)
-        self.assertEqual(self.loan.Loan_manager, self.manager)
+        self.assertEqual(self.loan.loan_manager, self.manager)
         self.assertIsNone(self.loan.return_date)
 
     def test_overdue_days_property_not_overdue(self):
-        self.asserEqual(self.loan.overdue_days, 0)
+        self.assertEqual(self.loan.overdue_days, 0)
 
     def test_overdue_days_property_overdue(self):
         self.loan.due_date = timezone.now() - timezone.timedelta(days = 7)

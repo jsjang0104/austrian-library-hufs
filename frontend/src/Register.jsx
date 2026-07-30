@@ -69,7 +69,7 @@ function Register() {
           </div>
 
           <div className="form-group">
-            <label htmlFor="name-input">이름 (실명 또는 닉네임)</label>
+            <label htmlFor="name-input">이름</label>
             <input 
               type="text" id="name-input" value={name}
               onChange={(e) => setName(e.target.value)} required
