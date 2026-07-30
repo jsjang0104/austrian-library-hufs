@@ -9,7 +9,6 @@ import { useNavigate, Link } from 'react-router-dom';
 import './RegisterPage.css';
 
 function Register() {
-  const [sid, setSid] = useState('');
   const [name, setName] = useState('');
   const [role, setRole] = useState('UNDERGRADUATE'); 
   const [email, setEmail] = useState('');
@@ -26,7 +25,7 @@ function Register() {
       return; 
     }
 
-    const userData = { sid, name, email, password, role };
+    const userData = { name, email, password, role };
 
     try {
       const response = await registerUser(userData);
@@ -42,7 +41,6 @@ function Register() {
       if (error.response && error.response.status === 400) {
         const errorData = error.response.data;
         let errorMessage = '회원가입에 실패했습니다.\n';
-        if (errorData.sid) errorMessage += `학번: ${errorData.sid.join(' ')}\n`;
         if (errorData.email) errorMessage += `이메일: ${errorData.email.join(' ')}\n`;
         
         alert(errorMessage);
@@ -61,18 +59,10 @@ function Register() {
         
         <form onSubmit={handleSubmit} className="register-form">
           <div className="form-group">
-            <label htmlFor="sid-input">학번</label>
-            <input 
-              type="text" id="sid-input" value={sid}
-              onChange={(e) => setSid(e.target.value)} required autoFocus
-            />
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="name-input">이름 (실명 또는 닉네임)</label>
+            <label htmlFor="name-input">이름</label>
             <input 
               type="text" id="name-input" value={name}
-              onChange={(e) => setName(e.target.value)} required
+              onChange={(e) => setName(e.target.value)} required autoFocus
             />
           </div>
 

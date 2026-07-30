@@ -11,11 +11,11 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     const accessToken = localStorage.getItem('accessToken');
     const userName = localStorage.getItem('userName');
-    const userSid = localStorage.getItem('userSid');
+    const userEmail = localStorage.getItem('userEmail');
 
-    if (accessToken && userName && userSid) {
+    if (accessToken && userName && userEmail) {
       setIsLoggedIn(true);
-      setUser({ name: userName, sid: userSid });
+      setUser({ name: userName, email: userEmail });
       api.defaults.headers.common['Authorization'] = `Bearer ${accessToken}`;
     }
   }, []);
@@ -25,12 +25,12 @@ export function AuthProvider({ children }) {
     localStorage.setItem('accessToken', data.access);
     localStorage.setItem('refreshToken', data.refresh);
     localStorage.setItem('userName', data.name);
-    localStorage.setItem('userSid', data.sid);
+    localStorage.setItem('userEmail', data.email);
 
     api.defaults.headers.common['Authorization'] = `Bearer ${data.access}`;
 
     setIsLoggedIn(true);
-    setUser({ name: data.name, sid: data.sid });
+    setUser({ name: data.name, email: data.email });
   };
 
   const logout = () => {

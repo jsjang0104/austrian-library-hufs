@@ -102,7 +102,7 @@ REST_FRAMEWORK = {
 
 SIMPLE_JWT = {
     'TOKEN_OBTAIN_SERIALIZER': 'members.serializers.CustomTokenObtainPairSerializer',
-    'USER_ID_FIELD': 'sid', 
+    'USER_ID_FIELD': 'id',
     'USER_ID_CLAIM': 'user_id',
 
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),

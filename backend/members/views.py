@@ -7,8 +7,7 @@ from drf_spectacular.utils import extend_schema
 
 class MemberViewSet(viewsets.ModelViewSet):
     queryset = Member.objects.all()
-    serializer_class = MemberSerializer 
-    lookup_field = 'sid'
+    serializer_class = MemberSerializer
 
     def get_serializer_class(self):
         if self.action == 'create':
@@ -16,7 +15,7 @@ class MemberViewSet(viewsets.ModelViewSet):
         return super().get_serializer_class()
 
 class TokenObtainRequestSerializer(serializers.Serializer):
-    sid = serializers.IntegerField()
+    email = serializers.EmailField()
     password = serializers.CharField()
 
 @extend_schema(

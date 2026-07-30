@@ -11,11 +11,11 @@ class Manager(models.Model):
         ADMIN = 'ADMIN', '시스템 관리자'
         STAFF = 'STAFF', '일반 직원'
 
-    manager_sid = models.OneToOneField(
+    member = models.OneToOneField(
         Member,
         on_delete=models.CASCADE,
         primary_key=True,
-        verbose_name="관리자 회원 ID",
+        verbose_name="관리자 회원",
         )
     manager_type = models.CharField(
         "관리자 유형", max_length=20, choices=ManagerType.choices, default=ManagerType.LIBRARIAN
@@ -33,7 +33,7 @@ class Manager(models.Model):
         verbose_name_plural = "관리자 목록"
 
     def __str__(self):
-        return f"관리자 학번: {self.manager_sid} 관리자 이름: {self.manager_sid.name} 직책: {self.get_manager_type_display()}"
+        return f"관리자: {self.member.name} 직책: {self.get_manager_type_display()}"
     
     def update_last_activity(self):
         self.manager_last_activity = timezone.now()

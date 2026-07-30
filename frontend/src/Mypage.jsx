@@ -60,7 +60,7 @@ function MyPage() {
       <div className="info-section">
         <h2>회원 정보</h2>
         <p><strong>이름:</strong> {user?.name}</p>
-        <p><strong>학번(ID):</strong> {user?.sid}</p> 
+        <p><strong>이메일:</strong> {user?.email}</p>
       </div>
       <div className="info-section">
         <h2>대출 현황</h2>

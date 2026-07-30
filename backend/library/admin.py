@@ -52,7 +52,7 @@ class BookAdmin(ImportExportModelAdmin):
 @admin.register(Loan)
 class LoanAdmin(admin.ModelAdmin):
     list_display = ('loan_id', 'get_book_title', 'get_member_info', 'loan_date', 'due_date', 'return_date', 'is_overdue')
-    search_fields = ('book__title', 'member__name', 'member__sid')
+    search_fields = ('book__title', 'member__name', 'member__email')
     list_filter = ('loan_date', 'return_date')
     readonly_fields = ('due_date', 'loan_date')
     autocomplete_fields = ('book', 'member')

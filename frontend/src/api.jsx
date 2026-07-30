@@ -5,20 +5,20 @@ export const registerUser = async (userData) => {
   return response.data;
 };
 
-export const loginUser = async (sid, password) => {
+export const loginUser = async (email, password) => {
   try {
     const response = await api.post('/api/token/', {
-      username: String(sid), 
+      email: String(email),
       password: String(password),
     });
-    
-    const { access, refresh, name, sid: userSid, role } = response.data;
-    
+
+    const { access, refresh, name, email: userEmail, role } = response.data;
+
     localStorage.setItem('accessToken', access);
     localStorage.setItem('refreshToken', refresh);
     localStorage.setItem('userName', name);
-    localStorage.setItem('userSid', userSid);
-    localStorage.setItem('userRole', role); 
+    localStorage.setItem('userEmail', userEmail);
+    localStorage.setItem('userRole', role);
 
     api.defaults.headers.common['Authorization'] = `Bearer ${access}`;
     return response.data;

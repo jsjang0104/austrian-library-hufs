@@ -10,7 +10,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import './LoginPage.css';
 
 function Login() {
-  const [sid, setSid] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const responseData = await loginUser(sid, password);
+      const responseData = await loginUser(email, password);
       login(responseData); 
       
       console.log('로그인 성공:', responseData);
@@ -30,7 +30,7 @@ function Login() {
     } catch (error) {
       console.error('로그인 실패:', error.response ? error.response.data : error.message);
       if (error.response && (error.response.status === 401 || error.response.status === 400)) {
-        alert('학번 또는 비밀번호가 일치하지 않습니다.');
+        alert('이메일 또는 비밀번호가 일치하지 않습니다.');
       } else {
         alert('로그인 중 오류가 발생했습니다.');
       }
@@ -47,10 +47,10 @@ function Login() {
 
         <form onSubmit={handleSubmit} className="login-form">
           <div className="form-group">
-            <label htmlFor="sid-input">학번</label>
+            <label htmlFor="email-input">이메일</label>
             <input 
-              type="text" id="sid-input" value={sid}
-              onChange={(e) => setSid(e.target.value)} required autoFocus
+              type="email" id="email-input" value={email}
+              onChange={(e) => setEmail(e.target.value)} required autoFocus
             />
           </div>
           <div className="form-group">

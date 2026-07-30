@@ -119,7 +119,7 @@ class Loan(models.Model):
         ordering = ['-loan_date']
 
     def __str__(self):
-        return f"대출 ID {self.loan_id} ({self.member.sid} -> {self.book.title})"
+        return f"대출 ID {self.loan_id} ({self.member.name} -> {self.book.title})"
 
     def save(self, *args, **kwargs):
         if not self.pk:
