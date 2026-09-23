@@ -1,29 +1,26 @@
 import os
 from pathlib import Path
-from decouple import config
+from decouple import config, Csv
+from django.core.exceptions import ImproperlyConfigured
 from datetime import timedelta
 import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DEBUG = config("DEBUG", default=True, cast=bool)
-# 운영 환경에서는 SECRET_KEY 미설정 시 폴백하지 않고 즉시 실패시킨다.
-# (JWT SIGNING_KEY 로도 쓰이므로 공개된 값으로 폴백되면 토큰 위조가 가능)
+# Fail closed unless local development is explicitly enabled.
+DEBUG = config("DEBUG", default=False, cast=bool)
+SECRET_KEY = config("SECRET_KEY")
+if not DEBUG and (
+    len(SECRET_KEY) < 50 or len(set(SECRET_KEY)) < 5 or SECRET_KEY.startswith("django-insecure-")
+):
+    raise ImproperlyConfigured("SECRET_KEY must be a strong, unique production secret.")
+
+ALLOWED_HOSTS = config(
+    "ALLOWED_HOSTS",
+    default="ohjigo-library.onrender.com,ohjigo-library-library.onrender.com",
+    cast=Csv(),
+)
 if DEBUG:
-    SECRET_KEY = config("SECRET_KEY", default="django-insecure-fallback-key-123")
-else:
-    SECRET_KEY = config("SECRET_KEY")
-# ---------------------------------------------------
-if not DEBUG:
-    ALLOWED_HOSTS = [
-        'ohjigo-library.onrender.com',
-        'ohjigo-library-library.onrender.com',
-        'localhost',
-        '127.0.0.1',
-        '.onrender.com', 
-    ]
-else:
-    ALLOWED_HOSTS = ['*']
-# ---------------------------------------------------
+    ALLOWED_HOSTS += ["localhost", "127.0.0.1", "[::1]"]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -34,6 +31,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "rest_framework_simplejwt",
+    "rest_framework_simplejwt.token_blacklist",
     "drf_spectacular",
     "corsheaders",
     "common",
@@ -55,16 +53,13 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-# 전체 허용(*) 대신 배포 도메인과 로컬 개발 서버만 허용한다.
-# Vercel 프리뷰 배포는 임의 서브도메인을 쓰므로 정규식으로 함께 허용.
-CORS_ALLOWED_ORIGINS = [
-    "https://austrian-library-hufs.vercel.app",
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-]
-CORS_ALLOWED_ORIGIN_REGEXES = [
-    r"^https://.*\.vercel\.app$",
-]
+# Preview domains must be individually opted in; never trust all vercel.app sites.
+CORS_ALLOWED_ORIGINS = config(
+    "CORS_ALLOWED_ORIGINS", default="https://austrian-library-hufs.vercel.app", cast=Csv(),
+)
+if DEBUG:
+    CORS_ALLOWED_ORIGINS += ["http://localhost:5173", "http://127.0.0.1:5173"]
+CORS_URLS_REGEX = r"^/api/.*$"
 ROOT_URLCONF = "config.urls"
 TEMPLATES = [
     {
@@ -104,22 +99,25 @@ REST_FRAMEWORK = {
     # 기본은 차단. 공개가 필요한 뷰에서만 명시적으로 완화한다.
     "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.IsAuthenticated"],
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-        'rest_framework.authentication.SessionAuthentication', 
+        'members.authentication.ActiveMemberJWTAuthentication',
+        'members.authentication.ActiveMemberSessionAuthentication',
     ),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
-    # 전역 스로틀은 걸지 않는다. 아래 레이트는 로그인/가입 뷰에 ScopedRateThrottle
-    # 로만 적용된다. 전역으로 걸면 모든 요청이 캐시(=DB) 쓰기를 유발한다.
-    # 캠퍼스 공용 IP 에서 여러 명이 동시에 쓰는 상황을 감안해 넉넉하게 잡았다.
+    # 인증 및 AI 검색에만 요청 한도를 적용한다. 현재 기본 캐시는 프로세스별
+    # LocMemCache이므로 여러 워커/인스턴스의 강한 제한은 외부 WAF/공유 캐시가 필요하다.
     "DEFAULT_THROTTLE_RATES": {
         "login": "15/min",
         "register": "20/hour",
+        "refresh": "60/min",
+        "logout": "60/min",
+        "smart_search": "30/min",
     },
 }
 
 # 비밀번호 정책. 미설정 상태라 "1" 같은 비밀번호도 가입이 통과하고 있었다.
 AUTH_PASSWORD_VALIDATORS = [
-    {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
+    {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
+     "OPTIONS": {"user_attributes": ("username", "name", "email")}},
     {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
      "OPTIONS": {"min_length": 8}},
     {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
@@ -128,13 +126,15 @@ AUTH_PASSWORD_VALIDATORS = [
 
 SIMPLE_JWT = {
     'TOKEN_OBTAIN_SERIALIZER': 'members.serializers.CustomTokenObtainPairSerializer',
-    'USER_ID_FIELD': 'sid', 
+    'USER_ID_FIELD': 'sid',
     'USER_ID_CLAIM': 'user_id',
 
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=15),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
-    'ROTATE_REFRESH_TOKENS': False,
+    'ROTATE_REFRESH_TOKENS': True,
     'BLACKLIST_AFTER_ROTATION': True,
+    'CHECK_REVOKE_TOKEN': True,
+    'USER_AUTHENTICATION_RULE': 'members.authentication.active_member_rule',
     'ALGORITHM': 'HS256',
     'SIGNING_KEY': SECRET_KEY,
     'AUTH_HEADER_TYPES': ('Bearer',),
@@ -152,8 +152,9 @@ if not DEBUG:
     SECURE_REFERRER_POLICY = "same-origin"
     X_FRAME_OPTIONS = "DENY"
 
+AUTHENTICATION_BACKENDS = ['members.authentication.ActiveMemberBackend']
 AUTH_USER_MODEL = 'members.Member'
-LANGUAGE_CODE = "ko-kr" 
+LANGUAGE_CODE = "ko-kr"
 TIME_ZONE = "Asia/Seoul"
 USE_I18N = True
 USE_TZ = True

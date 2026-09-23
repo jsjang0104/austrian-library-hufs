@@ -81,6 +81,8 @@ class Book(models.Model):
     def save(self, *args, **kwargs):
         if self.pk:
             self.modification_date = timezone.now()
+            if kwargs.get('update_fields') is not None:
+                kwargs['update_fields'] = set(kwargs['update_fields']) | {'modification_date'}
         super(Book, self).save(*args, **kwargs)
 
 # -----------------------------------------------------------------------------
@@ -132,11 +134,11 @@ class Loan(models.Model):
         
             self.due_date = timezone.now() + timedelta(days=days)
             self.book.status = Book.Status.ON_LOAN
-            self.book.save()
+            self.book.save(update_fields=['status'])
 
         if self.return_date:
             self.book.status = Book.Status.AVAILABLE
-            self.book.save()
+            self.book.save(update_fields=['status'])
 
         super().save(*args, **kwargs)
 

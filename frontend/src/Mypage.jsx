@@ -29,7 +29,7 @@ function MyPage() {
         const response = await http.get('/api/loans/');
         setLoans(response.data);
       } catch (error) {
-        console.error("대출 목록 로딩 실패:", error);
+        console.error("대출 목록 로딩 실패:", error.response?.status);
       }
       setLoading(false);
     };

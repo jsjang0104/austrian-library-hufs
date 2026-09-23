@@ -85,7 +85,7 @@ function BoardPage() {
                 </div>
                 <div style={{ fontSize: '0.9rem', color: '#666' }}>
                   <span style={{ marginRight: '12px' }}>
-                    작성자: {notice.manager || 'N/A'}
+                    작성자: 도서관
                   </span>
 
                   <span style={{ marginRight: '12px' }}>

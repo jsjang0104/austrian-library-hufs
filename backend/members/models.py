@@ -15,7 +15,7 @@ class MemberManager(BaseUserManager):
             extra_fields['username'] = str(sid)
             
         if not password:
-            password = str(sid)
+            password = None  # set_password(None) creates an unusable password.
             
         extra_fields.setdefault('is_active', True)
         

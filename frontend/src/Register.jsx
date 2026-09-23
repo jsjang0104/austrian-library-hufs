@@ -11,7 +11,6 @@ import './RegisterPage.css';
 function Register() {
   const [sid, setSid] = useState('');
   const [name, setName] = useState('');
-  const [role, setRole] = useState('UNDERGRADUATE'); 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [passwordConfirm, setPasswordConfirm] = useState('');
@@ -26,18 +25,16 @@ function Register() {
       return; 
     }
 
-    const userData = { sid, name, email, password, role };
+    const userData = { sid, name, email, password, role: 'UNDERGRADUATE' };
 
     try {
       const response = await registerUser(userData);
       const result = response.data || response;
-      console.log('회원가입 성공 데이터:', result);
       const successName = result?.name || name; 
       alert(`${successName}님, 회원가입이 완료되었습니다. 로그인해주세요.`);
       navigate('/login');
 
     } catch (error) {
-      console.error('회원가입 실패:', error.response ? error.response.data : error.message);
       
       if (error.response && error.response.status === 400) {
         const errorData = error.response.data;
@@ -76,28 +73,7 @@ function Register() {
             />
           </div>
 
-          <div className="form-group">
-            <label htmlFor="role-select">신분</label>
-            <select 
-              id="role-select"
-              value={role}
-              onChange={(e) => setRole(e.target.value)}
-              required
-              style={{
-                width: '100%',
-                padding: '10px',
-                border: '1px solid #ccc',
-                borderRadius: '4px',
-                backgroundColor: '#fff',
-                fontSize: '1rem',
-                color: '#333'
-              }}
-            >
-              <option value="UNDERGRADUATE">학부생/졸업생</option>
-              <option value="GRADUATE">대학원생</option>
-              <option value="PROFESSOR">교수</option>
-            </select>
-          </div>
+          <p>회원가입 시 학부생/졸업생으로 등록됩니다. 대학원생·교수 신분은 도서관에 확인을 요청해주세요.</p>
 
           <div className="form-group">
             <label htmlFor="email-input">이메일</label>

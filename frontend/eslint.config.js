@@ -26,4 +26,11 @@ export default defineConfig([
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
   },
+  { files: ['tests/**/*.js'], languageOptions: { globals: globals.node } },
+  {
+    files: ['src/AuthContext.jsx'],
+    rules: {
+      'react-refresh/only-export-components': ['error', { allowExportNames: ['useAuth'] }],
+    },
+  },
 ])

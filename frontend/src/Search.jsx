@@ -43,7 +43,7 @@ function Search() {
   };
 
   const clean = (params) =>
-    Object.fromEntries(Object.entries(params).filter(([_, v]) => v !== ''));
+    Object.fromEntries(Object.entries(params).filter(([, value]) => value !== ''));
 
   const fetchBooks = async (searchKeyword, useAI) => {
     try {
@@ -68,7 +68,7 @@ function Search() {
       setExpandedBookId(null);
 
     } catch (error) {
-      console.error("검색 실패:", error);
+      console.error("검색 실패:", error.response?.status);
     } finally {
       setLoading(false);
     }

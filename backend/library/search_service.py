@@ -47,7 +47,7 @@ def embed_texts(texts, kind="passage"):
         texts = [prefix + t for t in texts]
 
     token = getattr(settings, "HF_API_TOKEN", None) or os.environ.get("HF_API_TOKEN")
-    client = InferenceClient(provider="hf-inference", api_key=token)
+    client = InferenceClient(provider="hf-inference", api_key=token, timeout=10)
     all_vectors = []
 
     for i in range(0, len(texts), _HF_BATCH_SIZE):

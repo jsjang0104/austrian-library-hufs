@@ -1,7 +1,12 @@
+from collections.abc import Mapping
 from rest_framework import viewsets, generics, permissions, serializers
 from .models import Member
-from .serializers import MemberSerializer, UserCreateSerializer, CustomTokenObtainPairSerializer
-from rest_framework_simplejwt.views import TokenObtainPairView
+from .serializers import MemberSerializer, UserCreateSerializer, CustomTokenObtainPairSerializer, ActiveMemberTokenRefreshSerializer, LogoutRequestSerializer
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework_simplejwt.exceptions import TokenError
+from rest_framework.views import APIView
+from rest_framework.response import Response
 from drf_spectacular.utils import extend_schema
 from rest_framework.throttling import ScopedRateThrottle
 from common.permissions import CreateOnlyOrStaff
@@ -38,11 +43,37 @@ class TokenObtainRequestSerializer(serializers.Serializer):
 class CustomTokenObtainPairView(TokenObtainPairView):
     serializer_class = CustomTokenObtainPairSerializer
     throttle_classes = [ScopedRateThrottle]
-    throttle_scope = 'login' 
+    throttle_scope = 'login'
 
 
 class RegistrationView(generics.CreateAPIView):
     queryset = Member.objects.all()
     serializer_class = UserCreateSerializer
-    permission_classes = [permissions.AllowAny] 
+    permission_classes = [permissions.AllowAny]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "register"
 
+
+
+class CustomTokenRefreshView(TokenRefreshView):
+    serializer_class = ActiveMemberTokenRefreshSerializer
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "refresh"
+
+
+class LogoutView(APIView):
+    # Possession of the refresh token is sufficient to revoke that token.
+    authentication_classes = []
+    permission_classes = [permissions.AllowAny]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "logout"
+
+    @extend_schema(request=LogoutRequestSerializer, responses={204: None})
+    def post(self, request):
+        token = request.data.get("refresh") if isinstance(request.data, Mapping) else None
+        if isinstance(token, str) and len(token) <= 4096:
+            try:
+                RefreshToken(token).blacklist()
+            except TokenError:
+                pass  # Expired/already revoked tokens are already logged out.
+        return Response(status=204)

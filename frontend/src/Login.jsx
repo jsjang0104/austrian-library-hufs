@@ -4,7 +4,6 @@
 //======================================================================
 //======================================================================
 import React, { useState } from 'react'; 
-import { useAuth } from './AuthContext';
 import { loginUser } from './api'; 
 import { useNavigate, Link } from 'react-router-dom'; 
 import './LoginPage.css';
@@ -14,21 +13,16 @@ function Login() {
   const [password, setPassword] = useState('');
   
   const navigate = useNavigate();
-  const { login } = useAuth();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const responseData = await loginUser(sid, password);
-      login(responseData); 
-      
-      console.log('로그인 성공:', responseData);
+      await loginUser(sid, password);
       alert('로그인에 성공했습니다!');
       navigate('/');
       
     } catch (error) {
-      console.error('로그인 실패:', error.response ? error.response.data : error.message);
       if (error.response && (error.response.status === 401 || error.response.status === 400)) {
         alert('학번 또는 비밀번호가 일치하지 않습니다.');
       } else if (error.response && error.response.status === 429) {

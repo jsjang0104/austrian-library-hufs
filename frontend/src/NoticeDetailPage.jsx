@@ -82,7 +82,7 @@ function NoticeDetailPage() {
           borderBottom: '1px solid #eee' 
         }}>
           <span style={{ marginRight: '12px' }}>
-            작성자: {notice.manager || 'N/A'}
+            작성자: 도서관
           </span>
           <span style={{ marginRight: '12px' }}>
             작성일: {new Date(notice.post_date).toLocaleDateString()}

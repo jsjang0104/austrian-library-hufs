@@ -162,7 +162,7 @@ function Layout() {
     navigate('/'); 
   };
 
-  return (
+  return (
     <div className="desktop">
       <header className="header">
         <div className="header-top">

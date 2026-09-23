@@ -4,10 +4,12 @@ from library.models import Book
 from manager.models import Manager
 from members.models import Member
 from library.models import Loan
+from library.test_utils import IsolatedSearchIndexMixin
 
-class BookModelTest(TestCase):
+class BookModelTest(IsolatedSearchIndexMixin, TestCase):
     def setUp(self):
         """Test case setup"""
+        super().setUp()
         self.member = Member.objects.create_user(
             sid=20210001,
             name='Test Member',
@@ -51,9 +53,10 @@ class BookModelTest(TestCase):
 
         self.assertIsNotNone(updated_book.modification_date)
 
-class LoanModelTest(TestCase):
+class LoanModelTest(IsolatedSearchIndexMixin, TestCase):
     def setUp(self):
         """Test case setup"""
+        super().setUp()
         self.member = Member.objects.create_user(
             sid=20210002,
             name='Loan Test Member',

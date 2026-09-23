@@ -9,12 +9,17 @@ logger = logging.getLogger(__name__)
 
 
 @receiver(post_save, sender=Book)
-def index_book(sender, instance, created, **kwargs):
+def index_book(sender, instance, created, update_fields=None, **kwargs):
     """도서 저장 시 FAISS 인덱스를 갱신한다.
 
     신규 도서는 인덱스에 추가하고, 기존 도서는(주로 admin에서 search_text를
     수정한 경우) 기존 벡터를 제거한 뒤 다시 추가해 재인덱싱한다.
     """
+    # 대출/반납처럼 임베딩 본문이 바뀌지 않는 저장은 외부 API를 호출하지 않는다.
+    embedding_fields = {'title', 'author', 'translated_title', 'translated_author', 'category', 'search_text'}
+    if not created and update_fields is not None and embedding_fields.isdisjoint(update_fields):
+        return
+
     from . import search_service
 
     if created:
