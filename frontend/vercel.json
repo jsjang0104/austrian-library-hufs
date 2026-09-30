@@ -25,6 +25,26 @@
           "value": "camera=(), microphone=(), geolocation=()"
         }
       ]
+    },
+    {
+      "source": "/:page(search|login|register|mypage)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    }
+  ],
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/:page(info|about|board|search|login|register|mypage)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/notice/:noticeId",
+      "destination": "/index.html"
     }
   ]
 }

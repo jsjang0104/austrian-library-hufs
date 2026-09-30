@@ -46,6 +46,7 @@ function NoticeDetailPage() {
   if (error) {
     return (
       <main className="main-content about-page">
+        <meta name="robots" content="noindex, follow" />
         <br /><br /><h1>공지</h1>
         <div className="about-section">
           <p>오류가 발생했습니다: {error.message}</p>
@@ -57,6 +58,7 @@ function NoticeDetailPage() {
   if (!notice) {
     return (
       <main className="main-content about-page">
+        <meta name="robots" content="noindex, follow" />
         <br /><br /><h1>공지</h1>
         <div className="about-section">
           <p>해당 공지사항을 찾을 수 없습니다.</p>

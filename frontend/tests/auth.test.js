@@ -136,6 +136,6 @@ test('failed refresh clears authentication without clearing unrelated browser da
   assert.equal(sessionStorage.getItem('accessToken'), null);
   assert.equal(sessionStorage.getItem('refreshToken'), null);
   assert.equal(sessionStorage.getItem('theme'), 'dark');
-  assert.equal(window.location.href, '/#/login');
+  assert.equal(window.location.href, '/login');
   assert.equal(calls.filter((config) => config.url === '/api/token/refresh/').length, 1);
 });

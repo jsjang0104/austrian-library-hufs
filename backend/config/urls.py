@@ -2,9 +2,11 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from common.views import robots_txt
 from members.views import CustomTokenObtainPairView, CustomTokenRefreshView, LogoutView
 
 urlpatterns = [
+    path("robots.txt", robots_txt, name="robots_txt"),
     path("admin/", admin.site.urls),
     path("manager/", include("manager.urls")),
     path("api/", include("library.urls")),

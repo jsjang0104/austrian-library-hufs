@@ -1,6 +1,6 @@
 # Austrian Library HUFS
 
-🌐 **Service**: [austrian-library-hufs.vercel.app](https://austrian-library-hufs.vercel.app/#/)
+🌐 **Service**: [austrian-library-hufs.vercel.app](https://austrian-library-hufs.vercel.app/)
 
 ![alt text](docs/images-readme/mainpage.png)
 

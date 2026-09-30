@@ -39,7 +39,7 @@ http.interceptors.response.use(
     const { refresh } = getAuth();
     if (!refresh) {
       clearAuth();
-      window.location.href = '/#/login';
+      window.location.href = '/login';
       return Promise.reject(error);
     }
     originalRequest._retry = true;
@@ -60,7 +60,7 @@ http.interceptors.response.use(
         } catch (refreshError) {
           if (version === getSessionVersion()) {
             clearAuth();
-            window.location.href = '/#/login';
+            window.location.href = '/login';
           }
           throw refreshError;
         } finally {

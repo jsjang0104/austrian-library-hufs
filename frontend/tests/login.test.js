@@ -14,7 +14,7 @@ const tokens = { access: 'test-access', refresh: 'test-refresh', name: 'Reader',
 const response = (config, data = tokens, status = 200) => ({ config, data, status, statusText: '', headers: {} });
 
 before(async () => {
-  dom = new JSDOM('<div id="root"></div>', { url: 'https://library.example/#/login' });
+  dom = new JSDOM('<div id="root"></div>', { url: 'https://library.example/login' });
   for (const key of ['window', 'document', 'localStorage', 'sessionStorage', 'Event', 'HTMLElement', 'HTMLInputElement', 'Node']) {
     globalThis[key] = dom.window[key];
   }
@@ -27,7 +27,7 @@ before(async () => {
 beforeEach(async () => {
   localStorage.clear();
   sessionStorage.clear();
-  window.history.replaceState(null, '', '/#/login');
+  window.history.replaceState(null, '', '/login');
   alerts = [];
   calls = [];
   globalThis.alert = (message) => alerts.push(message);
@@ -43,7 +43,7 @@ beforeEach(async () => {
       contents: `
         import React from 'react';
         import { createRoot } from 'react-dom/client';
-        import { HashRouter, Routes, Route } from 'react-router-dom';
+        import { BrowserRouter, Routes, Route } from 'react-router-dom';
         import Login from './src/Login.jsx';
         import { AuthProvider, useAuth } from './src/AuthContext.jsx';
         function Home() {
@@ -52,10 +52,10 @@ beforeEach(async () => {
         }
         export function mount(node) {
           const root = createRoot(node);
-          root.render(<React.StrictMode><HashRouter><AuthProvider><Routes>
+          root.render(<React.StrictMode><BrowserRouter><AuthProvider><Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/" element={<Home />} />
-          </Routes></AuthProvider></HashRouter></React.StrictMode>);
+          </Routes></AuthProvider></BrowserRouter></React.StrictMode>);
           return root;
         }
       `,
@@ -93,7 +93,7 @@ test('one successful submission displays only success and opens the signed-in ho
   await act(async () => submit());
   assert.deepEqual(alerts, ['로그인에 성공했습니다!']);
   assert.equal(calls.length, 1);
-  assert.equal(window.location.hash, '#/');
+  assert.equal(window.location.pathname, '/');
   assert.equal(document.querySelector('[data-testid="home"]').textContent, 'Reader');
 });
 
@@ -114,7 +114,7 @@ test('rapid repeated submissions send one request and never show an error after 
   assert.equal(buttonWasDisabled, true);
   assert.equal(passwordWasDisabled, true);
   assert.equal(sessionStorage.getItem('accessToken'), 'test-access');
-  assert.equal(window.location.hash, '#/');
+  assert.equal(window.location.pathname, '/');
 });
 
 for (const [status, message] of [
@@ -128,7 +128,7 @@ for (const [status, message] of [
       : new Error('Offline'));
     await act(async () => submit());
     assert.deepEqual(alerts, [message]);
-    assert.equal(window.location.hash, '#/login');
+    assert.equal(window.location.pathname, '/login');
     assert.equal(sessionStorage.getItem('accessToken'), null);
     assert.equal(document.querySelector('#password-input').value, '');
     assert.equal(document.querySelector('button[type="submit"]').disabled, false);
@@ -137,6 +137,6 @@ for (const [status, message] of [
     await act(async () => submit());
     assert.deepEqual(alerts, [message, '로그인에 성공했습니다!']);
     assert.equal(calls.length, 2);
-    assert.equal(window.location.hash, '#/');
+    assert.equal(window.location.pathname, '/');
   });
 }

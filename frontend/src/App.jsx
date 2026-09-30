@@ -19,6 +19,7 @@ import React, { useState, useEffect } from 'react';
 import http from './api/http'; 
 import BoardPage from './BoardPage';
 import NoticeDetailPage from './NoticeDetailPage';
+import SearchVisibility from './SearchVisibility';
 
 
 function HomePage() {
@@ -231,19 +232,28 @@ function Layout() {
 // 경로별 링크
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
-        <Route path="search" element={<Search />} />
-        <Route path="mypage" element={<MyPage />} />
-        <Route path="board" element={<BoardPage />} />
-        <Route path="notice/:noticeId" element={<NoticeDetailPage />} />
-        <Route path="info" element={<Info />} />
-        <Route path="about" element={<About />} />
-        <Route path="login" element={<Login />} /> 
-        <Route path="register" element={<Register />} />
-      </Route>
-    </Routes>
+    <>
+      <SearchVisibility />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="search" element={<Search />} />
+          <Route path="mypage" element={<MyPage />} />
+          <Route path="board" element={<BoardPage />} />
+          <Route path="notice/:noticeId" element={<NoticeDetailPage />} />
+          <Route path="info" element={<Info />} />
+          <Route path="about" element={<About />} />
+          <Route path="login" element={<Login />} />
+          <Route path="register" element={<Register />} />
+          <Route path="*" element={
+            <main className="main-content info-page">
+              <h1>페이지를 찾을 수 없습니다.</h1>
+              <Link to="/">홈으로 돌아가기</Link>
+            </main>
+          } />
+        </Route>
+      </Routes>
+    </>
   );
 }
 
