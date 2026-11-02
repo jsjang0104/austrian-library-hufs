@@ -144,7 +144,7 @@ class Loan(models.Model):
 
 
 class OverdueReminderDelivery(models.Model):
-    """A unique confirmed recipient attempt; SMTP acceptance is not inbox delivery."""
+    """A unique confirmed recipient attempt; provider acceptance is not inbox delivery."""
 
     class Status(models.TextChoices):
         SENDING = 'SENDING', '처리 중 / 결과 미확인'

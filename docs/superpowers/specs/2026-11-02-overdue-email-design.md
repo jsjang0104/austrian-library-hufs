@@ -4,7 +4,11 @@ The librarian selects loans in Django admin, chooses Korean or German, previews 
 
 ## Approach
 
-Use an intermediate Django admin action page rather than separate language actions: the language and the actual messages are visible together before sending. Reuse Django's SMTP email backend and environment configuration rather than introducing a provider dependency. Unconfigured installations retain preview access but cannot send.
+Use an intermediate Django admin action page rather than separate language actions: the language and the actual messages are visible together before sending. Use Django's mail abstraction and a Gmail HTTPS backend with the existing requests dependency, because the confirmed Render Free hosting blocks SMTP. Unconfigured installations retain preview access but cannot send.
+
+### Confirmed hosting and sender
+
+The user confirmed the sender/reply address `deutsch@hufs.ac.kr` and corrected the hosting plan to Render Free. HUFS officially uses Google Workspace; Render Free blocks SMTP ports. Therefore use a Django email backend that calls Gmail API over HTTPS with a Google OAuth refresh token. Use the send-only `gmail.send` scope and a sender-specific Gmail API URL so credentials from a different account cannot silently send under the wrong identity. Keep sending disabled until the user completes Google authorization and enters credentials into Render environment variables. Keep SMTP available as an explicit alternative for other hosting environments.
 
 ## Constraints
 

@@ -78,10 +78,14 @@ def mail_configuration_error():
         validate_email(settings.LIBRARY_CONTACT_EMAIL)
     except ValidationError:
         return '유효한 발신 주소와 도서관 회신 주소를 설정해 주세요.'
-    if settings.EMAIL_BACKEND == 'django.core.mail.backends.smtp.EmailBackend' and not settings.EMAIL_HOST:
-        return '메일 서버 설정을 완료한 후 발송할 수 있습니다.'
-    if settings.EMAIL_USE_TLS and settings.EMAIL_USE_SSL:
-        return '메일 서버의 보안 연결 설정을 확인해 주세요. TLS와 SSL은 동시에 사용할 수 없습니다.'
+    if settings.EMAIL_BACKEND == 'library.gmail_backend.GmailApiEmailBackend':
+        if not all((settings.GMAIL_CLIENT_ID, settings.GMAIL_CLIENT_SECRET, settings.GMAIL_REFRESH_TOKEN)):
+            return 'Google 메일 계정 연결 설정을 완료한 후 발송할 수 있습니다.'
+    if settings.EMAIL_BACKEND == 'django.core.mail.backends.smtp.EmailBackend':
+        if not settings.EMAIL_HOST:
+            return '메일 서버 설정을 완료한 후 발송할 수 있습니다.'
+        if settings.EMAIL_USE_TLS and settings.EMAIL_USE_SSL:
+            return '메일 서버의 보안 연결 설정을 확인해 주세요. TLS와 SSL은 동시에 사용할 수 없습니다.'
     return ''
 
 
@@ -114,8 +118,8 @@ def send_confirmed_reminders(reminders, batch_id, language, sent_by):
             if monotonic() - started >= SEND_TIME_BUDGET_SECONDS:
                 result['deferred'] = len(reminders) - index
                 break
-            # Commit the unique claim before calling SMTP. Repeated or concurrent
-            # POSTs cannot send again, even if an SMTP outcome was uncertain.
+            # Commit the unique claim before calling the mail provider. Repeated
+            # POSTs cannot send again, even if the delivery outcome was uncertain.
             delivery, created = OverdueReminderDelivery.objects.get_or_create(
                 pk=uuid5(UUID(batch_id), str(reminder['member_id'])),
                 defaults={
@@ -127,6 +131,7 @@ def send_confirmed_reminders(reminders, batch_id, language, sent_by):
                 result['duplicate'] += 1
                 continue
             try:
+                connection.open()
                 accepted = mail.EmailMessage(
                     subject=reminder['subject'], body=reminder['body'],
                     from_email=settings.DEFAULT_FROM_EMAIL,

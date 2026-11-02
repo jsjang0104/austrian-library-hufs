@@ -172,7 +172,10 @@ HF_API_TOKEN = config("HF_API_TOKEN", default="")
 
 # Manual overdue reminders remain preview-only until the library configures mail.
 OVERDUE_EMAIL_ENABLED = config("OVERDUE_EMAIL_ENABLED", default=False, cast=bool)
-EMAIL_BACKEND = config("EMAIL_BACKEND", default="django.core.mail.backends.smtp.EmailBackend")
+EMAIL_BACKEND = config("EMAIL_BACKEND", default="library.gmail_backend.GmailApiEmailBackend")
+GMAIL_CLIENT_ID = config("GMAIL_CLIENT_ID", default="")
+GMAIL_CLIENT_SECRET = config("GMAIL_CLIENT_SECRET", default="")
+GMAIL_REFRESH_TOKEN = config("GMAIL_REFRESH_TOKEN", default="")
 EMAIL_HOST = config("EMAIL_HOST", default="")
 EMAIL_PORT = config("EMAIL_PORT", default=587, cast=int)
 EMAIL_HOST_USER = config("EMAIL_HOST_USER", default="")
@@ -180,7 +183,9 @@ EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default="")
 EMAIL_USE_TLS = config("EMAIL_USE_TLS", default=True, cast=bool)
 EMAIL_USE_SSL = config("EMAIL_USE_SSL", default=False, cast=bool)
 EMAIL_TIMEOUT = config("EMAIL_TIMEOUT", default=10, cast=int)
-DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL", default="")
+DEFAULT_FROM_EMAIL = config(
+    "DEFAULT_FROM_EMAIL", default="Österreichische Bibliothek HUFS <deutsch@hufs.ac.kr>",
+)
 LIBRARY_CONTACT_EMAIL = config("LIBRARY_CONTACT_EMAIL", default="deutsch@hufs.ac.kr")
 
 LOGGING = {

@@ -390,3 +390,17 @@ class OverdueEmailAdminTests(IsolatedSearchIndexMixin, TestCase):
             ['reader@example.com'], ['other@example.com'], ['third@example.com'],
         ])
         self.assertEqual(delivery.objects.filter(status='SENT').count(), 3)
+
+    @override_settings(
+        EMAIL_BACKEND='library.gmail_backend.GmailApiEmailBackend',
+        GMAIL_CLIENT_ID='', GMAIL_CLIENT_SECRET='', GMAIL_REFRESH_TOKEN='',
+    )
+    def test_gmail_authorization_is_required_before_the_final_send_button_is_available(self):
+        preview = self.preview()
+
+        self.assertFalse(preview.context['can_send'])
+        self.assertIn('Google', preview.context['configuration_error'])
+        response = self.confirm(preview)
+
+        self.assertTemplateUsed(response, 'admin/library/loan/overdue_email.html')
+        self.assertEqual(len(mail.outbox), 0)

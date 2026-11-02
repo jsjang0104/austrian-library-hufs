@@ -4,7 +4,7 @@
 
 **Goal:** Add courteous Korean/German manual reminders with language selection and explicit preview confirmation.
 
-**Architecture:** A loan admin action builds grouped messages using text templates. Signed previews bind confirmation to visible content; persistent delivery records prevent repeated submissions. SMTP is configured through environment variables and defaults to disabled.
+**Architecture:** A loan admin action builds grouped messages using text templates. Signed previews bind confirmation to visible content; persistent delivery records prevent repeated submissions. Gmail HTTPS delivery is configured through environment variables and defaults to disabled.
 
 **Tech Stack:** Django 5.2, Django forms/templates/mail/signing, existing database.
 
@@ -42,3 +42,16 @@ Files: same admin/service/tests, `backend/library/models.py`, new schema migrati
 Independent review identified excessive POST fields for large selections and unbounded sequential SMTP work. Both were reproduced by failing integration tests and fixed using signed selection restoration, connection reuse, and a time budget with explicit unattempted counts. Final backend suite: 61/61 passed; Django checks and migration consistency checks passed.
 
 Delivery: commit only this change and push the current branch as authorized by the original request; report remote confirmation in the conversation. Live sender setup remains pending the user's account/service information.
+
+## Task 3: Render Free Gmail HTTPS delivery
+
+User confirmed `deutsch@hufs.ac.kr` and Render Free. Use Gmail API instead of the blocked SMTP ports; reuse the installed `requests` dependency.
+
+Files: `backend/library/gmail_backend.py`, `backend/library/test_gmail_backend.py`, `backend/library/test_overdue_email.py`, `backend/library/overdue_email.py`, `backend/config/settings.py`, `docs/management/overdue-email.md`.
+
+- [x] Write and run failing tests for UTF-8 MIME delivery, OAuth refresh, private recipients, sender-specific API requests, shared transport, and non-retried failures.
+- [x] Implement a Django backend with fixed HTTPS endpoints, send-only OAuth setup, sanitized errors, bounded HTTP waits, and no automatic send retries. Require client ID, client secret, and refresh token before enabling confirmation.
+- [x] Set the confirmed default sender/reply address and document Google authorization plus Render environment setup without storing credentials or sending live mail.
+- [x] Run the complete backend suite, configuration checks, and an independent review before committing/pushing the code. Live authentication remains a separate user setup step.
+
+Task 3 verification: 72/72 backend tests passed, Django check and migration consistency check passed, fatal/undefined-name lint checks passed, and independent review reported no findings. Default sender and reply address are `deutsch@hufs.ac.kr`; Gmail HTTPS is selected and sending remains disabled until the user configures OAuth credentials in Render.
