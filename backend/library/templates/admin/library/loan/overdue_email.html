@@ -1,0 +1,47 @@
+{% extends "admin/base_site.html" %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+  <a href="{% url 'admin:index' %}">홈</a> &rsaquo;
+  <a href="{% url 'admin:library_loan_changelist' %}">대출 기록 목록</a> &rsaquo;
+  연체 안내 메일
+</div>
+{% endblock %}
+{% block content %}
+<p>언어를 선택해 미리보기를 갱신한 후, 수신 대상과 내용을 확인해 주세요. 최종 발송 버튼을 누르면 각 회원에게 개별 메일을 보냅니다.</p>
+<p>선택한 대출 중 반납이 완료되지 않았고 반납 예정일이 오늘보다 이전인 도서만 포함합니다. 같은 회원의 도서는 한 통으로 묶습니다.</p>
+<p>보내는 주소: {{ sender|default:"미설정" }} · 회신 주소: {{ reply_to }}</p>
+<form method="post">
+  {% csrf_token %}
+  <input type="hidden" name="action" value="send_overdue_reminders">
+  {% if selected_ids %}
+  <input type="hidden" name="_selected_action" value="{{ selected_ids.0 }}">
+  {% endif %}
+  {% if confirmation_token %}
+  <input type="hidden" name="confirmation_token" value="{{ confirmation_token }}">
+  {% endif %}
+  <div class="form-row">
+    {{ form.language.errors }}
+    {{ form.language.label_tag }} {{ form.language }}
+    <button type="submit" name="preview" value="1">미리보기 갱신</button>
+  </div>
+  <p>발송 대상: {{ reminders|length }}명 · 제외된 대출: {{ skipped_count }}건 (반납 완료, 기한 미도래, 예정일 또는 유효한 이메일 주소 없음)</p>
+  {% for reminder in reminders %}
+  <fieldset class="module aligned">
+    <h2>{{ reminder.name }} — {{ reminder.email }}</h2>
+    <div style="padding: 16px;">
+      <p><strong>제목:</strong> {{ reminder.subject }}</p>
+      <pre lang="{{ language }}" style="white-space: pre-wrap; overflow-wrap: anywhere; font: inherit;">{{ reminder.body }}</pre>
+    </div>
+  </fieldset>
+  {% empty %}
+  <p>현재 발송할 연체 안내 메일이 없습니다.</p>
+  {% endfor %}
+  {% if configuration_error %}<p class="errornote">{{ configuration_error }}</p>{% endif %}
+  <div class="submit-row">
+    {% if can_send and reminders and not form.errors %}
+    <button type="submit" name="confirm" value="1" class="default">확인한 {{ reminders|length }}명에게 메일 발송</button>
+    {% endif %}
+    <a href="{% url 'admin:library_loan_changelist' %}">취소하고 목록으로 돌아가기</a>
+  </div>
+</form>
+{% endblock %}

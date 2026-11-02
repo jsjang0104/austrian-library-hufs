@@ -1,0 +1,25 @@
+{% autoescape off %}Guten Tag {{ name }},
+
+wir danken Ihnen herzlich für die Nutzung der Österreichischen Bibliothek an der Hankuk University of Foreign Studies.
+
+Nach dem aktuellen Stand unserer Ausleihunterlagen ist die Leihfrist für die nachfolgend aufgeführten Bücher bereits abgelaufen. Daher möchten wir Sie höflich an die Rückgabe erinnern.
+
+{% for book in books %}- Titel: {{ book.title }}
+  Signatur: {{ book.call_number }}
+  Rückgabedatum: {{ book.due_date }} (seit {{ book.overdue_days }} Tag{{ book.overdue_days|pluralize:",en" }} überschritten)
+{% endfor %}
+Wir wären Ihnen sehr verbunden, wenn Sie die Rückgabe dieser Bücher veranlassen könnten.
+Sollten Sie die Bücher weiterhin benötigen oder sollte Ihnen eine Rückgabe derzeit nicht möglich sein, setzen Sie sich bitte über die unten angegebenen Kontaktdaten mit uns in Verbindung. Gerne prüfen wir gemeinsam mit Ihnen, ob eine Verlängerung der Leihfrist oder eine andere Rückgabemöglichkeit in Betracht kommt.
+
+Falls Sie die Bücher bereits zurückgegeben haben, betrachten Sie diese Nachricht bitte als gegenstandslos. Möglicherweise wurde die Rückgabe noch nicht in unseren Unterlagen erfasst. Für diese Überschneidung bitten wir Sie höflich um Entschuldigung. Bei Rückfragen stehen wir Ihnen selbstverständlich gerne zur Verfügung.
+
+Für Ihre Zeit, Ihr Verständnis und Ihre Unterstützung danken wir Ihnen sehr herzlich.
+Wir wünschen Ihnen alles Gute und einen angenehmen Tag.
+
+Mit freundlichen Grüßen
+Ihre Österreichische Bibliothek
+Hankuk University of Foreign Studies
+E-Mail: {{ contact_email }}
+Telefon: 02-2173-2283
+Standort: Hauptgebäude, Raum 301, Campus Seoul
+{% endautoescape %}

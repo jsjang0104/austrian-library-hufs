@@ -1,12 +1,21 @@
 from dateutil.relativedelta import relativedelta
+from django.conf import settings
 from django.contrib import admin, messages
+from django.core import signing
 from django.db import transaction
 from django.db.models import Q
+from django.http import HttpResponseRedirect
+from django.template.response import TemplateResponse
 from django.utils import timezone
 from django.utils.html import format_html
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
-from .models import Book, Loan, Notice, NoticeImage
+from .models import Book, Loan, Notice, NoticeImage, OverdueReminderDelivery
+from .forms import OverdueEmailForm
+from .overdue_email import (
+    PREVIEW_MAX_AGE, PREVIEW_SALT, build_overdue_reminders, mail_configuration_error,
+    preview_payload, send_confirmed_reminders, sign_preview,
+)
 
 class BookResource(resources.ModelResource):
     class Meta:
@@ -59,7 +68,85 @@ class LoanAdmin(admin.ModelAdmin):
     list_filter = ('loan_date', 'return_date')
     readonly_fields = ('due_date', 'loan_date')
     autocomplete_fields = ('book', 'member')
-    actions = ('extend_due_date',)
+    actions = ('extend_due_date', 'send_overdue_reminders')
+
+    @admin.action(description="연체 안내 메일 발송 (언어 선택·미리보기)", permissions=['change'])
+    def send_overdue_reminders(self, request, queryset):
+        form = OverdueEmailForm({'language': request.POST.get('language', 'ko')})
+        language = form.cleaned_data['language'] if form.is_valid() else 'ko'
+        confirmed = None
+        if form.is_valid() and ('confirmation_token' in request.POST or request.POST.get('confirm') == '1'):
+            try:
+                confirmed = signing.loads(
+                    request.POST.get('confirmation_token', ''),
+                    salt=PREVIEW_SALT, max_age=PREVIEW_MAX_AGE,
+                )
+                if confirmed['user_id'] != request.user.pk:
+                    raise signing.BadSignature('Different administrator')
+            except signing.BadSignature:
+                self.message_user(
+                    request, '미리보기가 만료되었거나 유효하지 않습니다. 내용을 다시 확인해 주세요.',
+                    messages.WARNING,
+                )
+                return HttpResponseRedirect(request.get_full_path())
+            # The signed selection avoids thousands of checkbox fields when the
+            # librarian selects all records across multiple changelist pages.
+            queryset = self.get_queryset(request).filter(pk__in=confirmed['selected_ids'])
+        reminders, skipped_count = build_overdue_reminders(queryset, language)
+        selected_ids = list(queryset.values_list('pk', flat=True))
+        payload = preview_payload(request.user.pk, language, selected_ids, reminders)
+        configuration_error = mail_configuration_error()
+        if request.POST.get('confirm') == '1' and confirmed is not None:
+            if any(confirmed.get(key) != value for key, value in payload.items()):
+                self.message_user(
+                    request, '미리보기를 갱신했습니다. 내용을 다시 확인해 주세요.', messages.WARNING,
+                )
+            elif not configuration_error and reminders:
+                result = send_confirmed_reminders(
+                    reminders, confirmed['batch_id'], language, request.user,
+                )
+                for loan in queryset.filter(pk__in=result['sent_loan_ids']):
+                    self.log_change(request, loan, f'연체 안내 메일 발송 ({language})')
+                if result['sent']:
+                    self.message_user(
+                        request, f"{result['sent']}명에게 연체 안내 메일을 발송했습니다.", messages.SUCCESS,
+                    )
+                if result['failed']:
+                    self.message_user(
+                        request,
+                        f"{result['failed']}명의 메일 발송을 완료하지 못했습니다. "
+                        '발송 기록과 메일 서비스에서 결과를 확인한 후 다시 진행해 주세요.',
+                        messages.ERROR,
+                    )
+                if result['duplicate']:
+                    self.message_user(
+                        request,
+                        f"이미 처리된 {result['duplicate']}명의 발송 요청은 건너뛰었습니다.",
+                        messages.WARNING,
+                    )
+                if result['deferred']:
+                    self.message_user(
+                        request,
+                        f"처리 시간 제한으로 {result['deferred']}명의 발송을 시작하지 못했습니다. "
+                        '발송 기록을 확인하고 해당 회원을 다시 선택해 진행해 주세요.',
+                        messages.WARNING,
+                    )
+                return HttpResponseRedirect(request.get_full_path())
+        return TemplateResponse(request, 'admin/library/loan/overdue_email.html', {
+            **self.admin_site.each_context(request),
+            'title': '연체 안내 메일 — 언어 선택 및 미리보기',
+            'opts': self.model._meta,
+            'form': form,
+            'language': language,
+            'reminders': reminders,
+            'skipped_count': skipped_count,
+            'selected_ids': selected_ids,
+            'sender': settings.DEFAULT_FROM_EMAIL,
+            'reply_to': settings.LIBRARY_CONTACT_EMAIL,
+            'confirmation_token': sign_preview(payload),
+            'configuration_error': configuration_error,
+            'can_send': not configuration_error,
+        })
 
     @admin.action(description="반납기한연장 (기존 예정일 + 3개월)", permissions=['change'])
     def extend_due_date(self, request, queryset):
@@ -119,3 +206,20 @@ class NoticeAdmin(admin.ModelAdmin):
     list_display = ('notice_id', 'title', 'manager', 'post_date', 'view_count')
     search_fields = ('title', 'content')
     inlines = [NoticeImageInline]
+
+
+@admin.register(OverdueReminderDelivery)
+class OverdueReminderDeliveryAdmin(admin.ModelAdmin):
+    list_display = ('recipient_email', 'language', 'status', 'sent_by', 'created_at', 'sent_at')
+    list_filter = ('language', 'status', 'created_at')
+    search_fields = ('recipient_email', 'member__name')
+    readonly_fields = ('id', 'member', 'sent_by', 'recipient_email', 'language', 'status', 'created_at', 'sent_at')
+
+    def has_add_permission(self, request):
+        return False
+
+    def has_change_permission(self, request, obj=None):
+        return False
+
+    def has_delete_permission(self, request, obj=None):
+        return False

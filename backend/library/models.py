@@ -142,6 +142,38 @@ class Loan(models.Model):
 
         super().save(*args, **kwargs)
 
+
+class OverdueReminderDelivery(models.Model):
+    """A unique confirmed recipient attempt; SMTP acceptance is not inbox delivery."""
+
+    class Status(models.TextChoices):
+        SENDING = 'SENDING', '처리 중 / 결과 미확인'
+        SENT = 'SENT', '발송 완료 (메일 서버 접수)'
+        FAILED = 'FAILED', '발송 미완료 / 결과 확인 필요'
+
+    id = models.UUIDField(primary_key=True, editable=False)
+    member = models.ForeignKey(
+        Member, on_delete=models.SET_NULL, null=True, related_name='overdue_reminders',
+        verbose_name='수신 회원',
+    )
+    sent_by = models.ForeignKey(
+        Member, on_delete=models.SET_NULL, null=True, related_name='sent_overdue_reminders',
+        verbose_name='발송 관리자',
+    )
+    recipient_email = models.EmailField('수신 이메일')
+    language = models.CharField('언어', max_length=2, choices=(('ko', '한국어'), ('de', '독일어')))
+    status = models.CharField('발송 상태', max_length=10, choices=Status.choices, default=Status.SENDING)
+    created_at = models.DateTimeField('요청 시각', auto_now_add=True)
+    sent_at = models.DateTimeField('메일 서버 접수 시각', null=True, blank=True)
+
+    class Meta:
+        verbose_name = '연체 안내 메일 발송 기록'
+        verbose_name_plural = '연체 안내 메일 발송 기록'
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return f'{self.recipient_email} ({self.get_status_display()})'
+
 # -----------------------------------------------------------------------------
 # NOTICE (공지사항)
 # -----------------------------------------------------------------------------
