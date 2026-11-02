@@ -1,5 +1,8 @@
-from django.contrib import admin
+from dateutil.relativedelta import relativedelta
+from django.contrib import admin, messages
+from django.db import transaction
 from django.db.models import Q
+from django.utils import timezone
 from django.utils.html import format_html
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
@@ -56,6 +59,35 @@ class LoanAdmin(admin.ModelAdmin):
     list_filter = ('loan_date', 'return_date')
     readonly_fields = ('due_date', 'loan_date')
     autocomplete_fields = ('book', 'member')
+    actions = ('extend_due_date',)
+
+    @admin.action(description="반납기한연장 (기존 예정일 + 3개월)", permissions=['change'])
+    def extend_due_date(self, request, queryset):
+        extended = 0
+        skipped = 0
+        with transaction.atomic():
+            for loan in queryset.select_for_update(of=('self',)):
+                if loan.return_date is not None or loan.due_date is None:
+                    skipped += 1
+                    continue
+
+                previous_due_date = timezone.localtime(loan.due_date)
+                loan.due_date = previous_due_date + relativedelta(months=3)
+                loan.save(update_fields=['due_date'])
+                self.log_change(
+                    request, loan,
+                    f"반납 예정일 연장: {previous_due_date.isoformat()} → {loan.due_date.isoformat()}",
+                )
+                extended += 1
+
+        if extended:
+            self.message_user(request, f"{extended}건의 반납 예정일을 3개월 연장했습니다.", messages.SUCCESS)
+        if skipped:
+            self.message_user(
+                request,
+                f"반납이 완료되었거나 반납 예정일이 없는 {skipped}건은 건너뛰었습니다.",
+                messages.WARNING,
+            )
 
     def get_book_title(self, obj):
         return obj.book.title

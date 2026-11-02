@@ -6,6 +6,7 @@
 import React, { useState, useEffect } from 'react';
 import http from './api/http';
 import { Link } from 'react-router-dom';
+import ServerLoadingMessage from './ServerLoadingMessage';
 
 function BoardPage() {
   const [notices, setNotices] = useState(null); 
@@ -33,7 +34,7 @@ function BoardPage() {
       <main className="main-content about-page">
         <br /><br /><h1>공지</h1>
         <div className="about-section">
-          <p>공지사항을 불러오는 중입니다...</p>
+          <ServerLoadingMessage />
         </div>
       </main>
     );

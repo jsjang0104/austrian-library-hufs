@@ -3,6 +3,7 @@ import { useAuth } from './AuthContext';
 import { useNavigate } from 'react-router-dom';
 import http from './api/http';
 import './App.css';
+import ServerLoadingMessage from './ServerLoadingMessage';
 
 function MyPage() {
   const { user, isLoggedIn } = useAuth();
@@ -65,7 +66,7 @@ function MyPage() {
       <div className="info-section">
         <h2>대출 현황</h2>
         {loading ? (
-           <p>정보를 불러오는 중...</p>
+           <ServerLoadingMessage />
         ) : (
           <div className="table-container">
             <table className="library-table">

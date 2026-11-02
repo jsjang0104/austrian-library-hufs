@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import http from './api/http';
 import './App.css';
+import ServerLoadingMessage from './ServerLoadingMessage';
 
 function Search() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -200,7 +201,7 @@ function Search() {
       <div className="info-section">
         <h2>검색 결과</h2>
         {loading ? (
-          <p className="loading-msg">{aiSearch ? 'AI가 도서를 찾고 있어요' : '데이터를 불러오는 중입니다...'}</p>
+          <ServerLoadingMessage />
         ) : (
           <>
             <div className="table-container">

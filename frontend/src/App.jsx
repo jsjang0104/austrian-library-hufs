@@ -20,6 +20,7 @@ import http from './api/http';
 import BoardPage from './BoardPage';
 import NoticeDetailPage from './NoticeDetailPage';
 import SearchVisibility from './SearchVisibility';
+import ServerLoadingMessage from './ServerLoadingMessage';
 
 
 function HomePage() {
@@ -64,7 +65,7 @@ function HomePage() {
   
   const renderNoticeList = () => {
     if (loading) {
-      return <li><a href="#">- 공지사항을 불러오는 중...</a></li>;
+      return <li><ServerLoadingMessage /></li>;
     }
 
     if (error) {
