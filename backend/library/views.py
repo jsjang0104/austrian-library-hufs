@@ -5,6 +5,7 @@ from django.http import Http404
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
 from django.db.models import Q
+from django.db.models.functions import Replace
 from rest_framework import viewsets, status, permissions
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -30,30 +31,44 @@ class BookViewSet(viewsets.ModelViewSet):
     def _german_variant(self, keyword):
         return keyword.replace('ae', 'ä').replace('oe', 'ö').replace('ue', 'ü').replace('ss', 'ß')
 
-    def _filter_by_keyword(self, queryset, keyword):
-        """일반 검색: 원본 필드(제목/저자/청구기호 등) keyword 매칭 + 독일어 움라우트 변환"""
-        if not keyword:
+    def _filter_by_words(self, queryset, keyword, fields):
+        """검색어를 문자로 분해하지 않고, 공백으로 나눈 단어를 모두 매칭한다."""
+        words = keyword.split()
+        if not words:
             return queryset
-        g = self._german_variant(keyword)
-        return queryset.filter(
-            Q(title__icontains=keyword) |
-            Q(title__icontains=g) |
-            Q(author__icontains=keyword) |
-            Q(author__icontains=g) |
-            Q(call_number__icontains=keyword) |
-            Q(language__icontains=keyword) |
-            Q(category__icontains=keyword) |
-            Q(location__icontains=keyword)
-        )
+
+        # 저장된 필드도 공백을 정규화하여 '독일문인들' ↔ '독일 문인들'을 허용한다.
+        aliases = {}
+        for field in fields:
+            expression = models.F(field)
+            for whitespace in (' ', '\t', '\n', '\r', '\u00a0', '\u3000'):
+                expression = Replace(
+                    expression, models.Value(whitespace), models.Value(''),
+                    output_field=models.CharField(),
+                )
+            aliases[f'_keyword_{field}'] = expression
+        queryset = queryset.alias(**aliases)
+
+        for word in words:
+            variant = self._german_variant(word.lower())
+            matches = Q()
+            for alias in aliases:
+                matches |= Q(**{f'{alias}__icontains': word})
+                if variant != word:
+                    matches |= Q(**{f'{alias}__icontains': variant})
+            # 단어 사이는 AND, 제목·저자 등 필드 사이는 OR 조건이다.
+            queryset = queryset.filter(matches)
+        return queryset
+
+    def _filter_by_keyword(self, queryset, keyword):
+        """일반 검색: 원본 필드의 단어 매칭 + 독일어 움라우트 변환."""
+        return self._filter_by_words(queryset, keyword, (
+            'title', 'author', 'call_number', 'language', 'category', 'location',
+        ))
 
     def _filter_by_translated_keyword(self, queryset, keyword):
-        """AI 검색 전용: 번역 제목/저자 keyword 매칭"""
-        if not keyword:
-            return queryset
-        return queryset.filter(
-            Q(translated_title__icontains=keyword) |
-            Q(translated_author__icontains=keyword)
-        )
+        """AI 검색 전용: 번역 제목/저자에도 같은 단어 매칭을 적용한다."""
+        return self._filter_by_words(queryset, keyword, ('translated_title', 'translated_author'))
 
     def _apply_filters(self, queryset):
         """언어/분야/상태 필터 (search/smart_search 공통)"""

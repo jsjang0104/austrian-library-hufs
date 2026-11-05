@@ -4,12 +4,14 @@ import { useNavigate } from 'react-router-dom';
 import http from './api/http';
 import './App.css';
 import ServerLoadingMessage from './ServerLoadingMessage';
+import ServerErrorMessage from './ServerErrorMessage';
 
 function MyPage() {
   const { user, isLoggedIn } = useAuth();
   const navigate = useNavigate();
   const [loans, setLoans] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
   const ROLE_MAP = {
     'UNDERGRADUATE': '학부생/졸업생',
     'GRADUATE': '대학원생',
@@ -26,11 +28,12 @@ function MyPage() {
 
     const fetchMyLoans = async () => {
       try {
+        setError(false);
         setLoading(true);
         const response = await http.get('/api/loans/');
         setLoans(response.data);
-      } catch (error) {
-        console.error("대출 목록 로딩 실패:", error.response?.status);
+      } catch {
+        setError(true);
       }
       setLoading(false);
     };
@@ -67,6 +70,11 @@ function MyPage() {
         <h2>대출 현황</h2>
         {loading ? (
            <ServerLoadingMessage />
+        ) : error ? (
+          <ServerErrorMessage
+            message="대출 목록을 불러오는데 실패했습니다."
+            germanMessage="Die Ausleihliste konnte nicht geladen werden."
+          />
         ) : (
           <div className="table-container">
             <table className="library-table">

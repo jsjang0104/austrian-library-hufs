@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import http from './api/http';
 import './App.css';
 import ServerLoadingMessage from './ServerLoadingMessage';
+import ServerErrorMessage from './ServerErrorMessage';
 
 function Search() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -12,6 +13,7 @@ function Search() {
   const [keyword, setKeyword] = useState(initialQuery);
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
   const [searched, setSearched] = useState(false);
 
   const [aiSearch, setAiSearch] = useState(initialAI);
@@ -48,6 +50,7 @@ function Search() {
 
   const fetchBooks = async (searchKeyword, useAI) => {
     try {
+      setError(false);
       setLoading(true);
       const filters = {
         language: selectedLang,
@@ -68,8 +71,8 @@ function Search() {
       setCurrentPage(1);
       setExpandedBookId(null);
 
-    } catch (error) {
-      console.error("검색 실패:", error.response?.status);
+    } catch {
+      setError(true);
     } finally {
       setLoading(false);
     }
@@ -202,6 +205,11 @@ function Search() {
         <h2>검색 결과</h2>
         {loading ? (
           <ServerLoadingMessage />
+        ) : error ? (
+          <ServerErrorMessage
+            message="검색 결과를 불러오는데 실패했습니다."
+            germanMessage="Die Suchergebnisse konnten nicht geladen werden."
+          />
         ) : (
           <>
             <div className="table-container">

@@ -7,11 +7,13 @@ import React, { useRef, useState } from 'react';
 import { loginUser } from './api'; 
 import { useNavigate, Link } from 'react-router-dom'; 
 import './LoginPage.css';
+import ServerErrorMessage from './ServerErrorMessage';
 
 function Login() {
   const [sid, setSid] = useState('');
   const [password, setPassword] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [serverError, setServerError] = useState(false);
   const submitting = useRef(false);
   
   const navigate = useNavigate();
@@ -21,6 +23,7 @@ function Login() {
     // Block repeated clicks/Enter immediately, before React updates the button.
     if (submitting.current) return;
     submitting.current = true;
+    setServerError(false);
     setIsSubmitting(true);
 
     try {
@@ -31,6 +34,7 @@ function Login() {
       } else if (error.response && error.response.status === 429) {
         alert('로그인 시도가 너무 잦습니다. 잠시 후 다시 시도해주세요.');
       } else {
+        setServerError(true);
         alert('로그인 중 오류가 발생했습니다.');
       }
       setPassword('');
@@ -70,6 +74,10 @@ function Login() {
             {isSubmitting ? '로그인 중...' : '로그인'}
           </button>
         </form>
+        {serverError && <ServerErrorMessage
+          message="로그인 중 오류가 발생했습니다."
+          germanMessage="Bei der Anmeldung ist ein Fehler aufgetreten."
+        />}
         
         <p style={{ marginTop: '20px', textAlign: 'center' }}>
         계정이 없으신가요? <Link to="/register">회원가입</Link>

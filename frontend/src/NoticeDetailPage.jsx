@@ -7,6 +7,7 @@ import React, { useState, useEffect } from 'react';
 import http from './api/http';
 import { useParams, Link } from 'react-router-dom';
 import ServerLoadingMessage from './ServerLoadingMessage';
+import ServerErrorMessage from './ServerErrorMessage';
 
 function NoticeDetailPage() {
   const { noticeId } = useParams();
@@ -50,7 +51,10 @@ function NoticeDetailPage() {
         <meta name="robots" content="noindex, follow" />
         <br /><br /><h1>공지</h1>
         <div className="about-section">
-          <p>오류가 발생했습니다: {error.message}</p>
+          <ServerErrorMessage
+            message="공지를 불러오는데 실패했습니다."
+            germanMessage="Die Mitteilung konnte nicht geladen werden."
+          />
         </div>
       </main>
     );

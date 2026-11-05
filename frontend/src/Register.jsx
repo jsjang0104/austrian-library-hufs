@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import { registerUser } from './api'; 
 import { useNavigate, Link } from 'react-router-dom'; 
 import './RegisterPage.css';
+import ServerErrorMessage from './ServerErrorMessage';
 
 function Register() {
   const [sid, setSid] = useState('');
@@ -14,11 +15,13 @@ function Register() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [passwordConfirm, setPasswordConfirm] = useState('');
+  const [serverError, setServerError] = useState(false);
   
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault(); 
+    setServerError(false);
 
     if (password !== passwordConfirm) {
       alert('비밀번호가 일치하지 않습니다.'); 
@@ -44,6 +47,7 @@ function Register() {
         
         alert(errorMessage);
       } else {
+        setServerError(true);
         alert('회원가입 중 오류가 발생했습니다. (서버 오류 등)');
       }
     }
@@ -103,6 +107,10 @@ function Register() {
             가입하기
           </button>
         </form>
+        {serverError && <ServerErrorMessage
+          message="회원가입 중 오류가 발생했습니다."
+          germanMessage="Bei der Registrierung ist ein Fehler aufgetreten."
+        />}
         
         <p style={{ marginTop: '20px', textAlign: 'center' }}>
         이미 계정이 있으신가요? <Link to="/login">로그인</Link>

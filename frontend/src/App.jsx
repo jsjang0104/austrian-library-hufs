@@ -21,6 +21,7 @@ import BoardPage from './BoardPage';
 import NoticeDetailPage from './NoticeDetailPage';
 import SearchVisibility from './SearchVisibility';
 import ServerLoadingMessage from './ServerLoadingMessage';
+import ServerErrorMessage from './ServerErrorMessage';
 
 
 function HomePage() {
@@ -69,7 +70,10 @@ function HomePage() {
     }
 
     if (error) {
-      return <li><a href="#">- 공지 로딩 중 오류 발생</a></li>;
+      return <li><ServerErrorMessage
+        message="공지를 불러오는데 실패했습니다."
+        germanMessage="Die Mitteilungen konnten nicht geladen werden."
+      /></li>;
     }
 
     if (notices?.length > 0) {
